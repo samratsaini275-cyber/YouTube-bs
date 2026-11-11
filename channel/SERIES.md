@@ -29,4 +29,4 @@ narrative held viewers longest and drew the most comments — rather than this t
 
 ## Status
 
-- Case Files: 001–018 written (001–013 in 2D, 014–018 in 3D). 019–020 still to write.
+- Case Files: 001–019 written (001–013 in 2D, 014–019 in 3D). 020 still to write.
