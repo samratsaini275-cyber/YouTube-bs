@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 010 — 🎙️ narrating 1/11
+**Now:** episode 010 — 🎙️ narrating 2/11
 
 **Finished videos:** 9 of 14 written &nbsp; `█████████████░░░░░░░`
 
@@ -17,10 +17,10 @@
 | 007 | The Warship Vasa | 2D | ✅ done |
 | 008 | Citicorp Center | 2D | ✅ done |
 | 009 | St. Francis Dam | 2D | ✅ done |
-| 010 | Therac-25 | 2D | 🎙️ narrating 1/11 |
+| 010 | Therac-25 | 2D | 🎙️ narrating 2/11 |
 | 011 | The Silver Bridge | 2D | 📝 scripted, in queue |
 | 012 | I-35W Bridge | 2D | 📝 scripted, in queue |
 | 013 | The Millennium Bridge | 2D | 📝 scripted, in queue |
 | 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 05:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 05:45 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
