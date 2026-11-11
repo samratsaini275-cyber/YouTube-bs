@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 011 — 🎙️ narrating 8/11
+**Now:** episode 011 — 🎙️ narrating 10/11
 
 **Finished videos:** 10 of 14 written &nbsp; `██████████████░░░░░░`
 
@@ -18,9 +18,9 @@
 | 008 | Citicorp Center | 2D | ✅ done |
 | 009 | St. Francis Dam | 2D | ✅ done |
 | 010 | Therac-25 | 2D | ✅ done |
-| 011 | The Silver Bridge | 2D | 🎙️ narrating 8/11 |
+| 011 | The Silver Bridge | 2D | 🎙️ narrating 10/11 |
 | 012 | I-35W Bridge | 2D | 📝 scripted, in queue |
 | 013 | The Millennium Bridge | 2D | 📝 scripted, in queue |
 | 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 05:57 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 05:58 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
