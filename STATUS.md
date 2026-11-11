@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 013 — 🎬 rendering
+**Now:** episode 014 — 🎙️ narrating 0/22
 
-**Finished videos:** 12 of 14 written &nbsp; `█████████████████░░░`
+**Finished videos:** 13 of 14 written &nbsp; `███████████████████░`
 
-**Narrative 1: Case Files** — 12 of 20 finished &nbsp; `████████████░░░░░░░░`
+**Narrative 1: Case Files** — 13 of 20 finished &nbsp; `█████████████░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -20,7 +20,7 @@
 | 010 | Therac-25 | 2D | ✅ done |
 | 011 | The Silver Bridge | 2D | ✅ done |
 | 012 | I-35W Bridge | 2D | ✅ done |
-| 013 | The Millennium Bridge | 2D | 🎬 rendering |
-| 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
+| 013 | The Millennium Bridge | 2D | ✅ done |
+| 014 | Space Shuttle Challenger | 3D | 🎙️ narrating 0/22 |
 
-_Updated 2026-11-11 08:36 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 08:38 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
