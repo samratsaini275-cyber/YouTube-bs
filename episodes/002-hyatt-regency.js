@@ -77,7 +77,7 @@ export default {
         return h.stat(500, 220, '2×', 'FORCE ON THE 4TH FLOOR CONNECTION', { size: 200, fill: C.bad, lsize: 28, opacity: h.win(t, .2, .7) }) +
           h.g(bar(430, 'AS BUILT · STRENGTH vs. LOAD', .3, C.bad, a), { opacity: h.win(t, 2.4, 2.9) }) +
           h.g(bar(620, 'ORIGINAL DESIGN · STRENGTH vs. CODE', .6, C.warn, b), { opacity: h.win(t, 7.2, 7.7) }) +
-          h.line(880, 400, 880, 720, { stroke: C.ink, w: 3, dash: '8 8' }) + h.text(880, 770, 'REQUIRED', { size: 24, mono: true, fill: C.ink, anchor: 'end' });
+          h.g(h.line(880, 400, 880, 720, { stroke: C.ink, w: 3, dash: '8 8' }) + h.text(880, 770, 'REQUIRED', { size: 24, mono: true, fill: C.ink, anchor: 'end' }), { opacity: h.win(t, 2.4, 2.9) });
       },
     },
     {

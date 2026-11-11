@@ -102,7 +102,7 @@ scenes.forEach((sents, si) => {
 tl.duration = t - GAP_SCENE + TAIL;
 tl.scenes.forEach((s, i) => { s.end = i + 1 < tl.scenes.length ? tl.scenes[i + 1].start : tl.duration; });
 // hold each caption chunk until the next one starts (within the same breath)
-tl.chunks.forEach((c, i) => { const n = tl.chunks[i + 1]; c.end = n && n.start - c.end < 0.5 ? n.start : c.end + 0.25; });
+tl.chunks.forEach((c, i) => { const n = tl.chunks[i + 1]; c.end = n && n.start - c.end < 0.3 ? n.start : c.end + 0.1; });
 const TL = DRAFT ? 'timeline-draft.json' : 'timeline.json';
 writeFileSync(join(WORK, TL), JSON.stringify(tl));
 
