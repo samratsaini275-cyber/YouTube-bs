@@ -39,6 +39,15 @@ node pipeline/build.mjs 001-tacoma-narrows --audio    # narration only
 Requires Node 22 with Playwright + Chromium, and ffmpeg. On a 4-core CPU with no GPU, narration takes
 roughly 7 minutes per episode and rendering about 2.
 
+## Two visual styles
+
+- **Episodes 001–013: 2D diagram stage** (`pipeline/stage.html`). Dark blueprint look, animated SVG.
+- **Episodes 014 onward: 3D stage** (`pipeline/stage3d.html`, `style: '3d'` in the episode file). Full-bleed colour
+  3D models built from primitives with three.js, a different camera angle and sky colour for every scene, a slow
+  camera move inside each shot, and a flash on each cut. The episode's `setup(k)` builds the models once; each scene
+  gives `cam` (position, look-at, lens, and where it moves `to`), `sky`, `show` (which models are visible), a top
+  `label`, and `update(world, p, t, k)` to animate.
+
 ## Writing an episode
 
 Copy an existing file in `episodes/`. Each scene has `say` (narration; `{1940|nineteen forty}` shows

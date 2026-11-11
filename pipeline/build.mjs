@@ -140,11 +140,12 @@ const server = createServer((req, res) => {
 const port = server.address().port;
 
 const { chromium } = createRequire(import.meta.url)('playwright');
-const browser = await chromium.launch();
+const is3d = ep.style === '3d';   // full-bleed 3D stage (episodes 014+) vs. the 2D diagram stage
+const browser = await chromium.launch(is3d ? { args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] } : {});
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
 page.on('pageerror', e => { console.error('PAGE ERROR', e.message); process.exit(1); });
-await page.goto(`http://127.0.0.1:${port}/pipeline/stage.html?ep=${name}&tl=/__work/${TL}`);
-await page.waitForFunction('window.ready === true');
+await page.goto(`http://127.0.0.1:${port}/pipeline/${is3d ? 'stage3d' : 'stage'}.html?ep=${name}&tl=/__work/${TL}`);
+await page.waitForFunction('window.ready === true', null, { timeout: 120000 });
 
 const stills = DRAFT || process.argv.includes('--stills');
 const outFile = join(ROOT, 'videos', name + '.mp4');
@@ -155,7 +156,7 @@ if (stills) {
     await page.evaluate(t => window.renderFrame(t), s.start + (s.end - s.start) * f);
     await page.screenshot({ path: join(WORK, `still-${i}-${j}.jpg`), type: 'jpeg', quality: 80 });
   }
-  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-pattern_type', 'glob', '-i', join(WORK, 'still-*.jpg'), '-vf', `crop=1080:1300:0:260,scale=432:520,tile=6x${Math.ceil(tl.scenes.length / 2)}`, '-frames:v', '1', join(WORK, 'sheet.jpg')]);
+  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-pattern_type', 'glob', '-i', join(WORK, 'still-*.jpg'), '-vf', is3d ? `scale=324:576,tile=6x${Math.ceil(tl.scenes.length / 2)}` : `crop=1080:1300:0:260,scale=432:520,tile=6x${Math.ceil(tl.scenes.length / 2)}`, '-frames:v', '1', join(WORK, 'sheet.jpg')]);
 } else {
   const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-c:v', 'mjpeg', '-framerate', String(FPS), '-i', '-',
     '-i', join(WORK, 'mix.wav'), '-c:v', 'libx264', '-preset', 'medium', '-crf', '24', '-pix_fmt', 'yuv420p',
