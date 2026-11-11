@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 006 — 🎙️ narrating 10/16
+**Now:** episode 006 — 🎙️ narrating 12/16
 
 **Finished videos:** 5 of 14 written &nbsp; `███████░░░░░░░░░░░░░`
 
@@ -13,7 +13,7 @@
 | 003 | Mars Climate Orbiter | 2D | ✅ done |
 | 004 | Ariane 5 · Flight 501 | 2D | ✅ done |
 | 005 | Great Molasses Flood | 2D | ✅ done |
-| 006 | The Gimli Glider | 2D | 🎙️ narrating 10/16 |
+| 006 | The Gimli Glider | 2D | 🎙️ narrating 12/16 |
 | 007 | The Warship Vasa | 2D | 📝 scripted, in queue |
 | 008 | Citicorp Center | 2D | 📝 scripted, in queue |
 | 009 | St. Francis Dam | 2D | 📝 scripted, in queue |
@@ -23,4 +23,4 @@
 | 013 | The Millennium Bridge | 2D | 📝 scripted, in queue |
 | 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 05:10 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 05:11 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
