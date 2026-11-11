@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 002 — 🎬 rendering
+**Now:** episode 003 — 🎬 rendering
 
 **Finished videos:** 13 of 14 written &nbsp; `███████████████████░`
 
@@ -9,8 +9,8 @@
 | # | Episode | Style | Status |
 |---|---|---|---|
 | 001 | Tacoma Narrows Bridge | 2D | ✅ done |
-| 002 | Hyatt Regency Walkways | 2D | 🎬 rendering |
-| 003 | Mars Climate Orbiter | 2D | ✅ done |
+| 002 | Hyatt Regency Walkways | 2D | ✅ done |
+| 003 | Mars Climate Orbiter | 2D | 🎬 rendering |
 | 004 | Ariane 5 · Flight 501 | 2D | ✅ done |
 | 005 | Great Molasses Flood | 2D | ✅ done |
 | 006 | The Gimli Glider | 2D | ✅ done |
@@ -23,4 +23,4 @@
 | 013 | The Millennium Bridge | 2D | ✅ done |
 | 014 | Space Shuttle Challenger | 3D | ✅ done |
 
-_Updated 2026-11-11 09:05 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 09:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
