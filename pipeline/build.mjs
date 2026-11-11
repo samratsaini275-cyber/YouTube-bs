@@ -189,6 +189,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 
 ${ep.tags.map(x => '#' + x).join(' ')}
 
+${ep.scenes.filter(x => x.quiz).map(x => `## Quiz\n\n${x.quiz.q}\n${x.quiz.options.map((o, i) => `${'ABC'[i]}) ${o}`).join('\n')}\n\nAnswer (for a pinned comment or reply, not shown in the video): ${x.quiz.answer}\n`).join('\n')}
 ## Sources (internal fact-check record, not part of the upload)
 
 ${ep.sources.map(s => `- ${s}`).join('\n')}

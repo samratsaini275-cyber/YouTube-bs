@@ -38,8 +38,8 @@ function setup(k) {
   w.puffs = group([SRB_X + 1.6, JOINT_Y, 1.2], w.stack);
   for (let i = 0; i < 6; i++) ball(1, mat('#3A3D44', { rough: 1, opacity: .9 }), [0, 0, 0], w.puffs);
   w.flame = group([SRB_X - 0.9, JOINT_Y, 1.75], w.stack);
-  const fl = cone(1.3, 7, mat('#FF5A1F', { glow: 2.4, opacity: .95 }), [-3.2, 0, 0], w.flame); fl.rotation.z = -Math.PI / 2;
-  ball(1.1, mat('#FFD21F', { glow: 2.4 }), [0, 0, 0], w.flame);
+  const fl = cone(.9, 3, mat('#FF5A1F', { glow: 2.4, opacity: .95 }), [-1.4, 0, 0], w.flame); fl.rotation.z = Math.PI / 2;
+  ball(.7, mat('#FFD21F', { glow: 2.4 }), [0, 0, 0], w.flame);
   w.ring = torus(1.98, .2, mat('#FF3B30', { glow: 1.5 }), [SRB_X, JOINT_Y, 0], w.stack);
 
   // break-up cloud and fragments (kept abstract)
@@ -178,6 +178,13 @@ export default {
       cam: { pos: [318, 22, 46], look: [300, 8, 0], fov: 38, to: { pos: [300, 8, 60], look: [300, 8, 0], fov: 38 } },
       label: (t) => t < 4.4 ? 'BOTH SEALS *FAILED*' : 'GROUNDED *32* MONTHS',
       update: (w, p, t, k) => joint(w, k, 1, 1),
+    },
+    { // closing question for the comments; the answer is deliberately not shown
+      say: 'Quick question. Which scientist showed the problem at a televised hearing, using a glass of cold water? A, Richard Feynman. B, Carl Sagan. Or C, Stephen Hawking. Comment your answer.',
+      quiz: { q: 'Which scientist showed the O-ring problem with a glass of cold water?', options: ['Richard Feynman', 'Carl Sagan', 'Stephen Hawking'], answer: 'A — Richard Feynman, at a televised Rogers Commission hearing on February 11, 1986.' },
+      show: STACK, sky: '#274B73', lightAt: [0, 20, 0],
+      cam: { pos: [60, 30, 90], look: [0, 6, 0], fov: 44, to: { pos: [-40, 34, 100], look: [0, 6, 0] } },
+      update: (w, p, t) => { w.stack.position.y = 1.2; flicker(w, t, 0); w.puffs.visible = w.flame.visible = false; },
     },
   ],
 };

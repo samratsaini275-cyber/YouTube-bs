@@ -48,6 +48,10 @@ roughly 7 minutes per episode and rendering about 2.
   gives `cam` (position, look-at, lens, and where it moves `to`), `sky`, `show` (which models are visible), a top
   `label`, and `update(world, p, t, k)` to animate.
 
+From 014 on, every episode ends with a `quiz` scene: a related multiple-choice question (A/B/C) read by the
+narrator, with a "comment your answer" prompt. The answer is not shown in the video; it is recorded in the
+video's `.md` for a pinned comment.
+
 ## Writing an episode
 
 Copy an existing file in `episodes/`. Each scene has `say` (narration; `{1940|nineteen forty}` shows

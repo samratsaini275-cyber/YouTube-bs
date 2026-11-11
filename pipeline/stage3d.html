@@ -22,6 +22,12 @@
     justify-content: center; text-align: center; font: 900 120px/1.03 'Inter'; letter-spacing: -.02em; -webkit-text-stroke: 20px #10131A; paint-order: stroke fill; }
   #h2 { color: #FFD21F; margin-top: 14px; }
   #bar { position: absolute; left: 0; top: 0; height: 8px; background: #FFD21F; }
+  #quiz { position: absolute; left: 60px; right: 60px; top: 300px; display: none; flex-direction: column; gap: 26px; }
+  #quiz .q { font: 900 66px/1.08 'Inter'; text-align: center; margin-bottom: 18px; -webkit-text-stroke: 14px #10131A; paint-order: stroke fill; }
+  #quiz .kicker { font: 800 30px 'Inter'; letter-spacing: .22em; color: #FFD21F; text-align: center; -webkit-text-stroke: 8px #10131A; paint-order: stroke fill; }
+  #quiz .opt { display: flex; align-items: center; gap: 26px; background: #10131A; border: 6px solid #fff; border-radius: 28px; padding: 26px 30px; font: 800 52px 'Inter'; }
+  #quiz .opt b { flex: none; width: 84px; height: 84px; border-radius: 50%; background: #FFD21F; color: #10131A; display: flex; align-items: center; justify-content: center; font: 900 54px 'Inter'; }
+  #quiz .cta { margin-top: 26px; align-self: center; background: #FF4D4D; border: 6px solid #10131A; border-radius: 999px; padding: 22px 48px; font: 900 48px 'Inter'; letter-spacing: .02em; }
   #flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
 </style>
 </head>
@@ -32,6 +38,7 @@
 <div id="hook"><div id="h1"></div><div id="h2"></div></div>
 <div id="cap" class="ol"></div>
 <div id="note"></div>
+<div id="quiz"></div>
 <div id="flash"></div>
 <div id="bar"></div>
 <script type="module">
@@ -113,7 +120,18 @@ window.renderFrame = (t) => {
   // white flash on each cut, like a camera change
   $('flash').style.opacity = i > 0 ? 0.55 * (1 - h.clamp(local / 0.12)) : 0;
 
-  const ch = tl.chunks.find(c => t >= c.start - 0.05 && t < c.end);
+  // closing question: multiple choice, answered in the comments (the answer is never shown on screen)
+  const quiz = $('quiz');
+  if (sc.quiz) {
+    const show = (a, b) => h.out(h.clamp((p - a) / (b - a)));
+    quiz.style.display = 'flex';
+    quiz.innerHTML = `<div class="kicker" style="opacity:${show(0, .05)}">QUICK QUESTION</div><div class="q" style="opacity:${show(.02, .1)}">${esc(sc.quiz.q)}</div>` +
+      sc.quiz.options.map((o, n) => { const a = show(.34 + n * .16, .40 + n * .16); return `<div class="opt" style="opacity:${a};transform:translateX(${(1 - a) * 80}px)"><b>${'ABC'[n]}</b>${esc(o)}</div>`; }).join('') +
+      `<div class="cta" style="opacity:${show(.84, .9)};transform:scale(${1 + .04 * Math.sin(t * 9)})">COMMENT A, B OR C</div>`;
+    $('label').innerHTML = ''; $('note').textContent = '';
+  } else quiz.style.display = 'none';
+
+  const ch = sc.quiz ? null : tl.chunks.find(c => t >= c.start - 0.05 && t < c.end);
   if (ch) {
     $('cap').innerHTML = ch.words.map(w => `<span class="${t >= w.start && t < w.end ? 'on' : ''}">${esc(w.text)}</span>`).join('');
     const total = ch.words.reduce((n, w) => n + w.text.length + 1, 0);
