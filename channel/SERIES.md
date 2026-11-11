@@ -29,4 +29,5 @@ narrative held viewers longest and drew the most comments — rather than this t
 
 ## Status
 
-- Case Files: 001–019 written (001–013 in 2D, 014–019 in 3D). 020 still to write.
+- Case Files: complete — 001–020 written (001–013 in 2D, 014–020 in 3D).
+- Why Is It Built Like That?: starts at 021. None written yet.
