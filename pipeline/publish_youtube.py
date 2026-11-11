@@ -4,6 +4,10 @@ Run by .github/workflows/publish.yml. Needs three secrets in the environment —
   YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN
 Optional: YT_PRIVACY (private | unlisted | public, default private), YT_COUNT (how many to post, default 1).
 
+  python3 pipeline/publish_youtube.py           post the next episode now
+  python3 pipeline/publish_youtube.py --daily   post only if nothing was posted in the last 20 hours
+                                                (used by the hourly check-in, so it posts once a day)
+
 What has been posted is recorded in channel/posted.json so nothing is uploaded twice.
 """
 
@@ -13,6 +17,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -61,8 +66,16 @@ def upload(token, video, title, desc, tags, privacy):
 
 
 def main():
+    missing = [k for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN") if not os.environ.get(k)]
+    if missing:
+        sys.exit("Missing environment variables: " + ", ".join(missing))
     posted = json.loads(POSTED.read_text()) if POSTED.exists() else {}
     done = posted.setdefault("youtube", {})
+    if "--daily" in sys.argv:
+        times = [datetime.fromisoformat(v["at"]) for v in done.values() if "at" in v]
+        if times and datetime.now(timezone.utc) - max(times) < timedelta(hours=20):
+            print(f"Already posted at {max(times):%Y-%m-%d %H:%M} UTC; next post is due 20 hours after that.")
+            return
     privacy = os.environ.get("YT_PRIVACY", "private")
     todo = [v for v in sorted((ROOT / "videos").glob("*.mp4")) if v.stem not in done][: int(os.environ.get("YT_COUNT", "1"))]
     if not todo:
@@ -72,7 +85,7 @@ def main():
     for video in todo:
         title, desc, tags = metadata(video.with_suffix(".md"))
         vid = upload(token, video, title, desc, tags, privacy)
-        done[video.stem] = {"id": vid, "privacy": privacy}
+        done[video.stem] = {"id": vid, "privacy": privacy, "at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
         POSTED.write_text(json.dumps(posted, indent=1) + "\n")
         print(f"Posted {video.stem} -> https://youtube.com/shorts/{vid} ({privacy})")
 
