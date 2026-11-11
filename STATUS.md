@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 007 — 🎙️ narrating 2/14
+**Now:** episode 007 — 🎙️ narrating 4/14
 
 **Finished videos:** 6 of 14 written &nbsp; `█████████░░░░░░░░░░░`
 
@@ -14,7 +14,7 @@
 | 004 | Ariane 5 · Flight 501 | 2D | ✅ done |
 | 005 | Great Molasses Flood | 2D | ✅ done |
 | 006 | The Gimli Glider | 2D | ✅ done |
-| 007 | The Warship Vasa | 2D | 🎙️ narrating 2/14 |
+| 007 | The Warship Vasa | 2D | 🎙️ narrating 4/14 |
 | 008 | Citicorp Center | 2D | 📝 scripted, in queue |
 | 009 | St. Francis Dam | 2D | 📝 scripted, in queue |
 | 010 | Therac-25 | 2D | 📝 scripted, in queue |
@@ -23,4 +23,4 @@
 | 013 | The Millennium Bridge | 2D | 📝 scripted, in queue |
 | 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 05:16 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 05:17 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
