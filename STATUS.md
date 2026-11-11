@@ -2,9 +2,9 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 14 of 14 written &nbsp; `████████████████████`
+**Finished videos:** 18 of 18 written &nbsp; `████████████████████`
 
-**Narrative 1: Case Files** — 14 of 20 finished &nbsp; `██████████████░░░░░░`
+**Narrative 1: Case Files** — 18 of 20 finished &nbsp; `██████████████████░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -22,5 +22,9 @@
 | 012 | I-35W Bridge | 2D | ✅ done |
 | 013 | The Millennium Bridge | 2D | ✅ done |
 | 014 | Space Shuttle Challenger | 3D | ✅ done |
+| 015 | Quebec Bridge | 3D | ✅ done |
+| 016 | Sampoong Department Store | 3D | ✅ done |
+| 017 | Hubble Space Telescope | 3D | ✅ done |
+| 018 | Apollo 13 | 3D | ✅ done |
 
-_Updated 2026-11-11 09:13 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 13:27 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
