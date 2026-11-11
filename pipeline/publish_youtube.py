@@ -53,7 +53,7 @@ def metadata(md_path):
 def upload(token, video, title, desc, tags, privacy):
     meta = json.dumps({
         "snippet": {"title": title, "description": desc, "tags": tags, "categoryId": "27"},   # 27 = Education
-        "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True},
+        "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False},
     }).encode()
     size = video.stat().st_size
     _, headers, _ = call(
