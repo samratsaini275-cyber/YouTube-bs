@@ -32,7 +32,7 @@ export default {
       },
     },
     {
-      say: 'The St. Francis Dam stood in a canyon north of Los Angeles, {185|one hundred and eighty-five} feet above the stream bed.',
+      say: 'The {St.|Saint} Francis Dam stood in a canyon north of Los Angeles, {185|one hundred and eighty-five} feet above the stream bed.',
       draw: (h, p, t) => dam(h, { draw: h.win(t, 0, 1.5), level: h.win(t, 1, 4) * .95 }) +
         h.arrow(760, 510, 760, 302, { draw: h.win(t, 4.4, 5), w: 5 }) + h.arrow(760, 510, 760, 718, { draw: h.win(t, 4.4, 5), w: 5 }) +
         h.stat(860, 500, '185', 'FEET', { size: 90, lsize: 28, gap: 44, opacity: h.win(t, 4.6, 5.2) }) +
