@@ -1,12 +1,12 @@
 {
  "status": [
   {
-   "updatedAt": "2026-11-11T23:20:54+00:00",
+   "updatedAt": "2026-11-11T23:31:34+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 25,
-   "written": 25,
+   "written": 26,
    "posted": 8,
    "public": 5,
    "lastPostAt": "2026-11-11T20:45:24+00:00",
@@ -29,7 +29,7 @@
    "name": "Why Is It Built Like That?",
    "what": "One everyday object or machine with a design that looks odd until you see the reason.",
    "status": "current",
-   "written": 5,
+   "written": 6,
    "built": 5,
    "posted": 0,
    "total": 20
@@ -426,6 +426,21 @@
    "seconds": 50.0,
    "build": "done",
    "buildDetail": "done",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
+   "narrative": "Why Is It Built Like That?"
+  },
+  {
+   "n": "026",
+   "title": "The Window Hole",
+   "slug": "026-window-hole",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "scripted, in queue",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
