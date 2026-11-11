@@ -113,7 +113,72 @@ def as_json():
     }
 
 
+def dashboard():
+    """Everything the Control Room dashboard shows, as channel/dashboard.json."""
+    rows, done = snapshot()
+    posted = json.loads((ROOT / "channel" / "posted.json").read_text()).get("youtube", {}) if (ROOT / "channel" / "posted.json").exists() else {}
+    series = (ROOT / "channel" / "SERIES.md").read_text()
+    plan = re.findall(r"^\| (\d{3})–(\d{3}) \| (?:\*\*)?(.+?)(?:\*\*)? \| (.+?) \|$", series, re.M)
+    eps = []
+    for f, (n, title, style, state) in zip(sorted((ROOT / "episodes").glob("*.js")), rows):
+        src = f.read_text()
+        md = ROOT / "videos" / f"{f.stem}.md"
+        dur = re.search(r"· ([\d.]+) s", md.read_text()) if md.exists() else None
+        yt = posted.get(f.stem, {})
+        eps.append({
+            "n": n, "title": title, "slug": f.stem, "style": style,
+            "voice": (re.search(r"voice: '(v\d)'", src) or [None, "v1"])[1],
+            "quiz": "quiz:" in src, "seconds": float(dur.group(1)) if dur else None,
+            "build": "done" if "done" in state else "building" if ("narrating" in state or "rendering" in state) else "queued",
+            "buildDetail": re.sub(r"^[^a-z]+", "", state),
+            "youtube": yt.get("privacy") or ("outside" if yt.get("note") else "not posted"),
+            "youtubeUrl": f"https://youtube.com/shorts/{yt['id']}" if yt.get("id") else "",
+            "postedAt": yt.get("at", ""),
+            "narrative": next((name for a, b, name, _ in plan if a <= n <= b), ""),
+        })
+    narr = []
+    cur = None
+    for a, b, name, what in plan:
+        mine = [e for e in eps if a <= e["n"] <= b]
+        built = sum(e["build"] == "done" for e in mine)
+        status = "complete" if built >= 20 else "current" if mine and cur is None else "upcoming"
+        if status == "current":
+            cur = name
+        narr.append({"range": f"{a}–{b}", "name": name, "what": re.sub(r"\s+\.", ".", re.sub(r"\*\*|\(for example.*?\)", "", what)).strip(),
+                     "status": status, "written": len(mine), "built": built,
+                     "posted": sum(e["youtube"] in ("public", "private", "outside") for e in mine), "total": 20})
+    active = next((e for e in eps if e["build"] == "building"), None)
+    pub = [e for e in eps if e["youtube"] in ("public", "private", "outside")]
+    nxt = next((e for e in eps if e["youtube"] == "not posted" and e["build"] == "done"), None)
+    status = [{
+        "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "activity": f"Building episode {active['n']}: {active['buildDetail']}" if active else "Idle: no episode is building",
+        "activityKind": "building" if active else "idle",
+        "narrative": cur or "",
+        "built": done, "written": len(eps),
+        "posted": len(pub), "public": sum(e["youtube"] == "public" for e in eps),
+        "lastPostAt": max((e["postedAt"] for e in eps if e["postedAt"]), default=""),
+        "nextToPost": f"{nxt['n']} {nxt['title']}" if nxt else "",
+    }]
+    return {"status": status, "narratives": narr, "episodes": eps}
+
+
+def write_dashboard():
+    path = ROOT / "channel" / "dashboard.json"
+    data = dashboard()
+    old = json.loads(path.read_text()) if path.exists() else None
+    if old:
+        old["status"][0]["updatedAt"] = data["status"][0]["updatedAt"]
+    if old == data:
+        return False
+    path.write_text(json.dumps(data, indent=1) + "\n")
+    return True
+
+
 if __name__ == "__main__":
+    if "--dashboard" in sys.argv:
+        write_dashboard()
+        sys.exit()
     if "--json" in sys.argv:
         print(json.dumps(as_json()))
         sys.exit()
@@ -122,9 +187,10 @@ if __name__ == "__main__":
         sys.exit()
     while True:
         try:
-            if write():
-                git("add", "STATUS.md")
-                git("commit", "-q", "--only", "STATUS.md", "-m", "Update production status")
+            changed = write() | write_dashboard()
+            if changed:
+                git("add", "STATUS.md", "channel/dashboard.json")
+                git("commit", "-q", "--only", "STATUS.md", "channel/dashboard.json", "-m", "Update production status")
                 git("push", "-q", "origin", "HEAD")
         except Exception as e:  # keep the board alive whatever happens
             print("status:", e, flush=True)
