@@ -2,7 +2,7 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 25 of 26 written &nbsp; `███████████████████░`
+**Finished videos:** 25 of 27 written &nbsp; `███████████████████░`
 
 **Narrative 2: Why Is It Built Like That?** — 5 of 20 finished &nbsp; `█████░░░░░░░░░░░░░░░`
 
@@ -34,5 +34,6 @@
 | 024 | Bridge Expansion Joints | 3D | ✅ done |
 | 025 | The Stop Sign | 3D | ✅ done |
 | 026 | The Window Hole | 3D | 📝 scripted, in queue |
+| 027 | Rounded Window Corners | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 23:31 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 23:33 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
