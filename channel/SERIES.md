@@ -30,4 +30,4 @@ narrative held viewers longest and drew the most comments — rather than this t
 ## Status
 
 - Case Files: complete — 001–020 written (001–013 in 2D, 014–020 in 3D).
-- Why Is It Built Like That?: 021 written (manhole covers). 022–040 still to write.
+- Why Is It Built Like That?: 021 (manhole covers) and 022 (railway ballast) written. 023–040 still to write.
