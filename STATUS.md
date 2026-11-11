@@ -2,9 +2,9 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 19 of 19 written &nbsp; `████████████████████`
+**Finished videos:** 25 of 25 written &nbsp; `████████████████████`
 
-**Narrative 1: Case Files** — 19 of 20 finished &nbsp; `███████████████████░`
+**Narrative 2: Why Is It Built Like That?** — 5 of 20 finished &nbsp; `█████░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -27,5 +27,11 @@
 | 017 | Hubble Space Telescope | 3D | ✅ done |
 | 018 | Apollo 13 | 3D | ✅ done |
 | 019 | The Tay Bridge | 3D | ✅ done |
+| 020 | Lake Peigneur | 3D | ✅ done |
+| 021 | Manhole Covers | 3D | ✅ done |
+| 022 | Railway Track Stones | 3D | ✅ done |
+| 023 | Golf Ball Dimples | 3D | ✅ done |
+| 024 | Bridge Expansion Joints | 3D | ✅ done |
+| 025 | The Stop Sign | 3D | ✅ done |
 
-_Updated 2026-11-11 13:56 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 20:56 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
