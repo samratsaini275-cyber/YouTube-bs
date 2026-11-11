@@ -14,7 +14,9 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 
 - 20 episodes, numbered continuously. Do not switch early and do not run long.
 - Every fact is checked against a source before the script is written. A lighter tone never means a looser fact.
-- Episodes 014 onward use the 3D style, narrator voice v2, and end with a multiple-choice question
+- Narration from 019 on uses voice v3 (livelier: younger, a little higher and faster) and is written to be
+  spoken with energy: short sentences, a question early, one idea per line. 014–018 use voice v2.
+- Episodes 014 onward use the 3D style and end with a multiple-choice question
   ("comment A, B or C"). Episodes 001–013 keep the 2D style.
 - "Expensive Mistakes" only covers incidents where nobody was killed. Fatal accidents belong in Case Files
   and are never played for laughs.

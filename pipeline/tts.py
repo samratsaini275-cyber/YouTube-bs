@@ -30,12 +30,17 @@ VOICE_REF_TEXT = (
     "when someone finds it the hard way."
 )
 VOICE_INSTRUCT = "male, middle-aged, low pitch, american accent"
-# Narrator voices. "v1" is used by episodes 001-013. "v2" (014 onward) keeps the serious
-# tone but was chosen for wider pitch movement; its reference clip is checked in.
+# Narrator voices. "v1": episodes 001-013. "v2": 014-018. "v3": 019 onward — a younger, slightly
+# higher voice that measured about a quarter more pitch movement than v2, spoken a little faster,
+# tuned toward the pace and pitch of reference clips the channel owner supplied (their voices
+# were measured, not cloned). Reference clips are checked in.
+SPEED = {"v3": 1.12}
 VOICES = {
     "v1": (VOICE_REF, VOICE_REF_TEXT),
     "v2": (ROOT / "assets" / "voice_v2.wav",
            "Here is the strange part. Nobody noticed it for years. So what actually went wrong? Let's take a closer look."),
+    "v3": (ROOT / "assets" / "voice_v3.wav",
+           "Wait, why would anyone build it like that? Here is the strange part. Nobody noticed, for years. Let's take a closer look."),
 }
 STEPS = 24
 SEED_OFFSET = int(__import__("os").environ.get("TTS_SEED_OFFSET", "0"))  # bump to re-roll a bad clip
@@ -74,7 +79,8 @@ def main():
         save(VOICE_REF, wav, sr)
         print("designed channel voice ->", VOICE_REF, flush=True)
 
-    ref, ref_text = VOICES[spec.get("voice", "v1")]
+    voice = spec.get("voice", "v1")
+    ref, ref_text = VOICES[voice]
     prompt = model.create_voice_clone_prompt(ref_audio=str(ref), ref_text=ref_text)
 
     for i, (text, name) in enumerate(zip(spec["sentences"], spec["files"])):
@@ -87,6 +93,7 @@ def main():
             voice_clone_prompt=prompt,
             generation_config=cfg,
             seed=1000 + i + SEED_OFFSET,
+            **({"speed": SPEED[voice]} if voice in SPEED else {}),
         )[0]
         print(f"[{i + 1}/{len(spec['sentences'])}] {save(path, wav, sr):.2f}s  {text}", flush=True)
 
