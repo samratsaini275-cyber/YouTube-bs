@@ -30,6 +30,13 @@ VOICE_REF_TEXT = (
     "when someone finds it the hard way."
 )
 VOICE_INSTRUCT = "male, middle-aged, low pitch, american accent"
+# Narrator voices. "v1" is used by episodes 001-013. "v2" (014 onward) keeps the serious
+# tone but was chosen for wider pitch movement; its reference clip is checked in.
+VOICES = {
+    "v1": (VOICE_REF, VOICE_REF_TEXT),
+    "v2": (ROOT / "assets" / "voice_v2.wav",
+           "Here is the strange part. Nobody noticed, not for years! So what actually went wrong? Let's take a closer look."),
+}
 STEPS = 24
 SEED_OFFSET = int(__import__("os").environ.get("TTS_SEED_OFFSET", "0"))  # bump to re-roll a bad clip
 
@@ -67,9 +74,8 @@ def main():
         save(VOICE_REF, wav, sr)
         print("designed channel voice ->", VOICE_REF, flush=True)
 
-    prompt = model.create_voice_clone_prompt(
-        ref_audio=str(VOICE_REF), ref_text=VOICE_REF_TEXT
-    )
+    ref, ref_text = VOICES[spec.get("voice", "v1")]
+    prompt = model.create_voice_clone_prompt(ref_audio=str(ref), ref_text=ref_text)
 
     for i, (text, name) in enumerate(zip(spec["sentences"], spec["files"])):
         path = out / name

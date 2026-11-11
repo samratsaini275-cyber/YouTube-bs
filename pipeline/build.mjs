@@ -46,8 +46,9 @@ function parse(say) {
 const scenes = ep.scenes.map(s => parse(s.say));
 const flat = scenes.flat();
 const spoken = flat.map(s => s.map(w => w.spoken).join(' '));
-const files = spoken.map(x => createHash('sha1').update(x).digest('hex').slice(0, 12) + '.wav');
-writeFileSync(join(WORK, 'narration.json'), JSON.stringify({ sentences: spoken, files }));
+const voice = ep.voice || 'v1';   // narrator: v1 = episodes 001-013, v2 = 014 onward
+const files = spoken.map(x => createHash('sha1').update(voice === 'v1' ? x : voice + '|' + x).digest('hex').slice(0, 12) + '.wav');
+writeFileSync(join(WORK, 'narration.json'), JSON.stringify({ sentences: spoken, files, voice }));
 
 const DRAFT = process.argv.includes('--draft');   // estimated timing, review stills only, no speech
 // ---- 2. speech ------------------------------------------------------------

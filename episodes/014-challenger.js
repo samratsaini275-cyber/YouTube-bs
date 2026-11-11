@@ -91,6 +91,7 @@ const STACK = ['ground', 'pad', 'stack'];
 export default {
   id: '014',
   style: '3d',
+  voice: 'v2',
   case: 'SPACE SHUTTLE CHALLENGER',
   year: 'FLORIDA · 1986',
   hook: ['A RUBBER RING.', 'ONE COLD MORNING.'],

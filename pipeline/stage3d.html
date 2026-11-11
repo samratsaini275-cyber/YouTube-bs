@@ -115,7 +115,7 @@ window.renderFrame = (t) => {
   $('note').textContent = (typeof sc.note === 'function' ? sc.note(local) : sc.note) || '';
 
   const hk = 1 - h.ease(h.clamp((t - HOOK) / 0.3)), pop = h.out(h.clamp(t / 0.16));
-  $('hook').style.opacity = hk; $('hook').style.transform = `translateY(${(1 - hk) * -60}px) scale(${1.18 - 0.18 * pop})`;
+  $('hook').style.opacity = hk; $('hook').style.transform = `translateY(${(1 - hk) * -60}px) scale(${1.06 - 0.06 * pop})`;
   $('label').style.opacity = 1 - hk;
   // white flash on each cut, like a camera change
   $('flash').style.opacity = i > 0 ? 0.55 * (1 - h.clamp(local / 0.12)) : 0;
