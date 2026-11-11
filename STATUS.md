@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 014 — 🎙️ narrating 1/22
+**Now:** episode 014 — 🎙️ narrating 3/22
 
 **Finished videos:** 13 of 14 written &nbsp; `███████████████████░`
 
@@ -21,6 +21,6 @@
 | 011 | The Silver Bridge | 2D | ✅ done |
 | 012 | I-35W Bridge | 2D | ✅ done |
 | 013 | The Millennium Bridge | 2D | ✅ done |
-| 014 | Space Shuttle Challenger | 3D | 🎙️ narrating 1/22 |
+| 014 | Space Shuttle Challenger | 3D | 🎙️ narrating 3/22 |
 
-_Updated 2026-11-11 08:39 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 08:40 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
