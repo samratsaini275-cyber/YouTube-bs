@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 019 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 18 of 19 written &nbsp; `███████████████████░`
+**Finished videos:** 19 of 19 written &nbsp; `████████████████████`
 
-**Narrative 1: Case Files** — 18 of 20 finished &nbsp; `██████████████████░░`
+**Narrative 1: Case Files** — 19 of 20 finished &nbsp; `███████████████████░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -26,6 +26,6 @@
 | 016 | Sampoong Department Store | 3D | ✅ done |
 | 017 | Hubble Space Telescope | 3D | ✅ done |
 | 018 | Apollo 13 | 3D | ✅ done |
-| 019 | The Tay Bridge | 3D | 🎬 rendering |
+| 019 | The Tay Bridge | 3D | ✅ done |
 
-_Updated 2026-11-11 13:53 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 13:56 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
