@@ -25,6 +25,7 @@ export default {
   id: '011',
   case: 'THE SILVER BRIDGE',
   year: 'POINT PLEASANT, WV · 1967',
+  hook: ['A 0.1-INCH CRACK.', '46 DEAD.'],
   title: 'A 0.1-inch crack brought down this entire bridge',
   description: 'The Silver Bridge over the Ohio River collapsed on December 15, 1967, killing 46 people. The failure began at a single eyebar, where a crack about 0.1 inches deep had grown through stress corrosion cracking.',
   tags: ['engineering', 'engineeringfailure', 'bridges', 'silverbridge', 'history', 'shorts'],

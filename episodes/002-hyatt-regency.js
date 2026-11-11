@@ -38,6 +38,7 @@ export default {
   id: '002',
   case: 'HYATT REGENCY WALKWAYS',
   year: 'KANSAS CITY · 1981',
+  hook: ['ONE ROD CHANGED.', '114 DEAD.'],
   title: 'One changed steel rod killed 114 people',
   description: 'On July 17, 1981, two suspended walkways collapsed in the Hyatt Regency hotel in Kansas City, Missouri. A change from one continuous hanger rod to two offset rods doubled the force on a single connection.',
   tags: ['engineering', 'engineeringfailure', 'hyattregency', 'structuralengineering', 'history', 'shorts'],

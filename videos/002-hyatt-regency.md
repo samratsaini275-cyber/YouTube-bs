@@ -1,18 +1,19 @@
 # One changed steel rod killed 114 people
 
-**File:** `002-hyatt-regency.mp4` · 1080x1920 · 58.9 s
+**File:** `002-hyatt-regency.mp4` · 1080x1920 · 54.4 s
 
 ## Description
 
 On July 17, 1981, two suspended walkways collapsed in the Hyatt Regency hotel in Kansas City, Missouri. A change from one continuous hanger rod to two offset rods doubled the force on a single connection.
 
-Sources:
-- Wikipedia, "Hyatt Regency walkway collapse" — https://en.wikipedia.org/wiki/Hyatt_Regency_walkway_collapse (retrieved November 2026)
-- National Bureau of Standards, "Investigation of the Kansas City Hyatt Regency Walkways Collapse", NBS Building Science Series 143 (1982) — the federal investigation cited there
-
-Narration: synthetic voice (VoiceStudio / OmniVoice). Visuals: original animated diagrams, schematic and not to scale.
+Narration: synthetic voice. Visuals: original animated diagrams, schematic and not to scale.
 
 #engineering #engineeringfailure #hyattregency #structuralengineering #history #shorts
+
+## Sources (internal fact-check record, not part of the upload)
+
+- Wikipedia, "Hyatt Regency walkway collapse" — https://en.wikipedia.org/wiki/Hyatt_Regency_walkway_collapse (retrieved November 2026)
+- National Bureau of Standards, "Investigation of the Kansas City Hyatt Regency Walkways Collapse", NBS Building Science Series 143 (1982) — the federal investigation cited there
 
 ## Script
 

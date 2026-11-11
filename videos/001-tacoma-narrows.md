@@ -1,18 +1,19 @@
 # The bridge that tore itself apart in a 40 mph wind
 
-**File:** `001-tacoma-narrows.mp4` · 1080x1920 · 53.3 s
+**File:** `001-tacoma-narrows.mp4` · 1080x1920 · 49.1 s
 
 ## Description
 
 The Tacoma Narrows Bridge opened on July 1, 1940 and collapsed on November 7 the same year. The cause was aeroelastic flutter, not simple resonance.
 
-Sources:
-- Wikipedia, "Tacoma Narrows Bridge (1940)" — https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940) (retrieved November 2026)
-- Billah & Scanlan, "Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks", American Journal of Physics 59 (1991) — cited there for flutter vs. resonance
-
-Narration: synthetic voice (VoiceStudio / OmniVoice). Visuals: original animated diagrams, schematic and not to scale.
+Narration: synthetic voice. Visuals: original animated diagrams, schematic and not to scale.
 
 #engineering #engineeringfailure #tacomanarrows #bridges #history #shorts
+
+## Sources (internal fact-check record, not part of the upload)
+
+- Wikipedia, "Tacoma Narrows Bridge (1940)" — https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940) (retrieved November 2026)
+- Billah & Scanlan, "Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks", American Journal of Physics 59 (1991) — cited there for flutter vs. resonance
 
 ## Script
 

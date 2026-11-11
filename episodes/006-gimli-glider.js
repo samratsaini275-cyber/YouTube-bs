@@ -17,6 +17,7 @@ export default {
   id: '006',
   case: 'THE GIMLI GLIDER',
   year: 'AIR CANADA FLIGHT 143 · 1983',
+  hook: ['OUT OF FUEL', 'AT 41,000 FEET.'],
   title: 'A 767 ran out of fuel at 41,000 feet over a unit mix-up',
   description: 'On July 23, 1983, Air Canada Flight 143, a Boeing 767, ran out of fuel at 41,000 feet after a pounds/kilograms conversion error and glided to a landing at Gimli, Manitoba. All 69 people on board survived.',
   tags: ['aviation', 'gimliglider', 'boeing767', 'engineeringfailure', 'history', 'shorts'],

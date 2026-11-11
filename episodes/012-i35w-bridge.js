@@ -25,6 +25,7 @@ export default {
   id: '012',
   case: 'I-35W BRIDGE',
   year: 'MINNEAPOLIS · 2007',
+  hook: ['HALF-INCH PLATES.', 'A BRIDGE GONE.'],
   title: 'Half-inch steel plates doomed this highway bridge',
   description: 'The I-35W Mississippi River bridge in Minneapolis collapsed at 6:05 p.m. on August 1, 2007, killing 13 people and injuring 145. The NTSB cited undersized gusset plates, a design error, with the weight on the bridge as a contributing factor.',
   tags: ['engineering', 'engineeringfailure', 'bridges', 'minneapolis', 'ntsb', 'shorts'],

@@ -17,6 +17,7 @@ export default {
   id: '013',
   case: 'THE MILLENNIUM BRIDGE',
   year: 'LONDON · 2000',
+  hook: ['OPENED.', 'SHUT 2 DAYS LATER.'],
   title: 'This bridge was shut two days after opening — the crowd made it wobble',
   description: 'London\'s Millennium Bridge opened on June 10, 2000 and was closed on June 12 after unexpected sideways vibration. The cause was synchronous lateral excitation: pedestrians unconsciously matching their steps to the sway.',
   tags: ['engineering', 'london', 'millenniumbridge', 'bridges', 'physics', 'shorts'],

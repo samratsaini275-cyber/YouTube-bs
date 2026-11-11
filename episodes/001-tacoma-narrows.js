@@ -44,6 +44,7 @@ export default {
   id: '001',
   case: 'TACOMA NARROWS BRIDGE',
   year: 'WASHINGTON STATE · 1940',
+  hook: ['4 MONTHS OLD.', 'TORN APART BY WIND.'],
   title: 'The bridge that tore itself apart in a 40 mph wind',
   description: 'The Tacoma Narrows Bridge opened on July 1, 1940 and collapsed on November 7 the same year. The cause was aeroelastic flutter, not simple resonance.',
   tags: ['engineering', 'engineeringfailure', 'tacomanarrows', 'bridges', 'history', 'shorts'],

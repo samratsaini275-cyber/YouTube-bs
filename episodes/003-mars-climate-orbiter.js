@@ -19,6 +19,7 @@ export default {
   id: '003',
   case: 'MARS CLIMATE ORBITER',
   year: 'NASA · 1999',
+  hook: ['WRONG UNITS.', 'LOST AT MARS.'],
   title: 'NASA lost a Mars orbiter to a unit conversion',
   description: 'Mars Climate Orbiter was lost on September 23, 1999. One piece of ground software reported thruster impulse in pound-force seconds; the navigation software expected newton-seconds.',
   tags: ['space', 'nasa', 'mars', 'engineeringfailure', 'softwarebugs', 'shorts'],

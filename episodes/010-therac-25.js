@@ -18,6 +18,7 @@ export default {
   id: '010',
   case: 'THERAC-25',
   year: 'MEDICAL ACCELERATOR · 1985–1987',
+  hook: ['100× THE DOSE.', 'A SOFTWARE BUG.'],
   title: 'A software bug gave patients 100× the radiation dose',
   description: 'The Therac-25 radiation therapy machine was involved in at least six overdoses between 1985 and 1987. Race conditions in its software, and the removal of hardware interlocks, let it deliver around 100 times the intended dose.',
   tags: ['softwarebugs', 'therac25', 'engineeringfailure', 'programming', 'medicaldevices', 'shorts'],

@@ -19,7 +19,8 @@ import { createRequire } from 'node:module';
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const name = process.argv[2];
 if (!name) { console.error('usage: node pipeline/build.mjs <episode>'); process.exit(1); }
-const FPS = 30, LEAD = 0.30, GAP_SENT = 0.20, GAP_SCENE = 0.34, TAIL = 1.1;
+const FPS = 30, LEAD = 0.12, GAP_SENT = 0.16, GAP_SCENE = 0.28, TAIL = 0.9;
+const SPEED = 1.07;   // narration tempo (pitch-preserving)
 const WORK = join(process.env.WORK_DIR || join(ROOT, '.work'), name);
 mkdirSync(WORK, { recursive: true });
 mkdirSync(join(ROOT, 'videos'), { recursive: true });
@@ -74,14 +75,14 @@ const tl = { scenes: [], chunks: [], clips: [] };
 scenes.forEach((sents, si) => {
   const start = si === 0 ? 0 : t - GAP_SCENE / 2;
   sents.forEach((words, wi) => {
-    const d = durs[k];
+    const d = durs[k] / SPEED;
     tl.clips.push({ file: join(WORK, 'audio', `s${String(k).padStart(3, '0')}.wav`), at: t });
     const total = words.reduce((n, w) => n + w.weight, 0);
     let c = 0, timed = [];
     const curve = align[k].curve;
     for (const w of words) {
-      const a = t + Math.min(d, onCurve(curve, c / total)); c += w.weight;
-      timed.push({ text: w.text, start: a, end: t + Math.min(d, onCurve(curve, c / total)) });
+      const a = t + Math.min(d, onCurve(curve, c / total) / SPEED); c += w.weight;
+      timed.push({ text: w.text, start: a, end: t + Math.min(d, onCurve(curve, c / total) / SPEED) });
     }
     timed[0].start = t; timed.at(-1).end = t + d;
     // caption chunks: up to 3 words / ~18 characters, break after punctuation
@@ -115,9 +116,11 @@ args.push('-f', 'lavfi', '-t', D, '-i',
   `sine=f=55:r=48000,volume=0.5[a];sine=f=82.4:r=48000,volume=0.35[b];sine=f=110.3:r=48000,volume=0.2[c];` +
   `anoisesrc=c=brown:r=48000:a=0.25,lowpass=f=260[n];[a][b][c][n]amix=inputs=4:normalize=0,tremolo=f=0.13:d=0.5,lowpass=f=420,` +
   `afade=t=in:d=1.2,afade=t=out:st=${(tl.duration - 1.4).toFixed(2)}:d=1.4,volume=0.12`);
-const fc = tl.clips.map((c, i) => `[${i}:a]aresample=48000,adelay=${Math.round(c.at * 1000)}:all=1[v${i}]`).join(';') +
+const hits = tl.scenes.map((sc, i) => `[h${i}]adelay=${Math.round(sc.start * 1000)}:all=1,volume=${i === 0 ? 0.55 : 0.3}[hd${i}]`).join(';');
+const fc = tl.clips.map((c, i) => `[${i}:a]aresample=48000,atempo=${SPEED},adelay=${Math.round(c.at * 1000)}:all=1[v${i}]`).join(';') +
   `;${tl.clips.map((_, i) => `[v${i}]`).join('')}amix=inputs=${n}:normalize=0,acompressor=threshold=-18dB:ratio=2.5:attack=8:release=120,` +
-  `highpass=f=70[voice];[voice][${n}:a]amix=inputs=2:normalize=0:duration=longest,loudnorm=I=-15:TP=-1.5:LRA=9,apad,atrim=0:${D}[out]`;
+  `highpass=f=70[voice];[${n + 1}:a]asplit=${tl.scenes.length}${tl.scenes.map((_, i) => `[h${i}]`).join('')};${hits};${tl.scenes.map((_, i) => `[hd${i}]`).join('')}amix=inputs=${tl.scenes.length}:normalize=0[hit];[voice][${n}:a][hit]amix=inputs=3:normalize=0:duration=longest,loudnorm=I=-15:TP=-1.5:LRA=9,apad,atrim=0:${D}[out]`;
+args.push('-f', 'lavfi', '-i', "aevalsrc='0.9*sin(2*PI*(95-70*t)*t)*exp(-8*t)+0.12*sin(2*PI*900*t)*exp(-60*t)':d=0.7:s=48000");
 args.push('-filter_complex', fc, '-map', '[out]', '-ar', '48000', '-ac', '2', join(WORK, 'mix.wav'));
 if (!DRAFT) execFileSync('ffmpeg', args, { stdio: 'inherit' });
 
@@ -177,12 +180,13 @@ if (!stills) {
 
 ${ep.description}
 
-Sources:
-${ep.sources.map(s => `- ${s}`).join('\n')}
-
-Narration: synthetic voice (VoiceStudio / OmniVoice). Visuals: original animated diagrams, schematic and not to scale.
+Narration: synthetic voice. Visuals: original animated diagrams, schematic and not to scale.
 
 ${ep.tags.map(x => '#' + x).join(' ')}
+
+## Sources (internal fact-check record, not part of the upload)
+
+${ep.sources.map(s => `- ${s}`).join('\n')}
 
 ## Script
 

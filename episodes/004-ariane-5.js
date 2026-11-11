@@ -14,6 +14,7 @@ export default {
   id: '004',
   case: 'ARIANE 5 · FLIGHT 501',
   year: 'KOUROU · 1996',
+  hook: ['37 SECONDS.', 'ONE NUMBER TOO BIG.'],
   title: 'A number too big for 16 bits destroyed this rocket',
   description: 'The first Ariane 5 was lost 37 seconds into flight on June 4, 1996. A 64-bit floating point value was converted to a 16-bit signed integer and overflowed, in code reused from Ariane 4.',
   tags: ['space', 'ariane5', 'softwarebugs', 'engineeringfailure', 'programming', 'shorts'],

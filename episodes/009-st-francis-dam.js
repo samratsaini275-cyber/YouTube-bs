@@ -14,6 +14,7 @@ export default {
   id: '009',
   case: 'ST. FRANCIS DAM',
   year: 'CALIFORNIA · 1928',
+  hook: ['DECLARED SAFE.', 'FAILED THAT NIGHT.'],
   title: 'This dam failed hours after it was declared safe',
   description: 'The St. Francis Dam in San Francisquito Canyon, north of Los Angeles, failed two and a half minutes before midnight on March 12, 1928, killing at least 431 people. The dam failed as a result of defective foundations.',
   tags: ['history', 'engineeringfailure', 'dams', 'losangeles', 'civilengineering', 'shorts'],

@@ -21,6 +21,7 @@ export default {
   id: '005',
   case: 'GREAT MOLASSES FLOOD',
   year: 'BOSTON · 1919',
+  hook: ['A 25-FOOT WAVE', 'OF MOLASSES.'],
   title: 'A 25-foot wave of molasses hit Boston at 35 mph',
   description: 'On January 15, 1919, a storage tank holding up to 2.3 million US gallons of molasses burst in Boston\'s North End, killing 21 people and injuring 150.',
   tags: ['history', 'engineeringfailure', 'boston', 'molassesflood', 'engineering', 'shorts'],

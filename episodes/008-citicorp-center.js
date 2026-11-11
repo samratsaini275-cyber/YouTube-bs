@@ -27,6 +27,7 @@ export default {
   id: '008',
   case: 'CITICORP CENTER',
   year: 'NEW YORK · 1978',
+  hook: ['59 STORIES.', 'ONE HIDDEN FLAW.'],
   title: 'A 59-story tower was quietly repaired at night',
   description: 'In 1978 a structural flaw was found in the newly completed 59-story Citicorp Center in New York. Bolted joints had replaced welded ones, and the tower was vulnerable to quartering winds. It was reinforced at night; the story became public in 1995.',
   tags: ['engineering', 'skyscraper', 'newyork', 'structuralengineering', 'citicorpcenter', 'shorts'],
