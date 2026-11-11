@@ -44,7 +44,7 @@ export default {
       draw: (h, p, t) => {
         let cars = '';
         for (let i = 0; i < 7; i++) { const x = ((t * 150 + i * 125) % 800) + 100; cars += h.rect(x - 16, 396, 32, 16, { fill: i % 2 ? h.C.warn : h.C.line, r: 4, opacity: h.win(t, 2, 2.6) }); }
-        return truss(h, { draw: h.win(t, 0, 1.6), onDeck: cars }) + h.stat(500, 240, h.fmt(140000 * h.win(t, 4.6, 6.4)), 'VEHICLES PER DAY', { size: 140, lsize: 28, opacity: h.win(t, 4.5, 5) });
+        return truss(h, { draw: h.win(t, 0, 1.6), onDeck: cars }) + h.stat(500, 240, h.fmt(140000 * h.win(t, 2.4, 3.4)), 'VEHICLES PER DAY', { size: 140, lsize: 28, opacity: h.win(t, 2.3, 2.7) });
       },
     },
     {
