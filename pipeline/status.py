@@ -150,7 +150,10 @@ def dashboard():
     active = next((e for e in eps if e["build"] == "building"), None)
     pub = [e for e in eps if e["youtube"] in ("public", "private", "outside")]
     nxt = next((e for e in eps if e["youtube"] == "not posted" and e["build"] == "done"), None)
+    now_path = ROOT / "channel" / "now.json"
+    now = json.loads(now_path.read_text()) if now_path.exists() else {}
     status = [{
+        "task": now.get("task", ""), "step": now.get("step", ""), "taskAt": now.get("at", ""),
         "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "activity": f"Building episode {active['n']}: {active['buildDetail']}" if active else "Idle: no episode is building",
         "activityKind": "building" if active else "idle",
@@ -189,9 +192,9 @@ if __name__ == "__main__":
         try:
             changed = write() | write_dashboard()
             if changed:
-                git("add", "STATUS.md", "channel/dashboard.json")
-                git("commit", "-q", "--only", "STATUS.md", "channel/dashboard.json", "-m", "Update production status")
+                git("add", "STATUS.md", "channel/dashboard.json", "channel/now.json")
+                git("commit", "-q", "--only", "STATUS.md", "channel/dashboard.json", "channel/now.json", "-m", "Update production status")
                 git("push", "-q", "origin", "HEAD")
         except Exception as e:  # keep the board alive whatever happens
             print("status:", e, flush=True)
-        time.sleep(60)
+        time.sleep(20)
