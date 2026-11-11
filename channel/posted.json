@@ -4,6 +4,37 @@
    "id": "uhdu7h08BiE",
    "privacy": "private",
    "at": "2026-11-11T20:42:06+00:00"
+  },
+  "002-hyatt-regency": {
+   "note": "posted outside this pipeline (per channel owner)"
+  },
+  "003-mars-climate-orbiter": {
+   "note": "posted outside this pipeline (per channel owner)"
+  },
+  "004-ariane-5": {
+   "id": "neXgUivboPY",
+   "privacy": "public",
+   "at": "2026-11-11T20:44:51+00:00"
+  },
+  "005-molasses-flood": {
+   "id": "neoT8CYy--A",
+   "privacy": "public",
+   "at": "2026-11-11T20:45:19+00:00"
+  },
+  "006-gimli-glider": {
+   "id": "z48FA7PA9BE",
+   "privacy": "public",
+   "at": "2026-11-11T20:45:21+00:00"
+  },
+  "007-vasa": {
+   "id": "R0ZjpO11CYg",
+   "privacy": "public",
+   "at": "2026-11-11T20:45:22+00:00"
+  },
+  "008-citicorp-center": {
+   "id": "GsExCZH-ZGo",
+   "privacy": "public",
+   "at": "2026-11-11T20:45:24+00:00"
   }
  }
 }
