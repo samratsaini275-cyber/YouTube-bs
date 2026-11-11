@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 012 — 🎙️ narrating 11/12
+**Now:** episode 012 — 🎬 rendering
 
 **Finished videos:** 11 of 14 written &nbsp; `████████████████░░░░`
 
@@ -19,8 +19,8 @@
 | 009 | St. Francis Dam | 2D | ✅ done |
 | 010 | Therac-25 | 2D | ✅ done |
 | 011 | The Silver Bridge | 2D | ✅ done |
-| 012 | I-35W Bridge | 2D | 🎙️ narrating 11/12 |
+| 012 | I-35W Bridge | 2D | 🎬 rendering |
 | 013 | The Millennium Bridge | 2D | 📝 scripted, in queue |
 | 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 06:06 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 06:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
