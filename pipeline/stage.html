@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --bg: #070D18; --ink: #E8EEF7; --dim: #7C8CA5; --line: #5FD0FF;
+    --warn: #FFB020; --bad: #FF4D4D;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); }
+  body { font-family: 'Inter', sans-serif; color: var(--ink); position: relative; }
+  #grid { position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(95,208,255,.055) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(95,208,255,.055) 1px, transparent 1px),
+      linear-gradient(rgba(95,208,255,.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(95,208,255,.025) 1px, transparent 1px);
+    background-size: 180px 180px, 180px 180px, 36px 36px, 36px 36px; }
+  #glow { position: absolute; inset: 0;
+    background: radial-gradient(900px 800px at 50% 40%, rgba(40,90,160,.30), transparent 70%),
+                linear-gradient(180deg, rgba(7,13,24,.0) 55%, rgba(7,13,24,.92) 80%); }
+  #bar { position: absolute; left: 0; top: 0; height: 8px; background: var(--warn); }
+  #head { position: absolute; left: 60px; right: 60px; top: 96px; }
+  #brand { display: flex; align-items: center; gap: 16px; font: 800 30px 'Inter'; letter-spacing: .22em; color: var(--warn); }
+  #brand i { width: 18px; height: 18px; background: var(--bad); display: inline-block; transform: rotate(45deg); }
+  #brand span { color: var(--dim); font-weight: 600; margin-left: auto; font-family: 'JetBrains Mono'; letter-spacing: .08em; font-size: 26px; }
+  #case { margin-top: 22px; font: 900 62px/1.05 'Inter'; letter-spacing: -.01em; }
+  #year { margin-top: 12px; font: 600 30px 'JetBrains Mono'; color: var(--line); letter-spacing: .06em; }
+  #stage { position: absolute; left: 40px; top: 330px; width: 1000px; height: 900px; }
+  #stage svg { width: 100%; height: 100%; overflow: visible; }
+  #cap { position: absolute; left: 70px; right: 70px; top: 1270px; height: 250px;
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    font: 900 84px/1.12 'Inter'; letter-spacing: -.015em;
+    text-shadow: 0 6px 30px rgba(0,0,0,.9), 0 0 4px rgba(0,0,0,.9); }
+  #cap span { display: inline-block; margin: 0 .13em; }
+  #cap span.on { color: var(--warn); }
+  #foot { position: absolute; left: 0; right: 0; top: 1560px; text-align: center;
+    font: 500 22px 'JetBrains Mono'; color: var(--dim); letter-spacing: .08em; opacity: .75; }
+</style>
+</head>
+<body>
+<div id="grid"></div><div id="glow"></div>
+<div id="head">
+  <div id="brand"><i></i>FAILURE POINT<span id="epno"></span></div>
+  <div id="case"></div>
+  <div id="year"></div>
+</div>
+<div id="stage"><svg viewBox="0 0 1000 900" xmlns="http://www.w3.org/2000/svg" id="svg"></svg></div>
+<div id="cap"></div>
+<div id="foot">SOURCES IN DESCRIPTION</div>
+<div id="bar"></div>
+<script type="module">
+import { h } from './lib.js';
+const q = new URLSearchParams(location.search);
+const ep = (await import('../episodes/' + q.get('ep') + '.js')).default;
+const tl = await (await fetch(q.get('tl'))).json();
+
+document.getElementById('epno').textContent = 'CASE ' + ep.id;
+document.getElementById('case').textContent = ep.case;
+document.getElementById('year').textContent = ep.year;
+const svg = document.getElementById('svg'), cap = document.getElementById('cap'), bar = document.getElementById('bar');
+const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+
+window.renderFrame = (t) => {
+  let i = tl.scenes.findIndex(s => t < s.end);
+  if (i < 0) i = tl.scenes.length - 1;
+  const s = tl.scenes[i];
+  const local = Math.max(0, t - s.start);
+  const p = h.clamp(local / (s.end - s.start));
+  const enter = i === 0 ? 1 : h.out(h.clamp(local / 0.28));
+  svg.innerHTML = `<g opacity="${enter}" transform="translate(0 ${(1 - enter) * 26})">${ep.scenes[i].draw(h, p, local)}</g>`;
+
+  // captions: show the chunk whose time range contains t
+  const c = tl.chunks.find(c => t >= c.start - 0.05 && t < c.end);
+  if (c) {
+    cap.innerHTML = c.words.map(w =>
+      `<span class="${t >= w.start && t < w.end ? 'on' : ''}">${esc(w.text)}</span>`).join('');
+    const total = c.words.reduce((n, w) => n + w.text.length + 1, 0);
+    cap.style.fontSize = (total > 26 ? 66 : total > 20 ? 74 : 84) + 'px';
+    const pop = h.out(h.clamp((t - c.start + 0.05) / 0.12));
+    cap.style.transform = `scale(${0.94 + 0.06 * pop})`;
+    cap.style.opacity = pop;
+  } else cap.innerHTML = '';
+  bar.style.width = (100 * t / tl.duration) + '%';
+};
+await document.fonts.ready;
+window.ready = true;
+</script>
+</body>
+</html>
