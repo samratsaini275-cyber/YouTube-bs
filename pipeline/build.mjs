@@ -15,6 +15,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync, createReadStream } 
 import { join, dirname, extname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
+import { createHash } from 'node:crypto';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const name = process.argv[2];
@@ -44,22 +45,25 @@ function parse(say) {
 }
 const scenes = ep.scenes.map(s => parse(s.say));
 const flat = scenes.flat();
-writeFileSync(join(WORK, 'narration.json'), JSON.stringify({ sentences: flat.map(s => s.map(w => w.spoken).join(' ')) }));
+const spoken = flat.map(s => s.map(w => w.spoken).join(' '));
+const files = spoken.map(x => createHash('sha1').update(x).digest('hex').slice(0, 12) + '.wav');
+writeFileSync(join(WORK, 'narration.json'), JSON.stringify({ sentences: spoken, files }));
 
 const DRAFT = process.argv.includes('--draft');   // estimated timing, review stills only, no speech
 // ---- 2. speech ------------------------------------------------------------
-if (!DRAFT && !existsSync(join(WORK, 'audio', 'durations.json'))) {
-  execFileSync(process.env.TTS_PYTHON || 'python3', [join(ROOT, 'pipeline', 'tts.py'), join(WORK, 'narration.json'), join(WORK, 'audio')], {
-    stdio: 'inherit',
-    env: { ...process.env, PYTHONPATH: process.env.VOICESTUDIO_DIR || '', PYTHONWARNINGS: 'ignore', TRANSFORMERS_VERBOSITY: 'error' },
-  });
+const AUDIO = join(WORK, 'audio');
+const py = (script) => execFileSync(process.env.TTS_PYTHON || 'python3', [join(ROOT, 'pipeline', script), join(WORK, 'narration.json'), AUDIO], {
+  stdio: 'inherit', env: { ...process.env, PYTHONPATH: process.env.VOICESTUDIO_DIR || '', PYTHONWARNINGS: 'ignore', TRANSFORMERS_VERBOSITY: 'error' } });
+let align;
+if (DRAFT) align = spoken.map(x => ({ duration: x.length / 15.5, curve: [[0, 0], [1, x.length / 15.5]] }));
+else {
+  if (!files.every(f => existsSync(join(AUDIO, f)))) py('tts.py');
+  // transcribe the clips back: quality check + real word timing
+  const fresh = () => existsSync(join(AUDIO, 'align.json')) && JSON.stringify(JSON.parse(readFileSync(join(AUDIO, 'align.json'), 'utf8')).map(a => a.text)) === JSON.stringify(spoken);
+  if (!fresh()) py('align.py');
+  align = JSON.parse(readFileSync(join(AUDIO, 'align.json'), 'utf8'));
 }
-const durs = DRAFT ? flat.map(s => s.map(w => w.spoken).join(' ').length / 15.5) : JSON.parse(readFileSync(join(WORK, 'audio', 'durations.json'), 'utf8'));
-// transcribe the clips back: quality check + real word timing
-if (!DRAFT && !existsSync(join(WORK, 'audio', 'align.json'))) {
-  execFileSync(process.env.TTS_PYTHON || 'python3', [join(ROOT, 'pipeline', 'align.py'), join(WORK, 'narration.json'), join(WORK, 'audio')], { stdio: 'inherit' });
-}
-const align = DRAFT ? durs.map(d => ({ curve: [[0, 0], [1, d]] })) : JSON.parse(readFileSync(join(WORK, 'audio', 'align.json'), 'utf8'));
+const durs = align.map(a => a.duration);
 if (process.argv.includes('--audio')) process.exit(0);
 const onCurve = (curve, f) => {
   for (let i = 1; i < curve.length; i++) if (f <= curve[i][0]) {
@@ -76,7 +80,7 @@ scenes.forEach((sents, si) => {
   const start = si === 0 ? 0 : t - GAP_SCENE / 2;
   sents.forEach((words, wi) => {
     const d = durs[k] / SPEED;
-    tl.clips.push({ file: join(WORK, 'audio', `s${String(k).padStart(3, '0')}.wav`), at: t });
+    tl.clips.push({ file: join(AUDIO, files[k]), at: t });
     const total = words.reduce((n, w) => n + w.weight, 0);
     let c = 0, timed = [];
     const curve = align[k].curve;

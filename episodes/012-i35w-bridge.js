@@ -25,7 +25,7 @@ export default {
   id: '012',
   case: 'I-35W BRIDGE',
   year: 'MINNEAPOLIS · 2007',
-  hook: ['HALF-INCH PLATES.', 'A BRIDGE GONE.'],
+  hook: ['39 YEARS.', 'ONE DESIGN ERROR.'],
   title: 'Half-inch steel plates doomed this highway bridge',
   description: 'The I-35W Mississippi River bridge in Minneapolis collapsed at 6:05 p.m. on August 1, 2007, killing 13 people and injuring 145. The NTSB cited undersized gusset plates, a design error, with the weight on the bridge as a contributing factor.',
   tags: ['engineering', 'engineeringfailure', 'bridges', 'minneapolis', 'ntsb', 'shorts'],
@@ -35,7 +35,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'This eight lane highway bridge fell into the Mississippi River, because of steel plates that were too thin.',
+      say: 'This highway bridge carried a design error for {39|thirty-nine} years. Then, in rush hour, it fell into the Mississippi River.',
       draw: (h, p, t) => truss(h, { broken: h.win(t, 2.6, 4), color: t > 2.6 ? h.C.bad : h.C.ink }) +
         h.stat(500, 230, '½ INCH', 'GUSSET PLATE THICKNESS', { size: 150, lsize: 28, opacity: h.win(t, 4.4, 4.9) }),
     },

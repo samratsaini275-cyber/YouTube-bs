@@ -24,7 +24,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'This rocket was lost {37|thirty-seven} seconds into its first flight, because one number was too big.',
+      say: 'This rocket lasted {37|thirty-seven} seconds. What destroyed it was a single number, too big to fit.',
       draw: (h, p, t) => clock(h, Math.min(37, t * 9), t * 9 >= 37 ? h.C.bad : h.C.line) +
         rocket(h, 500, 700 - Math.min(1, t / 4.1) * 480, { flame: 1 + .2 * Math.sin(t * 40), rot: t > 4.1 ? (t - 4.1) * 40 : 0, color: t > 4.1 ? h.C.bad : h.C.ink, s: .9 }),
     },

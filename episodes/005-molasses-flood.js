@@ -31,7 +31,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'In {1919,|nineteen nineteen,} a wave of molasses {25|twenty-five} feet high tore through Boston at {35|thirty-five} miles an hour.',
+      say: 'A wave of molasses, {25|twenty-five} feet high, moving at {35|thirty-five} miles an hour. This really happened, in Boston, in {1919.|nineteen nineteen.}',
       draw: (h, p, t) => {
         const k = h.win(t, .2, 5.5), x = h.lerp(-200, 620, k);
         const wave = `M-100 720 L-100 470 Q${x - 220} 440 ${x - 60} 470 Q${x + 60} 500 ${x + 40} 600 Q${x + 30} 690 ${x + 150} 720Z`;

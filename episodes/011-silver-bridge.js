@@ -34,7 +34,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'A crack about one tenth of an inch deep brought down this entire bridge.',
+      say: 'A crack one tenth of an inch deep. That is all it took to bring down this entire bridge.',
       draw: (h, p, t) => bridge(h, { broken: h.win(t, 3, 4.4), color: t > 3 ? h.C.bad : h.C.ink }) +
         h.stat(500, 200, '0.1 IN', 'CRACK DEPTH · 2.5 MM', { size: 150, lsize: 28, opacity: h.win(t, .3, .8) }),
     },

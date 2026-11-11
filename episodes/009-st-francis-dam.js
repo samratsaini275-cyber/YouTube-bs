@@ -23,7 +23,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'Hours after its chief engineer inspected it and judged it safe, this dam collapsed.',
+      say: 'The chief engineer inspected this dam, and judged it safe. That same night, it collapsed.',
       draw: (h, p, t) => {
         const br = h.win(t, 3.8, 5), flood = h.win(t, 4, 5.4);
         return dam(h, { broken: br, color: br > 0 ? h.C.bad : h.C.ink }) +

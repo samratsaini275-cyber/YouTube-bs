@@ -18,7 +18,7 @@ export default {
   id: '010',
   case: 'THERAC-25',
   year: 'MEDICAL ACCELERATOR · 1985–1987',
-  hook: ['100× THE DOSE.', 'A SOFTWARE BUG.'],
+  hook: ['BUILT TO HEAL.', '100× THE DOSE.'],
   title: 'A software bug gave patients 100× the radiation dose',
   description: 'The Therac-25 radiation therapy machine was involved in at least six overdoses between 1985 and 1987. Race conditions in its software, and the removal of hardware interlocks, let it deliver around 100 times the intended dose.',
   tags: ['softwarebugs', 'therac25', 'engineeringfailure', 'programming', 'medicaldevices', 'shorts'],
@@ -28,7 +28,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'A radiation therapy machine gave patients around {100|one hundred} times the intended dose, because of a software bug.',
+      say: 'This machine was built to treat patients with radiation. A software bug made it deliver around {100|one hundred} times the intended dose.',
       draw: (h, p, t) => machine(h, { beam: h.win(t, 1.6, 2), wide: 14 + 40 * h.win(t, 2, 3), beamColor: h.C.bad, color: t > 2 ? h.C.bad : h.C.ink }) +
         h.stat(170, 520, '100×', 'INTENDED DOSE', { size: 120, lsize: 24, fill: h.C.bad, opacity: h.win(t, 2.6, 3.1) }),
     },

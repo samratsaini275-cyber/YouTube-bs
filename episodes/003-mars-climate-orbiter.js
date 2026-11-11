@@ -19,7 +19,7 @@ export default {
   id: '003',
   case: 'MARS CLIMATE ORBITER',
   year: 'NASA · 1999',
-  hook: ['WRONG UNITS.', 'LOST AT MARS.'],
+  hook: ['FLEW TO MARS.', 'LOST OVER UNITS.'],
   title: 'NASA lost a Mars orbiter to a unit conversion',
   description: 'Mars Climate Orbiter was lost on September 23, 1999. One piece of ground software reported thruster impulse in pound-force seconds; the navigation software expected newton-seconds.',
   tags: ['space', 'nasa', 'mars', 'engineeringfailure', 'softwarebugs', 'shorts'],
@@ -29,7 +29,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'NASA lost a spacecraft at Mars because two pieces of software used different units.',
+      say: 'NASA flew a spacecraft all the way to Mars, and lost it on arrival. The cause was a unit conversion.',
       draw: (h, p, t) => mars(h) + probe(h, 180 + t * 110, 250 + t * t * 14, { s: 1.5, rot: t * 12 }) +
         h.tag(300, 520, 'POUND-FORCE', { size: 40, opacity: h.win(t, 2.6, 3) }) + h.text(500, 534, '≠', { size: 70, weight: 900, fill: h.C.bad, opacity: h.win(t, 3, 3.4) }) +
         h.tag(700, 520, 'NEWTONS', { size: 40, color: h.C.line, opacity: h.win(t, 3.2, 3.6) }),

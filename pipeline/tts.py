@@ -2,8 +2,9 @@
 
 Usage: python tts.py <narration.json> <out_dir>
 
-narration.json : {"sentences": ["spoken text", ...]}
-out_dir        : receives s000.wav ... plus durations.json
+narration.json : {"sentences": ["spoken text", ...], "files": ["<hash>.wav", ...]}
+out_dir        : receives one clip per sentence, named by a hash of its text, so
+                 editing one line only regenerates that line
 
 The channel voice is fixed: the first run designs a voice from VOICE_INSTRUCT
 and stores it in assets/voice_ref.wav; every later sentence is voice-cloned
@@ -70,11 +71,9 @@ def main():
         ref_audio=str(VOICE_REF), ref_text=VOICE_REF_TEXT
     )
 
-    durations = []
-    for i, text in enumerate(spec["sentences"]):
-        path = out / f"s{i:03d}.wav"
+    for i, (text, name) in enumerate(zip(spec["sentences"], spec["files"])):
+        path = out / name
         if path.exists():
-            durations.append(sf.info(str(path)).duration)
             continue
         wav = model.generate(
             text=text,
@@ -83,10 +82,7 @@ def main():
             generation_config=cfg,
             seed=1000 + i + SEED_OFFSET,
         )[0]
-        durations.append(save(path, wav, sr))
-        print(f"[{i + 1}/{len(spec['sentences'])}] {durations[-1]:.2f}s  {text}", flush=True)
-
-    (out / "durations.json").write_text(json.dumps(durations))
+        print(f"[{i + 1}/{len(spec['sentences'])}] {save(path, wav, sr):.2f}s  {text}", flush=True)
 
 
 if __name__ == "__main__":

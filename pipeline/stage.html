@@ -63,7 +63,8 @@ document.getElementById('case').textContent = ep.case;
 document.getElementById('year').textContent = ep.year;
 const hook = document.getElementById('hook'), grid = document.getElementById('grid'), stage = document.getElementById('stage');
 document.getElementById('h1').textContent = ep.hook[0]; document.getElementById('h2').textContent = ep.hook[1];
-const HOOK = 1.55;   // seconds the opening headline holds the screen
+hook.style.fontSize = Math.min(128, 980 / (Math.max(ep.hook[0].length, ep.hook[1].length) * 0.64)) + 'px';
+const HOOK = 1.9;   // seconds the opening headline holds the screen
 const svg = document.getElementById('svg'), cap = document.getElementById('cap'), bar = document.getElementById('bar');
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 

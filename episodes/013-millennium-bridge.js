@@ -26,7 +26,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'London\'s Millennium Bridge was shut two days after it opened, because the crowd walking on it made it wobble.',
+      say: 'This bridge was shut two days after it opened. The problem was the people walking on it.',
       draw: (h, p, t) => deck(h, t, { amp: 30 * h.win(t, .4, 3), people: 26, sync: h.win(t, .4, 3) }) +
         h.tag(780, 200, '2 DAYS', { size: 48, solid: true, color: h.C.bad, opacity: h.win(t, 1.6, 2) }),
     },

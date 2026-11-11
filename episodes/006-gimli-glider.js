@@ -17,7 +17,7 @@ export default {
   id: '006',
   case: 'THE GIMLI GLIDER',
   year: 'AIR CANADA FLIGHT 143 · 1983',
-  hook: ['OUT OF FUEL', 'AT 41,000 FEET.'],
+  hook: ['41,000 FEET.', 'ZERO FUEL.'],
   title: 'A 767 ran out of fuel at 41,000 feet over a unit mix-up',
   description: 'On July 23, 1983, Air Canada Flight 143, a Boeing 767, ran out of fuel at 41,000 feet after a pounds/kilograms conversion error and glided to a landing at Gimli, Manitoba. All 69 people on board survived.',
   tags: ['aviation', 'gimliglider', 'boeing767', 'engineeringfailure', 'history', 'shorts'],
@@ -27,7 +27,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'A Boeing {767|seven six seven} ran out of fuel at {41,000|forty-one thousand} feet, because of a unit conversion.',
+      say: 'At {41,000|forty-one thousand} feet, this passenger jet ran out of fuel. The reason was one wrong number.',
       draw: (h, p, t) => jet(h, 500, 420 + Math.sin(t * 1.4) * 10, { s: 1.4, engine: t > 2 ? h.C.bad : h.C.ink }) +
         h.stat(500, 200, '41,000 FT', null, { size: 120, fill: h.C.line, opacity: h.win(t, 2.2, 2.7) }) +
         h.tag(500, 700, 'FUEL: 0', { size: 54, solid: true, color: h.C.bad, opacity: h.win(t, 1.2, 1.6) }),

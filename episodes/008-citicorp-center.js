@@ -37,7 +37,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'In {1978,|nineteen seventy-eight,} a brand new {59|fifty-nine} story skyscraper in New York could have been blown over. The public was not told for {17|seventeen} years.',
+      say: 'In {1978,|nineteen seventy-eight,} a brand new {59|fifty-nine} story skyscraper in New York could have been blown over. The public found out {17|seventeen} years later.',
       draw: (h, p, t) => tower(h, { sway: Math.sin(t * 2.2) * 26 * h.win(t, 2.4, 4.4), color: t > 4 ? h.C.bad : h.C.ink }) +
         h.stat(170, 330, '59', 'STORIES', { size: 150, lsize: 28, opacity: h.win(t, 1.4, 1.9) }) +
         h.stat(840, 330, '17', 'YEARS QUIET', { size: 150, lsize: 28, fill: h.C.line, opacity: h.win(t, 7, 7.5) }),

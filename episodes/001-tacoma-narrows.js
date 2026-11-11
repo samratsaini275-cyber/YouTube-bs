@@ -44,7 +44,7 @@ export default {
   id: '001',
   case: 'TACOMA NARROWS BRIDGE',
   year: 'WASHINGTON STATE · 1940',
-  hook: ['4 MONTHS OLD.', 'TORN APART BY WIND.'],
+  hook: ['THIS BRIDGE TORE', 'ITSELF APART.'],
   title: 'The bridge that tore itself apart in a 40 mph wind',
   description: 'The Tacoma Narrows Bridge opened on July 1, 1940 and collapsed on November 7 the same year. The cause was aeroelastic flutter, not simple resonance.',
   tags: ['engineering', 'engineeringfailure', 'tacomanarrows', 'bridges', 'history', 'shorts'],
@@ -54,7 +54,7 @@ export default {
   ],
   scenes: [
     { // hook
-      say: 'This bridge was {4|four} months old when it tore itself apart, in a wind of just {40|forty} miles an hour.',
+      say: 'This bridge tore itself apart in a {40|forty} mile an hour wind. And the textbook explanation for why is wrong.',
       draw: (h, p, t) => {
         const A = 46 * h.win(t, 0, 1.2);
         const deck = (u, side) => side * A * Math.sin(2 * Math.PI * u) * Math.sin(t * 5.2);

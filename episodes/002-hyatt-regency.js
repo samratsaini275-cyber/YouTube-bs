@@ -38,7 +38,7 @@ export default {
   id: '002',
   case: 'HYATT REGENCY WALKWAYS',
   year: 'KANSAS CITY · 1981',
-  hook: ['ONE ROD CHANGED.', '114 DEAD.'],
+  hook: ['SPOT THE CHANGE', 'THAT KILLED 114.'],
   title: 'One changed steel rod killed 114 people',
   description: 'On July 17, 1981, two suspended walkways collapsed in the Hyatt Regency hotel in Kansas City, Missouri. A change from one continuous hanger rod to two offset rods doubled the force on a single connection.',
   tags: ['engineering', 'engineeringfailure', 'hyattregency', 'structuralengineering', 'history', 'shorts'],
@@ -48,7 +48,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'One small change to a steel rod killed {114|one hundred and fourteen} people.',
+      say: 'One small change to a steel rod killed {114|one hundred and fourteen} people. See if you can spot it.',
       draw: (h, p, t) => h.stat(500, 300, '114', 'PEOPLE KILLED', { size: 300, gap: 80, lsize: 40, fill: h.C.bad, opacity: h.win(t, 0, .4) }) +
         h.line(500, 480, 500, 480 + 330 * h.win(t, .6, 1.8), { stroke: h.C.line, w: 12 }) + h.rect(460, 800, 80, 30, { fill: h.C.line, r: 5, opacity: h.win(t, 1.6, 2) }) +
         h.tag(700, 650, 'HANGER ROD', { opacity: h.win(t, 1.6, 2.1), color: h.C.line }),

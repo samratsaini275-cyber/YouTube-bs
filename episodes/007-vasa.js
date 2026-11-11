@@ -19,7 +19,7 @@ export default {
   id: '007',
   case: 'THE WARSHIP VASA',
   year: 'STOCKHOLM · 1628',
-  hook: ['SANK AFTER', '1,300 METERS.'],
+  hook: ['FIRST VOYAGE.', 'SANK IN 1,300 M.'],
   title: 'This warship sank 1,300 meters into its first voyage',
   description: 'The Swedish warship Vasa sank on August 10, 1628 after sailing roughly 1,300 meters. She was top-heavy, and a stability test had been stopped after three runs for fear she would capsize.',
   tags: ['history', 'vasa', 'engineeringfailure', 'ships', 'sweden', 'shorts'],
@@ -28,7 +28,7 @@ export default {
   ],
   scenes: [
     {
-      say: 'One of the most powerfully armed warships in the world sank {1,300|thirteen hundred} meters into her first voyage.',
+      say: 'This was one of the most powerfully armed warships in the world. It sank {1,300|thirteen hundred} meters into its first voyage.',
       draw: (h, p, t) => {
         const k = h.win(t, 3.2, 6.4);
         return ship(h, k * 62, { sink: k * 210, color: k > .3 ? h.C.bad : h.C.ink }) + sea(h, t) +
