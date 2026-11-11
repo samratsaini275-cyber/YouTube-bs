@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 019 — 🎙️ narrating 16/19
+**Now:** episode 019 — 🎙️ narrating 18/19
 
 **Finished videos:** 18 of 19 written &nbsp; `███████████████████░`
 
@@ -26,6 +26,6 @@
 | 016 | Sampoong Department Store | 3D | ✅ done |
 | 017 | Hubble Space Telescope | 3D | ✅ done |
 | 018 | Apollo 13 | 3D | ✅ done |
-| 019 | The Tay Bridge | 3D | 🎙️ narrating 16/19 |
+| 019 | The Tay Bridge | 3D | 🎙️ narrating 18/19 |
 
-_Updated 2026-11-11 13:51 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 13:52 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
