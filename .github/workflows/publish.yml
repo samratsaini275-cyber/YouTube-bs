@@ -1,8 +1,17 @@
-# Posts the next unposted episode to YouTube Shorts with the official YouTube Data API.
+# Posts episodes to YouTube Shorts with the official YouTube Data API.
 # Secrets needed (Settings > Secrets and variables > Actions): YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN
-# Daily posting only runs once the repository variable YT_AUTOPOST is set to "true".
+#
+# When it runs:
+#   - push:     as soon as a new video (videos/*.mp4) lands on the default branch, every unposted
+#               episode is uploaded publicly, oldest first, until YouTube's upload limit stops it.
+#   - schedule: once a day, posts the next unposted episode (only if the repository variable
+#               YT_AUTOPOST is "true"). This works through any backlog left by the upload limit.
+#   - manual:   Actions > Publish to YouTube > Run workflow, with a privacy and count of your choice.
 name: Publish to YouTube
 on:
+  push:
+    paths:
+      - "videos/*.mp4"
   workflow_dispatch:
     inputs:
       privacy:
@@ -17,9 +26,16 @@ on:
     - cron: "17 15 * * *"   # once a day, 15:17 UTC
 permissions:
   contents: write
+# Never run two uploads at once, so the same episode cannot be posted twice.
+concurrency:
+  group: publish-youtube
+  cancel-in-progress: false
 jobs:
   publish:
-    if: github.event_name == 'workflow_dispatch' || vars.YT_AUTOPOST == 'true'
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'push' && github.ref_name == github.event.repository.default_branch) ||
+      (github.event_name == 'schedule' && vars.YT_AUTOPOST == 'true')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,11 +45,17 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
           YT_PRIVACY: ${{ inputs.privacy || 'public' }}
-          YT_COUNT: ${{ inputs.count || '1' }}
+          YT_COUNT: ${{ inputs.count || (github.event_name == 'push' && '100' || '1') }}
         run: python3 pipeline/publish_youtube.py
+      # Runs even if the upload step failed part-way (e.g. upload limit), so videos that did
+      # go up are still recorded and never uploaded twice.
       - name: Record what was posted
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add channel/posted.json
-          git diff --cached --quiet || (git commit -m "Record YouTube upload" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Record YouTube upload"
+          for i in 1 2 3 4; do git pull --rebase && git push && exit 0; sleep $((i * 5)); done
+          exit 1
