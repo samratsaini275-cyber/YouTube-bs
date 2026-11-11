@@ -1,0 +1,39 @@
+# Posts the next unposted episode to YouTube Shorts with the official YouTube Data API.
+# Secrets needed (Settings > Secrets and variables > Actions): YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN
+# Daily posting only runs once the repository variable YT_AUTOPOST is set to "true".
+name: Publish to YouTube
+on:
+  workflow_dispatch:
+    inputs:
+      privacy:
+        description: Who can see the upload
+        type: choice
+        options: [private, unlisted, public]
+        default: private
+      count:
+        description: How many episodes to post
+        default: "1"
+  schedule:
+    - cron: "17 15 * * *"   # once a day, 15:17 UTC
+permissions:
+  contents: write
+jobs:
+  publish:
+    if: github.event_name == 'workflow_dispatch' || vars.YT_AUTOPOST == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ inputs.privacy || 'public' }}
+          YT_COUNT: ${{ inputs.count || '1' }}
+        run: python3 pipeline/publish_youtube.py
+      - name: Record what was posted
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add channel/posted.json
+          git diff --cached --quiet || (git commit -m "Record YouTube upload" && git push)
