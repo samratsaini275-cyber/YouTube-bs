@@ -10,6 +10,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 
 #engineering #engineeringfailure #hyattregency #structuralengineering #history #shorts
 
+
 ## Sources (internal fact-check record, not part of the upload)
 
 - Wikipedia, "Hyatt Regency walkway collapse" — https://en.wikipedia.org/wiki/Hyatt_Regency_walkway_collapse (retrieved November 2026)

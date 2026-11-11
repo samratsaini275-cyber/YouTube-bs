@@ -10,6 +10,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 
 #engineering #engineeringfailure #tacomanarrows #bridges #history #shorts
 
+
 ## Sources (internal fact-check record, not part of the upload)
 
 - Wikipedia, "Tacoma Narrows Bridge (1940)" — https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940) (retrieved November 2026)

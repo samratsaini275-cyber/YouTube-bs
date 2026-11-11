@@ -10,6 +10,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 
 #space #ariane5 #softwarebugs #engineeringfailure #programming #shorts
 
+
 ## Sources (internal fact-check record, not part of the upload)
 
 - Wikipedia, "Ariane flight V88" — https://en.wikipedia.org/wiki/Ariane_flight_V88 (retrieved November 2026)

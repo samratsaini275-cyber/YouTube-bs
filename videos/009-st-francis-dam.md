@@ -1,6 +1,6 @@
 # This dam failed hours after it was declared safe
 
-**File:** `009-st-francis-dam.mp4` · 1080x1920 · 49.5 s
+**File:** `009-st-francis-dam.mp4` · 1080x1920 · 49.1 s
 
 ## Description
 
