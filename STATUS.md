@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 010 — 🎬 rendering
+**Now:** episode 011 — 🎙️ narrating 0/11
 
-**Finished videos:** 9 of 14 written &nbsp; `█████████████░░░░░░░`
+**Finished videos:** 10 of 14 written &nbsp; `██████████████░░░░░░`
 
-**Narrative 1: Case Files** — 9 of 20 finished &nbsp; `█████████░░░░░░░░░░░`
+**Narrative 1: Case Files** — 10 of 20 finished &nbsp; `██████████░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -17,10 +17,10 @@
 | 007 | The Warship Vasa | 2D | ✅ done |
 | 008 | Citicorp Center | 2D | ✅ done |
 | 009 | St. Francis Dam | 2D | ✅ done |
-| 010 | Therac-25 | 2D | 🎬 rendering |
-| 011 | The Silver Bridge | 2D | 📝 scripted, in queue |
+| 010 | Therac-25 | 2D | ✅ done |
+| 011 | The Silver Bridge | 2D | 🎙️ narrating 0/11 |
 | 012 | I-35W Bridge | 2D | 📝 scripted, in queue |
 | 013 | The Millennium Bridge | 2D | 📝 scripted, in queue |
 | 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 05:51 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 05:53 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
