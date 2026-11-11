@@ -98,7 +98,25 @@ def git(*a):
     return subprocess.run(["git", "-C", str(ROOT), *a], capture_output=True, text=True)
 
 
+def as_json():
+    """Same snapshot as a JSON document, for the in-app tracker page."""
+    rows, done = snapshot()
+    season = (max(len(rows), 1) - 1) // SEASON
+    return {
+        "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "now": next((f"Episode {r[0]} · {re.sub(r'^[^a-z]+', '', r[3])}" for r in rows if "narrating" in r[3] or "rendering" in r[3]), "Idle"),
+        "done": done, "written": len(rows),
+        "narrative": {"n": season + 1, "name": NARRATIVES[season] if season < len(NARRATIVES) else "To be chosen",
+                      "done": sum("done" in r[3] for r in rows if (int(r[0]) - 1) // SEASON == season), "total": SEASON},
+        "episodes": [{"n": a, "title": b, "style": c, "state": re.sub(r"^[^a-z]+", "", d),
+                      "kind": "done" if "done" in d else "active" if ("narrating" in d or "rendering" in d) else "queued"} for a, b, c, d in rows],
+    }
+
+
 if __name__ == "__main__":
+    if "--json" in sys.argv:
+        print(json.dumps(as_json()))
+        sys.exit()
     if "--watch" not in sys.argv:
         write()
         sys.exit()

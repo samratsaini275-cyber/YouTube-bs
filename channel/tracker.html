@@ -1,0 +1,86 @@
+<title>Failure Point Tracker</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+  /* Layout: one narrow column — "now" line, two progress bars, then one compact row per episode. */
+  :root {
+    --bg: #070D18; --panel: #0E1829; --rule: #1D2A40; --ink: #E8EEF7; --dim: #8394AD;
+    --accent: #FFB020; --ok: #4ADE80; --live: #5FD0FF; --bad: #FF4D4D;
+    --sans: 'Inter', system-ui, sans-serif; --mono: 'JetBrains Mono', ui-monospace, monospace;
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
+    --bg: #F3F5F9; --panel: #FFFFFF; --rule: #D5DBE6; --ink: #0E1829; --dim: #5A6880;
+    --accent: #B86E00; --ok: #17803D; --live: #0B6FA8; --bad: #C62828; color-scheme: light } }
+  :root[data-theme="light"] {
+    --bg: #F3F5F9; --panel: #FFFFFF; --rule: #D5DBE6; --ink: #0E1829; --dim: #5A6880;
+    --accent: #B86E00; --ok: #17803D; --live: #0B6FA8; --bad: #C62828; color-scheme: light }
+  body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 15px;
+    padding-block: 20px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  main { max-width: 520px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+  header { display: flex; align-items: center; gap: 10px; font: 700 13px var(--sans); letter-spacing: .2em; color: var(--accent); }
+  header i { width: 10px; height: 10px; background: var(--bad); transform: rotate(45deg); flex: none; }
+  header span { margin-left: auto; font: 500 12px var(--mono); letter-spacing: .02em; color: var(--dim); }
+  .now { background: var(--panel); border: 1px solid var(--rule); border-radius: 12px; padding: 14px 16px; display: flex; align-items: center; gap: 12px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--dim); flex: none; }
+  .dot.live { background: var(--live); animation: pulse 1.4s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .25 } }
+  @media (prefers-reduced-motion: reduce) { .dot.live { animation: none } }
+  .now b { font-weight: 700; font-size: 16px; min-width: 0; overflow-wrap: anywhere; }
+  .meter { display: flex; flex-direction: column; gap: 6px; }
+  .meter .top { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; color: var(--dim); }
+  .meter .top strong { color: var(--ink); font: 700 13px var(--mono); font-variant-numeric: tabular-nums; }
+  .track { height: 8px; background: var(--rule); border-radius: 99px; overflow: hidden; }
+  .track div { height: 100%; background: var(--accent); border-radius: 99px; transition: width .5s; }
+  ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+  li { display: grid; grid-template-columns: 34px 1fr auto; gap: 10px; align-items: center; padding: 9px 0; border-bottom: 1px solid var(--rule); }
+  li .n { font: 500 12px var(--mono); color: var(--dim); font-variant-numeric: tabular-nums; }
+  li .t { min-width: 0; overflow-wrap: anywhere; }
+  li .t small { font: 500 11px var(--mono); color: var(--dim); margin-left: 6px; }
+  .pill { font: 700 11px var(--mono); padding: 3px 8px; border-radius: 99px; border: 1px solid var(--rule); color: var(--dim); white-space: nowrap; }
+  .pill.done { color: var(--ok); border-color: var(--ok); }
+  .pill.active { color: var(--live); border-color: var(--live); }
+  .empty { color: var(--dim); padding: 18px 0; text-align: center; }
+  footer { font-size: 12px; color: var(--dim); line-height: 1.5; }
+</style>
+<main>
+  <header><i></i>FAILURE POINT<span id="ago">waiting for data</span></header>
+  <div class="now"><div class="dot" id="dot"></div><b id="now">Loading status…</b></div>
+  <div class="meter"><div class="top"><span>Finished videos</span><strong id="m1">–</strong></div><div class="track"><div id="b1" style="width:0"></div></div></div>
+  <div class="meter"><div class="top"><span id="nar">Current narrative</span><strong id="m2">–</strong></div><div class="track"><div id="b2" style="width:0"></div></div></div>
+  <ul id="list"><li class="empty" style="display:block">Episodes appear here once the first status is posted.</li></ul>
+  <footer>Posted by the agent each time an episode finishes and at every hourly check-in. Stays open and updates on its own — no refresh needed.</footer>
+</main>
+<script>
+  const $ = id => document.getElementById(id);
+  let stamp = null;
+  const tick = () => {
+    if (!stamp) return;
+    const m = Math.max(0, Math.round((Date.now() - stamp) / 60000));
+    $('ago').textContent = m < 1 ? 'updated just now' : m < 60 ? `updated ${m} min ago` : `updated ${Math.floor(m / 60)} h ${m % 60} min ago`;
+  };
+  setInterval(tick, 20000);
+  function show(d) {
+    stamp = Date.parse(d.updatedAt); tick();
+    $('now').textContent = d.now; $('dot').className = 'dot' + (d.now === 'Idle' ? '' : ' live');
+    $('m1').textContent = `${d.done} / ${d.written}`; $('b1').style.width = (100 * d.done / Math.max(1, d.written)) + '%';
+    $('nar').textContent = `Narrative ${d.narrative.n}: ${d.narrative.name}`;
+    $('m2').textContent = `${d.narrative.done} / ${d.narrative.total}`; $('b2').style.width = (100 * d.narrative.done / d.narrative.total) + '%';
+    const list = $('list'); list.textContent = '';
+    for (const e of d.episodes) {
+      const li = document.createElement('li');
+      const n = document.createElement('span'); n.className = 'n'; n.textContent = e.n;
+      const t = document.createElement('span'); t.className = 't'; t.textContent = e.title;
+      const s = document.createElement('small'); s.textContent = e.style; t.appendChild(s);
+      const p = document.createElement('span'); p.className = 'pill ' + e.kind; p.textContent = e.state;
+      li.append(n, t, p); list.appendChild(li);
+    }
+  }
+  (async () => {
+    const db = await window.claude?.use?.('db');
+    if (!db) { $('now').textContent = 'Sign in to claude.ai to see the status'; return; }
+    const timer = setTimeout(() => { if (!stamp) $('now').textContent = 'No status posted yet'; }, 10000);
+    db.doc('status/board').onSnapshot(snap => { clearTimeout(timer); if (snap.exists) show(snap.data()); else $('now').textContent = 'No status posted yet'; },
+      () => { clearTimeout(timer); $('now').textContent = 'Status unavailable right now'; });
+  })();
+</script>
