@@ -7,7 +7,7 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 |---|---|---|
 | 001–020 | **Case Files** | One real engineering failure: what was built, the decision that broke it, what it cost. |
 | 021–040 | **Why Is It Built Like That?** | One everyday object or machine with a design that looks odd until you see the reason (for example: why train wheels are cone-shaped, why manhole covers are round). |
-| 041–060 | **Expensive Mistakes** | Embarrassing, mostly harmless engineering blunders, told with a lighter tone: the building that melted cars, the bridge that wobbled, the parts ordered in the wrong units. |
+| 041–060 | **Engineering Nonsense** | Silly, absurd shorts built to be funny first: deadpan narration of ridiculous "engineering" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline. |
 | 061–080 | to be chosen | Decided when episode 060 is being written, using what the first three narratives showed. |
 
 ## Rules for every narrative
@@ -18,8 +18,13 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
   spoken with energy: short sentences, a question early, one idea per line. 014–018 use voice v2.
 - Episodes 014 onward use the 3D style and end with a multiple-choice question
   ("comment A, B or C"). Episodes 001–013 keep the 2D style.
-- "Expensive Mistakes" only covers incidents where nobody was killed. Fatal accidents belong in Case Files
-  and are never played for laughs.
+- "Engineering Nonsense" (changed from "Expensive Mistakes" at the channel owner's request, to fight early
+  swipe-aways): the comedy comes from obviously made-up, absurd situations told in a serious documentary voice.
+  Made-up things must be plainly impossible or labelled as a joke, never passed off as real events, people or
+  numbers. Any real fact dropped in is still checked against a source. Real accidents, deaths and injuries are
+  never the joke.
+- Nonsense episodes stay short (about 20–40 s), start on the most absurd image, and still end with an A/B/C
+  question (it can be a silly one).
 
 ## How the next narrative is chosen
 

@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WORK = Path(os.environ.get("WORK_DIR", ROOT / ".work"))
 SEASON = 20
-NARRATIVES = ["Case Files", "Why Is It Built Like That?", "Expensive Mistakes"]
+NARRATIVES = ["Case Files", "Why Is It Built Like That?", "Engineering Nonsense"]
 
 
 def bar(done, total, width=20):

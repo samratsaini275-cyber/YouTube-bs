@@ -1,7 +1,7 @@
 {
  "status": [
   {
-   "updatedAt": "2026-11-11T20:56:36+00:00",
+   "updatedAt": "2026-11-11T23:20:54+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
@@ -36,8 +36,8 @@
   },
   {
    "range": "041\u2013060",
-   "name": "Expensive Mistakes",
-   "what": "Embarrassing, mostly harmless engineering blunders, told with a lighter tone: the building that melted cars, the bridge that wobbled, the parts ordered in the wrong units.",
+   "name": "Engineering Nonsense",
+   "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 0,
    "built": 0,
