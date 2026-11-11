@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 012 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 11 of 14 written &nbsp; `████████████████░░░░`
+**Finished videos:** 12 of 14 written &nbsp; `█████████████████░░░`
 
-**Narrative 1: Case Files** — 11 of 20 finished &nbsp; `███████████░░░░░░░░░`
+**Narrative 1: Case Files** — 12 of 20 finished &nbsp; `████████████░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -19,8 +19,8 @@
 | 009 | St. Francis Dam | 2D | ✅ done |
 | 010 | Therac-25 | 2D | ✅ done |
 | 011 | The Silver Bridge | 2D | ✅ done |
-| 012 | I-35W Bridge | 2D | 🎬 rendering |
+| 012 | I-35W Bridge | 2D | ✅ done |
 | 013 | The Millennium Bridge | 2D | 📝 scripted, in queue |
 | 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 06:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 06:09 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
