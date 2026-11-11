@@ -35,7 +35,7 @@ VOICE_INSTRUCT = "male, middle-aged, low pitch, american accent"
 VOICES = {
     "v1": (VOICE_REF, VOICE_REF_TEXT),
     "v2": (ROOT / "assets" / "voice_v2.wav",
-           "Here is the strange part. Nobody noticed, not for years! So what actually went wrong? Let's take a closer look."),
+           "Here is the strange part. Nobody noticed it for years. So what actually went wrong? Let's take a closer look."),
 }
 STEPS = 24
 SEED_OFFSET = int(__import__("os").environ.get("TTS_SEED_OFFSET", "0"))  # bump to re-roll a bad clip

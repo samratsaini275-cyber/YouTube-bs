@@ -1,6 +1,6 @@
 # NASA lost a Mars orbiter to a unit conversion
 
-**File:** `003-mars-climate-orbiter.mp4` · 1080x1920 · 57.5 s
+**File:** `003-mars-climate-orbiter.mp4` · 1080x1920 · 57.1 s
 
 ## Description
 
@@ -9,6 +9,7 @@ Mars Climate Orbiter was lost on September 23, 1999. One piece of ground softwar
 Narration: synthetic voice. Visuals: original animated diagrams, schematic and not to scale.
 
 #space #nasa #mars #engineeringfailure #softwarebugs #shorts
+
 
 ## Sources (internal fact-check record, not part of the upload)
 
@@ -23,7 +24,7 @@ Mars Climate Orbiter launched in December 1998. About nine months later, it was 
 
 Ground software supplied by Lockheed Martin reported thruster impulse in pound-force seconds. NASA's navigation software read those numbers as newton-seconds.
 
-One pound-force second is 4.45 newton-seconds. So every thruster firing was underestimated, and the predicted path drifted away from the real one.
+One pound of force equals 4.45 newtons. So every thruster firing was underestimated, and the predicted path drifted away from the real one.
 
 At least two navigators noticed the discrepancy. Their concerns were dismissed, because they had not filled out the right form.
 
