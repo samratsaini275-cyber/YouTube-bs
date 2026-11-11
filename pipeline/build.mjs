@@ -45,19 +45,21 @@ const scenes = ep.scenes.map(s => parse(s.say));
 const flat = scenes.flat();
 writeFileSync(join(WORK, 'narration.json'), JSON.stringify({ sentences: flat.map(s => s.map(w => w.spoken).join(' ')) }));
 
+const DRAFT = process.argv.includes('--draft');   // estimated timing, review stills only, no speech
 // ---- 2. speech ------------------------------------------------------------
-if (!existsSync(join(WORK, 'audio', 'durations.json'))) {
+if (!DRAFT && !existsSync(join(WORK, 'audio', 'durations.json'))) {
   execFileSync(process.env.TTS_PYTHON || 'python3', [join(ROOT, 'pipeline', 'tts.py'), join(WORK, 'narration.json'), join(WORK, 'audio')], {
     stdio: 'inherit',
     env: { ...process.env, PYTHONPATH: process.env.VOICESTUDIO_DIR || '', PYTHONWARNINGS: 'ignore', TRANSFORMERS_VERBOSITY: 'error' },
   });
 }
-const durs = JSON.parse(readFileSync(join(WORK, 'audio', 'durations.json'), 'utf8'));
+const durs = DRAFT ? flat.map(s => s.map(w => w.spoken).join(' ').length / 15.5) : JSON.parse(readFileSync(join(WORK, 'audio', 'durations.json'), 'utf8'));
 // transcribe the clips back: quality check + real word timing
-if (!existsSync(join(WORK, 'audio', 'align.json'))) {
+if (!DRAFT && !existsSync(join(WORK, 'audio', 'align.json'))) {
   execFileSync(process.env.TTS_PYTHON || 'python3', [join(ROOT, 'pipeline', 'align.py'), join(WORK, 'narration.json'), join(WORK, 'audio')], { stdio: 'inherit' });
 }
-const align = JSON.parse(readFileSync(join(WORK, 'audio', 'align.json'), 'utf8'));
+const align = DRAFT ? durs.map(d => ({ curve: [[0, 0], [1, d]] })) : JSON.parse(readFileSync(join(WORK, 'audio', 'align.json'), 'utf8'));
+if (process.argv.includes('--audio')) process.exit(0);
 const onCurve = (curve, f) => {
   for (let i = 1; i < curve.length; i++) if (f <= curve[i][0]) {
     const [f0, t0] = curve[i - 1], [f1, t1] = curve[i];
@@ -101,7 +103,8 @@ tl.duration = t - GAP_SCENE + TAIL;
 tl.scenes.forEach((s, i) => { s.end = i + 1 < tl.scenes.length ? tl.scenes[i + 1].start : tl.duration; });
 // hold each caption chunk until the next one starts (within the same breath)
 tl.chunks.forEach((c, i) => { const n = tl.chunks[i + 1]; c.end = n && n.start - c.end < 0.5 ? n.start : c.end + 0.25; });
-writeFileSync(join(WORK, 'timeline.json'), JSON.stringify(tl));
+const TL = DRAFT ? 'timeline-draft.json' : 'timeline.json';
+writeFileSync(join(WORK, TL), JSON.stringify(tl));
 
 // ---- 4a. audio mix: narration + a quiet synthesized drone bed ---------------
 const D = tl.duration.toFixed(3);
@@ -116,7 +119,7 @@ const fc = tl.clips.map((c, i) => `[${i}:a]aresample=48000,adelay=${Math.round(c
   `;${tl.clips.map((_, i) => `[v${i}]`).join('')}amix=inputs=${n}:normalize=0,acompressor=threshold=-18dB:ratio=2.5:attack=8:release=120,` +
   `highpass=f=70[voice];[voice][${n}:a]amix=inputs=2:normalize=0:duration=longest,loudnorm=I=-15:TP=-1.5:LRA=9,apad,atrim=0:${D}[out]`;
 args.push('-filter_complex', fc, '-map', '[out]', '-ar', '48000', '-ac', '2', join(WORK, 'mix.wav'));
-execFileSync('ffmpeg', args, { stdio: 'inherit' });
+if (!DRAFT) execFileSync('ffmpeg', args, { stdio: 'inherit' });
 
 // ---- 4b. frames -----------------------------------------------------------
 const mime = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json' };
@@ -133,18 +136,19 @@ const { chromium } = createRequire(import.meta.url)('playwright');
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
 page.on('pageerror', e => { console.error('PAGE ERROR', e.message); process.exit(1); });
-await page.goto(`http://127.0.0.1:${port}/pipeline/stage.html?ep=${name}&tl=/__work/timeline.json`);
+await page.goto(`http://127.0.0.1:${port}/pipeline/stage.html?ep=${name}&tl=/__work/${TL}`);
 await page.waitForFunction('window.ready === true');
 
-const stills = process.argv.includes('--stills');
+const stills = DRAFT || process.argv.includes('--stills');
 const outFile = join(ROOT, 'videos', name + '.mp4');
 const total = Math.round(tl.duration * FPS);
 if (stills) {
   // one frame from the middle and near the end of every scene, for review
-  for (const [i, s] of tl.scenes.entries()) for (const [j, f] of [[0, .45], [1, .92]]) {
+  for (const [i, s] of tl.scenes.entries()) for (const [j, f] of [[0, .3], [1, .62], [2, .95]]) {
     await page.evaluate(t => window.renderFrame(t), s.start + (s.end - s.start) * f);
     await page.screenshot({ path: join(WORK, `still-${i}-${j}.jpg`), type: 'jpeg', quality: 80 });
   }
+  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-pattern_type', 'glob', '-i', join(WORK, 'still-*.jpg'), '-vf', `crop=1080:1300:0:260,scale=432:520,tile=6x${Math.ceil(tl.scenes.length / 2)}`, '-frames:v', '1', join(WORK, 'sheet.jpg')]);
 } else {
   const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-c:v', 'mjpeg', '-framerate', String(FPS), '-i', '-',
     '-i', join(WORK, 'mix.wav'), '-c:v', 'libx264', '-preset', 'medium', '-crf', '21', '-pix_fmt', 'yuv420p',
