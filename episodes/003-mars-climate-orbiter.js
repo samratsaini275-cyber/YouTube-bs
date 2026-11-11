@@ -57,7 +57,7 @@ export default {
       },
     },
     {
-      say: 'One pound-force second is {4.45|four point four five} newton-seconds. So every thruster firing was underestimated, and the predicted path drifted away from the real one.',
+      say: 'One pound of force equals {4.45|four point four five} newtons. So every thruster firing was underestimated, and the predicted path drifted away from the real one.',
       draw: (h, p, t) => {
         const { C } = h, k = h.win(t, 5.4, 10), a = 1 - h.win(t, 4.6, 5.2);
         return h.g(h.stat(500, 330, '× 4.45', '1 lbf·s = 4.45 N·s', { size: 210, lsize: 38, gap: 90 }), { opacity: a }) +

@@ -1,6 +1,6 @@
 # The bridge that tore itself apart in a 40 mph wind
 
-**File:** `001-tacoma-narrows.mp4` · 1080x1920 · 49.1 s
+**File:** `001-tacoma-narrows.mp4` · 1080x1920 · 49.8 s
 
 ## Description
 
@@ -17,7 +17,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 
 ## Script
 
-This bridge was 4 months old when it tore itself apart, in a wind of just 40 miles an hour.
+This bridge tore itself apart in a 40 mile an hour wind. And the textbook explanation for why is wrong.
 
 The Tacoma Narrows Bridge opened in July 1940. It was the third longest suspension bridge in the world.
 

@@ -158,7 +158,7 @@ if (stills) {
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-pattern_type', 'glob', '-i', join(WORK, 'still-*.jpg'), '-vf', `crop=1080:1300:0:260,scale=432:520,tile=6x${Math.ceil(tl.scenes.length / 2)}`, '-frames:v', '1', join(WORK, 'sheet.jpg')]);
 } else {
   const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-c:v', 'mjpeg', '-framerate', String(FPS), '-i', '-',
-    '-i', join(WORK, 'mix.wav'), '-c:v', 'libx264', '-preset', 'medium', '-crf', '21', '-pix_fmt', 'yuv420p',
+    '-i', join(WORK, 'mix.wav'), '-c:v', 'libx264', '-preset', 'medium', '-crf', '24', '-pix_fmt', 'yuv420p',
     '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709',
     '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', '-shortest', outFile], { stdio: ['pipe', 'inherit', 'inherit'] });
   for (let f = 0; f < total; f++) {

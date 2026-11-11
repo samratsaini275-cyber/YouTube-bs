@@ -1,6 +1,6 @@
 # One changed steel rod killed 114 people
 
-**File:** `002-hyatt-regency.mp4` · 1080x1920 · 54.4 s
+**File:** `002-hyatt-regency.mp4` · 1080x1920 · 56.0 s
 
 ## Description
 
@@ -17,7 +17,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 
 ## Script
 
-One small change to a steel rod killed 114 people.
+One small change to a steel rod killed 114 people. See if you can spot it.
 
 July 17th, 1981. About 1,600 people fill the atrium of the Hyatt Regency in Kansas City for a dance.
 
