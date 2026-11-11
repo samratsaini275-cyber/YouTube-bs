@@ -1,0 +1,8 @@
+# Diagnostic: the smallest possible workflow, to check whether Actions runs anything on this account.
+name: Ping
+on: workflow_dispatch
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Actions is running"
