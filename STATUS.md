@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 014 — 🎬 rendering
+**Now:** episode 009 — 🎙️ narrating 11/12
 
 **Finished videos:** 13 of 14 written &nbsp; `███████████████████░`
 
@@ -16,11 +16,11 @@
 | 006 | The Gimli Glider | 2D | ✅ done |
 | 007 | The Warship Vasa | 2D | ✅ done |
 | 008 | Citicorp Center | 2D | ✅ done |
-| 009 | St. Francis Dam | 2D | ✅ done |
+| 009 | St. Francis Dam | 2D | 🎙️ narrating 11/12 |
 | 010 | Therac-25 | 2D | ✅ done |
 | 011 | The Silver Bridge | 2D | ✅ done |
 | 012 | I-35W Bridge | 2D | ✅ done |
 | 013 | The Millennium Bridge | 2D | ✅ done |
-| 014 | Space Shuttle Challenger | 3D | 🎬 rendering |
+| 014 | Space Shuttle Challenger | 3D | ✅ done |
 
-_Updated 2026-11-11 08:52 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 09:00 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
