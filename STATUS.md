@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 006 — 🎬 rendering
+**Now:** episode 007 — 🎙️ narrating 0/14
 
-**Finished videos:** 5 of 14 written &nbsp; `███████░░░░░░░░░░░░░`
+**Finished videos:** 6 of 14 written &nbsp; `█████████░░░░░░░░░░░`
 
-**Narrative 1: Case Files** — 5 of 20 finished &nbsp; `█████░░░░░░░░░░░░░░░`
+**Narrative 1: Case Files** — 6 of 20 finished &nbsp; `██████░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -13,8 +13,8 @@
 | 003 | Mars Climate Orbiter | 2D | ✅ done |
 | 004 | Ariane 5 · Flight 501 | 2D | ✅ done |
 | 005 | Great Molasses Flood | 2D | ✅ done |
-| 006 | The Gimli Glider | 2D | 🎬 rendering |
-| 007 | The Warship Vasa | 2D | 📝 scripted, in queue |
+| 006 | The Gimli Glider | 2D | ✅ done |
+| 007 | The Warship Vasa | 2D | 🎙️ narrating 0/14 |
 | 008 | Citicorp Center | 2D | 📝 scripted, in queue |
 | 009 | St. Francis Dam | 2D | 📝 scripted, in queue |
 | 010 | Therac-25 | 2D | 📝 scripted, in queue |
@@ -23,4 +23,4 @@
 | 013 | The Millennium Bridge | 2D | 📝 scripted, in queue |
 | 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 05:13 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 05:15 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
