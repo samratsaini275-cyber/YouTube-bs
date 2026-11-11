@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 008 — 🎬 rendering
+**Now:** episode 003 — 🎬 rendering
 
 **Finished videos:** 7 of 14 written &nbsp; `██████████░░░░░░░░░░`
 
@@ -10,12 +10,12 @@
 |---|---|---|---|
 | 001 | Tacoma Narrows Bridge | 2D | ✅ done |
 | 002 | Hyatt Regency Walkways | 2D | ✅ done |
-| 003 | Mars Climate Orbiter | 2D | ✅ done |
+| 003 | Mars Climate Orbiter | 2D | 🎬 rendering |
 | 004 | Ariane 5 · Flight 501 | 2D | ✅ done |
 | 005 | Great Molasses Flood | 2D | ✅ done |
 | 006 | The Gimli Glider | 2D | ✅ done |
 | 007 | The Warship Vasa | 2D | ✅ done |
-| 008 | Citicorp Center | 2D | 🎬 rendering |
+| 008 | Citicorp Center | 2D | ✅ done |
 | 009 | St. Francis Dam | 2D | 📝 scripted, in queue |
 | 010 | Therac-25 | 2D | 📝 scripted, in queue |
 | 011 | The Silver Bridge | 2D | 📝 scripted, in queue |
@@ -23,4 +23,4 @@
 | 013 | The Millennium Bridge | 2D | 📝 scripted, in queue |
 | 014 | Space Shuttle Challenger | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-11 05:31 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-11 05:33 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
