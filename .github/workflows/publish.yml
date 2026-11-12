@@ -9,9 +9,9 @@
 #   - manual:   Actions > Publish to YouTube > Run workflow, with a privacy and count of your choice.
 name: Publish to YouTube
 on:
-  push:
-    paths:
-      - "videos/*.mp4"
+  # Automatic triggers (push, schedule) are off: they uploaded episodes 009-018 a second time on
+  # 2026-11-12 alongside the cloud session's daily upload task. Uploads now run only from that task,
+  # or from a manual run here.
   workflow_dispatch:
     inputs:
       privacy:
@@ -22,8 +22,6 @@ on:
       count:
         description: How many episodes to post
         default: "1"
-  schedule:
-    - cron: "17 15 * * *"   # once a day, 15:17 UTC
 permissions:
   contents: write
 # Never run two uploads at once, so the same episode cannot be posted twice.
