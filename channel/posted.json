@@ -37,54 +37,174 @@
    "at": "2026-11-11T20:45:24+00:00"
   },
   "009-st-francis-dam": {
-   "id": "egkNPzdJAJg",
+   "id": "OqXtIdKoiv0",
    "privacy": "public",
-   "at": "2026-11-12T04:27:57+00:00"
+   "at": "2026-11-12T19:15:01+00:00",
+   "duplicate": {
+    "id": "egkNPzdJAJg",
+    "privacy": "public",
+    "at": "2026-11-12T04:27:57+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
   },
   "010-therac-25": {
-   "id": "0-mLuJrlAUg",
+   "id": "TxqzD458yuw",
    "privacy": "public",
-   "at": "2026-11-12T04:27:58+00:00"
+   "at": "2026-11-12T19:15:03+00:00",
+   "duplicate": {
+    "id": "0-mLuJrlAUg",
+    "privacy": "public",
+    "at": "2026-11-12T04:27:58+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
   },
   "011-silver-bridge": {
-   "id": "u1FeCcm72Fw",
+   "id": "5AsybC7dDKQ",
    "privacy": "public",
-   "at": "2026-11-12T04:28:00+00:00"
+   "at": "2026-11-12T19:15:05+00:00",
+   "duplicate": {
+    "id": "u1FeCcm72Fw",
+    "privacy": "public",
+    "at": "2026-11-12T04:28:00+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
   },
   "012-i35w-bridge": {
-   "id": "spp5cdFkhZ4",
+   "id": "7VDx7X_vB1A",
    "privacy": "public",
-   "at": "2026-11-12T04:28:01+00:00"
+   "at": "2026-11-12T19:15:07+00:00",
+   "duplicate": {
+    "id": "spp5cdFkhZ4",
+    "privacy": "public",
+    "at": "2026-11-12T04:28:01+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
   },
   "013-millennium-bridge": {
-   "id": "R-oNDS8VboU",
+   "id": "Ra6U-WYiTE8",
    "privacy": "public",
-   "at": "2026-11-12T04:28:03+00:00"
+   "at": "2026-11-12T19:15:09+00:00",
+   "duplicate": {
+    "id": "R-oNDS8VboU",
+    "privacy": "public",
+    "at": "2026-11-12T04:28:03+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
   },
   "014-challenger": {
-   "id": "Fx-2eAu2e-k",
+   "id": "4DhdNpvf36I",
    "privacy": "public",
-   "at": "2026-11-12T04:28:05+00:00"
+   "at": "2026-11-12T19:15:11+00:00",
+   "duplicate": {
+    "id": "Fx-2eAu2e-k",
+    "privacy": "public",
+    "at": "2026-11-12T04:28:05+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
   },
   "015-quebec-bridge": {
-   "id": "ineXk3brQT0",
+   "id": "QC36dj9yMCY",
    "privacy": "public",
-   "at": "2026-11-12T04:28:10+00:00"
+   "at": "2026-11-12T19:15:13+00:00",
+   "duplicate": {
+    "id": "ineXk3brQT0",
+    "privacy": "public",
+    "at": "2026-11-12T04:28:10+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
   },
   "016-sampoong": {
-   "id": "3ox9cy0f4qA",
+   "id": "l1DUMPw3dQk",
    "privacy": "public",
-   "at": "2026-11-12T04:28:13+00:00"
+   "at": "2026-11-12T19:15:15+00:00",
+   "duplicate": {
+    "id": "3ox9cy0f4qA",
+    "privacy": "public",
+    "at": "2026-11-12T04:28:13+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
   },
   "017-hubble": {
-   "id": "9ldrL9CngAc",
+   "id": "tC6ROwxqqGw",
    "privacy": "public",
-   "at": "2026-11-12T04:28:15+00:00"
+   "at": "2026-11-12T19:15:17+00:00",
+   "duplicate": {
+    "id": "9ldrL9CngAc",
+    "privacy": "public",
+    "at": "2026-11-12T04:28:15+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
   },
   "018-apollo-13": {
-   "id": "J0-bxd7i3LU",
+   "id": "ML4QtbSw_ns",
    "privacy": "public",
-   "at": "2026-11-12T04:28:17+00:00"
+   "at": "2026-11-12T19:15:19+00:00",
+   "duplicate": {
+    "id": "J0-bxd7i3LU",
+    "privacy": "public",
+    "at": "2026-11-12T04:28:17+00:00",
+    "note": "also uploaded by the GitHub Actions workflow (push trigger); duplicate on YouTube"
+   }
+  },
+  "019-tay-bridge": {
+   "id": "b7_LroFwWJs",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:21+00:00"
+  },
+  "020-lake-peigneur": {
+   "id": "NGvVOaGwSSs",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:23+00:00"
+  },
+  "021-manhole-covers": {
+   "id": "qVWYsouLqVY",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:26+00:00"
+  },
+  "022-track-ballast": {
+   "id": "6dlTzC9Vjq8",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:29+00:00"
+  },
+  "023-golf-ball-dimples": {
+   "id": "A_-aY9t9dBc",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:31+00:00"
+  },
+  "024-expansion-joints": {
+   "id": "niC-TYaZvJs",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:33+00:00"
+  },
+  "025-stop-sign": {
+   "id": "zHg4yCkjYLQ",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:35+00:00"
+  },
+  "026-window-hole": {
+   "id": "DbBCOkby4lE",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:37+00:00"
+  },
+  "027-window-corners": {
+   "id": "vqgyATUl-Z0",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:39+00:00"
+  },
+  "028-damper-ball": {
+   "id": "lZNQ8on8Xk4",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:40+00:00"
+  },
+  "029-rumble-strips": {
+   "id": "Xv4VyjcKdlU",
+   "privacy": "public",
+   "at": "2026-11-12T19:15:57+00:00"
+  },
+  "030-elevator-brakes": {
+   "id": "z4TmsWvMqEw",
+   "privacy": "public",
+   "at": "2026-11-12T19:16:00+00:00"
   }
  }
 }
