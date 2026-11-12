@@ -35,6 +35,56 @@
    "id": "GsExCZH-ZGo",
    "privacy": "public",
    "at": "2026-11-11T20:45:24+00:00"
+  },
+  "009-st-francis-dam": {
+   "id": "egkNPzdJAJg",
+   "privacy": "public",
+   "at": "2026-11-12T04:27:57+00:00"
+  },
+  "010-therac-25": {
+   "id": "0-mLuJrlAUg",
+   "privacy": "public",
+   "at": "2026-11-12T04:27:58+00:00"
+  },
+  "011-silver-bridge": {
+   "id": "u1FeCcm72Fw",
+   "privacy": "public",
+   "at": "2026-11-12T04:28:00+00:00"
+  },
+  "012-i35w-bridge": {
+   "id": "spp5cdFkhZ4",
+   "privacy": "public",
+   "at": "2026-11-12T04:28:01+00:00"
+  },
+  "013-millennium-bridge": {
+   "id": "R-oNDS8VboU",
+   "privacy": "public",
+   "at": "2026-11-12T04:28:03+00:00"
+  },
+  "014-challenger": {
+   "id": "Fx-2eAu2e-k",
+   "privacy": "public",
+   "at": "2026-11-12T04:28:05+00:00"
+  },
+  "015-quebec-bridge": {
+   "id": "ineXk3brQT0",
+   "privacy": "public",
+   "at": "2026-11-12T04:28:10+00:00"
+  },
+  "016-sampoong": {
+   "id": "3ox9cy0f4qA",
+   "privacy": "public",
+   "at": "2026-11-12T04:28:13+00:00"
+  },
+  "017-hubble": {
+   "id": "9ldrL9CngAc",
+   "privacy": "public",
+   "at": "2026-11-12T04:28:15+00:00"
+  },
+  "018-apollo-13": {
+   "id": "J0-bxd7i3LU",
+   "privacy": "public",
+   "at": "2026-11-12T04:28:17+00:00"
   }
  }
 }
