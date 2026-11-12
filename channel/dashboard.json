@@ -2,9 +2,9 @@
  "status": [
   {
    "task": "Episodes 026\u2013030",
-   "step": "Fixing 029 camera follow \u00b7 then checking 030",
-   "taskAt": "2026-11-12T00:28:15+00:00",
-   "updatedAt": "2026-11-12T00:28:35+00:00",
+   "step": "Fixing 030 camera angles",
+   "taskAt": "2026-11-12T00:28:46+00:00",
+   "updatedAt": "2026-11-12T00:28:57+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
