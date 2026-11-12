@@ -26,6 +26,10 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 - Nonsense episodes stay short (about 20–40 s), start on the most absurd image, and still end with an A/B/C
   question (it can be a silly one).
 
+- From 026 on (channel owner's request): no headline text at the top of the screen; hooks use a bit of fear to
+  intrigue but stay true; descriptions tease the story instead of explaining it, and never invent facts or tolls.
+- Production pauses after 030 until YouTube has accepted the backlog (every finished video is posted).
+
 ## How the next narrative is chosen
 
 The order above is a judgment call, not a measurement: no view, retention or comment data exists for this
@@ -35,4 +39,4 @@ narrative held viewers longest and drew the most comments — rather than this t
 ## Status
 
 - Case Files: complete — 001–020 written (001–013 in 2D, 014–020 in 3D).
-- Why Is It Built Like That?: 021 (manhole covers), 022 (railway ballast), 023 (golf ball dimples), 024 (bridge expansion joints), 025 (stop signs) written. 026–040 still to write.
+- Why Is It Built Like That?: 021 (manhole covers), 022 (railway ballast), 023 (golf ball dimples), 024 (bridge expansion joints), 025 (stop signs), 026 (window breather hole), 027 (rounded window corners), 028 (Taipei 101 damper), 029 (rumble strips), 030 (elevator brakes) written. 031–040 still to write.
