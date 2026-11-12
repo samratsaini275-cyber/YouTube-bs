@@ -102,7 +102,7 @@ export default {
       update: (w, p, t) => gear(w, 0, t * .5),
     },
     {
-      say: 'Quick question. The air you breathe is about what percent oxygen? A, {5|five} percent. B, {21|twenty-one} percent. Or C, {50|fifty} percent. Comment your answer.',
+      say: 'Quick question. The air you breathe is about what percent oxygen? Option A, {5|five} percent. Option B, {21|twenty-one} percent. Or option C, {50|fifty} percent. Comment your answer.',
       quiz: { q: 'The air you breathe is about what percent oxygen?', options: ['5%', '21%', '50%'], answer: 'B — about 21%. That is why braked jet tires (limit: 5% oxygen) are filled with nitrogen instead.' },
       show: PAD, sky: '#274B73', lightAt: [0, 8, 0], lightDist: 40,
       cam: { pos: [14, 34, 44], look: [0, -14, 0], fov: 46, to: { pos: [-14, 34, 44], look: [0, -14, 0] } },
