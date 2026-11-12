@@ -2,9 +2,9 @@
  "status": [
   {
    "task": "Episodes 026\u2013030 rendered",
-   "step": "Waiting for review and the next check-in",
-   "taskAt": "2026-11-12T01:48:51+00:00",
-   "updatedAt": "2026-11-12T01:49:01+00:00",
+   "step": "Scroll-testing 029 and 030",
+   "taskAt": "2026-11-12T04:26:48+00:00",
+   "updatedAt": "2026-11-12T04:26:50+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
