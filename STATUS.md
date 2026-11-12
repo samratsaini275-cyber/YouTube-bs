@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 027 — 🎙️ narrating 1/21
+**Now:** episode 027 — 🎙️ narrating 2/21
 
 **Finished videos:** 26 of 30 written &nbsp; `█████████████████░░░`
 
@@ -34,9 +34,9 @@
 | 024 | Bridge Expansion Joints | 3D | ✅ done |
 | 025 | The Stop Sign | 3D | ✅ done |
 | 026 | The Window Hole | 3D | ✅ done |
-| 027 | Rounded Window Corners | 3D | 🎙️ narrating 1/21 |
+| 027 | Rounded Window Corners | 3D | 🎙️ narrating 2/21 |
 | 028 | The Damper Ball | 3D | 📝 scripted, in queue |
 | 029 | Rumble Strips | 3D | 📝 scripted, in queue |
 | 030 | Elevator Brakes | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-12 00:47 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-12 00:48 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
