@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 031 — 🎙️ narrating 0/21
+**Now:** idle — nothing is building
 
 **Finished videos:** 30 of 31 written &nbsp; `███████████████████░`
 
@@ -38,6 +38,6 @@
 | 028 | The Damper Ball | 3D | ✅ done |
 | 029 | Rumble Strips | 3D | ✅ done |
 | 030 | Elevator Brakes | 3D | ✅ done |
-| 031 | Nitrogen Tires | 3D | 🎙️ narrating 0/21 |
+| 031 | Nitrogen Tires | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-12 19:27 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
