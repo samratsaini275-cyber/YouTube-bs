@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Production paused after episode 030",
-   "step": "Waiting for YouTube to accept the backlog (daily upload task, 19:13 UTC)",
-   "taskAt": "2026-11-12T04:27:37+00:00",
-   "updatedAt": "2026-11-12T04:27:53+00:00",
+   "task": "Episode 031",
+   "step": "Backlog cleared \u00b7 researching episode 031 (Why Is It Built Like That?)",
+   "taskAt": "2026-11-12T19:25:42+00:00",
+   "updatedAt": "2026-11-12T19:25:42+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 30,
    "written": 30,
-   "posted": 8,
-   "public": 5,
-   "lastPostAt": "2026-11-11T20:45:24+00:00",
-   "nextToPost": "009 St. Francis Dam"
+   "posted": 30,
+   "public": 27,
+   "lastPostAt": "2026-11-12T19:16:00+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -24,7 +24,7 @@
    "status": "complete",
    "written": 20,
    "built": 20,
-   "posted": 8,
+   "posted": 20,
    "total": 20
   },
   {
@@ -34,7 +34,7 @@
    "status": "current",
    "written": 10,
    "built": 10,
-   "posted": 0,
+   "posted": 10,
    "total": 20
   },
   {
@@ -189,9 +189,9 @@
    "seconds": 49.1,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/OqXtIdKoiv0",
+   "postedAt": "2026-11-12T19:15:01+00:00",
    "narrative": "Case Files"
   },
   {
@@ -204,9 +204,9 @@
    "seconds": 55.6,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/TxqzD458yuw",
+   "postedAt": "2026-11-12T19:15:03+00:00",
    "narrative": "Case Files"
   },
   {
@@ -219,9 +219,9 @@
    "seconds": 44.7,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/5AsybC7dDKQ",
+   "postedAt": "2026-11-12T19:15:05+00:00",
    "narrative": "Case Files"
   },
   {
@@ -234,9 +234,9 @@
    "seconds": 52.8,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/7VDx7X_vB1A",
+   "postedAt": "2026-11-12T19:15:07+00:00",
    "narrative": "Case Files"
   },
   {
@@ -249,9 +249,9 @@
    "seconds": 41.8,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/Ra6U-WYiTE8",
+   "postedAt": "2026-11-12T19:15:09+00:00",
    "narrative": "Case Files"
   },
   {
@@ -264,9 +264,9 @@
    "seconds": 79.2,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/4DhdNpvf36I",
+   "postedAt": "2026-11-12T19:15:11+00:00",
    "narrative": "Case Files"
   },
   {
@@ -279,9 +279,9 @@
    "seconds": 60.2,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/QC36dj9yMCY",
+   "postedAt": "2026-11-12T19:15:13+00:00",
    "narrative": "Case Files"
   },
   {
@@ -294,9 +294,9 @@
    "seconds": 59.7,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/l1DUMPw3dQk",
+   "postedAt": "2026-11-12T19:15:15+00:00",
    "narrative": "Case Files"
   },
   {
@@ -309,9 +309,9 @@
    "seconds": 60.5,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/tC6ROwxqqGw",
+   "postedAt": "2026-11-12T19:15:17+00:00",
    "narrative": "Case Files"
   },
   {
@@ -324,9 +324,9 @@
    "seconds": 64.1,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/ML4QtbSw_ns",
+   "postedAt": "2026-11-12T19:15:19+00:00",
    "narrative": "Case Files"
   },
   {
@@ -339,9 +339,9 @@
    "seconds": 48.6,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/b7_LroFwWJs",
+   "postedAt": "2026-11-12T19:15:21+00:00",
    "narrative": "Case Files"
   },
   {
@@ -354,9 +354,9 @@
    "seconds": 52.5,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/NGvVOaGwSSs",
+   "postedAt": "2026-11-12T19:15:23+00:00",
    "narrative": "Case Files"
   },
   {
@@ -369,9 +369,9 @@
    "seconds": 51.8,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/qVWYsouLqVY",
+   "postedAt": "2026-11-12T19:15:26+00:00",
    "narrative": "Why Is It Built Like That?"
   },
   {
@@ -384,9 +384,9 @@
    "seconds": 49.5,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/6dlTzC9Vjq8",
+   "postedAt": "2026-11-12T19:15:29+00:00",
    "narrative": "Why Is It Built Like That?"
   },
   {
@@ -399,9 +399,9 @@
    "seconds": 52.7,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/A_-aY9t9dBc",
+   "postedAt": "2026-11-12T19:15:31+00:00",
    "narrative": "Why Is It Built Like That?"
   },
   {
@@ -414,9 +414,9 @@
    "seconds": 49.9,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/niC-TYaZvJs",
+   "postedAt": "2026-11-12T19:15:33+00:00",
    "narrative": "Why Is It Built Like That?"
   },
   {
@@ -429,9 +429,9 @@
    "seconds": 50.0,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/zHg4yCkjYLQ",
+   "postedAt": "2026-11-12T19:15:35+00:00",
    "narrative": "Why Is It Built Like That?"
   },
   {
@@ -444,9 +444,9 @@
    "seconds": 44.1,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/DbBCOkby4lE",
+   "postedAt": "2026-11-12T19:15:37+00:00",
    "narrative": "Why Is It Built Like That?"
   },
   {
@@ -459,9 +459,9 @@
    "seconds": 57.7,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/vqgyATUl-Z0",
+   "postedAt": "2026-11-12T19:15:39+00:00",
    "narrative": "Why Is It Built Like That?"
   },
   {
@@ -474,9 +474,9 @@
    "seconds": 48.5,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/lZNQ8on8Xk4",
+   "postedAt": "2026-11-12T19:15:40+00:00",
    "narrative": "Why Is It Built Like That?"
   },
   {
@@ -489,9 +489,9 @@
    "seconds": 48.9,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/Xv4VyjcKdlU",
+   "postedAt": "2026-11-12T19:15:57+00:00",
    "narrative": "Why Is It Built Like That?"
   },
   {
@@ -504,9 +504,9 @@
    "seconds": 49.4,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/z4TmsWvMqEw",
+   "postedAt": "2026-11-12T19:16:00+00:00",
    "narrative": "Why Is It Built Like That?"
   }
  ]
