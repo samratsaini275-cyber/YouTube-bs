@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 028 — 🎙️ narrating 6/19
+**Now:** episode 028 — 🎙️ narrating 7/19
 
 **Finished videos:** 27 of 30 written &nbsp; `██████████████████░░`
 
@@ -35,8 +35,8 @@
 | 025 | The Stop Sign | 3D | ✅ done |
 | 026 | The Window Hole | 3D | ✅ done |
 | 027 | Rounded Window Corners | 3D | ✅ done |
-| 028 | The Damper Ball | 3D | 🎙️ narrating 6/19 |
+| 028 | The Damper Ball | 3D | 🎙️ narrating 7/19 |
 | 029 | Rumble Strips | 3D | 📝 scripted, in queue |
 | 030 | Elevator Brakes | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-12 01:06 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-12 01:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
