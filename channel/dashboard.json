@@ -2,10 +2,10 @@
  "status": [
   {
    "task": "Rendering episodes 026\u2013030",
-   "step": "Episode 029 (4 of 5): recording narration and rendering video",
-   "taskAt": "2026-11-12T01:17:55+00:00",
-   "updatedAt": "2026-11-12T01:25:28+00:00",
-   "activity": "Building episode 029: narrating 13/20",
+   "step": "026\u2013028 done \u00b7 scroll-testing them while 029 renders",
+   "taskAt": "2026-11-12T01:25:50+00:00",
+   "updatedAt": "2026-11-12T01:25:50+00:00",
+   "activity": "Building episode 029: narrating 14/20",
    "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 28,
@@ -488,7 +488,7 @@
    "quiz": true,
    "seconds": null,
    "build": "building",
-   "buildDetail": "narrating 13/20",
+   "buildDetail": "narrating 14/20",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
