@@ -7,12 +7,14 @@ function setup(k) {
   const w = {};
   // cabin wall with a window, seen from inside
   w.wall = group();
-  box(40, 44, 1.2, mat('#EDEAE4', { rough: .8 }), [0, 0, -1.6], w.wall);
-  const trim = cyl(8.4, 8.4, 1.4, mat('#D9D4CA'), [0, 0, -1.3], w.wall, 48); trim.rotation.x = Math.PI / 2; trim.scale.set(.72, 1, 1);
+  // wall panel with a window opening (four pieces around a 12 x 16 gap)
+  const wm = mat('#EDEAE4', { rough: .8 }); w.frame = group([0, 0, 0], w.wall);
+  box(14, 44, 1.2, wm, [-13, 0, -1.6], w.frame); box(14, 44, 1.2, wm, [13, 0, -1.6], w.frame);
+  box(12, 14, 1.2, wm, [0, 15, -1.6], w.frame); box(12, 14, 1.2, wm, [0, -15, -1.6], w.frame);
   w.panes = group([0, 0, 0], w.wall);
-  w.outer = OVAL(k, 7.2, .5, mat('#9FD3FF', { opacity: .35, rough: .1 }), [0, 0, -6], w.panes);
-  w.middle = OVAL(k, 7, .4, mat('#CFEAFF', { opacity: .3, rough: .1 }), [0, 0, -4], w.panes);
-  w.inner = OVAL(k, 7.4, .3, mat('#FFFFFF', { opacity: .18, rough: .2 }), [0, 0, -2], w.panes);
+  w.outer = OVAL(k, 7.2, .5, mat('#5FA8E8', { opacity: .6, rough: .1 }), [0, 0, -6], w.panes);
+  w.middle = OVAL(k, 7, .4, mat('#8FD0FF', { opacity: .5, rough: .1 }), [0, 0, -4], w.panes);
+  w.inner = OVAL(k, 7.4, .3, mat('#FFFFFF', { opacity: .35, rough: .2 }), [0, 0, -2], w.panes);
   w.hole = cyl(.32, .32, .6, mat('#1B1D22'), [0, -5.2, -4], w.panes, 16); w.hole.rotation.x = Math.PI / 2;
   w.fog = OVAL(k, 6.8, 1.4, mat('#FFFFFF', { opacity: .6 }), [0, 0, -5], w.panes); w.fog.castShadow = false;
   // sky and clouds outside
@@ -28,7 +30,8 @@ function setup(k) {
   return w;
 }
 // spread: how far apart the panes are pulled (0 = installed)
-function panes(w, spread) {
+function panes(w, spread, frame = true) {
+  w.frame.visible = frame;
   w.outer.position.z = -6 - spread * 10; w.middle.position.z = -4 - spread * 4; w.inner.position.z = -2 + spread * 4;
   w.hole.position.z = w.middle.position.z;
 }
@@ -58,7 +61,7 @@ export default {
       say: 'Your window is not one sheet of glass. It is three.',
       show: ['wall', 'clouds'], sky: '#8EC5F0', lightAt: [0, 0, -4], lightDist: 40,
       cam: { pos: [30, 8, 14], look: [0, 0, -6], fov: 40, to: { pos: [26, 4, 4], look: [0, 0, -7], fov: 40 } },
-      update: (w, p, t, k) => { panes(w, k.h.win(t, .3, 2)); w.fog.visible = false; w.push.visible = false; },
+      update: (w, p, t, k) => { panes(w, k.h.win(t, .3, 2), false); w.fog.visible = false; w.push.visible = false; },
     },
     {
       say: 'The tiny hole is in the middle one.',
@@ -78,10 +81,10 @@ export default {
       show: ['wall', 'clouds'], sky: '#24385C', lightAt: [0, 0, -6], lightDist: 40,
       cam: { pos: [32, 4, 4], look: [0, 0, -8], fov: 40, to: { pos: [28, 2, -2], look: [0, 0, -9], fov: 38 } },
       update: (w, p, t, k) => {
-        panes(w, .7); w.fog.visible = false; w.push.visible = false;
+        panes(w, .7, false); w.fog.visible = false; w.push.visible = false;
         const g = k.h.win(t, 1.5, 3);
-        w.outer.material.color.set(g > .5 ? '#FF6A4D' : '#9FD3FF'); w.outer.material.emissive.set(g > .5 ? '#FF3B30' : '#000000'); w.outer.material.emissiveIntensity = .6 * g;
-        w.middle.material.color.set(t > 6.5 ? '#7CFFB0' : '#CFEAFF');
+        w.outer.material.color.set(g > .5 ? '#FF6A4D' : '#5FA8E8'); w.outer.material.emissive.set(g > .5 ? '#FF3B30' : '#000000'); w.outer.material.emissiveIntensity = .6 * g;
+        w.middle.material.color.set(t > 6.5 ? '#7CFFB0' : '#8FD0FF');
       },
     },
     {
@@ -90,7 +93,7 @@ export default {
       cam: { pos: [-6, 0, 22], look: [0, 0, -4], fov: 42, to: { pos: [-2, 0, 14], look: [0, 0, -5], fov: 40 } },
       update: (w, p, t, k) => {
         panes(w, 0); w.push.visible = false; w.fog.visible = true; w.fog.material.opacity = .6 * (1 - k.h.win(t, .8, 3.2));
-        w.outer.material.color.set('#9FD3FF'); w.outer.material.emissiveIntensity = 0; w.middle.material.color.set('#CFEAFF');
+        w.outer.material.color.set('#5FA8E8'); w.outer.material.emissiveIntensity = 0; w.middle.material.color.set('#8FD0FF');
       },
     },
     {
