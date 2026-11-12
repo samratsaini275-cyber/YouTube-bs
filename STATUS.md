@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 026 — 🎬 rendering
+**Now:** episode 027 — 🎙️ narrating 0/21
 
-**Finished videos:** 25 of 30 written &nbsp; `█████████████████░░░`
+**Finished videos:** 26 of 30 written &nbsp; `█████████████████░░░`
 
-**Narrative 2: Why Is It Built Like That?** — 5 of 20 finished &nbsp; `█████░░░░░░░░░░░░░░░`
+**Narrative 2: Why Is It Built Like That?** — 6 of 20 finished &nbsp; `██████░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -33,10 +33,10 @@
 | 023 | Golf Ball Dimples | 3D | ✅ done |
 | 024 | Bridge Expansion Joints | 3D | ✅ done |
 | 025 | The Stop Sign | 3D | ✅ done |
-| 026 | The Window Hole | 3D | 🎬 rendering |
-| 027 | Rounded Window Corners | 3D | 📝 scripted, in queue |
+| 026 | The Window Hole | 3D | ✅ done |
+| 027 | Rounded Window Corners | 3D | 🎙️ narrating 0/21 |
 | 028 | The Damper Ball | 3D | 📝 scripted, in queue |
 | 029 | Rumble Strips | 3D | 📝 scripted, in queue |
 | 030 | Elevator Brakes | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-12 00:42 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-12 00:47 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
