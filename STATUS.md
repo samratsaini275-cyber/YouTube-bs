@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 028 — 🎬 rendering
+**Now:** episode 029 — 🎙️ narrating 0/20
 
-**Finished videos:** 27 of 30 written &nbsp; `██████████████████░░`
+**Finished videos:** 28 of 30 written &nbsp; `███████████████████░`
 
-**Narrative 2: Why Is It Built Like That?** — 7 of 20 finished &nbsp; `███████░░░░░░░░░░░░░`
+**Narrative 2: Why Is It Built Like That?** — 8 of 20 finished &nbsp; `████████░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -35,8 +35,8 @@
 | 025 | The Stop Sign | 3D | ✅ done |
 | 026 | The Window Hole | 3D | ✅ done |
 | 027 | Rounded Window Corners | 3D | ✅ done |
-| 028 | The Damper Ball | 3D | 🎬 rendering |
-| 029 | Rumble Strips | 3D | 📝 scripted, in queue |
+| 028 | The Damper Ball | 3D | ✅ done |
+| 029 | Rumble Strips | 3D | 🎙️ narrating 0/20 |
 | 030 | Elevator Brakes | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-12 01:14 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-12 01:18 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
