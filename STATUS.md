@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 029 — 🎬 rendering
+**Now:** episode 030 — 🎙️ narrating 0/18
 
-**Finished videos:** 28 of 30 written &nbsp; `███████████████████░`
+**Finished videos:** 29 of 30 written &nbsp; `███████████████████░`
 
-**Narrative 2: Why Is It Built Like That?** — 8 of 20 finished &nbsp; `████████░░░░░░░░░░░░`
+**Narrative 2: Why Is It Built Like That?** — 9 of 20 finished &nbsp; `█████████░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -36,7 +36,7 @@
 | 026 | The Window Hole | 3D | ✅ done |
 | 027 | Rounded Window Corners | 3D | ✅ done |
 | 028 | The Damper Ball | 3D | ✅ done |
-| 029 | Rumble Strips | 3D | 🎬 rendering |
-| 030 | Elevator Brakes | 3D | 📝 scripted, in queue |
+| 029 | Rumble Strips | 3D | ✅ done |
+| 030 | Elevator Brakes | 3D | 🎙️ narrating 0/18 |
 
-_Updated 2026-11-12 01:29 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-12 01:34 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
