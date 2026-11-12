@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 030 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 29 of 30 written &nbsp; `███████████████████░`
+**Finished videos:** 30 of 30 written &nbsp; `████████████████████`
 
-**Narrative 2: Why Is It Built Like That?** — 9 of 20 finished &nbsp; `█████████░░░░░░░░░░░`
+**Narrative 2: Why Is It Built Like That?** — 10 of 20 finished &nbsp; `██████████░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -37,6 +37,6 @@
 | 027 | Rounded Window Corners | 3D | ✅ done |
 | 028 | The Damper Ball | 3D | ✅ done |
 | 029 | Rumble Strips | 3D | ✅ done |
-| 030 | Elevator Brakes | 3D | 🎬 rendering |
+| 030 | Elevator Brakes | 3D | ✅ done |
 
-_Updated 2026-11-12 01:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-12 01:49 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
