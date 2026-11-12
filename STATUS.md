@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 026 — 🎙️ narrating 13/19
+**Now:** episode 026 — 🎙️ narrating 14/19
 
 **Finished videos:** 25 of 30 written &nbsp; `█████████████████░░░`
 
@@ -33,7 +33,7 @@
 | 023 | Golf Ball Dimples | 3D | ✅ done |
 | 024 | Bridge Expansion Joints | 3D | ✅ done |
 | 025 | The Stop Sign | 3D | ✅ done |
-| 026 | The Window Hole | 3D | 🎙️ narrating 13/19 |
+| 026 | The Window Hole | 3D | 🎙️ narrating 14/19 |
 | 027 | Rounded Window Corners | 3D | 📝 scripted, in queue |
 | 028 | The Damper Ball | 3D | 📝 scripted, in queue |
 | 029 | Rumble Strips | 3D | 📝 scripted, in queue |
