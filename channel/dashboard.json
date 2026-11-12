@@ -2,14 +2,14 @@
  "status": [
   {
    "task": "Episode 031",
-   "step": "Backlog cleared \u00b7 researching episode 031 (Why Is It Built Like That?)",
-   "taskAt": "2026-11-12T19:25:42+00:00",
-   "updatedAt": "2026-11-12T19:25:42+00:00",
-   "activity": "Idle: no episode is building",
-   "activityKind": "idle",
+   "step": "Script written \u00b7 rendering draft frames to check camera angles",
+   "taskAt": "2026-11-12T19:27:17+00:00",
+   "updatedAt": "2026-11-12T19:27:25+00:00",
+   "activity": "Building episode 031: narrating 0/21",
+   "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 30,
-   "written": 30,
+   "written": 31,
    "posted": 30,
    "public": 27,
    "lastPostAt": "2026-11-12T19:16:00+00:00",
@@ -32,7 +32,7 @@
    "name": "Why Is It Built Like That?",
    "what": "One everyday object or machine with a design that looks odd until you see the reason.",
    "status": "current",
-   "written": 10,
+   "written": 11,
    "built": 10,
    "posted": 10,
    "total": 20
@@ -507,6 +507,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/z4TmsWvMqEw",
    "postedAt": "2026-11-12T19:16:00+00:00",
+   "narrative": "Why Is It Built Like That?"
+  },
+  {
+   "n": "031",
+   "title": "Nitrogen Tires",
+   "slug": "031-nitrogen-tires",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "building",
+   "buildDetail": "narrating 0/21",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Why Is It Built Like That?"
   }
  ]
