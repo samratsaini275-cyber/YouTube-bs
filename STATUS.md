@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 030 — 🎙️ narrating 0/18
+**Now:** episode 030 — 🎙️ narrating 1/18
 
 **Finished videos:** 29 of 30 written &nbsp; `███████████████████░`
 
@@ -37,6 +37,6 @@
 | 027 | Rounded Window Corners | 3D | ✅ done |
 | 028 | The Damper Ball | 3D | ✅ done |
 | 029 | Rumble Strips | 3D | ✅ done |
-| 030 | Elevator Brakes | 3D | 🎙️ narrating 0/18 |
+| 030 | Elevator Brakes | 3D | 🎙️ narrating 1/18 |
 
-_Updated 2026-11-12 01:34 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-12 01:35 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
