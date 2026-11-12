@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 029 — 🎙️ narrating 8/20
+**Now:** episode 029 — 🎙️ narrating 9/20
 
 **Finished videos:** 28 of 30 written &nbsp; `███████████████████░`
 
@@ -36,7 +36,7 @@
 | 026 | The Window Hole | 3D | ✅ done |
 | 027 | Rounded Window Corners | 3D | ✅ done |
 | 028 | The Damper Ball | 3D | ✅ done |
-| 029 | Rumble Strips | 3D | 🎙️ narrating 8/20 |
+| 029 | Rumble Strips | 3D | 🎙️ narrating 9/20 |
 | 030 | Elevator Brakes | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-12 01:22 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-12 01:23 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
