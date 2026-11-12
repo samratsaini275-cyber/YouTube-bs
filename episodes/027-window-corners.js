@@ -28,7 +28,7 @@ function setup(k) {
   // stress plates
   w.plate = group(PLATE);
   const skinM = mat('#C9CED6', { metal: .5, rough: .4 });
-  w.sq = group([-14, 0, 0], w.plate); w.rd = group([14, 0, 0], w.plate);
+  w.sq = group([0, 15, 0], w.plate); w.rd = group([0, -15, 0], w.plate);
   for (const [g, round] of [[w.sq, false], [w.rd, true]]) {
     box(20, 26, 1, skinM, [0, 0, -.6], g);
     if (round) { const o = cyl(4.6, 4.6, 1.2, mat('#0B0D12'), [0, 0, -.5], g, 48); o.rotation.x = Math.PI / 2; o.scale.set(.8, 1, 1.3); }
@@ -73,7 +73,7 @@ export default {
     {
       say: 'In {1954,|nineteen fifty-four,} a jet airliner broke apart in mid-air over the Mediterranean. All {35|thirty-five} people on board were killed.',
       show: ['sea', 'jet'], sky: '#9CC3E6', lightAt: [0, 0, 0], lightDist: 70,
-      cam: { pos: [50, 14, 70], look: [0, 0, 0], fov: 42, to: { pos: [30, 8, 50], look: [0, 0, 0], fov: 40 } },
+      cam: { pos: [80, 24, 110], look: [0, 0, 0], fov: 42, to: { pos: [60, 16, 90], look: [0, 0, 0], fov: 40 } },
       shake: (t) => t > 3 ? .5 : 0,
       update: (w, p, t) => { w.jet.position.set(-10 + t * 3, 0, 0); w.jet.rotation.z = t > 3 ? -.05 * (t - 3) : 0; },
     },
@@ -87,24 +87,24 @@ export default {
       say: 'Investigators pieced it back together. A crack had grown from one tiny rivet hole, at the corner of a window-shaped opening in the roof.',
       show: ['tank'], sky: '#1A2433', lightAt: [0, 0, -300], lightDist: 60,
       cam: { pos: [30, 20, -250], look: [8, 2, -300], fov: 40, to: { pos: [14, 6, -288], look: [8, 2, -296], fov: 34 } },
-      update: (w, p, t, k) => { const g = k.h.win(t, 2.5, 6); w.crack.scale.y = 1 + g * 3; w.crack.position.y = 2 - g * 3; },
+      update: (w, p, t, k) => { const g = k.h.win(t, 2.5, 6); w.crack.scale.y = .5 + g * 1.1; w.crack.position.y = 1.8; },
     },
     {
       say: 'Here is the problem with corners. Stress flows around an opening, like water around a rock. At a sharp corner, it piles up.',
       show: ['plate'], sky: '#12202F', lightAt: [300, 0, 0], lightDist: 50,
-      cam: { pos: [300, 0, 60], look: [300, 0, 0], fov: 42, to: { pos: [300, 0, 52], look: [300, 0, 0], fov: 42 } },
+      cam: { pos: [300, 15, 50], look: [300, 15, 0], fov: 42, to: { pos: [300, 15, 42], look: [300, 15, 0], fov: 42 } },
       update: (w, p, t, k) => { stream(w, t, 1); const a = k.h.win(t, 4.5, 6); w.hotSq.visible = a > 0; w.hotSq.scale.setScalar(.4 + a * .8 + .1 * Math.sin(t * 8)); w.hotRd.visible = false; },
     },
     {
       say: 'Every flight, the cabin is pumped up with air and then let down again. Each time, a crack can creep a little further.',
       show: ['tank'], sky: '#22303F', lightAt: [0, 0, -300], lightDist: 60,
       cam: { pos: [-40, 16, -240], look: [0, 0, -300], fov: 42, to: { pos: [-30, 10, -256], look: [4, 0, -300], fov: 40 } },
-      update: (w, p, t) => { const s = 1 + .02 * Math.sin(t * 5); w.tankJet.scale.set(1, s, s); w.crack.scale.y = 4 + t * .4; w.crack.position.y = -1; },
+      update: (w, p, t) => { const s = 1 + .02 * Math.sin(t * 5); w.tankJet.scale.set(1, s, s); w.crack.scale.y = Math.min(1.8, 1.2 + t * .08); w.crack.position.y = 1.8; },
     },
     {
       say: 'That is why jet windows have big, rounded corners. The stress spreads out, instead of piling up. Fun fact: it was not the passenger windows that failed on the Comet. But the lesson stuck.',
       show: ['plate'], sky: '#12301F', lightAt: [300, 0, 0], lightDist: 50,
-      cam: { pos: [314, 0, 40], look: [314, 0, 0], fov: 40, to: { pos: [306, 0, 52], look: [304, 0, 0], fov: 44 } },
+      cam: { pos: [300, -15, 44], look: [300, -15, 0], fov: 42, to: { pos: [300, 0, 84], look: [300, 0, 0], fov: 44 } },
       update: (w, p, t) => { stream(w, t, 1); w.hotSq.visible = true; w.hotSq.scale.setScalar(1.1); w.hotRd.visible = true; },
     },
     {

@@ -21,7 +21,7 @@ function setup(k) {
   for (const x of [-1.6, 1.6]) { const b = cyl(.2, 4, 40, mat('#FFF4C2', { glow: 1.2, opacity: .12 }), [x, 0, 20], w.beams, 20); b.rotation.x = Math.PI / 2; b.castShadow = false; }
   // vibration rings shown when a tyre is on the grooves
   w.buzz = group([0, 0, 0], w.car);
-  for (let i = 0; i < 3; i++) { const r = k.torus(2 + i, .12, mat('#FFD21F', { glow: 1.5 }), [2.5, 1.1, 0], w.buzz); r.castShadow = false; r.rotation.set(0, Math.PI / 2, 0); }
+  for (let i = 0; i < 3; i++) { const r = k.torus(1.1 + i * .45, .1, mat('#FFD21F', { glow: 1.5 }), [2.5, 1.1, 0], w.buzz); r.castShadow = false; r.rotation.set(0, Math.PI / 2, 0); }
   return w;
 }
 // lane: car's x position; z: along the road; drift: buzz rings when x is past the edge
@@ -58,7 +58,7 @@ export default {
     {
       say: 'Then: this. The whole car shakes, and a loud rumble fills the cabin.',
       show: ALL, sky: NIGHT, lightAt: [11, 0, 40], lightDist: 40,
-      cam: { pos: [22, 3, 40], look: [11, 1, 48], fov: 40, to: { pos: [20, 2, 44], look: [11, 1, 50], fov: 38 } },
+      cam: { pos: [30, 10, 26], look: [11, 2, 46], fov: 44, to: { pos: [30, 9, 46], look: [11, 2, 64], fov: 44 } },
       shake: (t) => t > .6 ? .35 : 0,
       update: (w, p, t) => drive(w, 9 + Math.min(t, 1) * 1.2, 40 + t * 6, t, .02),
     },
@@ -77,13 +77,13 @@ export default {
     {
       say: 'In one Swedish study, sleep-deprived drivers in a simulator perked up after hitting the strip.',
       show: ALL, sky: NIGHT, lightAt: [0, 0, 60], lightDist: 50,
-      cam: { pos: [-14, 6, 50], look: [6, 2, 64], fov: 42, to: { pos: [-10, 5, 56], look: [4, 2, 70], fov: 40 } },
+      cam: { pos: [-16, 9, 44], look: [6, 2, 60], fov: 44, to: { pos: [-16, 9, 76], look: [6, 2, 92], fov: 44 } },
       update: (w, p, t, k) => { const x = t < 2.4 ? 6 + t * 1.5 : 9.6 - (t - 2.4) * 2; drive(w, Math.max(4, x), 56 + t * 6, t, t < 2.4 ? .06 : -.08); },
     },
     {
       say: 'Across many studies, crashes dropped by {27|twenty-seven} percent on average. And cars running off the road? Down by up to {80|eighty} percent in some.',
       show: ALL, sky: '#2B3E66', lightAt: [0, 0, 120], lightDist: 60,
-      cam: { pos: [26, 30, 90], look: [0, 0, 130], fov: 46, to: { pos: [20, 24, 100], look: [0, 0, 140], fov: 44 } },
+      cam: { pos: [26, 30, 80], look: [0, 0, 120], fov: 46, to: { pos: [22, 26, 120], look: [0, 0, 160], fov: 44 } },
       update: (w, p, t) => drive(w, 5, 110 + t * 8, t),
     },
     {

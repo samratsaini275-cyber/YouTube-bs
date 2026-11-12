@@ -17,12 +17,12 @@ function setup(k) {
   box(16, 14, 14, mat('#C9A227', { metal: .5, rough: .35 }), [0, 7, 0], w.car);
   box(12, 11, .3, mat('#2A2F38'), [0, 6.5, 7.05], w.car);
   w.brakes = group([0, 14, 0], w.car);
-  w.shoeL = box(1.4, 2.4, 2.4, mat('#C46A2A', { metal: .6 }), [-8.4, 0, 0], w.brakes); w.shoeR = box(1.4, 2.4, 2.4, mat('#C46A2A', { metal: .6 }), [8.4, 0, 0], w.brakes);
+  w.shoeL = box(2, 3, 3, mat('#FF7A2E', { metal: .4, glow: .4 }), [-8.4, 0, 0], w.brakes); w.shoeR = box(2, 3, 3, mat('#FF7A2E', { metal: .4, glow: .4 }), [8.4, 0, 0], w.brakes);
   // cables: several, each strong enough alone
   w.cables = group([0, 0, 0], w.car);
   for (let i = 0; i < 6; i++) cyl(.18, .18, 60, mat('#D7DBE2', { metal: .8 }), [-2.5 + i, 44, 0], w.cables, 8);
   // governor wheel at the top
-  w.gov = group([6, SHAFT_H - 4, -6]);
+  w.gov = group([0, SHAFT_H - 4, 4]);
   w.govWheel = cyl(3, 3, .8, mat('#7A8292', { metal: .6 }), [0, 0, 0], w.gov, 24); w.govWheel.rotation.x = Math.PI / 2;
   w.sparkL = ball(.6, mat('#FFB020', { glow: 3 }), [-9, 0, 1.4], w.brakes); w.sparkR = ball(.6, mat('#FFB020', { glow: 3 }), [9, 0, 1.4], w.brakes);
   // 1850s demo platform
@@ -63,7 +63,7 @@ export default {
     {
       say: 'You step into an elevator. Forty floors up. Then you wonder: what if the cable snaps?',
       show: ALL, sky: '#11151C', lightAt: [0, 70, 0], lightDist: 50,
-      cam: { pos: [10, 66, 40], look: [0, 67, 0], fov: 44, to: { pos: [4, 68, 26], look: [0, 67, 0], fov: 40 } },
+      cam: { pos: [6, 72, 56], look: [0, 67, 0], fov: 44, to: { pos: [3, 70, 40], look: [0, 67, 0], fov: 42 } },
       update: (w, p, t) => car(w, 60 + t * .6),
     },
     {
@@ -74,14 +74,14 @@ export default {
     },
     {
       say: 'And if the car ever drops faster than it should, a device called a governor trips.',
-      show: ALL, sky: '#0F131A', lightAt: [6, 116, -6], lightDist: 30,
-      cam: { pos: [16, 112, 14], look: [6, 116, -6], fov: 40, to: { pos: [12, 114, 8], look: [6, 116, -6], fov: 36 } },
+      show: ALL, sky: '#0F131A', lightAt: [0, 110, 0], lightDist: 30,
+      cam: { pos: [6, 104, 40], look: [0, 112, 2], fov: 42, to: { pos: [3, 108, 28], look: [0, 114, 3], fov: 38 } },
       update: (w, p, t, k) => { car(w, 64 - k.h.win(t, .5, 3) * 10, { snapped: t > .5 }); w.govWheel.rotation.y = t * (2 + t * 4); },
     },
     {
       say: 'Brake shoes clamp onto the rails, and stop the car. Quickly, but not hard enough to hurt you.',
-      show: ALL, sky: '#1D1410', lightAt: [0, 50, 0], lightDist: 40,
-      cam: { pos: [22, 54, 18], look: [0, 50, 0], fov: 42, to: { pos: [16, 52, 14], look: [0, 49, 0], fov: 40 } },
+      show: ALL, sky: '#1D1410', lightAt: [0, 58, 0], lightDist: 40,
+      cam: { pos: [6, 66, 36], look: [0, 58, 0], fov: 42, to: { pos: [4, 63, 26], look: [0, 58, 0], fov: 40 } },
       shake: (t) => t > .8 && t < 2 ? .4 : 0,
       update: (w, p, t, k) => { const fall = Math.min(t, 1.2); car(w, 50 - fall * 6 + fall * fall * 2, { snapped: true, clamp: k.h.win(t, .6, 1), sparks: t > .6 && t < 2 }); },
     },
