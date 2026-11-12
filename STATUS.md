@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 028 — 🎙️ narrating 8/19
+**Now:** episode 028 — 🎙️ narrating 9/19
 
 **Finished videos:** 27 of 30 written &nbsp; `██████████████████░░`
 
@@ -35,7 +35,7 @@
 | 025 | The Stop Sign | 3D | ✅ done |
 | 026 | The Window Hole | 3D | ✅ done |
 | 027 | Rounded Window Corners | 3D | ✅ done |
-| 028 | The Damper Ball | 3D | 🎙️ narrating 8/19 |
+| 028 | The Damper Ball | 3D | 🎙️ narrating 9/19 |
 | 029 | Rumble Strips | 3D | 📝 scripted, in queue |
 | 030 | Elevator Brakes | 3D | 📝 scripted, in queue |
 
