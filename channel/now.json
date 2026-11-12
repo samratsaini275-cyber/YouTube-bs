@@ -1,5 +1,5 @@
 {
- "task": "Production paused after episode 030",
- "step": "Waiting for YouTube to accept the backlog (daily upload task, 19:13 UTC)",
- "at": "2026-11-12T04:27:37+00:00"
+ "task": "Backlog uploaded",
+ "step": "All 30 episodes on YouTube \u00b7 10 duplicate uploads (009\u2013018) need removing \u00b7 production resumes with 031",
+ "at": "2026-11-12T19:18:14+00:00"
 }
