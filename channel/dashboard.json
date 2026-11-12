@@ -4,16 +4,16 @@
    "task": "Episode 031 rendered",
    "step": "Waiting for review",
    "taskAt": "2026-11-12T19:50:04+00:00",
-   "updatedAt": "2026-11-12T19:50:22+00:00",
+   "updatedAt": "2026-11-12T19:51:04+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 31,
+   "built": 30,
    "written": 31,
    "posted": 30,
    "public": 27,
    "lastPostAt": "2026-11-12T19:16:00+00:00",
-   "nextToPost": "031 Nitrogen Tires"
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -33,7 +33,7 @@
    "what": "One everyday object or machine with a design that looks odd until you see the reason.",
    "status": "current",
    "written": 11,
-   "built": 11,
+   "built": 10,
    "posted": 10,
    "total": 20
   },
@@ -516,9 +516,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": 54.3,
-   "build": "done",
-   "buildDetail": "done",
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "narration ready, waiting to render",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",

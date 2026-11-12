@@ -2,9 +2,9 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 31 of 31 written &nbsp; `████████████████████`
+**Finished videos:** 30 of 31 written &nbsp; `███████████████████░`
 
-**Narrative 2: Why Is It Built Like That?** — 11 of 20 finished &nbsp; `███████████░░░░░░░░░`
+**Narrative 2: Why Is It Built Like That?** — 10 of 20 finished &nbsp; `██████████░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -38,6 +38,6 @@
 | 028 | The Damper Ball | 3D | ✅ done |
 | 029 | Rumble Strips | 3D | ✅ done |
 | 030 | Elevator Brakes | 3D | ✅ done |
-| 031 | Nitrogen Tires | 3D | ✅ done |
+| 031 | Nitrogen Tires | 3D | ⏳ narration ready, waiting to render |
 
-_Updated 2026-11-12 19:50 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-12 19:51 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
