@@ -4,16 +4,16 @@
    "task": "Episode 032 (ant bridge)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T19:23:04+00:00",
-   "updatedAt": "2026-11-16T19:39:26+00:00",
-   "activity": "Building episode 032: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T19:46:30+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 31,
+   "built": 32,
    "written": 33,
    "posted": 31,
    "public": 28,
    "lastPostAt": "2026-11-16T19:19:03+00:00",
-   "nextToPost": ""
+   "nextToPost": "032 The Ant Bridge"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 2,
-   "built": 0,
+   "built": 1,
    "posted": 0,
    "total": 20
   },
@@ -531,9 +531,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 45.7,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
