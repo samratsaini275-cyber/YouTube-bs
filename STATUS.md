@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 045 — 🎙️ narrating 13/15
+**Now:** episode 045 — 🎙️ narrating 14/15
 
 **Finished videos:** 44 of 45 written &nbsp; `████████████████████`
 
@@ -52,6 +52,6 @@
 | 042 | The Unflippable Umbrella | 3D | ✅ done |
 | 043 | The Silent Alarm | 3D | ✅ done |
 | 044 | The Safest Chair | 3D | ✅ done |
-| 045 | The Snail Speed Camera | 3D | 🎙️ narrating 13/15 |
+| 045 | The Snail Speed Camera | 3D | 🎙️ narrating 14/15 |
 
-_Updated 2026-11-16 22:48 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 22:49 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
