@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 041 — 🎙️ narrating 16/17
+**Now:** episode 041 — 🎬 rendering
 
 **Finished videos:** 40 of 41 written &nbsp; `████████████████████`
 
@@ -48,6 +48,6 @@
 | 038 | The Judging Fridge | 3D | ✅ done |
 | 039 | The One-Step Escalator | 3D | ✅ done |
 | 040 | The Waterproof Teabag | 3D | ✅ done |
-| 041 | The Gps Sock | 3D | 🎙️ narrating 16/17 |
+| 041 | The Gps Sock | 3D | 🎬 rendering |
 
 _Updated 2026-11-16 21:55 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
