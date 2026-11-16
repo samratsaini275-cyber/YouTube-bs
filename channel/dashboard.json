@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 038 (judging fridge)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T21:07:50+00:00",
-   "updatedAt": "2026-11-16T21:20:19+00:00",
+   "task": "Posting 038",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T21:20:35+00:00",
+   "updatedAt": "2026-11-16T21:20:41+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 38,
    "written": 38,
-   "posted": 37,
-   "public": 34,
-   "lastPostAt": "2026-11-16T21:06:07+00:00",
-   "nextToPost": "038 The Judging Fridge"
+   "posted": 38,
+   "public": 35,
+   "lastPostAt": "2026-11-16T21:20:37+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 7,
    "built": 7,
-   "posted": 6,
+   "posted": 7,
    "total": 20
   },
   {
@@ -624,9 +624,9 @@
    "seconds": 29.0,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/Y7C0YFxhWuE",
+   "postedAt": "2026-11-16T21:20:37+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
