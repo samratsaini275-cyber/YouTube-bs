@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 039 (one-step escalator)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T21:23:23+00:00",
-   "updatedAt": "2026-11-16T21:33:59+00:00",
+   "task": "Posting 039",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T21:34:12+00:00",
+   "updatedAt": "2026-11-16T21:34:21+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 39,
    "written": 39,
-   "posted": 38,
-   "public": 35,
-   "lastPostAt": "2026-11-16T21:20:37+00:00",
-   "nextToPost": "039 The One-Step Escalator"
+   "posted": 39,
+   "public": 36,
+   "lastPostAt": "2026-11-16T21:34:14+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 8,
    "built": 8,
-   "posted": 7,
+   "posted": 8,
    "total": 20
   },
   {
@@ -639,9 +639,9 @@
    "seconds": 28.1,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/ub11nuxdkV8",
+   "postedAt": "2026-11-16T21:34:14+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
