@@ -59,7 +59,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'Engineers built a drawbridge. In a bathtub.',
+      say: 'Engineers built a bridge that opens. In a bathtub.',
       show: ALL, sky: '#F4FAFC', lightAt: [0, 5, 0], lightDist: 30,
       cam: { pos: [-4, 20, 34], look: [-8, 5, 0], fov: 48, to: { pos: [-5, 16, 27], look: [-8, 5.5, 0], fov: 46 } },
       update: (w, p, t) => { open(w, 0); float(w, -12, t); },
