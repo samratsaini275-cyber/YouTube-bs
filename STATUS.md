@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 044 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 43 of 44 written &nbsp; `████████████████████`
+**Finished videos:** 44 of 44 written &nbsp; `████████████████████`
 
-**Narrative 3: Engineering Nonsense** — 12 of 20 finished &nbsp; `████████████░░░░░░░░`
+**Narrative 3: Engineering Nonsense** — 13 of 20 finished &nbsp; `█████████████░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -51,6 +51,6 @@
 | 041 | The Gps Sock | 3D | ✅ done |
 | 042 | The Unflippable Umbrella | 3D | ✅ done |
 | 043 | The Silent Alarm | 3D | ✅ done |
-| 044 | The Safest Chair | 3D | 🎬 rendering |
+| 044 | The Safest Chair | 3D | ✅ done |
 
-_Updated 2026-11-16 22:35 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 22:39 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
