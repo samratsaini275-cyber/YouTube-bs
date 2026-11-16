@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 040 (waterproof teabag)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T21:36:22+00:00",
-   "updatedAt": "2026-11-16T21:45:52+00:00",
+   "task": "Posting 040",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T21:46:17+00:00",
+   "updatedAt": "2026-11-16T21:46:34+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 40,
    "written": 40,
-   "posted": 39,
-   "public": 36,
-   "lastPostAt": "2026-11-16T21:34:14+00:00",
-   "nextToPost": "040 The Waterproof Teabag"
+   "posted": 40,
+   "public": 37,
+   "lastPostAt": "2026-11-16T21:46:22+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 9,
    "built": 9,
-   "posted": 8,
+   "posted": 9,
    "total": 20
   },
   {
@@ -654,9 +654,9 @@
    "seconds": 24.6,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/wb1kvfwH7mA",
+   "postedAt": "2026-11-16T21:46:22+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
