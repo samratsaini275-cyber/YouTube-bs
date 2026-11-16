@@ -4,16 +4,16 @@
    "task": "Episode 046 (fishbowl lighthouse)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T22:58:16+00:00",
-   "updatedAt": "2026-11-16T23:04:29+00:00",
-   "activity": "Building episode 046: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T23:10:32+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 45,
+   "built": 46,
    "written": 46,
    "posted": 45,
    "public": 42,
    "lastPostAt": "2026-11-16T22:58:02+00:00",
-   "nextToPost": ""
+   "nextToPost": "046 The Fishbowl Lighthouse"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 15,
-   "built": 14,
+   "built": 15,
    "posted": 14,
    "total": 20
   },
@@ -741,9 +741,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 24.8,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
