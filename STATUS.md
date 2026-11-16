@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 040 — 🎙️ narrating 9/12
+**Now:** episode 040 — 🎙️ narrating 10/12
 
 **Finished videos:** 39 of 40 written &nbsp; `████████████████████`
 
@@ -47,6 +47,6 @@
 | 037 | The Hallway Gps | 3D | ✅ done |
 | 038 | The Judging Fridge | 3D | ✅ done |
 | 039 | The One-Step Escalator | 3D | ✅ done |
-| 040 | The Waterproof Teabag | 3D | 🎙️ narrating 9/12 |
+| 040 | The Waterproof Teabag | 3D | 🎙️ narrating 10/12 |
 
-_Updated 2026-11-16 21:40 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 21:41 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
