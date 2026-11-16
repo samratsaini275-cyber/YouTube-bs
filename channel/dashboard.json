@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 047 (self-tying shoes)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T23:12:33+00:00",
-   "updatedAt": "2026-11-16T23:20:47+00:00",
+   "task": "Posting 047",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T23:21:21+00:00",
+   "updatedAt": "2026-11-16T23:21:29+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 47,
    "written": 47,
-   "posted": 46,
-   "public": 43,
-   "lastPostAt": "2026-11-16T23:10:59+00:00",
-   "nextToPost": "047 The Self-Tying Shoes"
+   "posted": 47,
+   "public": 44,
+   "lastPostAt": "2026-11-16T23:21:22+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 16,
    "built": 16,
-   "posted": 15,
+   "posted": 16,
    "total": 20
   },
   {
@@ -759,9 +759,9 @@
    "seconds": 23.0,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/ysfre3vBjTM",
+   "postedAt": "2026-11-16T23:21:22+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
