@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 036 — 🎙️ narrating 2/19
+**Now:** episode 036 — 🎙️ narrating 3/19
 
 **Finished videos:** 35 of 36 written &nbsp; `███████████████████░`
 
@@ -43,6 +43,6 @@
 | 033 | The Toaster Briefing | 3D | ✅ done |
 | 034 | The Door Manual | 3D | ✅ done |
 | 035 | The Cookie Vault | 3D | ✅ done |
-| 036 | The Rocket Mower | 3D | 🎙️ narrating 2/19 |
+| 036 | The Rocket Mower | 3D | 🎙️ narrating 3/19 |
 
 _Updated 2026-11-16 20:36 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
