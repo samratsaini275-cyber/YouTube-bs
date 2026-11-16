@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 043 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 42 of 43 written &nbsp; `████████████████████`
+**Finished videos:** 43 of 43 written &nbsp; `████████████████████`
 
-**Narrative 3: Engineering Nonsense** — 11 of 20 finished &nbsp; `███████████░░░░░░░░░`
+**Narrative 3: Engineering Nonsense** — 12 of 20 finished &nbsp; `████████████░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -50,6 +50,6 @@
 | 040 | The Waterproof Teabag | 3D | ✅ done |
 | 041 | The Gps Sock | 3D | ✅ done |
 | 042 | The Unflippable Umbrella | 3D | ✅ done |
-| 043 | The Silent Alarm | 3D | 🎬 rendering |
+| 043 | The Silent Alarm | 3D | ✅ done |
 
-_Updated 2026-11-16 22:24 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 22:27 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._

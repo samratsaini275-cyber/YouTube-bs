@@ -4,16 +4,16 @@
    "task": "Episode 043 (silent alarm)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T22:17:53+00:00",
-   "updatedAt": "2026-11-16T22:24:02+00:00",
-   "activity": "Building episode 043: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T22:27:24+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 42,
+   "built": 43,
    "written": 43,
    "posted": 42,
    "public": 39,
    "lastPostAt": "2026-11-16T22:17:42+00:00",
-   "nextToPost": ""
+   "nextToPost": "043 The Silent Alarm"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 12,
-   "built": 11,
+   "built": 12,
    "posted": 11,
    "total": 20
   },
@@ -696,9 +696,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 23.6,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
