@@ -4,16 +4,16 @@
    "task": "Episode 034 (door manual)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T20:05:00+00:00",
-   "updatedAt": "2026-11-16T20:12:28+00:00",
-   "activity": "Building episode 034: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T20:17:11+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 33,
+   "built": 34,
    "written": 34,
    "posted": 33,
    "public": 30,
    "lastPostAt": "2026-11-16T20:02:46+00:00",
-   "nextToPost": ""
+   "nextToPost": "034 The Door Manual"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 3,
-   "built": 2,
+   "built": 3,
    "posted": 2,
    "total": 20
   },
@@ -561,9 +561,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 26.5,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
