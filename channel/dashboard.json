@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 032 (ant bridge)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T19:23:04+00:00",
-   "updatedAt": "2026-11-16T19:46:30+00:00",
+   "task": "Posting 032",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T19:47:09+00:00",
+   "updatedAt": "2026-11-16T19:47:12+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 32,
    "written": 33,
-   "posted": 31,
-   "public": 28,
-   "lastPostAt": "2026-11-16T19:19:03+00:00",
-   "nextToPost": "032 The Ant Bridge"
+   "posted": 32,
+   "public": 29,
+   "lastPostAt": "2026-11-16T19:47:11+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 2,
    "built": 1,
-   "posted": 0,
+   "posted": 1,
    "total": 20
   },
   {
@@ -534,9 +534,9 @@
    "seconds": 45.7,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/JYfIU7lNQV8",
+   "postedAt": "2026-11-16T19:47:11+00:00",
    "narrative": "Engineering Nonsense"
   },
   {
