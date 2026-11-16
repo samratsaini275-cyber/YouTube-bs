@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 035 — 🎙️ narrating 10/18
+**Now:** episode 035 — 🎙️ narrating 11/18
 
 **Finished videos:** 34 of 35 written &nbsp; `███████████████████░`
 
@@ -42,6 +42,6 @@
 | 032 | The Ant Bridge | 3D | ✅ done |
 | 033 | The Toaster Briefing | 3D | ✅ done |
 | 034 | The Door Manual | 3D | ✅ done |
-| 035 | The Cookie Vault | 3D | 🎙️ narrating 10/18 |
+| 035 | The Cookie Vault | 3D | 🎙️ narrating 11/18 |
 
 _Updated 2026-11-16 20:24 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
