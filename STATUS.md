@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 034 — 🎙️ narrating 0/13
 
 **Finished videos:** 33 of 34 written &nbsp; `███████████████████░`
 
@@ -41,6 +41,6 @@
 | 031 | Nitrogen Tires | 3D | ✅ done |
 | 032 | The Ant Bridge | 3D | ✅ done |
 | 033 | The Toaster Briefing | 3D | ✅ done |
-| 034 | The Door Manual | 3D | 📝 scripted, in queue |
+| 034 | The Door Manual | 3D | 🎙️ narrating 0/13 |
 
-_Updated 2026-11-16 20:03 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 20:05 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
