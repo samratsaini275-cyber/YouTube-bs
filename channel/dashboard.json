@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 034 (door manual)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T20:05:00+00:00",
-   "updatedAt": "2026-11-16T20:17:11+00:00",
+   "task": "Posting 034",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T20:17:21+00:00",
+   "updatedAt": "2026-11-16T20:17:33+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 34,
    "written": 34,
-   "posted": 33,
-   "public": 30,
-   "lastPostAt": "2026-11-16T20:02:46+00:00",
-   "nextToPost": "034 The Door Manual"
+   "posted": 34,
+   "public": 31,
+   "lastPostAt": "2026-11-16T20:17:22+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 3,
    "built": 3,
-   "posted": 2,
+   "posted": 3,
    "total": 20
   },
   {
@@ -564,9 +564,9 @@
    "seconds": 26.5,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/EmP8AElKelo",
+   "postedAt": "2026-11-16T20:17:22+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
