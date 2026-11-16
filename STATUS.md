@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 047 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 46 of 47 written &nbsp; `████████████████████`
+**Finished videos:** 47 of 47 written &nbsp; `████████████████████`
 
-**Narrative 3: Engineering Nonsense** — 15 of 20 finished &nbsp; `███████████████░░░░░`
+**Narrative 3: Engineering Nonsense** — 16 of 20 finished &nbsp; `████████████████░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -54,6 +54,6 @@
 | 044 | The Safest Chair | 3D | ✅ done |
 | 045 | The Snail Speed Camera | 3D | ✅ done |
 | 046 | The Fishbowl Lighthouse | 3D | ✅ done |
-| 047 | The Self-Tying Shoes | 3D | 🎬 rendering |
+| 047 | The Self-Tying Shoes | 3D | ✅ done |
 
-_Updated 2026-11-16 23:18 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 23:20 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
