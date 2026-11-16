@@ -50,6 +50,6 @@
 | 040 | The Waterproof Teabag | 3D | ✅ done |
 | 041 | The Gps Sock | 3D | ✅ done |
 | 042 | The Unflippable Umbrella | 3D | 🎙️ narrating 14/15 |
-| 043 | The Silent Alarm | 3D | 🎙️ narrating 0/? |
+| 043 | The Silent Alarm | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-16 22:13 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
