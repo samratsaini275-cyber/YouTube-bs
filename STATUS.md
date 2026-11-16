@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 043 — 🎙️ narrating 3/12
+**Now:** episode 043 — 🎙️ narrating 4/12
 
 **Finished videos:** 42 of 43 written &nbsp; `████████████████████`
 
@@ -50,6 +50,6 @@
 | 040 | The Waterproof Teabag | 3D | ✅ done |
 | 041 | The Gps Sock | 3D | ✅ done |
 | 042 | The Unflippable Umbrella | 3D | ✅ done |
-| 043 | The Silent Alarm | 3D | 🎙️ narrating 3/12 |
+| 043 | The Silent Alarm | 3D | 🎙️ narrating 4/12 |
 
-_Updated 2026-11-16 22:19 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 22:20 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
