@@ -4,16 +4,16 @@
    "task": "Episode 048 (bathtub drawbridge)",
    "step": "Re-narrating the first line (restarted)",
    "taskAt": "2026-11-16T23:37:10+00:00",
-   "updatedAt": "2026-11-16T23:37:14+00:00",
-   "activity": "Building episode 048: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T23:41:18+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 47,
+   "built": 48,
    "written": 49,
    "posted": 47,
    "public": 44,
    "lastPostAt": "2026-11-16T23:21:22+00:00",
-   "nextToPost": ""
+   "nextToPost": "048 The Bathtub Drawbridge"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 18,
-   "built": 16,
+   "built": 17,
    "posted": 16,
    "total": 20
   },
@@ -771,9 +771,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": 26.4,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 26.6,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
