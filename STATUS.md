@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 046 — 🎙️ narrating 4/12
+**Now:** episode 046 — 🎙️ narrating 5/12
 
 **Finished videos:** 45 of 46 written &nbsp; `████████████████████`
 
@@ -53,6 +53,6 @@
 | 043 | The Silent Alarm | 3D | ✅ done |
 | 044 | The Safest Chair | 3D | ✅ done |
 | 045 | The Snail Speed Camera | 3D | ✅ done |
-| 046 | The Fishbowl Lighthouse | 3D | 🎙️ narrating 4/12 |
+| 046 | The Fishbowl Lighthouse | 3D | 🎙️ narrating 5/12 |
 
 _Updated 2026-11-16 23:00 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
