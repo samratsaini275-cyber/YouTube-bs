@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 048 — 🎙️ narrating 6/14
+**Now:** episode 048 — 🎙️ narrating 7/14
 
 **Finished videos:** 47 of 48 written &nbsp; `████████████████████`
 
@@ -55,6 +55,6 @@
 | 045 | The Snail Speed Camera | 3D | ✅ done |
 | 046 | The Fishbowl Lighthouse | 3D | ✅ done |
 | 047 | The Self-Tying Shoes | 3D | ✅ done |
-| 048 | The Bathtub Drawbridge | 3D | 🎙️ narrating 6/14 |
+| 048 | The Bathtub Drawbridge | 3D | 🎙️ narrating 7/14 |
 
 _Updated 2026-11-16 23:26 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
