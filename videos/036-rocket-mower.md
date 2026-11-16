@@ -1,6 +1,6 @@
 # Engineers built a rocket lawnmower to cut one blade of grass
 
-**File:** `036-rocket-mower.mp4` · 1080x1920 · 34.3 s
+**File:** `036-rocket-mower.mp4` · 1080x1920 · 34.4 s
 
 ## Description
 
@@ -27,7 +27,7 @@ Answer (for a pinned comment or reply, not shown in the video): Kevin is made up
 
 This lawnmower has a rocket engine. Its job: cut one blade of grass.
 
-Engineers checked the wind. Measured the angle. And started the countdown.
+Engineers checked the wind. They checked the angle. Then they began the countdown.
 
 Three. Two. One.
 
