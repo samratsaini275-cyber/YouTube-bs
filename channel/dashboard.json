@@ -4,16 +4,16 @@
    "task": "Episode 036 (rocket mower)",
    "step": "Re-narrating one line",
    "taskAt": "2026-11-16T20:47:26+00:00",
-   "updatedAt": "2026-11-16T20:48:56+00:00",
-   "activity": "Building episode 036: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T20:51:59+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 35,
+   "built": 36,
    "written": 37,
    "posted": 35,
    "public": 32,
    "lastPostAt": "2026-11-16T20:33:27+00:00",
-   "nextToPost": ""
+   "nextToPost": "036 The Rocket Mower"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 6,
-   "built": 4,
+   "built": 5,
    "posted": 4,
    "total": 20
   },
@@ -591,9 +591,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": 34.3,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 34.4,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
