@@ -2,7 +2,7 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 41 of 41 written &nbsp; `████████████████████`
+**Finished videos:** 41 of 42 written &nbsp; `████████████████████`
 
 **Narrative 3: Engineering Nonsense** — 10 of 20 finished &nbsp; `██████████░░░░░░░░░░`
 
@@ -49,5 +49,6 @@
 | 039 | The One-Step Escalator | 3D | ✅ done |
 | 040 | The Waterproof Teabag | 3D | ✅ done |
 | 041 | The Gps Sock | 3D | ✅ done |
+| 042 | The Unflippable Umbrella | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-16 21:59 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 22:01 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._

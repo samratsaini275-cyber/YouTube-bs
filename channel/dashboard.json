@@ -1,15 +1,15 @@
 {
  "status": [
   {
-   "task": "Posting 041",
-   "step": "Uploading to YouTube",
-   "taskAt": "2026-11-16T22:00:19+00:00",
-   "updatedAt": "2026-11-16T22:00:44+00:00",
+   "task": "Episode 042 (unflippable umbrella)",
+   "step": "Draft render",
+   "taskAt": "2026-11-16T22:01:16+00:00",
+   "updatedAt": "2026-11-16T22:01:26+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 41,
-   "written": 41,
+   "written": 42,
    "posted": 41,
    "public": 38,
    "lastPostAt": "2026-11-16T22:00:22+00:00",
@@ -42,7 +42,7 @@
    "name": "Engineering Nonsense",
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
-   "written": 10,
+   "written": 11,
    "built": 10,
    "posted": 10,
    "total": 20
@@ -672,6 +672,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/z_gTK-CnESs",
    "postedAt": "2026-11-16T22:00:22+00:00",
+   "narrative": "Engineering Nonsense"
+  },
+  {
+   "n": "042",
+   "title": "The Unflippable Umbrella",
+   "slug": "042-unflippable-umbrella",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "scripted, in queue",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Engineering Nonsense"
   }
  ]
