@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 032 — 🎙️ narrating 6/24
+**Now:** episode 032 — 🎙️ narrating 7/24
 
 **Finished videos:** 31 of 33 written &nbsp; `███████████████████░`
 
@@ -39,7 +39,7 @@
 | 029 | Rumble Strips | 3D | ✅ done |
 | 030 | Elevator Brakes | 3D | ✅ done |
 | 031 | Nitrogen Tires | 3D | ✅ done |
-| 032 | The Ant Bridge | 3D | 🎙️ narrating 6/24 |
+| 032 | The Ant Bridge | 3D | 🎙️ narrating 7/24 |
 | 033 | The Toaster Briefing | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-16 19:30 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
