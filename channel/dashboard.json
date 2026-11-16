@@ -4,16 +4,16 @@
    "task": "Episode 049 (polite microwave)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T23:41:51+00:00",
-   "updatedAt": "2026-11-16T23:52:27+00:00",
-   "activity": "Building episode 049: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T23:55:52+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 48,
+   "built": 49,
    "written": 50,
    "posted": 48,
    "public": 45,
    "lastPostAt": "2026-11-16T23:41:41+00:00",
-   "nextToPost": ""
+   "nextToPost": "049 The Polite Microwave"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 19,
-   "built": 17,
+   "built": 18,
    "posted": 17,
    "total": 20
   },
@@ -786,9 +786,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 26.1,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
