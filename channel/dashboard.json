@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 035 (cookie vault)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T20:18:40+00:00",
-   "updatedAt": "2026-11-16T20:33:00+00:00",
+   "task": "Posting 035",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T20:33:25+00:00",
+   "updatedAt": "2026-11-16T20:33:42+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 35,
    "written": 35,
-   "posted": 34,
-   "public": 31,
-   "lastPostAt": "2026-11-16T20:17:22+00:00",
-   "nextToPost": "035 The Cookie Vault"
+   "posted": 35,
+   "public": 32,
+   "lastPostAt": "2026-11-16T20:33:27+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 4,
    "built": 4,
-   "posted": 3,
+   "posted": 4,
    "total": 20
   },
   {
@@ -579,9 +579,9 @@
    "seconds": 34.7,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/BHq9sETrpIQ",
+   "postedAt": "2026-11-16T20:33:27+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
