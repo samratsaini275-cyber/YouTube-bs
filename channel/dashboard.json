@@ -4,12 +4,12 @@
    "task": "Posting 046",
    "step": "Uploading to YouTube",
    "taskAt": "2026-11-16T23:10:57+00:00",
-   "updatedAt": "2026-11-16T23:11:14+00:00",
+   "updatedAt": "2026-11-16T23:11:36+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 46,
-   "written": 46,
+   "written": 47,
    "posted": 46,
    "public": 43,
    "lastPostAt": "2026-11-16T23:10:59+00:00",
@@ -42,7 +42,7 @@
    "name": "Engineering Nonsense",
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
-   "written": 15,
+   "written": 16,
    "built": 15,
    "posted": 15,
    "total": 20
@@ -747,6 +747,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/fE6a3JIehuc",
    "postedAt": "2026-11-16T23:10:59+00:00",
+   "narrative": "Engineering Nonsense"
+  },
+  {
+   "n": "047",
+   "title": "The Self-Tying Shoes",
+   "slug": "047-self-tying-shoes",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "scripted, in queue",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Engineering Nonsense"
   }
  ]
