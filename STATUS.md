@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 044 — 🎙️ narrating 13/15
+**Now:** episode 044 — 🎙️ narrating 14/15
 
 **Finished videos:** 43 of 44 written &nbsp; `████████████████████`
 
@@ -51,6 +51,6 @@
 | 041 | The Gps Sock | 3D | ✅ done |
 | 042 | The Unflippable Umbrella | 3D | ✅ done |
 | 043 | The Silent Alarm | 3D | ✅ done |
-| 044 | The Safest Chair | 3D | 🎙️ narrating 13/15 |
+| 044 | The Safest Chair | 3D | 🎙️ narrating 14/15 |
 
 _Updated 2026-11-16 22:35 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
