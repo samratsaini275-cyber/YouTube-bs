@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 049 — 🎙️ narrating 5/13
+**Now:** episode 049 — 🎙️ narrating 6/13
 
 **Finished videos:** 48 of 50 written &nbsp; `███████████████████░`
 
@@ -56,7 +56,7 @@
 | 046 | The Fishbowl Lighthouse | 3D | ✅ done |
 | 047 | The Self-Tying Shoes | 3D | ✅ done |
 | 048 | The Bathtub Drawbridge | 3D | ✅ done |
-| 049 | The Polite Microwave | 3D | 🎙️ narrating 5/13 |
+| 049 | The Polite Microwave | 3D | 🎙️ narrating 6/13 |
 | 050 | The Top-Shelf Ladder | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-16 23:48 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
