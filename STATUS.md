@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 047 — 🎙️ narrating 10/12
+**Now:** episode 047 — 🎙️ narrating 11/12
 
 **Finished videos:** 46 of 47 written &nbsp; `████████████████████`
 
@@ -54,6 +54,6 @@
 | 044 | The Safest Chair | 3D | ✅ done |
 | 045 | The Snail Speed Camera | 3D | ✅ done |
 | 046 | The Fishbowl Lighthouse | 3D | ✅ done |
-| 047 | The Self-Tying Shoes | 3D | 🎙️ narrating 10/12 |
+| 047 | The Self-Tying Shoes | 3D | 🎙️ narrating 11/12 |
 
-_Updated 2026-11-16 23:17 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 23:18 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
