@@ -4,16 +4,16 @@
    "task": "Posting 044",
    "step": "Uploading to YouTube",
    "taskAt": "2026-11-16T22:39:49+00:00",
-   "updatedAt": "2026-11-16T22:39:50+00:00",
+   "updatedAt": "2026-11-16T22:40:12+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 44,
    "written": 44,
-   "posted": 43,
-   "public": 40,
-   "lastPostAt": "2026-11-16T22:27:47+00:00",
-   "nextToPost": "044 The Safest Chair"
+   "posted": 44,
+   "public": 41,
+   "lastPostAt": "2026-11-16T22:39:51+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 13,
    "built": 13,
-   "posted": 12,
+   "posted": 13,
    "total": 20
   },
   {
@@ -714,9 +714,9 @@
    "seconds": 27.5,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/lq0618UCG1s",
+   "postedAt": "2026-11-16T22:39:51+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
