@@ -75,8 +75,8 @@ export default {
       update: (w, p, t) => { w.guy.position.set(0, 58 + .6 * Math.sin(t), 0); w.guy.rotation.z = .1 * Math.sin(t * .8); w.mouth.scale.setScalar(1); w.umb.rotation.z = 0; w.clouds.position.x = -t * 2; },
     },
     {
-      say: 'Quick question. What should come with the next model? Option A, a parachute. Option B, a seatbelt. Or option C, a pilot\'s licence. Comment your answer.',
-      quiz: { q: 'What should come with the next model?', options: ['A parachute', 'A seatbelt', "A pilot's licence"], answer: 'It is a made-up umbrella, so pick any. (A seems wise.)' },
+      say: 'Quick question. What should come with the next model? Option A, a parachute. Option B, a safety belt. Or option C, flying lessons. Comment your answer.',
+      quiz: { q: 'What should come with the next model?', options: ['A parachute', 'A safety belt', 'Flying lessons'], answer: 'It is a made-up umbrella, so pick any. (A seems wise.)' },
       show: ['guy', 'clouds'], sky: '#274B73', lightAt: [0, 60, 0], lightDist: 40,
       cam: { pos: [16, 52, 26], look: [0, 70, 0], fov: 46, to: { pos: [-16, 52, 26], look: [0, 70, 0] } },
       update: (w, p, t) => { w.guy.position.set(0, 58 + .6 * Math.sin(t), 0); w.umb.rotation.z = 0; },
