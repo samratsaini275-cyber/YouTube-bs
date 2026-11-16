@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 039 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 38 of 39 written &nbsp; `███████████████████░`
+**Finished videos:** 39 of 39 written &nbsp; `████████████████████`
 
-**Narrative 3: Engineering Nonsense** — 7 of 20 finished &nbsp; `███████░░░░░░░░░░░░░`
+**Narrative 3: Engineering Nonsense** — 8 of 20 finished &nbsp; `████████░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -46,6 +46,6 @@
 | 036 | The Rocket Mower | 3D | ✅ done |
 | 037 | The Hallway Gps | 3D | ✅ done |
 | 038 | The Judging Fridge | 3D | ✅ done |
-| 039 | The One-Step Escalator | 3D | 🎬 rendering |
+| 039 | The One-Step Escalator | 3D | ✅ done |
 
-_Updated 2026-11-16 21:30 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 21:33 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
