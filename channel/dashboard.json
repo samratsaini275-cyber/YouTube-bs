@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 049 (polite microwave)",
+   "task": "Episode 050 (top-shelf ladder)",
    "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T23:41:51+00:00",
-   "updatedAt": "2026-11-16T23:55:52+00:00",
-   "activity": "Idle: no episode is building",
-   "activityKind": "idle",
+   "taskAt": "2026-11-16T23:56:27+00:00",
+   "updatedAt": "2026-11-16T23:56:34+00:00",
+   "activity": "Building episode 050: narrating 0/12",
+   "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 49,
    "written": 50,
-   "posted": 48,
-   "public": 45,
-   "lastPostAt": "2026-11-16T23:41:41+00:00",
-   "nextToPost": "049 The Polite Microwave"
+   "posted": 49,
+   "public": 46,
+   "lastPostAt": "2026-11-16T23:56:16+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 19,
    "built": 18,
-   "posted": 17,
+   "posted": 18,
    "total": 20
   },
   {
@@ -789,9 +789,9 @@
    "seconds": 26.1,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/ZjPIE-AvILE",
+   "postedAt": "2026-11-16T23:56:16+00:00",
    "narrative": "Engineering Nonsense"
   },
   {
@@ -802,8 +802,8 @@
    "voice": "v3",
    "quiz": true,
    "seconds": null,
-   "build": "queued",
-   "buildDetail": "scripted, in queue",
+   "build": "building",
+   "buildDetail": "narrating 0/12",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
