@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 036 (rocket mower)",
-   "step": "Re-narrating one line",
-   "taskAt": "2026-11-16T20:47:26+00:00",
-   "updatedAt": "2026-11-16T20:51:59+00:00",
-   "activity": "Idle: no episode is building",
-   "activityKind": "idle",
+   "task": "Episode 037 (hallway GPS)",
+   "step": "Full build: narration + render",
+   "taskAt": "2026-11-16T20:52:35+00:00",
+   "updatedAt": "2026-11-16T20:52:41+00:00",
+   "activity": "Building episode 037: narrating 0/13",
+   "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 36,
    "written": 37,
-   "posted": 35,
-   "public": 32,
-   "lastPostAt": "2026-11-16T20:33:27+00:00",
-   "nextToPost": "036 The Rocket Mower"
+   "posted": 36,
+   "public": 33,
+   "lastPostAt": "2026-11-16T20:52:27+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 6,
    "built": 5,
-   "posted": 4,
+   "posted": 5,
    "total": 20
   },
   {
@@ -594,9 +594,9 @@
    "seconds": 34.4,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/C6iVfS8FhRI",
+   "postedAt": "2026-11-16T20:52:27+00:00",
    "narrative": "Engineering Nonsense"
   },
   {
@@ -607,8 +607,8 @@
    "voice": "v3",
    "quiz": true,
    "seconds": null,
-   "build": "queued",
-   "buildDetail": "scripted, in queue",
+   "build": "building",
+   "buildDetail": "narrating 0/13",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
