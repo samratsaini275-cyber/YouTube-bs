@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 042 — 🎙️ narrating 14/15
+**Now:** episode 042 — 🎬 rendering
 
 **Finished videos:** 41 of 43 written &nbsp; `███████████████████░`
 
@@ -49,7 +49,7 @@
 | 039 | The One-Step Escalator | 3D | ✅ done |
 | 040 | The Waterproof Teabag | 3D | ✅ done |
 | 041 | The Gps Sock | 3D | ✅ done |
-| 042 | The Unflippable Umbrella | 3D | 🎙️ narrating 14/15 |
+| 042 | The Unflippable Umbrella | 3D | 🎬 rendering |
 | 043 | The Silent Alarm | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-16 22:13 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 22:14 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
