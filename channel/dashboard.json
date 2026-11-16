@@ -4,16 +4,16 @@
    "task": "Episode 040 (waterproof teabag)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T21:36:22+00:00",
-   "updatedAt": "2026-11-16T21:42:09+00:00",
-   "activity": "Building episode 040: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T21:45:52+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 39,
+   "built": 40,
    "written": 40,
    "posted": 39,
    "public": 36,
    "lastPostAt": "2026-11-16T21:34:14+00:00",
-   "nextToPost": ""
+   "nextToPost": "040 The Waterproof Teabag"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 9,
-   "built": 8,
+   "built": 9,
    "posted": 8,
    "total": 20
   },
@@ -651,9 +651,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 24.6,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
