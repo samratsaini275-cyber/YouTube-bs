@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Posting 048",
-   "step": "Uploading to YouTube",
-   "taskAt": "2026-11-16T23:41:39+00:00",
-   "updatedAt": "2026-11-16T23:41:41+00:00",
-   "activity": "Idle: no episode is building",
-   "activityKind": "idle",
+   "task": "Episode 049 (polite microwave)",
+   "step": "Full build: narration + render",
+   "taskAt": "2026-11-16T23:41:51+00:00",
+   "updatedAt": "2026-11-16T23:42:02+00:00",
+   "activity": "Building episode 049: narrating 0/13",
+   "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 48,
    "written": 49,
-   "posted": 47,
-   "public": 44,
-   "lastPostAt": "2026-11-16T23:21:22+00:00",
-   "nextToPost": "048 The Bathtub Drawbridge"
+   "posted": 48,
+   "public": 45,
+   "lastPostAt": "2026-11-16T23:41:41+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 18,
    "built": 17,
-   "posted": 16,
+   "posted": 17,
    "total": 20
   },
   {
@@ -774,9 +774,9 @@
    "seconds": 26.6,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/JTONzAdfK6s",
+   "postedAt": "2026-11-16T23:41:41+00:00",
    "narrative": "Engineering Nonsense"
   },
   {
@@ -787,8 +787,8 @@
    "voice": "v3",
    "quiz": true,
    "seconds": null,
-   "build": "queued",
-   "buildDetail": "scripted, in queue",
+   "build": "building",
+   "buildDetail": "narrating 0/13",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
