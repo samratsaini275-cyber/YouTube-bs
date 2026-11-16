@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 037 — 🎬 rendering
 
-**Finished videos:** 37 of 37 written &nbsp; `████████████████████`
+**Finished videos:** 36 of 37 written &nbsp; `███████████████████░`
 
-**Narrative 3: Engineering Nonsense** — 6 of 20 finished &nbsp; `██████░░░░░░░░░░░░░░`
+**Narrative 3: Engineering Nonsense** — 5 of 20 finished &nbsp; `█████░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -44,6 +44,6 @@
 | 034 | The Door Manual | 3D | ✅ done |
 | 035 | The Cookie Vault | 3D | ✅ done |
 | 036 | The Rocket Mower | 3D | ✅ done |
-| 037 | The Hallway Gps | 3D | ✅ done |
+| 037 | The Hallway Gps | 3D | 🎬 rendering |
 
 _Updated 2026-11-16 21:02 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
