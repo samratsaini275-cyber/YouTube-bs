@@ -20,6 +20,17 @@ ROOT = Path(__file__).resolve().parent.parent
 WORK = Path(os.environ.get("WORK_DIR", ROOT / ".work"))
 SEASON = 20
 NARRATIVES = ["Case Files", "Why Is It Built Like That?", "Engineering Nonsense"]
+# First episode of each narrative. Narrative 2 ended early at 031 (channel owner's request).
+STARTS = [1, 21, 32, 52]
+
+
+def season_of(n):
+    n = max(int(n), 1)
+    return max(i for i, s in enumerate(STARTS) if n >= s)
+
+
+def season_size(i):
+    return STARTS[i + 1] - STARTS[i] if i + 1 < len(STARTS) else SEASON
 
 
 def bar(done, total, width=20):
@@ -63,8 +74,8 @@ def snapshot():
 
 def render(rows, done):
     n = len(rows)
-    season = (max(n, 1) - 1) // SEASON
-    in_season = [r for r in rows if (int(r[0]) - 1) // SEASON == season]
+    season = season_of(n)
+    in_season = [r for r in rows if season_of(r[0]) == season]
     s_done = sum("done" in r[3] for r in in_season)
     name = NARRATIVES[season] if season < len(NARRATIVES) else "to be chosen"
     lines = [
@@ -74,7 +85,7 @@ def render(rows, done):
         "",
         f"**Finished videos:** {done} of {n} written &nbsp; `{bar(done, n)}`",
         "",
-        f"**Narrative {season + 1}: {name}** — {s_done} of {SEASON} finished &nbsp; `{bar(s_done, SEASON)}`",
+        f"**Narrative {season + 1}: {name}** — {s_done} of {season_size(season)} finished &nbsp; `{bar(s_done, season_size(season))}`",
         "",
         "| # | Episode | Style | Status |",
         "|---|---|---|---|",
@@ -101,13 +112,13 @@ def git(*a):
 def as_json():
     """Same snapshot as a JSON document, for the in-app tracker page."""
     rows, done = snapshot()
-    season = (max(len(rows), 1) - 1) // SEASON
+    season = season_of(len(rows))
     return {
         "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "now": next((f"Episode {r[0]} · {re.sub(r'^[^a-z]+', '', r[3])}" for r in rows if "narrating" in r[3] or "rendering" in r[3]), "Idle"),
         "done": done, "written": len(rows),
         "narrative": {"n": season + 1, "name": NARRATIVES[season] if season < len(NARRATIVES) else "To be chosen",
-                      "done": sum("done" in r[3] for r in rows if (int(r[0]) - 1) // SEASON == season), "total": SEASON},
+                      "done": sum("done" in r[3] for r in rows if season_of(r[0]) == season), "total": season_size(season)},
         "episodes": [{"n": a, "title": b, "style": c, "state": re.sub(r"^[^a-z]+", "", d),
                       "kind": "done" if "done" in d else "active" if ("narrating" in d or "rendering" in d) else "queued"} for a, b, c, d in rows],
     }
