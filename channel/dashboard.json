@@ -4,16 +4,16 @@
    "task": "Episode 037 (hallway GPS)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T20:52:35+00:00",
-   "updatedAt": "2026-11-16T20:59:08+00:00",
-   "activity": "Building episode 037: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T21:02:11+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 36,
+   "built": 37,
    "written": 37,
    "posted": 36,
    "public": 33,
    "lastPostAt": "2026-11-16T20:52:27+00:00",
-   "nextToPost": ""
+   "nextToPost": "037 The Hallway Gps"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 6,
-   "built": 5,
+   "built": 6,
    "posted": 5,
    "total": 20
   },
@@ -606,9 +606,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 26.5,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
