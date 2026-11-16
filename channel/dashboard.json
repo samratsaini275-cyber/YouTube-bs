@@ -4,16 +4,16 @@
    "task": "Episode 045 (snail speed camera)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T22:41:53+00:00",
-   "updatedAt": "2026-11-16T22:49:27+00:00",
-   "activity": "Building episode 045: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T22:52:29+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 44,
+   "built": 45,
    "written": 45,
    "posted": 44,
    "public": 41,
    "lastPostAt": "2026-11-16T22:39:51+00:00",
-   "nextToPost": ""
+   "nextToPost": "045 The Snail Speed Camera"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 14,
-   "built": 13,
+   "built": 14,
    "posted": 13,
    "total": 20
   },
@@ -726,9 +726,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 29.6,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
