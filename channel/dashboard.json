@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 045 (snail speed camera)",
-   "step": "Re-narrating two lines",
-   "taskAt": "2026-11-16T22:52:55+00:00",
-   "updatedAt": "2026-11-16T22:57:41+00:00",
+   "task": "Posting 045",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T22:58:01+00:00",
+   "updatedAt": "2026-11-16T22:58:03+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 45,
    "written": 46,
-   "posted": 44,
-   "public": 41,
-   "lastPostAt": "2026-11-16T22:39:51+00:00",
-   "nextToPost": "045 The Snail Speed Camera"
+   "posted": 45,
+   "public": 42,
+   "lastPostAt": "2026-11-16T22:58:02+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 15,
    "built": 14,
-   "posted": 13,
+   "posted": 14,
    "total": 20
   },
   {
@@ -729,9 +729,9 @@
    "seconds": 29.2,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/LMmiK9P7k9E",
+   "postedAt": "2026-11-16T22:58:02+00:00",
    "narrative": "Engineering Nonsense"
   },
   {
