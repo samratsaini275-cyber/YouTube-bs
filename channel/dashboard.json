@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 042 (unflippable umbrella)",
-   "step": "Re-narrating the quiz",
-   "taskAt": "2026-11-16T22:12:42+00:00",
-   "updatedAt": "2026-11-16T22:16:54+00:00",
-   "activity": "Idle: no episode is building",
-   "activityKind": "idle",
+   "task": "Episode 043 (silent alarm)",
+   "step": "Full build: narration + render",
+   "taskAt": "2026-11-16T22:17:53+00:00",
+   "updatedAt": "2026-11-16T22:17:56+00:00",
+   "activity": "Building episode 043: narrating 0/12",
+   "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 42,
    "written": 43,
-   "posted": 41,
-   "public": 38,
-   "lastPostAt": "2026-11-16T22:00:22+00:00",
-   "nextToPost": "042 The Unflippable Umbrella"
+   "posted": 42,
+   "public": 39,
+   "lastPostAt": "2026-11-16T22:17:42+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 12,
    "built": 11,
-   "posted": 10,
+   "posted": 11,
    "total": 20
   },
   {
@@ -684,9 +684,9 @@
    "seconds": 29.6,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/L6A3HFLHYpI",
+   "postedAt": "2026-11-16T22:17:42+00:00",
    "narrative": "Engineering Nonsense"
   },
   {
@@ -697,8 +697,8 @@
    "voice": "v3",
    "quiz": true,
    "seconds": null,
-   "build": "queued",
-   "buildDetail": "scripted, in queue",
+   "build": "building",
+   "buildDetail": "narrating 0/12",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
