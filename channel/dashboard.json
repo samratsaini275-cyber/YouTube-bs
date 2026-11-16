@@ -2,10 +2,10 @@
  "status": [
   {
    "task": "Episode 038 (judging fridge)",
-   "step": "Draft render",
-   "taskAt": "2026-11-16T21:06:52+00:00",
-   "updatedAt": "2026-11-16T21:06:59+00:00",
-   "activity": "Building episode 038: narrating 0/?",
+   "step": "Full build: narration + render",
+   "taskAt": "2026-11-16T21:07:50+00:00",
+   "updatedAt": "2026-11-16T21:08:03+00:00",
+   "activity": "Building episode 038: narrating 0/15",
    "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 37,
@@ -623,7 +623,7 @@
    "quiz": true,
    "seconds": null,
    "build": "building",
-   "buildDetail": "narrating 0/?",
+   "buildDetail": "narrating 0/15",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
