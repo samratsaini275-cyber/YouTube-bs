@@ -4,16 +4,16 @@
    "task": "Posting 043",
    "step": "Uploading to YouTube",
    "taskAt": "2026-11-16T22:27:45+00:00",
-   "updatedAt": "2026-11-16T22:27:46+00:00",
+   "updatedAt": "2026-11-16T22:28:08+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 43,
    "written": 43,
-   "posted": 42,
-   "public": 39,
-   "lastPostAt": "2026-11-16T22:17:42+00:00",
-   "nextToPost": "043 The Silent Alarm"
+   "posted": 43,
+   "public": 40,
+   "lastPostAt": "2026-11-16T22:27:47+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 12,
    "built": 12,
-   "posted": 11,
+   "posted": 12,
    "total": 20
   },
   {
@@ -699,9 +699,9 @@
    "seconds": 23.6,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/YiS3vJl1l_A",
+   "postedAt": "2026-11-16T22:27:47+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
