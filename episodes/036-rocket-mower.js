@@ -61,7 +61,7 @@ export default {
       update: (w, p, t) => { w.mower.position.y = 0; flame(w, 0); lights(w, 0); smoke(w, 0); kevin(w, t); },
     },
     {
-      say: 'Engineers checked the wind. Measured the angle. And started the countdown.',
+      say: 'Engineers checked the wind. They checked the angle. Then they began the countdown.',
       show: ALL, sky: '#9ED2F3', lightAt: [0, 2, 0], lightDist: 20,
       cam: { pos: [3, 3, 7], look: [0, 3.4, 0], fov: 40, to: { pos: [2, 3.2, 5], look: [0, 3.4, 0], fov: 38 } },
       update: (w, p, t) => { w.mower.position.y = 0; flame(w, 0); lights(w, 0); smoke(w, 0); kevin(w, t, .2); },
