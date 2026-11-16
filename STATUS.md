@@ -2,7 +2,7 @@
 
 **Now:** episode 050 — 🎙️ narrating 1/12
 
-**Finished videos:** 49 of 50 written &nbsp; `████████████████████`
+**Finished videos:** 49 of 51 written &nbsp; `███████████████████░`
 
 **Narrative 3: Engineering Nonsense** — 18 of 20 finished &nbsp; `██████████████████░░`
 
@@ -58,5 +58,6 @@
 | 048 | The Bathtub Drawbridge | 3D | ✅ done |
 | 049 | The Polite Microwave | 3D | ✅ done |
 | 050 | The Top-Shelf Ladder | 3D | 🎙️ narrating 1/12 |
+| 051 | Gary\ | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-16 23:57 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
