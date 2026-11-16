@@ -1,8 +1,8 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 038 — 🎙️ narrating 0/?
 
-**Finished videos:** 37 of 37 written &nbsp; `████████████████████`
+**Finished videos:** 37 of 38 written &nbsp; `███████████████████░`
 
 **Narrative 3: Engineering Nonsense** — 6 of 20 finished &nbsp; `██████░░░░░░░░░░░░░░`
 
@@ -45,5 +45,6 @@
 | 035 | The Cookie Vault | 3D | ✅ done |
 | 036 | The Rocket Mower | 3D | ✅ done |
 | 037 | The Hallway Gps | 3D | ✅ done |
+| 038 | The Judging Fridge | 3D | 🎙️ narrating 0/? |
 
-_Updated 2026-11-16 21:05 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 21:06 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
