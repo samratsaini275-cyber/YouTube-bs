@@ -4,16 +4,16 @@
    "task": "Posting 041",
    "step": "Uploading to YouTube",
    "taskAt": "2026-11-16T22:00:19+00:00",
-   "updatedAt": "2026-11-16T22:00:22+00:00",
+   "updatedAt": "2026-11-16T22:00:44+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 41,
    "written": 41,
-   "posted": 40,
-   "public": 37,
-   "lastPostAt": "2026-11-16T21:46:22+00:00",
-   "nextToPost": "041 The Gps Sock"
+   "posted": 41,
+   "public": 38,
+   "lastPostAt": "2026-11-16T22:00:22+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 10,
    "built": 10,
-   "posted": 9,
+   "posted": 10,
    "total": 20
   },
   {
@@ -669,9 +669,9 @@
    "seconds": 31.0,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/z_gTK-CnESs",
+   "postedAt": "2026-11-16T22:00:22+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
