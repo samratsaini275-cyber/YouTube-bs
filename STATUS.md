@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 032 — 🎙️ narrating 0/24
 
-**Finished videos:** 31 of 31 written &nbsp; `████████████████████`
+**Finished videos:** 31 of 33 written &nbsp; `███████████████████░`
 
-**Narrative 2: Why Is It Built Like That?** — 11 of 20 finished &nbsp; `███████████░░░░░░░░░`
+**Narrative 3: Engineering Nonsense** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -39,5 +39,7 @@
 | 029 | Rumble Strips | 3D | ✅ done |
 | 030 | Elevator Brakes | 3D | ✅ done |
 | 031 | Nitrogen Tires | 3D | ✅ done |
+| 032 | The Ant Bridge | 3D | 🎙️ narrating 0/24 |
+| 033 | The Toaster Briefing | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-12 19:59 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 19:26 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
