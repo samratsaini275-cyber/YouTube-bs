@@ -1,15 +1,15 @@
 {
  "status": [
   {
-   "task": "Posting 035",
-   "step": "Uploading to YouTube",
-   "taskAt": "2026-11-16T20:33:25+00:00",
-   "updatedAt": "2026-11-16T20:33:42+00:00",
+   "task": "Episode 036 (rocket mower)",
+   "step": "Draft render",
+   "taskAt": "2026-11-16T20:34:12+00:00",
+   "updatedAt": "2026-11-16T20:34:24+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 35,
-   "written": 35,
+   "written": 36,
    "posted": 35,
    "public": 32,
    "lastPostAt": "2026-11-16T20:33:27+00:00",
@@ -42,7 +42,7 @@
    "name": "Engineering Nonsense",
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
-   "written": 4,
+   "written": 5,
    "built": 4,
    "posted": 4,
    "total": 20
@@ -582,6 +582,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/BHq9sETrpIQ",
    "postedAt": "2026-11-16T20:33:27+00:00",
+   "narrative": "Engineering Nonsense"
+  },
+  {
+   "n": "036",
+   "title": "The Rocket Mower",
+   "slug": "036-rocket-mower",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "scripted, in queue",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Engineering Nonsense"
   }
  ]
