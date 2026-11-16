@@ -57,6 +57,6 @@
 | 047 | The Self-Tying Shoes | 3D | ✅ done |
 | 048 | The Bathtub Drawbridge | 3D | ✅ done |
 | 049 | The Polite Microwave | 3D | 🎙️ narrating 0/13 |
-| 050 | The Top-Shelf Ladder | 3D | 📝 scripted, in queue |
+| 050 | The Top-Shelf Ladder | 3D | 🎙️ narrating 0/? |
 
-_Updated 2026-11-16 23:42 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 23:43 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
