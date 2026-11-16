@@ -44,6 +44,6 @@
 | 034 | The Door Manual | 3D | ✅ done |
 | 035 | The Cookie Vault | 3D | ✅ done |
 | 036 | The Rocket Mower | 3D | 🎙️ narrating 18/19 |
-| 037 | The Hallway Gps | 3D | 🎙️ narrating 0/? |
+| 037 | The Hallway Gps | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-16 20:48 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
