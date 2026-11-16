@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 037 (hallway GPS)",
-   "step": "Re-rendering quiz shot",
-   "taskAt": "2026-11-16T21:02:46+00:00",
-   "updatedAt": "2026-11-16T21:05:55+00:00",
+   "task": "Posting 037",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T21:06:06+00:00",
+   "updatedAt": "2026-11-16T21:06:17+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 37,
    "written": 37,
-   "posted": 36,
-   "public": 33,
-   "lastPostAt": "2026-11-16T20:52:27+00:00",
-   "nextToPost": "037 The Hallway Gps"
+   "posted": 37,
+   "public": 34,
+   "lastPostAt": "2026-11-16T21:06:07+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 6,
    "built": 6,
-   "posted": 5,
+   "posted": 6,
    "total": 20
   },
   {
@@ -609,9 +609,9 @@
    "seconds": 26.5,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/lkgMQNZtOu4",
+   "postedAt": "2026-11-16T21:06:07+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
