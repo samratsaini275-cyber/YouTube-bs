@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 045 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 44 of 46 written &nbsp; `███████████████████░`
+**Finished videos:** 45 of 46 written &nbsp; `████████████████████`
 
-**Narrative 3: Engineering Nonsense** — 13 of 20 finished &nbsp; `█████████████░░░░░░░`
+**Narrative 3: Engineering Nonsense** — 14 of 20 finished &nbsp; `██████████████░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -52,7 +52,7 @@
 | 042 | The Unflippable Umbrella | 3D | ✅ done |
 | 043 | The Silent Alarm | 3D | ✅ done |
 | 044 | The Safest Chair | 3D | ✅ done |
-| 045 | The Snail Speed Camera | 3D | 🎬 rendering |
+| 045 | The Snail Speed Camera | 3D | ✅ done |
 | 046 | The Fishbowl Lighthouse | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-16 22:54 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 22:57 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
