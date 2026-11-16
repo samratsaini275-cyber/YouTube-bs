@@ -83,8 +83,8 @@ export default {
       say: 'Quick question. What should the GPS say next? Option A, the door is right there. Option B, recalculating. Or option C, turn left into the wall. Comment your answer.',
       quiz: { q: 'What should the hallway GPS say next?', options: ['The door is right there', 'Recalculating', 'Turn left into the wall'], answer: 'A made-up hallway, so any answer works. (A would help.)' },
       show: [...ALL, 'arrow'], sky: '#274B73', lightAt: [0, 4, 0], lightDist: 30,
-      cam: { pos: [0, 10, 34], look: [0, 16, 0], fov: 46, to: { pos: [0, 10, 30], look: [0, 16, 0] } },
-      update: (w, p, t) => { walk(w, 6, 0); w.arrow.position.set(0, 9, 0); w.arrow.rotation.y = t * 2; },
+      cam: { pos: [-4.5, 9, 36], look: [0, 16, 0], fov: 46, to: { pos: [4.5, 11, 24], look: [0, 15, -4] } },
+      update: (w, p, t) => { walk(w, 6 - Math.sin(t * 1.5) * 4, 0); w.arrow.position.set(0, 9 + .5 * Math.sin(t * 3), 0); w.arrow.rotation.y = t * 2; },
     },
   ],
 };
