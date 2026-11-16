@@ -2,7 +2,7 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 33 of 33 written &nbsp; `████████████████████`
+**Finished videos:** 33 of 34 written &nbsp; `███████████████████░`
 
 **Narrative 3: Engineering Nonsense** — 2 of 20 finished &nbsp; `██░░░░░░░░░░░░░░░░░░`
 
@@ -41,5 +41,6 @@
 | 031 | Nitrogen Tires | 3D | ✅ done |
 | 032 | The Ant Bridge | 3D | ✅ done |
 | 033 | The Toaster Briefing | 3D | ✅ done |
+| 034 | The Door Manual | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-16 20:02 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 20:03 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._

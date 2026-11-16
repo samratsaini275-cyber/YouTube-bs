@@ -1,15 +1,15 @@
 {
  "status": [
   {
-   "task": "Posting 033",
-   "step": "Uploading to YouTube",
-   "taskAt": "2026-11-16T20:02:44+00:00",
-   "updatedAt": "2026-11-16T20:02:55+00:00",
+   "task": "Episode 034 (door manual)",
+   "step": "Draft render",
+   "taskAt": "2026-11-16T20:03:28+00:00",
+   "updatedAt": "2026-11-16T20:03:37+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 33,
-   "written": 33,
+   "written": 34,
    "posted": 33,
    "public": 30,
    "lastPostAt": "2026-11-16T20:02:46+00:00",
@@ -42,7 +42,7 @@
    "name": "Engineering Nonsense",
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
-   "written": 2,
+   "written": 3,
    "built": 2,
    "posted": 2,
    "total": 20
@@ -552,6 +552,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/0eDva5M-FX8",
    "postedAt": "2026-11-16T20:02:46+00:00",
+   "narrative": "Engineering Nonsense"
+  },
+  {
+   "n": "034",
+   "title": "The Door Manual",
+   "slug": "034-door-manual",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "scripted, in queue",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Engineering Nonsense"
   }
  ]
