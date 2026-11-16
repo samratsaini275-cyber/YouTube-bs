@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 035 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 34 of 35 written &nbsp; `███████████████████░`
+**Finished videos:** 35 of 35 written &nbsp; `████████████████████`
 
-**Narrative 3: Engineering Nonsense** — 3 of 20 finished &nbsp; `███░░░░░░░░░░░░░░░░░`
+**Narrative 3: Engineering Nonsense** — 4 of 20 finished &nbsp; `████░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -42,6 +42,6 @@
 | 032 | The Ant Bridge | 3D | ✅ done |
 | 033 | The Toaster Briefing | 3D | ✅ done |
 | 034 | The Door Manual | 3D | ✅ done |
-| 035 | The Cookie Vault | 3D | 🎬 rendering |
+| 035 | The Cookie Vault | 3D | ✅ done |
 
-_Updated 2026-11-16 20:27 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 20:33 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._

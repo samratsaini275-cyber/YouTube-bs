@@ -4,16 +4,16 @@
    "task": "Episode 035 (cookie vault)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T20:18:40+00:00",
-   "updatedAt": "2026-11-16T20:27:57+00:00",
-   "activity": "Building episode 035: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T20:33:00+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 34,
+   "built": 35,
    "written": 35,
    "posted": 34,
    "public": 31,
    "lastPostAt": "2026-11-16T20:17:22+00:00",
-   "nextToPost": ""
+   "nextToPost": "035 The Cookie Vault"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 4,
-   "built": 3,
+   "built": 4,
    "posted": 3,
    "total": 20
   },
@@ -576,9 +576,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 34.7,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
