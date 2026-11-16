@@ -1,15 +1,15 @@
 {
  "status": [
   {
-   "task": "Posting 047",
-   "step": "Uploading to YouTube",
-   "taskAt": "2026-11-16T23:21:21+00:00",
-   "updatedAt": "2026-11-16T23:21:29+00:00",
-   "activity": "Idle: no episode is building",
-   "activityKind": "idle",
+   "task": "Episode 048 (bathtub drawbridge)",
+   "step": "Draft render",
+   "taskAt": "2026-11-16T23:22:06+00:00",
+   "updatedAt": "2026-11-16T23:22:11+00:00",
+   "activity": "Building episode 048: narrating 0/?",
+   "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 47,
-   "written": 47,
+   "written": 48,
    "posted": 47,
    "public": 44,
    "lastPostAt": "2026-11-16T23:21:22+00:00",
@@ -42,7 +42,7 @@
    "name": "Engineering Nonsense",
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
-   "written": 16,
+   "written": 17,
    "built": 16,
    "posted": 16,
    "total": 20
@@ -762,6 +762,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/ysfre3vBjTM",
    "postedAt": "2026-11-16T23:21:22+00:00",
+   "narrative": "Engineering Nonsense"
+  },
+  {
+   "n": "048",
+   "title": "The Bathtub Drawbridge",
+   "slug": "048-bathtub-drawbridge",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "building",
+   "buildDetail": "narrating 0/?",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Engineering Nonsense"
   }
  ]

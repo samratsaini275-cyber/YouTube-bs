@@ -1,8 +1,8 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 048 — 🎙️ narrating 0/?
 
-**Finished videos:** 47 of 47 written &nbsp; `████████████████████`
+**Finished videos:** 47 of 48 written &nbsp; `████████████████████`
 
 **Narrative 3: Engineering Nonsense** — 16 of 20 finished &nbsp; `████████████████░░░░`
 
@@ -55,5 +55,6 @@
 | 045 | The Snail Speed Camera | 3D | ✅ done |
 | 046 | The Fishbowl Lighthouse | 3D | ✅ done |
 | 047 | The Self-Tying Shoes | 3D | ✅ done |
+| 048 | The Bathtub Drawbridge | 3D | 🎙️ narrating 0/? |
 
-_Updated 2026-11-16 23:20 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 23:22 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
