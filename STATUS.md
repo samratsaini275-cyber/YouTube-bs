@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 036 — 🎙️ narrating 17/19
 
-**Finished videos:** 36 of 36 written &nbsp; `████████████████████`
+**Finished videos:** 35 of 36 written &nbsp; `███████████████████░`
 
-**Narrative 3: Engineering Nonsense** — 5 of 20 finished &nbsp; `█████░░░░░░░░░░░░░░░`
+**Narrative 3: Engineering Nonsense** — 4 of 20 finished &nbsp; `████░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -43,6 +43,6 @@
 | 033 | The Toaster Briefing | 3D | ✅ done |
 | 034 | The Door Manual | 3D | ✅ done |
 | 035 | The Cookie Vault | 3D | ✅ done |
-| 036 | The Rocket Mower | 3D | ✅ done |
+| 036 | The Rocket Mower | 3D | 🎙️ narrating 17/19 |
 
 _Updated 2026-11-16 20:47 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
