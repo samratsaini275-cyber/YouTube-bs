@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 033 — 🎙️ narrating 8/17
+**Now:** episode 033 — 🎙️ narrating 9/17
 
 **Finished videos:** 32 of 33 written &nbsp; `███████████████████░`
 
@@ -40,6 +40,6 @@
 | 030 | Elevator Brakes | 3D | ✅ done |
 | 031 | Nitrogen Tires | 3D | ✅ done |
 | 032 | The Ant Bridge | 3D | ✅ done |
-| 033 | The Toaster Briefing | 3D | 🎙️ narrating 8/17 |
+| 033 | The Toaster Briefing | 3D | 🎙️ narrating 9/17 |
 
 _Updated 2026-11-16 19:52 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
