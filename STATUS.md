@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 037 — 🎙️ narrating 12/13
+**Now:** episode 037 — 🎬 rendering
 
 **Finished videos:** 36 of 37 written &nbsp; `███████████████████░`
 
@@ -44,6 +44,6 @@
 | 034 | The Door Manual | 3D | ✅ done |
 | 035 | The Cookie Vault | 3D | ✅ done |
 | 036 | The Rocket Mower | 3D | ✅ done |
-| 037 | The Hallway Gps | 3D | 🎙️ narrating 12/13 |
+| 037 | The Hallway Gps | 3D | 🎬 rendering |
 
-_Updated 2026-11-16 20:58 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 20:59 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
