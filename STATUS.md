@@ -1,8 +1,8 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 041 — 🎙️ narrating 0/?
 
-**Finished videos:** 40 of 40 written &nbsp; `████████████████████`
+**Finished videos:** 40 of 41 written &nbsp; `████████████████████`
 
 **Narrative 3: Engineering Nonsense** — 9 of 20 finished &nbsp; `█████████░░░░░░░░░░░`
 
@@ -48,5 +48,6 @@
 | 038 | The Judging Fridge | 3D | ✅ done |
 | 039 | The One-Step Escalator | 3D | ✅ done |
 | 040 | The Waterproof Teabag | 3D | ✅ done |
+| 041 | The Gps Sock | 3D | 🎙️ narrating 0/? |
 
-_Updated 2026-11-16 21:45 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 21:47 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
