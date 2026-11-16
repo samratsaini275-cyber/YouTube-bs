@@ -60,7 +60,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'Engineers installed a speed camera. For snails.',
+      say: 'Engineers built a speed camera. For snails.',
       show: ALL, sky: '#9ED2F3', lightAt: [0, 2, 0], lightDist: 25,
       cam: { pos: [-5, 6, 24], look: [2, 3, 0], fov: 46, to: { pos: [-4, 5, 19], look: [2, 3.2, -1], fov: 44 } },
       update: (w, p, t) => { crawl(w, 10 - t * .1); w.flash.visible = false; w.ticket.visible = false; },
@@ -90,8 +90,8 @@ export default {
       update: (w, p, t) => { crawl(w, 5.5 - t * .05); w.flash.visible = false; w.ticket.visible = true; w.ticket.position.set(0, 2.2 + .15 * Math.sin(t * 2), 3); w.ticket.rotation.y = .3 * Math.sin(t); },
     },
     {
-      say: 'Quick question. What is a fair fine for a speeding snail? Option A, one lettuce leaf. Option B, the slow lane for a week. Or option C, no fine. That is impressive. Comment your answer.',
-      quiz: { q: 'What is a fair fine for a speeding snail?', options: ['One lettuce leaf', 'The slow lane for a week', 'No fine. That is impressive.'], answer: 'Steve is made up, so any fine works. (Team C.)' },
+      say: 'Quick question. What is a fair fine for a speeding snail? Option A, one carrot. Option B, the slow lane for a week. Or option C, no fine. That is impressive. Comment your answer.',
+      quiz: { q: 'What is a fair fine for a speeding snail?', options: ['One carrot', 'The slow lane for a week', 'No fine. That is impressive.'], answer: 'Steve is made up, so any fine works. (Team C.)' },
       show: ALL, sky: '#274B73', lightAt: [0, 2, 2], lightDist: 25,
       cam: { pos: [10, 3, 22], look: [0, 9, 0], fov: 46, to: { pos: [-10, 3, 22], look: [0, 9, 0] } },
       update: (w, p, t) => { crawl(w, 5.2); w.flash.visible = false; w.ticket.visible = false; },
