@@ -4,16 +4,16 @@
    "task": "Episode 038 (judging fridge)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-16T21:07:50+00:00",
-   "updatedAt": "2026-11-16T21:15:16+00:00",
-   "activity": "Building episode 038: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-16T21:20:19+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 37,
+   "built": 38,
    "written": 38,
    "posted": 37,
    "public": 34,
    "lastPostAt": "2026-11-16T21:06:07+00:00",
-   "nextToPost": ""
+   "nextToPost": "038 The Judging Fridge"
   }
  ],
  "narratives": [
@@ -43,7 +43,7 @@
    "what": "Silly, absurd shorts built to be funny first: deadpan narration of ridiculous \"engineering\" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline.",
    "status": "upcoming",
    "written": 7,
-   "built": 6,
+   "built": 7,
    "posted": 6,
    "total": 20
   },
@@ -621,9 +621,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 29.0,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
