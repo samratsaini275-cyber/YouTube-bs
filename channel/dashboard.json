@@ -1,10 +1,10 @@
 {
  "status": [
   {
-   "task": "Episode 044 (safest chair)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T22:28:52+00:00",
-   "updatedAt": "2026-11-16T22:39:28+00:00",
+   "task": "Posting 044",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T22:39:49+00:00",
+   "updatedAt": "2026-11-16T22:39:50+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
