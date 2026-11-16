@@ -2,9 +2,9 @@
  "status": [
   {
    "task": "Episode 044 (safest chair)",
-   "step": "Draft render",
-   "taskAt": "2026-11-16T22:28:27+00:00",
-   "updatedAt": "2026-11-16T22:28:30+00:00",
+   "step": "Full build: narration + render",
+   "taskAt": "2026-11-16T22:28:52+00:00",
+   "updatedAt": "2026-11-16T22:28:52+00:00",
    "activity": "Building episode 044: narrating 0/?",
    "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
