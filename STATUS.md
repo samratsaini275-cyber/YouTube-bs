@@ -2,7 +2,7 @@
 
 **Now:** episode 045 — 🎙️ narrating 13/15
 
-**Finished videos:** 44 of 45 written &nbsp; `████████████████████`
+**Finished videos:** 44 of 46 written &nbsp; `███████████████████░`
 
 **Narrative 3: Engineering Nonsense** — 13 of 20 finished &nbsp; `█████████████░░░░░░░`
 
@@ -53,5 +53,6 @@
 | 043 | The Silent Alarm | 3D | ✅ done |
 | 044 | The Safest Chair | 3D | ✅ done |
 | 045 | The Snail Speed Camera | 3D | 🎙️ narrating 13/15 |
+| 046 | The Fishbowl Lighthouse | 3D | 🎙️ narrating 0/? |
 
 _Updated 2026-11-16 22:53 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
