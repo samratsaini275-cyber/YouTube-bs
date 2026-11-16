@@ -2,7 +2,7 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 44 of 44 written &nbsp; `████████████████████`
+**Finished videos:** 44 of 45 written &nbsp; `████████████████████`
 
 **Narrative 3: Engineering Nonsense** — 13 of 20 finished &nbsp; `█████████████░░░░░░░`
 
@@ -52,5 +52,6 @@
 | 042 | The Unflippable Umbrella | 3D | ✅ done |
 | 043 | The Silent Alarm | 3D | ✅ done |
 | 044 | The Safest Chair | 3D | ✅ done |
+| 045 | The Snail Speed Camera | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-16 22:39 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 22:40 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
