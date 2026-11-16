@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 046 (fishbowl lighthouse)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T22:58:16+00:00",
-   "updatedAt": "2026-11-16T23:10:32+00:00",
+   "task": "Posting 046",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-16T23:10:57+00:00",
+   "updatedAt": "2026-11-16T23:11:14+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 46,
    "written": 46,
-   "posted": 45,
-   "public": 42,
-   "lastPostAt": "2026-11-16T22:58:02+00:00",
-   "nextToPost": "046 The Fishbowl Lighthouse"
+   "posted": 46,
+   "public": 43,
+   "lastPostAt": "2026-11-16T23:10:59+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 15,
    "built": 15,
-   "posted": 14,
+   "posted": 15,
    "total": 20
   },
   {
@@ -744,9 +744,9 @@
    "seconds": 24.8,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/fE6a3JIehuc",
+   "postedAt": "2026-11-16T23:10:59+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
