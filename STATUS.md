@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 039 — 🎙️ narrating 11/14
+**Now:** episode 039 — 🎙️ narrating 12/14
 
 **Finished videos:** 38 of 39 written &nbsp; `███████████████████░`
 
@@ -46,6 +46,6 @@
 | 036 | The Rocket Mower | 3D | ✅ done |
 | 037 | The Hallway Gps | 3D | ✅ done |
 | 038 | The Judging Fridge | 3D | ✅ done |
-| 039 | The One-Step Escalator | 3D | 🎙️ narrating 11/14 |
+| 039 | The One-Step Escalator | 3D | 🎙️ narrating 12/14 |
 
-_Updated 2026-11-16 21:28 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-16 21:29 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
