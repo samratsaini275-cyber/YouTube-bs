@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 069 — 🎙️ narrating 7/9
+**Now:** episode 069 — 🎙️ narrating 8/9
 
 **Finished videos:** 68 of 69 written &nbsp; `████████████████████`
 
@@ -76,6 +76,6 @@
 | 066 | The Huge Pigeons | 3D | ✅ done |
 | 067 | The Dog Who Drives | 3D | ✅ done |
 | 068 | The Talking Fridge | 3D | ✅ done |
-| 069 | Steve, But Fast | 3D | 🎙️ narrating 7/9 |
+| 069 | Steve, But Fast | 3D | 🎙️ narrating 8/9 |
 
-_Updated 2026-11-17 14:39 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 14:40 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
