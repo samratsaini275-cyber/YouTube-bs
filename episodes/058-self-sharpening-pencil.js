@@ -24,6 +24,8 @@ function setup(k) {
   // the single written word: a short scribble
   w.word = group([-3, .07, 2]);
   for (let i = 0; i < 6; i++) { const s = box(.9, .02, .14, mat('#2A2A2A'), [i * .8, 0, Math.sin(i * 1.7) * .4], w.word); s.rotation.y = Math.sin(i) * .6; s.castShadow = false; }
+  w.stubs = group([-5, 0, -5]);
+  for (let i = 0; i < 11; i++) { const g = group([(i % 4) * 2.2, .5, Math.floor(i / 4) * 2.4], w.stubs); const c = cyl(.5, .5, 1.3, mat('#FFC21F'), [0, 0, 0], g, 6); c.rotation.z = Math.PI / 2; const e = cyl(.52, .52, .5, mat('#FF8FA3'), [-.9, 0, 0], g, 12); e.rotation.z = Math.PI / 2; g.rotation.y = (i * 1.3) % 1 - .5; }
   w.pile = group([5, 0, -4]);
   for (let i = 0; i < 26; i++) { const s = ball(.35, mat(i % 3 ? '#E8C9A0' : '#FFC21F', { rough: 1 }), [((i * 37) % 9) / 3 - 1.5, .2 + (i % 4) * .25, ((i * 13) % 7) / 3 - 1.2], w.pile); s.scale.y = .4; }
   return w;
@@ -69,13 +71,19 @@ export default {
       update: (w, p, t, k) => { length(w, .95 - .87 * k.h.ease(Math.min(1, Math.max(0, (t - .8) / 1.4)))); shave(w, t, t > .8); w.pencil.position.set(0, 2, 0); w.pencil.rotation.z = 0; w.word.visible = true; w.pile.visible = false; },
     },
     {
-      say: 'In total, it has written one word.',
+      say: 'A shopping list takes eleven pencils.',
+      show: [...ALL, 'stubs', 'pile'], sky: '#FFE3C2', lightAt: [-2, 1, -3], lightDist: 20,
+      cam: { pos: [-2, 12, 10], look: [-2, 0, -3], fov: 46, to: { pos: [-1, 11, 8], look: [-1, 0, -3], fov: 44 } },
+      update: (w, p, t) => { length(w, .08); shave(w, t, false); w.pencil.position.set(4, 1.9, 2); w.pencil.rotation.z = Math.PI / 2; w.word.visible = false; w.pile.visible = true; w.stubs.children.forEach((g, n) => { g.visible = t * 6 > n; }); },
+    },
+    {
+      say: 'This one wrote a single word.',
       show: [...ALL, 'pile'], sky: '#EDE7DA', lightAt: [2, 2, -1], lightDist: 20,
       cam: { pos: [2, 14, 14], look: [1, 1, -1], fov: 46, to: { pos: [2, 13, 12], look: [1, 1, -1], fov: 44 } },
       update: (w, p, t) => { length(w, .08); shave(w, t, false); w.pencil.position.set(-1, 1.9, -2); w.pencil.rotation.z = Math.PI / 2; w.word.visible = true; w.pile.visible = true; },
     },
     {
-      say: 'Quick question. What word would you write? Hello? Help? Or nothing? Comment your answer.',
+      say: 'Your one word: hello, help, or nothing? Comment below.',
       quiz: { q: 'What one word would you write?', options: ['Hello', 'Help', 'Nothing'], answer: 'It is a made-up pencil, so choose wisely. You only get one.' },
       show: ALL, sky: '#274B73', lightAt: [0, 4, 0], lightDist: 20,
       cam: { pos: [10, 3, 16], look: [0, 12, 0], fov: 46, to: { pos: [-10, 3, 16], look: [0, 12, 0] } },

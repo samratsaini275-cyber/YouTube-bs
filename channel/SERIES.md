@@ -37,6 +37,12 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
   (checked in the narration read-back); the on-screen hook text says the same thing; the first frame already shows the
   absurd thing in motion (no slow establishing shot); 15–30 s total. The other Engineering Nonsense rules still apply.
 
+- Engagement rules from 058 on (content audit, 17 Nov 2026; these are judgment calls from reading the scripts and
+  timing the narration, not viewer data): the comment question is one spoken line of about 4 s or less (it was taking
+  about half of each 052–057 video); every episode has at least four joke beats before the question, including one
+  escalation and one twist or punchline; openers and titles vary (not every one "This X is Y" / "Engineers built...");
+  a recurring made-up character (Gary the ant, Kevin the blade of grass, Steve the snail) can return now and then.
+
 ## How the next narrative is chosen
 
 The order above is a judgment call, not a measurement: no view, retention or comment data exists for this
