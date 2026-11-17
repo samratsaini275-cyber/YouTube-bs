@@ -61,7 +61,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'Your new shower needs a password.',
+      say: 'Your shower needs a password.',
       show: ALL, sky: '#F4FAFC', lightAt: [4, 6, 4], lightDist: 25,
       cam: { pos: [16, 8, 26], look: [3, 12, 2], fov: 48, to: { pos: [14, 8, 22], look: [4, 12, 3], fov: 46 } },
       update: (w, p, t) => { shiver(w, t); typing(w, t, 0); lock(w, t, 'locked'); water(w, t, false); w.code.visible = false; },
