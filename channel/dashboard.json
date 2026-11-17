@@ -4,16 +4,16 @@
    "task": "Episode 054 (sideways elevator)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-17T02:51:17+00:00",
-   "updatedAt": "2026-11-17T02:57:07+00:00",
-   "activity": "Building episode 054: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-17T02:59:50+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 53,
+   "built": 54,
    "written": 54,
    "posted": 53,
    "public": 50,
    "lastPostAt": "2026-11-17T02:49:46+00:00",
-   "nextToPost": ""
+   "nextToPost": "054 The Sideways Elevator"
   }
  ],
  "narratives": [
@@ -53,7 +53,7 @@
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
    "written": 3,
-   "built": 2,
+   "built": 3,
    "posted": 2,
    "total": 20
   },
@@ -871,9 +871,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 21.7,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
