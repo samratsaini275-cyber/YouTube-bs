@@ -76,6 +76,6 @@
 | 066 | The Huge Pigeons | 3D | ✅ done |
 | 067 | The Dog Who Drives | 3D | ✅ done |
 | 068 | The Talking Fridge | 3D | 🎙️ narrating 2/8 |
-| 069 | Steve, But Fast | 3D | 🎙️ narrating 0/? |
+| 069 | Steve, But Fast | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-17 14:23 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
