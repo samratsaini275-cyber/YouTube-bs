@@ -119,8 +119,8 @@ export default {
       },
     },
     {
-      say: 'Talking fridge: helpful, rude, or snitch? Comment below.',
-      quiz: { q: 'What would a talking fridge be?', options: ['Helpful', 'Rude', 'A snitch'], answer: 'It is a made-up fridge, but it would definitely be a snitch.' },
+      say: 'Talking fridge: helpful, mean, or a snitch? Comment below.',
+      quiz: { q: 'What would a talking fridge be?', options: ['Helpful', 'Mean', 'A snitch'], answer: 'It is a made-up fridge, but it would definitely be a snitch.' },
       show: ALL, sky: '#274B73', lightAt: [0, 6, -3], lightDist: 20,
       cam: { pos: [12, 3, 20], look: [0, 15, -3], fov: 46, to: { pos: [-10, 3, 20], look: [0, 15, -3] } },
       update: (w, p, t) => { base(w); door(w, 0); face(w, t, { raise: .2 * Math.sin(t * 5) }); },
