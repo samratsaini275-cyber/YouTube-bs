@@ -2,7 +2,7 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 72 of 72 written &nbsp; `████████████████████`
+**Finished videos:** 72 of 73 written &nbsp; `████████████████████`
 
 **Narrative 5: to be chosen** — 1 of 20 finished &nbsp; `█░░░░░░░░░░░░░░░░░░░`
 
@@ -80,5 +80,6 @@
 | 070 | The Walking Bed | 3D | ✅ done |
 | 071 | Jelly Bean Rain | 3D | ✅ done |
 | 072 | The Reflection | 3D | ✅ done |
+| 073 | The Flying Cows | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-17 15:13 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 15:14 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
