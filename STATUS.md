@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 064 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 63 of 65 written &nbsp; `███████████████████░`
+**Finished videos:** 64 of 65 written &nbsp; `████████████████████`
 
-**Narrative 4: Bad Ideas, Built Anyway** — 12 of 20 finished &nbsp; `████████████░░░░░░░░`
+**Narrative 4: Bad Ideas, Built Anyway** — 13 of 20 finished &nbsp; `█████████████░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -71,7 +71,7 @@
 | 061 | The Solar Flashlight | 3D | ✅ done |
 | 062 | Three Worst Doorbells | 3D | ✅ done |
 | 063 | The Ice House | 3D | ✅ done |
-| 064 | The Giant Cat | 3D | 🎬 rendering |
+| 064 | The Giant Cat | 3D | ✅ done |
 | 065 | The Alarm That Chases You | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-17 13:54 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 13:56 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
