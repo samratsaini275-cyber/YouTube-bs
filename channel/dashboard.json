@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 051 (Gary's tunnel)",
-   "step": "Re-narrating the quiz",
-   "taskAt": "2026-11-17T00:18:27+00:00",
-   "updatedAt": "2026-11-17T00:22:23+00:00",
+   "task": "Idle",
+   "step": "Engineering Nonsense complete; waiting for the next narrative",
+   "taskAt": "2026-11-17T00:22:41+00:00",
+   "updatedAt": "2026-11-17T00:22:45+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 51,
    "written": 51,
-   "posted": 50,
-   "public": 47,
-   "lastPostAt": "2026-11-17T00:06:52+00:00",
-   "nextToPost": "051 Gary\\"
+   "posted": 51,
+   "public": 48,
+   "lastPostAt": "2026-11-17T00:22:41+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "complete",
    "written": 20,
    "built": 20,
-   "posted": 19,
+   "posted": 20,
    "total": 20
   },
   {
@@ -819,9 +819,9 @@
    "seconds": 26.1,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/iuB18AONMSw",
+   "postedAt": "2026-11-17T00:22:41+00:00",
    "narrative": "Engineering Nonsense"
   }
  ]
