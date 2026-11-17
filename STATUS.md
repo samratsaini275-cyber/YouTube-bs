@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 070 — 🎙️ narrating 0/?
 
 **Finished videos:** 69 of 70 written &nbsp; `████████████████████`
 
@@ -77,6 +77,6 @@
 | 067 | The Dog Who Drives | 3D | ✅ done |
 | 068 | The Talking Fridge | 3D | ✅ done |
 | 069 | Steve, But Fast | 3D | ✅ done |
-| 070 | The Walking Bed | 3D | 📝 scripted, in queue |
+| 070 | The Walking Bed | 3D | 🎙️ narrating 0/? |
 
-_Updated 2026-11-17 14:43 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 14:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
