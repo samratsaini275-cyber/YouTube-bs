@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 061 — 🎙️ narrating 6/8
+**Now:** episode 061 — 🎙️ narrating 7/8
 
 **Finished videos:** 60 of 61 written &nbsp; `████████████████████`
 
@@ -68,6 +68,6 @@
 | 058 | The Self-Sharpening Pencil | 3D | ✅ done |
 | 059 | Gary Buys A Car | 3D | ✅ done |
 | 060 | The Password Shower | 3D | ✅ done |
-| 061 | The Solar Flashlight | 3D | 🎙️ narrating 6/8 |
+| 061 | The Solar Flashlight | 3D | 🎙️ narrating 7/8 |
 
-_Updated 2026-11-17 04:31 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 04:32 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
