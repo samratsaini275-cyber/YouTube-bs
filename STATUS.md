@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 052 — 🎙️ narrating 0/11
+**Now:** episode 052 — 🎙️ narrating 1/11
 
 **Finished videos:** 51 of 52 written &nbsp; `████████████████████`
 
@@ -59,6 +59,6 @@
 | 049 | The Polite Microwave | 3D | ✅ done |
 | 050 | The Top-Shelf Ladder | 3D | ✅ done |
 | 051 | Gary\ | 3D | ✅ done |
-| 052 | The Pizza Car | 3D | 🎙️ narrating 0/11 |
+| 052 | The Pizza Car | 3D | 🎙️ narrating 1/11 |
 
-_Updated 2026-11-17 02:30 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 02:33 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
