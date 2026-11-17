@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 055 — 🎙️ narrating 7/10
+**Now:** episode 055 — 🎙️ narrating 8/10
 
 **Finished videos:** 54 of 55 written &nbsp; `████████████████████`
 
@@ -62,6 +62,6 @@
 | 052 | The Pizza Car | 3D | ✅ done |
 | 053 | The Jelly Bridge | 3D | ✅ done |
 | 054 | The Sideways Elevator | 3D | ✅ done |
-| 055 | The Raining Umbrella | 3D | 🎙️ narrating 7/10 |
+| 055 | The Raining Umbrella | 3D | 🎙️ narrating 8/10 |
 
 _Updated 2026-11-17 03:08 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
