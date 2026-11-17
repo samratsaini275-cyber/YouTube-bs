@@ -1,15 +1,15 @@
 {
  "status": [
   {
-   "task": "Posting 052",
-   "step": "Uploading to YouTube",
-   "taskAt": "2026-11-17T02:40:24+00:00",
-   "updatedAt": "2026-11-17T02:40:46+00:00",
-   "activity": "Idle: no episode is building",
-   "activityKind": "idle",
+   "task": "Episode 053 (jelly bridge)",
+   "step": "Draft render",
+   "taskAt": "2026-11-17T02:41:08+00:00",
+   "updatedAt": "2026-11-17T02:41:08+00:00",
+   "activity": "Building episode 053: narrating 0/?",
+   "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 52,
-   "written": 52,
+   "written": 53,
    "posted": 52,
    "public": 49,
    "lastPostAt": "2026-11-17T02:40:26+00:00",
@@ -52,7 +52,7 @@
    "name": "Bad Ideas, Built Anyway",
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
-   "written": 1,
+   "written": 2,
    "built": 1,
    "posted": 1,
    "total": 20
@@ -847,6 +847,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/ewbpVReQrkY",
    "postedAt": "2026-11-17T02:40:26+00:00",
+   "narrative": "Bad Ideas, Built Anyway"
+  },
+  {
+   "n": "053",
+   "title": "The Jelly Bridge",
+   "slug": "053-jelly-bridge",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "building",
+   "buildDetail": "narrating 0/?",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Bad Ideas, Built Anyway"
   }
  ]
