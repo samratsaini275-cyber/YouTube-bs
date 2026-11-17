@@ -4,7 +4,7 @@
    "task": "Episode 062 (three worst doorbells)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-17T12:51:31+00:00",
-   "updatedAt": "2026-11-17T12:58:27+00:00",
+   "updatedAt": "2026-11-17T12:59:29+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
@@ -48,9 +48,9 @@
    "total": 20
   },
   {
-   "range": "052\u2013071",
+   "range": "052\u2013062",
    "name": "Bad Ideas, Built Anyway",
-   "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
+   "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds. Ended at 062 when the owner picked the next narrative.",
    "status": "upcoming",
    "written": 11,
    "built": 11,
@@ -58,9 +58,19 @@
    "total": 20
   },
   {
-   "range": "072\u2013091",
+   "range": "063\u2013082",
+   "name": "What Would Happen If\u2026",
+   "what": "One absurd \"what would happen if\" premise (a car with square wheels, a house made of ice cubes), then a fast, funny chain of consequences shown step by step.",
+   "status": "upcoming",
+   "written": 0,
+   "built": 0,
+   "posted": 0,
+   "total": 20
+  },
+  {
+   "range": "083\u2013102",
    "name": "to be chosen",
-   "what": "Picked from the view numbers when episode 071 is being written; production does not wait for approval.",
+   "what": "Picked from the view numbers when episode 082 is being written; production does not wait for approval.",
    "status": "upcoming",
    "written": 0,
    "built": 0,
