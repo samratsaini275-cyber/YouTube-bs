@@ -1,8 +1,8 @@
 # Production status
 
-**Now:** episode 065 — 🎙️ narrating 0/10
+**Now:** episode 065 — 🎙️ narrating 1/10
 
-**Finished videos:** 64 of 65 written &nbsp; `████████████████████`
+**Finished videos:** 64 of 66 written &nbsp; `███████████████████░`
 
 **Narrative 4: Bad Ideas, Built Anyway** — 13 of 20 finished &nbsp; `█████████████░░░░░░░`
 
@@ -72,6 +72,7 @@
 | 062 | Three Worst Doorbells | 3D | ✅ done |
 | 063 | The Ice House | 3D | ✅ done |
 | 064 | The Giant Cat | 3D | ✅ done |
-| 065 | The Alarm That Chases You | 3D | 🎙️ narrating 0/10 |
+| 065 | The Alarm That Chases You | 3D | 🎙️ narrating 1/10 |
+| 066 | The Huge Pigeons | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-17 13:57 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 13:58 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
