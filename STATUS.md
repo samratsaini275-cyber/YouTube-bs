@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 058 — 🎙️ narrating 6/11
+**Now:** episode 058 — 🎙️ narrating 7/11
 
 **Finished videos:** 57 of 58 written &nbsp; `████████████████████`
 
@@ -65,6 +65,6 @@
 | 055 | The Raining Umbrella | 3D | ✅ done |
 | 056 | The Square Wheels | 3D | ✅ done |
 | 057 | The Sponge Boat | 3D | ✅ done |
-| 058 | The Self-Sharpening Pencil | 3D | 🎙️ narrating 6/11 |
+| 058 | The Self-Sharpening Pencil | 3D | 🎙️ narrating 7/11 |
 
-_Updated 2026-11-17 03:36 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 03:37 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
