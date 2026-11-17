@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 053 — 🎙️ narrating 8/11
+**Now:** episode 053 — 🎙️ narrating 9/11
 
 **Finished videos:** 52 of 53 written &nbsp; `████████████████████`
 
@@ -60,6 +60,6 @@
 | 050 | The Top-Shelf Ladder | 3D | ✅ done |
 | 051 | Gary\ | 3D | ✅ done |
 | 052 | The Pizza Car | 3D | ✅ done |
-| 053 | The Jelly Bridge | 3D | 🎙️ narrating 8/11 |
+| 053 | The Jelly Bridge | 3D | 🎙️ narrating 9/11 |
 
-_Updated 2026-11-17 02:45 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 02:46 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
