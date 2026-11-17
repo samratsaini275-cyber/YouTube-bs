@@ -103,8 +103,9 @@ Update 12:45 UTC 17 Nov: the public counts did not move at all between 04:28 and
 058 was posted at about 12:44 UTC, 9 hours after the previous upload, on a day that already had eight uploads.
 If it gets views like 052 did, the gap matters more than the calendar day.
 
-Posting rule from 17 Nov 2026, revised 14:35 UTC at the channel owner's request ("post a little more often"): post
-one video at a time, only when the last upload was at least THREE hours ago (so up to eight a day). Previous version
+Posting rule from 17 Nov 2026, revised 16:22 UTC at the channel owner's request ("Post one video every hour"): post
+one video at a time, only when the last upload was at least ONE hour ago (up to 24 a day; if YouTube reports
+uploadLimitExceeded, wait and retry the next hour). Previous version (14:35 UTC): at least three hours apart. Previous version
 (12:45 UTC): at least six hours apart. This replaces the earlier two-per-UTC-day cap while the gap test runs.
 Original rule, kept for the record: at most two uploads per UTC day, at least six hours apart, the first soon after
 00:00 UTC. Run `python3 pipeline/stats.py` before each upload and compare each new video's views about four hours
