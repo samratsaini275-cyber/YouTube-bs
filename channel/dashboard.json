@@ -4,12 +4,12 @@
    "task": "Posting 057",
    "step": "Uploading to YouTube",
    "taskAt": "2026-11-17T03:31:55+00:00",
-   "updatedAt": "2026-11-17T03:32:13+00:00",
+   "updatedAt": "2026-11-17T03:32:35+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 57,
-   "written": 57,
+   "written": 58,
    "posted": 57,
    "public": 54,
    "lastPostAt": "2026-11-17T03:31:57+00:00",
@@ -52,7 +52,7 @@
    "name": "Bad Ideas, Built Anyway",
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
-   "written": 6,
+   "written": 7,
    "built": 6,
    "posted": 6,
    "total": 20
@@ -922,6 +922,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/yWBjBeVu-HA",
    "postedAt": "2026-11-17T03:31:57+00:00",
+   "narrative": "Bad Ideas, Built Anyway"
+  },
+  {
+   "n": "058",
+   "title": "The Self-Sharpening Pencil",
+   "slug": "058-self-sharpening-pencil",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "scripted, in queue",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Bad Ideas, Built Anyway"
   }
  ]

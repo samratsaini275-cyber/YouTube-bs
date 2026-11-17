@@ -2,7 +2,7 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 57 of 57 written &nbsp; `████████████████████`
+**Finished videos:** 57 of 58 written &nbsp; `████████████████████`
 
 **Narrative 4: to be chosen** — 6 of 20 finished &nbsp; `██████░░░░░░░░░░░░░░`
 
@@ -65,5 +65,6 @@
 | 055 | The Raining Umbrella | 3D | ✅ done |
 | 056 | The Square Wheels | 3D | ✅ done |
 | 057 | The Sponge Boat | 3D | ✅ done |
+| 058 | The Self-Sharpening Pencil | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-17 03:31 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 03:32 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
