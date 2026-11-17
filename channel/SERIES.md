@@ -49,6 +49,10 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
   else is labelled as a made-up comedy sketch. Voice: `pitch: 1.5` (semitones) in each episode file, which raises
   the voice slightly without changing its timing (pipeline/build.mjs).
 
+- Narration lesson (17 Nov): in the comment question, "..., or rude" was misheard twice ("router", "root"), and
+  "Straight A pluses" once; avoid "or" before a short word starting with r, and spell-out-able grades. Check the
+  read-back on every build.
+
 - Engagement rules from 058 on (content audit, 17 Nov 2026; these are judgment calls from reading the scripts and
   timing the narration, not viewer data): the comment question is one spoken line of about 4 s or less (it was taking
   about half of each 052–057 video); every episode has at least four joke beats before the question, including one
