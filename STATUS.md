@@ -74,6 +74,6 @@
 | 064 | The Giant Cat | 3D | ✅ done |
 | 065 | The Alarm That Chases You | 3D | ✅ done |
 | 066 | The Huge Pigeons | 3D | 🎙️ narrating 1/7 |
-| 067 | The Dog Who Drives | 3D | 🎙️ narrating 0/? |
+| 067 | The Dog Who Drives | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-17 14:08 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
