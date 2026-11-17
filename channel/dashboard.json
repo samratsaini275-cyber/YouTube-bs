@@ -4,12 +4,12 @@
    "task": "Idle",
    "step": "Engineering Nonsense complete; waiting for the next narrative",
    "taskAt": "2026-11-17T00:22:41+00:00",
-   "updatedAt": "2026-11-17T02:28:11+00:00",
+   "updatedAt": "2026-11-17T02:28:53+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 51,
-   "written": 51,
+   "written": 52,
    "posted": 51,
    "public": 48,
    "lastPostAt": "2026-11-17T00:22:41+00:00",
@@ -52,7 +52,7 @@
    "name": "Bad Ideas, Built Anyway",
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
-   "written": 0,
+   "written": 1,
    "built": 0,
    "posted": 0,
    "total": 20
@@ -833,6 +833,21 @@
    "youtubeUrl": "https://youtube.com/shorts/iuB18AONMSw",
    "postedAt": "2026-11-17T00:22:41+00:00",
    "narrative": "Engineering Nonsense"
+  },
+  {
+   "n": "052",
+   "title": "The Pizza Car",
+   "slug": "052-pizza-car",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "scripted, in queue",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
+   "narrative": "Bad Ideas, Built Anyway"
   }
  ]
 }
