@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 056 (square wheels)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-17T03:13:57+00:00",
-   "updatedAt": "2026-11-17T03:21:20+00:00",
+   "task": "Posting 056",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-17T03:21:50+00:00",
+   "updatedAt": "2026-11-17T03:22:02+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 56,
    "written": 56,
-   "posted": 55,
-   "public": 52,
-   "lastPostAt": "2026-11-17T03:12:08+00:00",
-   "nextToPost": "056 The Square Wheels"
+   "posted": 56,
+   "public": 53,
+   "lastPostAt": "2026-11-17T03:21:52+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -54,7 +54,7 @@
    "status": "upcoming",
    "written": 5,
    "built": 5,
-   "posted": 4,
+   "posted": 5,
    "total": 20
   },
   {
@@ -904,9 +904,9 @@
    "seconds": 20.0,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/oLy56Cq5xs4",
+   "postedAt": "2026-11-17T03:21:52+00:00",
    "narrative": "Bad Ideas, Built Anyway"
   }
  ]
