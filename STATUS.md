@@ -73,6 +73,6 @@
 | 063 | The Ice House | 3D | ✅ done |
 | 064 | The Giant Cat | 3D | ✅ done |
 | 065 | The Alarm That Chases You | 3D | 🎙️ narrating 1/10 |
-| 066 | The Huge Pigeons | 3D | 📝 scripted, in queue |
+| 066 | The Huge Pigeons | 3D | 🎙️ narrating 0/? |
 
 _Updated 2026-11-17 13:58 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
