@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 064 — 🎙️ narrating 7/9
+**Now:** episode 064 — 🎙️ narrating 8/9
 
 **Finished videos:** 63 of 65 written &nbsp; `███████████████████░`
 
@@ -71,7 +71,7 @@
 | 061 | The Solar Flashlight | 3D | ✅ done |
 | 062 | Three Worst Doorbells | 3D | ✅ done |
 | 063 | The Ice House | 3D | ✅ done |
-| 064 | The Giant Cat | 3D | 🎙️ narrating 7/9 |
+| 064 | The Giant Cat | 3D | 🎙️ narrating 8/9 |
 | 065 | The Alarm That Chases You | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-17 13:53 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 13:54 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
