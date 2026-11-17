@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 068 — 🎙️ narrating 2/8
+**Now:** episode 068 — 🎙️ narrating 3/8
 
 **Finished videos:** 67 of 69 written &nbsp; `███████████████████░`
 
@@ -75,7 +75,7 @@
 | 065 | The Alarm That Chases You | 3D | ✅ done |
 | 066 | The Huge Pigeons | 3D | ✅ done |
 | 067 | The Dog Who Drives | 3D | ✅ done |
-| 068 | The Talking Fridge | 3D | 🎙️ narrating 2/8 |
+| 068 | The Talking Fridge | 3D | 🎙️ narrating 3/8 |
 | 069 | Steve, But Fast | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-17 14:23 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
