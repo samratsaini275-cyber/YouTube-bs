@@ -100,7 +100,7 @@ export default {
       },
     },
     {
-      say: 'Report card? Straight A pluses.',
+      say: 'Report card? Perfect grades.',
       show: [...ALL, 'card', 'kid'], sky: '#FFF3C9', lightAt: [0, 5, 1], lightDist: 14,
       cam: { pos: [1, 11, 7], look: [0, 4.4, 1], fov: 44, to: { pos: [1, 10.5, 6], look: [0, 4.4, 1], fov: 42 } },
       update: (w, p, t) => { base(w); w.card.visible = true; pen(w, t, { x: 2.2, z: 1.5, tilt: .2 * Math.sin(t * 6), grin: true }); kid(w, t, { x: 4, z: 4.5 }); },
@@ -118,8 +118,8 @@ export default {
       update: (w, p, t) => { base(w); w.jar.visible = true; pen(w, t, { x: -1, z: 1, tilt: -.5 + .3 * Math.sin(t * 8), grin: true }); kid(w, t, { x: 3, z: 4, yell: true, yaw: -.9 }); },
     },
     {
-      say: 'Self-doing homework: genius, cheating, or creepy? Comment below.',
-      quiz: { q: 'Self-doing homework would be...', options: ['Genius', 'Cheating', 'Creepy'], answer: 'It is a made-up pencil, so you will have to do your own. Sorry.' },
+      say: 'Smart pencil: genius, cheat, or creepy? Comment below.',
+      quiz: { q: 'A pencil that does your homework is...', options: ['Genius', 'A cheat', 'Creepy'], answer: 'It is a made-up pencil, so you will have to do your own. Sorry.' },
       show: ALL, sky: '#274B73', lightAt: [0, 5, -1], lightDist: 16,
       cam: { pos: [8, 4, 12], look: [0, 11, -1.5], fov: 46, to: { pos: [-8, 4, 12], look: [0, 11, -1.5] } },
       update: (w, p, t) => { base(w); pen(w, t, { write: true }); },
