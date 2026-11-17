@@ -4,16 +4,16 @@
    "task": "Posting 058",
    "step": "Uploading to YouTube (9 h gap test)",
    "taskAt": "2026-11-17T12:48:58+00:00",
-   "updatedAt": "2026-11-17T12:49:01+00:00",
+   "updatedAt": "2026-11-17T12:49:23+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 61,
    "written": 61,
-   "posted": 57,
-   "public": 54,
-   "lastPostAt": "2026-11-17T03:31:57+00:00",
-   "nextToPost": "058 The Self-Sharpening Pencil"
+   "posted": 58,
+   "public": 55,
+   "lastPostAt": "2026-11-17T12:49:01+00:00",
+   "nextToPost": "059 Gary Buys A Car"
   }
  ],
  "narratives": [
@@ -54,7 +54,7 @@
    "status": "upcoming",
    "written": 10,
    "built": 10,
-   "posted": 6,
+   "posted": 7,
    "total": 20
   },
   {
@@ -934,9 +934,9 @@
    "seconds": 16.5,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/wrxjeAoODio",
+   "postedAt": "2026-11-17T12:49:01+00:00",
    "narrative": "Bad Ideas, Built Anyway"
   },
   {
