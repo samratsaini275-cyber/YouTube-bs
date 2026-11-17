@@ -72,6 +72,6 @@
 | 062 | Three Worst Doorbells | 3D | ✅ done |
 | 063 | The Ice House | 3D | ✅ done |
 | 064 | The Giant Cat | 3D | 🎙️ narrating 2/9 |
-| 065 | The Alarm That Chases You | 3D | 📝 scripted, in queue |
+| 065 | The Alarm That Chases You | 3D | 🎙️ narrating 0/? |
 
 _Updated 2026-11-17 13:50 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
