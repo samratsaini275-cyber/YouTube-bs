@@ -10,7 +10,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 032–051 | **Engineering Nonsense** | Silly, absurd shorts built to be funny first: deadpan narration of ridiculous "engineering" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline. |
 | 052–062 | **Bad Ideas, Built Anyway** | More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds. Ended at 062 when the owner picked the next narrative. |
 | 063–082 | **What Would Happen If…** | One absurd "what would happen if" premise (a house made of ice, a cat the size of a building), then a fast, funny chain of consequences shown step by step. |
-| 083–102 | to be chosen | Picked from the view numbers when episode 082 is being written; production does not wait for approval. |
+| 083–102 | **Gary's Big World** | Gary the ant (yellow hard hat, recurring since 032) tries one ordinary human-sized thing per episode (the beach, a birthday cake, bowling, a lift) and it goes hilariously wrong at ant scale. |
+| 103–122 | to be chosen | Picked from the view numbers when episode 102 is being written; production does not wait for approval. |
 
 ## Rules for every narrative
 
@@ -52,6 +53,15 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 - Narration lesson (17 Nov): in the comment question, "..., or rude" was misheard twice ("router", "root"), and
   "Straight A pluses" once; avoid "or" before a short word starting with r, and spell-out-able grades. Check the
   read-back on every build.
+
+- "Gary's Big World" (083–102, chosen 17 Nov 2026 18:55 UTC from channel/stats.json): of 61 public videos, five
+  had ~670–920 views (052 Pizza Car 921, 051 Gary's Tunnel 894, 032 Ant Bridge 856, 050 Top Shelf Ladder 847,
+  031 Nitrogen Tires 669) and nearly all the rest had under 20. Two of the top four star Gary the ant, the only
+  pattern visible. This is a small, noisy sample (it may reflect which uploads YouTube happened to test), so the
+  choice is a bet, not a proven result; re-check after ~10 Gary episodes are public. Format: first line names
+  Gary and the premise ("Gary the ant went bowling."), six words or fewer, done within 2.0 s; Gary visible in the
+  first frame, small but readable, with the human-sized object; three or four escalating ant-scale jokes and a
+  twist; one short comment question; 15–25 s; pitch 1.5. Gary is made up; real ant facts only when sourced.
 
 - Engagement rules from 058 on (content audit, 17 Nov 2026; these are judgment calls from reading the scripts and
   timing the narration, not viewer data): the comment question is one spoken line of about 4 s or less (it was taking
@@ -123,4 +133,5 @@ narrative held viewers longest and drew the most comments — rather than this t
 - Why Is It Built Like That?: 021 (manhole covers), 022 (railway ballast), 023 (golf ball dimples), 024 (bridge expansion joints), 025 (stop signs), 026 (window breather hole), 027 (rounded window corners), 028 (Taipei 101 damper), 029 (rumble strips), 030 (elevator brakes), 031 (nitrogen tires) written. Ended at 031.
 - Engineering Nonsense: complete — 032–051 written and posted (16–17 Nov 2026).
 - Bad Ideas, Built Anyway: 052–062 written. Ended at 062 (owner chose the next narrative).
-- What Would Happen If…: starts at 063.
+- What Would Happen If…: 063–082 written (17 Nov 2026).
+- Gary's Big World: starts at 083.
