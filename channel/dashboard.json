@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 057 (sponge boat)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-17T03:23:24+00:00",
-   "updatedAt": "2026-11-17T03:31:31+00:00",
+   "task": "Posting 057",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-17T03:31:55+00:00",
+   "updatedAt": "2026-11-17T03:32:13+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 57,
    "written": 57,
-   "posted": 56,
-   "public": 53,
-   "lastPostAt": "2026-11-17T03:21:52+00:00",
-   "nextToPost": "057 The Sponge Boat"
+   "posted": 57,
+   "public": 54,
+   "lastPostAt": "2026-11-17T03:31:57+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -54,7 +54,7 @@
    "status": "upcoming",
    "written": 6,
    "built": 6,
-   "posted": 5,
+   "posted": 6,
    "total": 20
   },
   {
@@ -919,9 +919,9 @@
    "seconds": 19.9,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/yWBjBeVu-HA",
+   "postedAt": "2026-11-17T03:31:57+00:00",
    "narrative": "Bad Ideas, Built Anyway"
   }
  ]
