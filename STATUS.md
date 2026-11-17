@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 063 — 🎙️ narrating 0/9
 
 **Finished videos:** 62 of 63 written &nbsp; `████████████████████`
 
@@ -70,6 +70,6 @@
 | 060 | The Password Shower | 3D | ✅ done |
 | 061 | The Solar Flashlight | 3D | ✅ done |
 | 062 | Three Worst Doorbells | 3D | ✅ done |
-| 063 | Square Wheels | 3D | 📝 scripted, in queue |
+| 063 | Square Wheels | 3D | 🎙️ narrating 0/9 |
 
-_Updated 2026-11-17 13:02 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 13:03 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
