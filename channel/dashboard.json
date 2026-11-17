@@ -4,16 +4,16 @@
    "task": "Episode 053 (jelly bridge)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-17T02:41:54+00:00",
-   "updatedAt": "2026-11-17T02:47:14+00:00",
-   "activity": "Building episode 053: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-17T02:49:16+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 52,
+   "built": 53,
    "written": 53,
    "posted": 52,
    "public": 49,
    "lastPostAt": "2026-11-17T02:40:26+00:00",
-   "nextToPost": ""
+   "nextToPost": "053 The Jelly Bridge"
   }
  ],
  "narratives": [
@@ -53,7 +53,7 @@
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
    "written": 2,
-   "built": 1,
+   "built": 2,
    "posted": 1,
    "total": 20
   },
@@ -856,9 +856,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 20.7,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",

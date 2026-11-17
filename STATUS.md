@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 053 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 52 of 53 written &nbsp; `████████████████████`
+**Finished videos:** 53 of 53 written &nbsp; `████████████████████`
 
-**Narrative 4: to be chosen** — 1 of 20 finished &nbsp; `█░░░░░░░░░░░░░░░░░░░`
+**Narrative 4: to be chosen** — 2 of 20 finished &nbsp; `██░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -60,6 +60,6 @@
 | 050 | The Top-Shelf Ladder | 3D | ✅ done |
 | 051 | Gary\ | 3D | ✅ done |
 | 052 | The Pizza Car | 3D | ✅ done |
-| 053 | The Jelly Bridge | 3D | 🎬 rendering |
+| 053 | The Jelly Bridge | 3D | ✅ done |
 
-_Updated 2026-11-17 02:47 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 02:49 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
