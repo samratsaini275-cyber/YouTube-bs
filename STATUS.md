@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 054 — 🎙️ narrating 11/12
+**Now:** episode 054 — 🎬 rendering
 
 **Finished videos:** 53 of 55 written &nbsp; `███████████████████░`
 
@@ -61,7 +61,7 @@
 | 051 | Gary\ | 3D | ✅ done |
 | 052 | The Pizza Car | 3D | ✅ done |
 | 053 | The Jelly Bridge | 3D | ✅ done |
-| 054 | The Sideways Elevator | 3D | 🎙️ narrating 11/12 |
+| 054 | The Sideways Elevator | 3D | 🎬 rendering |
 | 055 | The Raining Umbrella | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-17 03:00 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
