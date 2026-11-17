@@ -1,8 +1,8 @@
 # Production status
 
-**Now:** episode 066 — 🎙️ narrating 0/7
+**Now:** episode 066 — 🎙️ narrating 1/7
 
-**Finished videos:** 65 of 66 written &nbsp; `████████████████████`
+**Finished videos:** 65 of 67 written &nbsp; `███████████████████░`
 
 **Narrative 4: Bad Ideas, Built Anyway** — 14 of 20 finished &nbsp; `██████████████░░░░░░`
 
@@ -73,6 +73,7 @@
 | 063 | The Ice House | 3D | ✅ done |
 | 064 | The Giant Cat | 3D | ✅ done |
 | 065 | The Alarm That Chases You | 3D | ✅ done |
-| 066 | The Huge Pigeons | 3D | 🎙️ narrating 0/7 |
+| 066 | The Huge Pigeons | 3D | 🎙️ narrating 1/7 |
+| 067 | The Dog Who Drives | 3D | 🎙️ narrating 0/? |
 
-_Updated 2026-11-17 14:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 14:08 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
