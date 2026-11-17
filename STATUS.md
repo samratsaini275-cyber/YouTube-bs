@@ -75,6 +75,6 @@
 | 065 | The Alarm That Chases You | 3D | ✅ done |
 | 066 | The Huge Pigeons | 3D | ✅ done |
 | 067 | The Dog Who Drives | 3D | 🎙️ narrating 3/7 |
-| 068 | The Talking Fridge | 3D | 🎙️ narrating 0/? |
+| 068 | The Talking Fridge | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-17 14:16 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 14:17 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
