@@ -115,8 +115,8 @@ export default {
       update: (w, p, t) => { dry(w, 1); w.gary.position.set(0, .02, -6 + t * 3.2); w.gary.rotation.y = -Math.PI / 2; walk(w.gary, t); },
     },
     {
-      say: 'Quick question. What should the engineers build Gary next? Option A, a lift. Option B, an airport. Or option C, nothing. Leave Gary alone. Comment your answer.',
-      quiz: { q: 'What should the engineers build Gary next?', options: ['A lift', 'An airport', 'Nothing. Leave Gary alone.'], answer: 'Gary is made up, so build him anything. (He votes C.)' },
+      say: 'Quick question. What should the engineers build Gary next? Option A, a lift. Option B, an airport. Or option C, leave Gary alone. Comment your answer.',
+      quiz: { q: 'What should the engineers build Gary next?', options: ['A lift', 'An airport', 'Leave Gary alone'], answer: 'Gary is made up, so build him anything. (He votes C.)' },
       show: SET, sky: '#274B73', lightAt: [0, 6, 0], lightDist: 70,
       cam: { pos: [30, 40, 70], look: [0, -14, 0], fov: 46, to: { pos: [-30, 40, 70], look: [0, -14, 0] } },
       update: (w, p, t) => { dry(w, 1); w.gary.position.set(0, .02, 6); walk(w.gary, t, .5); },
