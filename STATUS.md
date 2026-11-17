@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 071 — 🎙️ narrating 0/7
 
 **Finished videos:** 70 of 71 written &nbsp; `████████████████████`
 
@@ -78,6 +78,6 @@
 | 068 | The Talking Fridge | 3D | ✅ done |
 | 069 | Steve, But Fast | 3D | ✅ done |
 | 070 | The Walking Bed | 3D | ✅ done |
-| 071 | Jelly Bean Rain | 3D | 📝 scripted, in queue |
+| 071 | Jelly Bean Rain | 3D | 🎙️ narrating 0/7 |
 
-_Updated 2026-11-17 14:53 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 14:55 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
