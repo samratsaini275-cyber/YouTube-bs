@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 063 — 🎙️ narrating 5/8
+**Now:** episode 063 — 🎙️ narrating 6/8
 
 **Finished videos:** 62 of 64 written &nbsp; `███████████████████░`
 
@@ -70,7 +70,7 @@
 | 060 | The Password Shower | 3D | ✅ done |
 | 061 | The Solar Flashlight | 3D | ✅ done |
 | 062 | Three Worst Doorbells | 3D | ✅ done |
-| 063 | The Ice House | 3D | 🎙️ narrating 5/8 |
+| 063 | The Ice House | 3D | 🎙️ narrating 6/8 |
 | 064 | The Giant Cat | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-17 13:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
