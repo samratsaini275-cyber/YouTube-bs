@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 057 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 56 of 57 written &nbsp; `████████████████████`
+**Finished videos:** 57 of 57 written &nbsp; `████████████████████`
 
-**Narrative 4: to be chosen** — 5 of 20 finished &nbsp; `█████░░░░░░░░░░░░░░░`
+**Narrative 4: to be chosen** — 6 of 20 finished &nbsp; `██████░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -64,6 +64,6 @@
 | 054 | The Sideways Elevator | 3D | ✅ done |
 | 055 | The Raining Umbrella | 3D | ✅ done |
 | 056 | The Square Wheels | 3D | ✅ done |
-| 057 | The Sponge Boat | 3D | 🎬 rendering |
+| 057 | The Sponge Boat | 3D | ✅ done |
 
-_Updated 2026-11-17 03:29 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 03:31 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._

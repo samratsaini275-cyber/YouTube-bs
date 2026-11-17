@@ -4,16 +4,16 @@
    "task": "Episode 057 (sponge boat)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-17T03:23:24+00:00",
-   "updatedAt": "2026-11-17T03:29:09+00:00",
-   "activity": "Building episode 057: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-17T03:31:31+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 56,
+   "built": 57,
    "written": 57,
    "posted": 56,
    "public": 53,
    "lastPostAt": "2026-11-17T03:21:52+00:00",
-   "nextToPost": ""
+   "nextToPost": "057 The Sponge Boat"
   }
  ],
  "narratives": [
@@ -53,7 +53,7 @@
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
    "written": 6,
-   "built": 5,
+   "built": 6,
    "posted": 5,
    "total": 20
   },
@@ -916,9 +916,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 19.9,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
