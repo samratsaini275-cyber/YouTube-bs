@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 067 — 🎙️ narrating 5/7
+**Now:** episode 067 — 🎙️ narrating 6/7
 
 **Finished videos:** 66 of 68 written &nbsp; `███████████████████░`
 
@@ -74,7 +74,7 @@
 | 064 | The Giant Cat | 3D | ✅ done |
 | 065 | The Alarm That Chases You | 3D | ✅ done |
 | 066 | The Huge Pigeons | 3D | ✅ done |
-| 067 | The Dog Who Drives | 3D | 🎙️ narrating 5/7 |
+| 067 | The Dog Who Drives | 3D | 🎙️ narrating 6/7 |
 | 068 | The Talking Fridge | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-17 14:18 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
