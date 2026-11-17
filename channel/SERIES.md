@@ -9,7 +9,7 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 021–031 | **Why Is It Built Like That?** | One everyday object or machine with a design that looks odd until you see the reason (for example: why train wheels are cone-shaped, why manhole covers are round). |
 | 032–051 | **Engineering Nonsense** | Silly, absurd shorts built to be funny first: deadpan narration of ridiculous "engineering" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline. |
 | 052–071 | **Bad Ideas, Built Anyway** | More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds. |
-| 072–091 | to be chosen | Decided when episode 071 is being written. |
+| 072–091 | to be chosen | Picked from the view numbers when episode 071 is being written; production does not wait for approval. |
 
 ## Rules for every narrative
 
@@ -42,6 +42,25 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
   about half of each 052–057 video); every episode has at least four joke beats before the question, including one
   escalation and one twist or punchline; openers and titles vary (not every one "This X is Y" / "Engineers built...");
   a recurring made-up character (Gary the ant, Kevin the blade of grass, Steve the snail) can return now and then.
+
+## Never stop, keep trying new angles (channel owner, 17 Nov 2026)
+
+"Don't stop making content tho and coming up with new narratives or angles to take." So:
+
+- Production does not pause: not for a full queue and not at the end of a narrative. Posting still follows the
+  posting rule below, so finished videos wait their turn.
+- Inside a narrative, rotate the angle from episode to episode so the view numbers can compare them:
+  A. object gag ("This car runs on pizza");
+  B. recurring character saga (Gary the ant, Kevin the blade of grass, Steve the snail);
+  C. second person ("You bought a door. It came with a manual.");
+  D. fake advert or product launch for the bad idea;
+  E. "worst three" countdown of made-up inventions;
+  F. a real, sourced odd engineering fact told in the same funny voice (the fact is true and checked).
+  Note the angle letter in a comment at the top of each episode file.
+- When a narrative ends (every 20 episodes), pick the next one without waiting: name it, write it into the table
+  above, start it, and tell the channel owner what was picked and why. Base the pick on `channel/stats.json`
+  (which angles and episodes got the most views and likes four hours after posting); if the numbers do not
+  separate them, try something new rather than repeat.
 
 ## What the numbers say (first look, 17 Nov 2026)
 
