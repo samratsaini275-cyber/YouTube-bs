@@ -43,6 +43,26 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
   escalation and one twist or punchline; openers and titles vary (not every one "This X is Y" / "Engineers built...");
   a recurring made-up character (Gary the ant, Kevin the blade of grass, Steve the snail) can return now and then.
 
+## What the numbers say (first look, 17 Nov 2026)
+
+Source: public view and like counts read from each video page by `pipeline/stats.py` (history in
+`channel/stats.json`). The upload login cannot read analytics, so retention and impressions are unknown.
+
+- 52 public videos had about 2,400 views in total. Four of them had about 95% of those views:
+  032 ant bridge (692), 051 Gary's tunnel (601), 031 nitrogen tires (528), 050 top-shelf ladder (472).
+- Those four were the first two uploads of 16 Nov (UTC) and the first two of 17 Nov (UTC). The 17 funny videos
+  posted between them, 10–20 minutes apart (033–049), had 0–3 views each, although they are the same style.
+- The 22 videos uploaded within one minute on 12 Nov had 0–11 views each; the earlier duplicate batch that day had
+  a few with 18–104 and the rest near zero.
+- Reading (an inference from this pattern, not something YouTube states): only the first few uploads in a burst or
+  day get shown to viewers; the rest are barely shown at all. Posting volume, not the content, explains most of the
+  difference so far. With only four videos shown, the data cannot yet say which jokes or formats work best. The one
+  content hint: the two Gary episodes are the top two.
+
+Posting rule from 17 Nov 2026: at most two uploads per UTC day, at least six hours apart, the first soon after
+00:00 UTC. Run `python3 pipeline/stats.py` before each upload and compare each new video's views about four hours
+after posting; revisit this rule after three days of data.
+
 ## How the next narrative is chosen
 
 The order above is a judgment call, not a measurement: no view, retention or comment data exists for this
