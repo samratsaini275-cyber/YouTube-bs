@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 055 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 54 of 55 written &nbsp; `████████████████████`
+**Finished videos:** 55 of 55 written &nbsp; `████████████████████`
 
-**Narrative 4: to be chosen** — 3 of 20 finished &nbsp; `███░░░░░░░░░░░░░░░░░`
+**Narrative 4: to be chosen** — 4 of 20 finished &nbsp; `████░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -62,6 +62,6 @@
 | 052 | The Pizza Car | 3D | ✅ done |
 | 053 | The Jelly Bridge | 3D | ✅ done |
 | 054 | The Sideways Elevator | 3D | ✅ done |
-| 055 | The Raining Umbrella | 3D | 🎬 rendering |
+| 055 | The Raining Umbrella | 3D | ✅ done |
 
-_Updated 2026-11-17 03:09 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 03:11 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._

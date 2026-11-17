@@ -4,16 +4,16 @@
    "task": "Episode 055 (raining umbrella)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-17T03:04:28+00:00",
-   "updatedAt": "2026-11-17T03:09:43+00:00",
-   "activity": "Building episode 055: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-17T03:11:45+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 54,
+   "built": 55,
    "written": 55,
    "posted": 54,
    "public": 51,
    "lastPostAt": "2026-11-17T03:04:17+00:00",
-   "nextToPost": ""
+   "nextToPost": "055 The Raining Umbrella"
   }
  ],
  "narratives": [
@@ -53,7 +53,7 @@
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
    "written": 4,
-   "built": 3,
+   "built": 4,
    "posted": 3,
    "total": 20
   },
@@ -886,9 +886,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 17.8,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
