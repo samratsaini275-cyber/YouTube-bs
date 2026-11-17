@@ -4,12 +4,12 @@
    "task": "Posting 053",
    "step": "Uploading to YouTube",
    "taskAt": "2026-11-17T02:49:44+00:00",
-   "updatedAt": "2026-11-17T02:49:58+00:00",
+   "updatedAt": "2026-11-17T02:50:20+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 53,
-   "written": 53,
+   "written": 54,
    "posted": 53,
    "public": 50,
    "lastPostAt": "2026-11-17T02:49:46+00:00",
@@ -52,7 +52,7 @@
    "name": "Bad Ideas, Built Anyway",
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
-   "written": 2,
+   "written": 3,
    "built": 2,
    "posted": 2,
    "total": 20
@@ -862,6 +862,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/phBDaWK-t6w",
    "postedAt": "2026-11-17T02:49:46+00:00",
+   "narrative": "Bad Ideas, Built Anyway"
+  },
+  {
+   "n": "054",
+   "title": "The Sideways Elevator",
+   "slug": "054-sideways-elevator",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "scripted, in queue",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Bad Ideas, Built Anyway"
   }
  ]

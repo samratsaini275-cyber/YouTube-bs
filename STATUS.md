@@ -2,7 +2,7 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 53 of 53 written &nbsp; `████████████████████`
+**Finished videos:** 53 of 54 written &nbsp; `████████████████████`
 
 **Narrative 4: to be chosen** — 2 of 20 finished &nbsp; `██░░░░░░░░░░░░░░░░░░`
 
@@ -61,5 +61,6 @@
 | 051 | Gary\ | 3D | ✅ done |
 | 052 | The Pizza Car | 3D | ✅ done |
 | 053 | The Jelly Bridge | 3D | ✅ done |
+| 054 | The Sideways Elevator | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-17 02:49 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 02:50 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
