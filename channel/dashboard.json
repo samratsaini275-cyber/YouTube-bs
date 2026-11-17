@@ -1,15 +1,15 @@
 {
  "status": [
   {
-   "task": "Posting 055",
-   "step": "Uploading to YouTube",
-   "taskAt": "2026-11-17T03:12:06+00:00",
-   "updatedAt": "2026-11-17T03:12:29+00:00",
-   "activity": "Idle: no episode is building",
-   "activityKind": "idle",
+   "task": "Episode 056 (square wheels)",
+   "step": "Draft render",
+   "taskAt": "2026-11-17T03:12:47+00:00",
+   "updatedAt": "2026-11-17T03:12:51+00:00",
+   "activity": "Building episode 056: narrating 0/?",
+   "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 55,
-   "written": 55,
+   "written": 56,
    "posted": 55,
    "public": 52,
    "lastPostAt": "2026-11-17T03:12:08+00:00",
@@ -52,7 +52,7 @@
    "name": "Bad Ideas, Built Anyway",
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
-   "written": 4,
+   "written": 5,
    "built": 4,
    "posted": 4,
    "total": 20
@@ -892,6 +892,21 @@
    "youtube": "public",
    "youtubeUrl": "https://youtube.com/shorts/3xcsUxSUeQE",
    "postedAt": "2026-11-17T03:12:08+00:00",
+   "narrative": "Bad Ideas, Built Anyway"
+  },
+  {
+   "n": "056",
+   "title": "The Square Wheels",
+   "slug": "056-square-wheels",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "building",
+   "buildDetail": "narrating 0/?",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
    "narrative": "Bad Ideas, Built Anyway"
   }
  ]
