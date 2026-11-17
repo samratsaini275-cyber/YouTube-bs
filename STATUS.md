@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 074 — 🎙️ narrating 10/12
 
-**Finished videos:** 74 of 74 written &nbsp; `████████████████████`
+**Finished videos:** 73 of 74 written &nbsp; `████████████████████`
 
-**Narrative 5: to be chosen** — 3 of 20 finished &nbsp; `███░░░░░░░░░░░░░░░░░`
+**Narrative 5: to be chosen** — 2 of 20 finished &nbsp; `██░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -81,6 +81,6 @@
 | 071 | Jelly Bean Rain | 3D | ✅ done |
 | 072 | The Reflection | 3D | ✅ done |
 | 073 | The Flying Cows | 3D | ✅ done |
-| 074 | The Homework That Does Itself | 3D | ✅ done |
+| 074 | The Homework That Does Itself | 3D | 🎙️ narrating 10/12 |
 
-_Updated 2026-11-17 15:33 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 15:34 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
