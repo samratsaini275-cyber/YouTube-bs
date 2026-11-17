@@ -4,12 +4,12 @@
    "task": "Episode 062 (three worst doorbells)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-17T12:51:31+00:00",
-   "updatedAt": "2026-11-17T12:59:29+00:00",
+   "updatedAt": "2026-11-17T13:01:52+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 62,
-   "written": 62,
+   "written": 63,
    "posted": 58,
    "public": 55,
    "lastPostAt": "2026-11-17T12:49:01+00:00",
@@ -62,7 +62,7 @@
    "name": "What Would Happen If\u2026",
    "what": "One absurd \"what would happen if\" premise (a car with square wheels, a house made of ice cubes), then a fast, funny chain of consequences shown step by step.",
    "status": "upcoming",
-   "written": 0,
+   "written": 1,
    "built": 0,
    "posted": 0,
    "total": 20
@@ -1008,6 +1008,21 @@
    "youtubeUrl": "",
    "postedAt": "",
    "narrative": "Bad Ideas, Built Anyway"
+  },
+  {
+   "n": "063",
+   "title": "Square Wheels",
+   "slug": "063-square-wheel-car",
+   "style": "3D",
+   "voice": "v3",
+   "quiz": true,
+   "seconds": null,
+   "build": "queued",
+   "buildDetail": "scripted, in queue",
+   "youtube": "not posted",
+   "youtubeUrl": "",
+   "postedAt": "",
+   "narrative": "What Would Happen If\u2026"
   }
  ]
 }
