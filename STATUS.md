@@ -1,8 +1,8 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 062 — 🎙️ narrating 0/?
 
-**Finished videos:** 61 of 61 written &nbsp; `████████████████████`
+**Finished videos:** 61 of 62 written &nbsp; `████████████████████`
 
 **Narrative 4: Bad Ideas, Built Anyway** — 10 of 20 finished &nbsp; `██████████░░░░░░░░░░`
 
@@ -69,5 +69,6 @@
 | 059 | Gary Buys A Car | 3D | ✅ done |
 | 060 | The Password Shower | 3D | ✅ done |
 | 061 | The Solar Flashlight | 3D | ✅ done |
+| 062 | Three Worst Doorbells | 3D | 🎙️ narrating 0/? |
 
-_Updated 2026-11-17 12:45 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 12:50 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
