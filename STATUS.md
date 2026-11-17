@@ -71,6 +71,6 @@
 | 061 | The Solar Flashlight | 3D | ✅ done |
 | 062 | Three Worst Doorbells | 3D | ✅ done |
 | 063 | The Ice House | 3D | 🎙️ narrating 0/8 |
-| 064 | The Giant Cat | 3D | 🎙️ narrating 0/? |
+| 064 | The Giant Cat | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-17 13:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 13:08 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
