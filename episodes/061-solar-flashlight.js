@@ -49,7 +49,7 @@ export default {
   voice: 'v3',
   case: 'THE SOLAR FLASHLIGHT',
   year: 'BAD IDEAS, BUILT ANYWAY',
-  hook: ['INTRODUCING THE', 'SOLAR FLASHLIGHT.'],
+  hook: ['MEET THE', 'SOLAR FLASHLIGHT.'],
   title: 'Introducing the solar flashlight',
   description: 'No batteries. No charging. One very small catch. (A made-up product. It is not for sale.)',
   tags: ['funny', 'badideas', 'fakead', 'flashlight', 'comedy', 'shorts'],
@@ -59,7 +59,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'Introducing the solar flashlight.',
+      say: 'Meet the solar flashlight.',
       show: DAY, sky: '#8EC9F0', lightAt: [0, 5, 0], lightDist: 20,
       cam: { pos: [8, 5, 18], look: [0, 9.5, 0], fov: 48, to: { pos: [6, 5, 14], look: [0, 9, 0], fov: 46 } },
       update: (w, p, t) => show(w, t, { spin: true, beam: true }),
