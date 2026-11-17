@@ -82,7 +82,14 @@ Update 04:28 UTC 17 Nov: 052 (posted 2.3 hours after 051, the first of its burst
 while 053–057 (posted 9–50 minutes behind it) stayed at 1–3. So the gap before an upload seems to matter, not only
 the calendar day, and a gap of a few hours may be enough. Test: post 058 about three hours after 057 and compare.
 
-Posting rule from 17 Nov 2026: at most two uploads per UTC day, at least six hours apart, the first soon after
+Update 12:45 UTC 17 Nov: the public counts did not move at all between 04:28 and 12:39 UTC (052 stayed at 102,
+051 at 650), so YouTube's public counter may be lagging; treat short-term numbers with caution. Test started:
+058 was posted at about 12:44 UTC, 9 hours after the previous upload, on a day that already had eight uploads.
+If it gets views like 052 did, the gap matters more than the calendar day.
+
+Posting rule from 17 Nov 2026 (revised 12:45 UTC): post one video at a time, only when the last upload was at least
+six hours ago (so up to four a day). This replaces the earlier two-per-UTC-day cap while the gap test runs.
+Original rule, kept for the record: at most two uploads per UTC day, at least six hours apart, the first soon after
 00:00 UTC. Run `python3 pipeline/stats.py` before each upload and compare each new video's views about four hours
 after posting; revisit this rule after three days of data.
 
