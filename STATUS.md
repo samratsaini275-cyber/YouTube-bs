@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 057 — 🎙️ narrating 7/11
+**Now:** episode 057 — 🎙️ narrating 8/11
 
 **Finished videos:** 56 of 57 written &nbsp; `████████████████████`
 
@@ -64,6 +64,6 @@
 | 054 | The Sideways Elevator | 3D | ✅ done |
 | 055 | The Raining Umbrella | 3D | ✅ done |
 | 056 | The Square Wheels | 3D | ✅ done |
-| 057 | The Sponge Boat | 3D | 🎙️ narrating 7/11 |
+| 057 | The Sponge Boat | 3D | 🎙️ narrating 8/11 |
 
 _Updated 2026-11-17 03:27 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
