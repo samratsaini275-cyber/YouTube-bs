@@ -59,7 +59,7 @@ function shiver(w, t, a = 1) { w.guy.position.x = 7 + .07 * a * Math.sin(t * 40)
 const ALL = ['ground', 'house', 'door', 'drips', 'puddle', 'guy'];
 
 export default {
-  id: '064',
+  id: '063',
   style: '3d',
   voice: 'v3',
   pitch: 1.5,

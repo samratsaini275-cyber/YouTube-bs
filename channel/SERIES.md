@@ -9,7 +9,7 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 021–031 | **Why Is It Built Like That?** | One everyday object or machine with a design that looks odd until you see the reason (for example: why train wheels are cone-shaped, why manhole covers are round). |
 | 032–051 | **Engineering Nonsense** | Silly, absurd shorts built to be funny first: deadpan narration of ridiculous "engineering" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline. |
 | 052–062 | **Bad Ideas, Built Anyway** | More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds. Ended at 062 when the owner picked the next narrative. |
-| 063–082 | **What Would Happen If…** | One absurd "what would happen if" premise (a car with square wheels, a house made of ice cubes), then a fast, funny chain of consequences shown step by step. |
+| 063–082 | **What Would Happen If…** | One absurd "what would happen if" premise (a house made of ice, a cat the size of a building), then a fast, funny chain of consequences shown step by step. |
 | 083–102 | to be chosen | Picked from the view numbers when episode 082 is being written; production does not wait for approval. |
 
 ## Rules for every narrative
@@ -40,10 +40,12 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 
 - "What Would Happen If…" (063–082, channel owner's request on 17 Nov 2026: "the next narrative I want to take is
   the 'what would happen if' narrative ... show how it would happen but still being funny and engaging with a quick
-  hook, also pitch up the voice just a bit"): the first line is the premise as a question ("What if cars had square
-  wheels?"), six words or fewer and done within 2.0 s; then three or four consequence beats that escalate, each shown
-  on screen; a twist or punchline; a question of about 4 s; 15–30 s total. If a real fact is used (for example, square
-  wheels really can roll smoothly on a road of inverted catenary bumps), it must be sourced in `sources`; everything
+  hook, also pitch up the voice just a bit"): the first line is the premise as a question
+  ("What if houses were made of ice?"), six words or fewer and done within 2.0 s; then three or four consequence beats
+  that escalate, each shown on screen; a twist or punchline; a question of about 4 s; 15–30 s total. Premises are
+  Failure Point's own, picked for being funny and visual (the owner rejected the square-wheel car on 17 Nov as not
+  funny or engaging: avoid dry physics premises; go for big, silly, relatable chaos). Any real fact is sourced in
+  `sources`; everything
   else is labelled as a made-up comedy sketch. Voice: `pitch: 1.5` (semitones) in each episode file, which raises
   the voice slightly without changing its timing (pipeline/build.mjs).
 
