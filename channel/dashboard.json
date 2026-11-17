@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 050 (top-shelf ladder)",
+   "task": "Episode 051 (Gary's tunnel)",
    "step": "Full build: narration + render",
-   "taskAt": "2026-11-16T23:56:27+00:00",
-   "updatedAt": "2026-11-17T00:06:23+00:00",
-   "activity": "Idle: no episode is building",
-   "activityKind": "idle",
+   "taskAt": "2026-11-17T00:07:01+00:00",
+   "updatedAt": "2026-11-17T00:07:05+00:00",
+   "activity": "Building episode 051: narrating 0/14",
+   "activityKind": "building",
    "narrative": "Why Is It Built Like That?",
    "built": 50,
    "written": 51,
-   "posted": 49,
-   "public": 46,
-   "lastPostAt": "2026-11-16T23:56:16+00:00",
-   "nextToPost": "050 The Top-Shelf Ladder"
+   "posted": 50,
+   "public": 47,
+   "lastPostAt": "2026-11-17T00:06:52+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -44,7 +44,7 @@
    "status": "upcoming",
    "written": 20,
    "built": 19,
-   "posted": 18,
+   "posted": 19,
    "total": 20
   },
   {
@@ -804,9 +804,9 @@
    "seconds": 24.4,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/OpkqHWK3Mjg",
+   "postedAt": "2026-11-17T00:06:52+00:00",
    "narrative": "Engineering Nonsense"
   },
   {
@@ -817,8 +817,8 @@
    "voice": "v3",
    "quiz": true,
    "seconds": null,
-   "build": "queued",
-   "buildDetail": "scripted, in queue",
+   "build": "building",
+   "buildDetail": "narrating 0/14",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",
