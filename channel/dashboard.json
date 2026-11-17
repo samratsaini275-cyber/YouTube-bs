@@ -1,19 +1,19 @@
 {
  "status": [
   {
-   "task": "Episode 054 (sideways elevator)",
-   "step": "Shortening the hook line",
-   "taskAt": "2026-11-17T03:00:00+00:00",
-   "updatedAt": "2026-11-17T03:03:38+00:00",
+   "task": "Posting 054",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-17T03:04:15+00:00",
+   "updatedAt": "2026-11-17T03:04:20+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 54,
    "written": 55,
-   "posted": 53,
-   "public": 50,
-   "lastPostAt": "2026-11-17T02:49:46+00:00",
-   "nextToPost": "054 The Sideways Elevator"
+   "posted": 54,
+   "public": 51,
+   "lastPostAt": "2026-11-17T03:04:17+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -54,7 +54,7 @@
    "status": "upcoming",
    "written": 4,
    "built": 3,
-   "posted": 2,
+   "posted": 3,
    "total": 20
   },
   {
@@ -874,9 +874,9 @@
    "seconds": 21.5,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/2w_KKR1lm3E",
+   "postedAt": "2026-11-17T03:04:17+00:00",
    "narrative": "Bad Ideas, Built Anyway"
   },
   {
