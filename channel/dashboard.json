@@ -4,16 +4,16 @@
    "task": "Episode 052 (pizza car)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-17T02:30:15+00:00",
-   "updatedAt": "2026-11-17T02:38:00+00:00",
-   "activity": "Building episode 052: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-17T02:40:03+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 51,
+   "built": 52,
    "written": 52,
    "posted": 51,
    "public": 48,
    "lastPostAt": "2026-11-17T00:22:41+00:00",
-   "nextToPost": ""
+   "nextToPost": "052 The Pizza Car"
   }
  ],
  "narratives": [
@@ -53,7 +53,7 @@
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
    "written": 1,
-   "built": 0,
+   "built": 1,
    "posted": 0,
    "total": 20
   },
@@ -841,9 +841,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 20.3,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",

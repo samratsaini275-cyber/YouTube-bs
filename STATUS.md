@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 052 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 51 of 52 written &nbsp; `████████████████████`
+**Finished videos:** 52 of 52 written &nbsp; `████████████████████`
 
-**Narrative 4: to be chosen** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 4: to be chosen** — 1 of 20 finished &nbsp; `█░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -59,6 +59,6 @@
 | 049 | The Polite Microwave | 3D | ✅ done |
 | 050 | The Top-Shelf Ladder | 3D | ✅ done |
 | 051 | Gary\ | 3D | ✅ done |
-| 052 | The Pizza Car | 3D | 🎬 rendering |
+| 052 | The Pizza Car | 3D | ✅ done |
 
-_Updated 2026-11-17 02:38 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 02:40 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
