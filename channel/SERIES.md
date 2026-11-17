@@ -8,7 +8,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 001–020 | **Case Files** | One real engineering failure: what was built, the decision that broke it, what it cost. |
 | 021–031 | **Why Is It Built Like That?** | One everyday object or machine with a design that looks odd until you see the reason (for example: why train wheels are cone-shaped, why manhole covers are round). |
 | 032–051 | **Engineering Nonsense** | Silly, absurd shorts built to be funny first: deadpan narration of ridiculous "engineering" (a bridge for one ant, a toaster with a safety briefing, a door that needs a 40-step manual), fast cuts and a punchline. |
-| 052–071 | to be chosen | Decided when episode 051 is being written, using what the first three narratives showed. |
+| 052–071 | **Bad Ideas, Built Anyway** | More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds. |
+| 072–091 | to be chosen | Decided when episode 071 is being written. |
 
 ## Rules for every narrative
 
@@ -31,6 +32,11 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 - The pause after 030 ended on 16 Nov 2026: the channel owner asked to keep making and posting videos, and to switch
   to the funny narrative now. Engineering Nonsense therefore starts at 032 instead of 041.
 
+- "Bad Ideas, Built Anyway" (052–071, channel owner's request on 17 Nov 2026: "keep making stupid funny content but
+  make the hook in the first two seconds"): the first spoken line is six words or fewer and must finish within 2.0 s
+  (checked in the narration read-back); the on-screen hook text says the same thing; the first frame already shows the
+  absurd thing in motion (no slow establishing shot); 15–30 s total. The other Engineering Nonsense rules still apply.
+
 ## How the next narrative is chosen
 
 The order above is a judgment call, not a measurement: no view, retention or comment data exists for this
@@ -41,4 +47,5 @@ narrative held viewers longest and drew the most comments — rather than this t
 
 - Case Files: complete — 001–020 written (001–013 in 2D, 014–020 in 3D).
 - Why Is It Built Like That?: 021 (manhole covers), 022 (railway ballast), 023 (golf ball dimples), 024 (bridge expansion joints), 025 (stop signs), 026 (window breather hole), 027 (rounded window corners), 028 (Taipei 101 damper), 029 (rumble strips), 030 (elevator brakes), 031 (nitrogen tires) written. Ended at 031.
-- Engineering Nonsense: complete — 032–051 written and posted (16–17 Nov 2026). Next narrative (052+) waits for the channel owner's pick.
+- Engineering Nonsense: complete — 032–051 written and posted (16–17 Nov 2026).
+- Bad Ideas, Built Anyway: starts at 052.
