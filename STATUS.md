@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 050 — 🎙️ narrating 7/12
+**Now:** episode 050 — 🎙️ narrating 8/12
 
 **Finished videos:** 49 of 51 written &nbsp; `███████████████████░`
 
@@ -57,7 +57,7 @@
 | 047 | The Self-Tying Shoes | 3D | ✅ done |
 | 048 | The Bathtub Drawbridge | 3D | ✅ done |
 | 049 | The Polite Microwave | 3D | ✅ done |
-| 050 | The Top-Shelf Ladder | 3D | 🎙️ narrating 7/12 |
+| 050 | The Top-Shelf Ladder | 3D | 🎙️ narrating 8/12 |
 | 051 | Gary\ | 3D | 📝 scripted, in queue |
 
 _Updated 2026-11-17 00:01 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
