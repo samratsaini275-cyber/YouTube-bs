@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 072 — 🎙️ narrating 6/9
+**Now:** episode 072 — 🎙️ narrating 7/9
 
 **Finished videos:** 71 of 72 written &nbsp; `████████████████████`
 
@@ -79,6 +79,6 @@
 | 069 | Steve, But Fast | 3D | ✅ done |
 | 070 | The Walking Bed | 3D | ✅ done |
 | 071 | Jelly Bean Rain | 3D | ✅ done |
-| 072 | The Reflection | 3D | 🎙️ narrating 6/9 |
+| 072 | The Reflection | 3D | 🎙️ narrating 7/9 |
 
-_Updated 2026-11-17 15:08 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 15:09 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
