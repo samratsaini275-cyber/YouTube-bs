@@ -4,16 +4,16 @@
    "task": "Posting 055",
    "step": "Uploading to YouTube",
    "taskAt": "2026-11-17T03:12:06+00:00",
-   "updatedAt": "2026-11-17T03:12:07+00:00",
+   "updatedAt": "2026-11-17T03:12:29+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
    "built": 55,
    "written": 55,
-   "posted": 54,
-   "public": 51,
-   "lastPostAt": "2026-11-17T03:04:17+00:00",
-   "nextToPost": "055 The Raining Umbrella"
+   "posted": 55,
+   "public": 52,
+   "lastPostAt": "2026-11-17T03:12:08+00:00",
+   "nextToPost": ""
   }
  ],
  "narratives": [
@@ -54,7 +54,7 @@
    "status": "upcoming",
    "written": 4,
    "built": 4,
-   "posted": 3,
+   "posted": 4,
    "total": 20
   },
   {
@@ -889,9 +889,9 @@
    "seconds": 17.8,
    "build": "done",
    "buildDetail": "done",
-   "youtube": "not posted",
-   "youtubeUrl": "",
-   "postedAt": "",
+   "youtube": "public",
+   "youtubeUrl": "https://youtube.com/shorts/3xcsUxSUeQE",
+   "postedAt": "2026-11-17T03:12:08+00:00",
    "narrative": "Bad Ideas, Built Anyway"
   }
  ]
