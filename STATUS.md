@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 073 — 🎙️ narrating 1/7
+**Now:** episode 073 — 🎙️ narrating 2/7
 
 **Finished videos:** 72 of 73 written &nbsp; `████████████████████`
 
@@ -80,6 +80,6 @@
 | 070 | The Walking Bed | 3D | ✅ done |
 | 071 | Jelly Bean Rain | 3D | ✅ done |
 | 072 | The Reflection | 3D | ✅ done |
-| 073 | The Flying Cows | 3D | 🎙️ narrating 1/7 |
+| 073 | The Flying Cows | 3D | 🎙️ narrating 2/7 |
 
 _Updated 2026-11-17 15:16 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
