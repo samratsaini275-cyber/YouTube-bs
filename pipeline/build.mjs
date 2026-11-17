@@ -124,7 +124,11 @@ args.push('-f', 'lavfi', '-t', D, '-i',
   `anoisesrc=c=brown:r=48000:a=0.25,lowpass=f=260[n];[a][b][c][n]amix=inputs=4:normalize=0,tremolo=f=0.13:d=0.5,lowpass=f=420,` +
   `afade=t=in:d=1.2,afade=t=out:st=${(tl.duration - 1.4).toFixed(2)}:d=1.4,volume=0.12`);
 const hits = tl.scenes.map((sc, i) => `[h${i}]adelay=${Math.round(sc.start * 1000)}:all=1,volume=${i === 0 ? 0.55 : 0.3}[hd${i}]`).join(';');
-const fc = tl.clips.map((c, i) => `[${i}:a]aresample=48000,atempo=${SPEED},adelay=${Math.round(c.at * 1000)}:all=1[v${i}]`).join(';') +
+// Optional pitch lift in semitones (ep.pitch). asetrate raises pitch and speed together; atempo then removes the
+// extra speed so the timing stays exactly as before.
+const PF = Math.pow(2, (ep.pitch || 0) / 12);
+const pitchF = PF === 1 ? '' : `asetrate=${Math.round(48000 * PF)},aresample=48000,`;
+const fc = tl.clips.map((c, i) => `[${i}:a]aresample=48000,${pitchF}atempo=${(SPEED / PF).toFixed(4)},adelay=${Math.round(c.at * 1000)}:all=1[v${i}]`).join(';') +
   `;${tl.clips.map((_, i) => `[v${i}]`).join('')}amix=inputs=${n}:normalize=0,acompressor=threshold=-18dB:ratio=2.5:attack=8:release=120,` +
   `highpass=f=70[voice];[${n + 1}:a]asplit=${tl.scenes.length}${tl.scenes.map((_, i) => `[h${i}]`).join('')};${hits};${tl.scenes.map((_, i) => `[hd${i}]`).join('')}amix=inputs=${tl.scenes.length}:normalize=0[hit];[voice][${n}:a][hit]amix=inputs=3:normalize=0:duration=longest,loudnorm=I=-15:TP=-1.5:LRA=9,apad,atrim=0:${D}[out]`;
 args.push('-f', 'lavfi', '-i', "aevalsrc='0.9*sin(2*PI*(95-70*t)*t)*exp(-8*t)+0.12*sin(2*PI*900*t)*exp(-60*t)':d=0.7:s=48000");
