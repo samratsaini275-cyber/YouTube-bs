@@ -1,10 +1,10 @@
 {
  "status": [
   {
-   "task": "Episode 052 (pizza car)",
-   "step": "Full build: narration + render",
-   "taskAt": "2026-11-17T02:30:15+00:00",
-   "updatedAt": "2026-11-17T02:40:03+00:00",
+   "task": "Posting 052",
+   "step": "Uploading to YouTube",
+   "taskAt": "2026-11-17T02:40:24+00:00",
+   "updatedAt": "2026-11-17T02:40:24+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
