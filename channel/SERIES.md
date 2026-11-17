@@ -41,4 +41,4 @@ narrative held viewers longest and drew the most comments — rather than this t
 
 - Case Files: complete — 001–020 written (001–013 in 2D, 014–020 in 3D).
 - Why Is It Built Like That?: 021 (manhole covers), 022 (railway ballast), 023 (golf ball dimples), 024 (bridge expansion joints), 025 (stop signs), 026 (window breather hole), 027 (rounded window corners), 028 (Taipei 101 damper), 029 (rumble strips), 030 (elevator brakes), 031 (nitrogen tires) written. Ended at 031.
-- Engineering Nonsense: starts at 032.
+- Engineering Nonsense: complete — 032–051 written and posted (16–17 Nov 2026). Next narrative (052+) waits for the channel owner's pick.
