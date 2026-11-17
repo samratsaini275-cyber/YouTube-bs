@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 063 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 62 of 64 written &nbsp; `███████████████████░`
+**Finished videos:** 63 of 64 written &nbsp; `████████████████████`
 
-**Narrative 4: Bad Ideas, Built Anyway** — 11 of 20 finished &nbsp; `███████████░░░░░░░░░`
+**Narrative 4: Bad Ideas, Built Anyway** — 12 of 20 finished &nbsp; `████████████░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -70,7 +70,7 @@
 | 060 | The Password Shower | 3D | ✅ done |
 | 061 | The Solar Flashlight | 3D | ✅ done |
 | 062 | Three Worst Doorbells | 3D | ✅ done |
-| 063 | The Ice House | 3D | 🎬 rendering |
+| 063 | The Ice House | 3D | ✅ done |
 | 064 | The Giant Cat | 3D | 📝 scripted, in queue |
 
-_Updated 2026-11-17 13:45 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 13:48 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
