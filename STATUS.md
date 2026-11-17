@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 070 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 69 of 70 written &nbsp; `████████████████████`
+**Finished videos:** 70 of 70 written &nbsp; `████████████████████`
 
-**Narrative 4: Bad Ideas, Built Anyway** — 18 of 20 finished &nbsp; `██████████████████░░`
+**Narrative 4: Bad Ideas, Built Anyway** — 19 of 20 finished &nbsp; `███████████████████░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -77,6 +77,6 @@
 | 067 | The Dog Who Drives | 3D | ✅ done |
 | 068 | The Talking Fridge | 3D | ✅ done |
 | 069 | Steve, But Fast | 3D | ✅ done |
-| 070 | The Walking Bed | 3D | 🎬 rendering |
+| 070 | The Walking Bed | 3D | ✅ done |
 
-_Updated 2026-11-17 14:50 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 14:52 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
