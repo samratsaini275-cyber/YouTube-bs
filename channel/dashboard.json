@@ -4,16 +4,16 @@
    "task": "Episode 056 (square wheels)",
    "step": "Full build: narration + render",
    "taskAt": "2026-11-17T03:13:57+00:00",
-   "updatedAt": "2026-11-17T03:19:38+00:00",
-   "activity": "Building episode 056: rendering",
-   "activityKind": "building",
+   "updatedAt": "2026-11-17T03:21:20+00:00",
+   "activity": "Idle: no episode is building",
+   "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
-   "built": 55,
+   "built": 56,
    "written": 56,
    "posted": 55,
    "public": 52,
    "lastPostAt": "2026-11-17T03:12:08+00:00",
-   "nextToPost": ""
+   "nextToPost": "056 The Square Wheels"
   }
  ],
  "narratives": [
@@ -53,7 +53,7 @@
    "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
    "status": "upcoming",
    "written": 5,
-   "built": 4,
+   "built": 5,
    "posted": 4,
    "total": 20
   },
@@ -901,9 +901,9 @@
    "style": "3D",
    "voice": "v3",
    "quiz": true,
-   "seconds": null,
-   "build": "building",
-   "buildDetail": "rendering",
+   "seconds": 20.0,
+   "build": "done",
+   "buildDetail": "done",
    "youtube": "not posted",
    "youtubeUrl": "",
    "postedAt": "",

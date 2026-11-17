@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 056 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 55 of 56 written &nbsp; `████████████████████`
+**Finished videos:** 56 of 56 written &nbsp; `████████████████████`
 
-**Narrative 4: to be chosen** — 4 of 20 finished &nbsp; `████░░░░░░░░░░░░░░░░`
+**Narrative 4: to be chosen** — 5 of 20 finished &nbsp; `█████░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -63,6 +63,6 @@
 | 053 | The Jelly Bridge | 3D | ✅ done |
 | 054 | The Sideways Elevator | 3D | ✅ done |
 | 055 | The Raining Umbrella | 3D | ✅ done |
-| 056 | The Square Wheels | 3D | 🎬 rendering |
+| 056 | The Square Wheels | 3D | ✅ done |
 
-_Updated 2026-11-17 03:19 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 03:21 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
