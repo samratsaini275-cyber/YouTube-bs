@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 051 — 🎙️ narrating 12/13
 
-**Finished videos:** 51 of 51 written &nbsp; `████████████████████`
+**Finished videos:** 50 of 51 written &nbsp; `████████████████████`
 
-**Narrative 3: Engineering Nonsense** — 20 of 20 finished &nbsp; `████████████████████`
+**Narrative 3: Engineering Nonsense** — 19 of 20 finished &nbsp; `███████████████████░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -58,6 +58,6 @@
 | 048 | The Bathtub Drawbridge | 3D | ✅ done |
 | 049 | The Polite Microwave | 3D | ✅ done |
 | 050 | The Top-Shelf Ladder | 3D | ✅ done |
-| 051 | Gary\ | 3D | ✅ done |
+| 051 | Gary\ | 3D | 🎙️ narrating 12/13 |
 
 _Updated 2026-11-17 00:18 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
