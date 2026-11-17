@@ -4,7 +4,7 @@
    "task": "Idle",
    "step": "Engineering Nonsense complete; waiting for the next narrative",
    "taskAt": "2026-11-17T00:22:41+00:00",
-   "updatedAt": "2026-11-17T00:22:45+00:00",
+   "updatedAt": "2026-11-17T02:28:11+00:00",
    "activity": "Idle: no episode is building",
    "activityKind": "idle",
    "narrative": "Why Is It Built Like That?",
@@ -49,8 +49,18 @@
   },
   {
    "range": "052\u2013071",
+   "name": "Bad Ideas, Built Anyway",
+   "what": "More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds.",
+   "status": "upcoming",
+   "written": 0,
+   "built": 0,
+   "posted": 0,
+   "total": 20
+  },
+  {
+   "range": "072\u2013091",
    "name": "to be chosen",
-   "what": "Decided when episode 051 is being written, using what the first three narratives showed.",
+   "what": "Decided when episode 071 is being written.",
    "status": "upcoming",
    "written": 0,
    "built": 0,
