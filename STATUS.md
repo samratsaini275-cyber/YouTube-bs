@@ -65,6 +65,6 @@
 | 055 | The Raining Umbrella | 3D | ✅ done |
 | 056 | The Square Wheels | 3D | ✅ done |
 | 057 | The Sponge Boat | 3D | ✅ done |
-| 058 | The Self-Sharpening Pencil | 3D | ⏸️ narration paused at 10/11 |
+| 058 | The Self-Sharpening Pencil | 3D | ⏳ narration ready, waiting to render |
 
 _Updated 2026-11-17 03:39 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
