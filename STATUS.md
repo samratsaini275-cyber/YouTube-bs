@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 069 — 🎬 rendering
+**Now:** idle — nothing is building
 
-**Finished videos:** 68 of 69 written &nbsp; `████████████████████`
+**Finished videos:** 69 of 69 written &nbsp; `████████████████████`
 
-**Narrative 4: Bad Ideas, Built Anyway** — 17 of 20 finished &nbsp; `█████████████████░░░`
+**Narrative 4: Bad Ideas, Built Anyway** — 18 of 20 finished &nbsp; `██████████████████░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -76,6 +76,6 @@
 | 066 | The Huge Pigeons | 3D | ✅ done |
 | 067 | The Dog Who Drives | 3D | ✅ done |
 | 068 | The Talking Fridge | 3D | ✅ done |
-| 069 | Steve, But Fast | 3D | 🎬 rendering |
+| 069 | Steve, But Fast | 3D | ✅ done |
 
-_Updated 2026-11-17 14:40 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 14:42 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
