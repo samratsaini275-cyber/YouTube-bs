@@ -78,6 +78,10 @@ Source: public view and like counts read from each video page by `pipeline/stats
   difference so far. With only four videos shown, the data cannot yet say which jokes or formats work best. The one
   content hint: the two Gary episodes are the top two.
 
+Update 04:28 UTC 17 Nov: 052 (posted 2.3 hours after 051, the first of its burst) reached 102 views in 1.8 hours,
+while 053–057 (posted 9–50 minutes behind it) stayed at 1–3. So the gap before an upload seems to matter, not only
+the calendar day, and a gap of a few hours may be enough. Test: post 058 about three hours after 057 and compare.
+
 Posting rule from 17 Nov 2026: at most two uploads per UTC day, at least six hours apart, the first soon after
 00:00 UTC. Run `python3 pipeline/stats.py` before each upload and compare each new video's views about four hours
 after posting; revisit this rule after three days of data.
