@@ -125,8 +125,8 @@ export default {
       },
     },
     {
-      say: 'Walking trees: cool, creepy, or rude? Comment below.',
-      quiz: { q: 'Walking trees would be...', options: ['Cool', 'Creepy', 'Rude'], answer: 'They are made-up trees, but the leaves part is definitely rude.' },
+      say: 'Walking trees: cool, creepy, or annoying? Comment below.',
+      quiz: { q: 'Walking trees would be...', options: ['Cool', 'Creepy', 'Annoying'], answer: 'They are made-up trees, but the leaves part is definitely annoying.' },
       show: PARK, sky: '#274B73', lightAt: [0, 5, 0], lightDist: 25,
       cam: { pos: [14, 2, 24], look: [0, 15, 0], fov: 46, to: { pos: [-12, 2, 24], look: [0, 15, 0] } },
       update: (w, p, t) => { w.tree.position.set(0, 0, 0); w.tree.rotation.y = .3; waddle(w.t1, t); },
