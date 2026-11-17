@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 067 — 🎙️ narrating 0/7
 
 **Finished videos:** 66 of 67 written &nbsp; `████████████████████`
 
@@ -74,6 +74,6 @@
 | 064 | The Giant Cat | 3D | ✅ done |
 | 065 | The Alarm That Chases You | 3D | ✅ done |
 | 066 | The Huge Pigeons | 3D | ✅ done |
-| 067 | The Dog Who Drives | 3D | 📝 scripted, in queue |
+| 067 | The Dog Who Drives | 3D | 🎙️ narrating 0/7 |
 
-_Updated 2026-11-17 14:13 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 14:14 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
