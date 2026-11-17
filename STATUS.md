@@ -1,6 +1,6 @@
 # Production status
 
-**Now:** episode 051 — 🎙️ narrating 13/14
+**Now:** episode 051 — 🎬 rendering
 
 **Finished videos:** 50 of 51 written &nbsp; `████████████████████`
 
@@ -58,6 +58,6 @@
 | 048 | The Bathtub Drawbridge | 3D | ✅ done |
 | 049 | The Polite Microwave | 3D | ✅ done |
 | 050 | The Top-Shelf Ladder | 3D | ✅ done |
-| 051 | Gary\ | 3D | 🎙️ narrating 13/14 |
+| 051 | Gary\ | 3D | 🎬 rendering |
 
-_Updated 2026-11-17 00:14 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-17 00:15 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
