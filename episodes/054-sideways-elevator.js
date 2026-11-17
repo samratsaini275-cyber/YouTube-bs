@@ -46,7 +46,7 @@ export default {
   voice: 'v3',
   case: 'THE SIDEWAYS ELEVATOR',
   year: 'BAD IDEAS, BUILT ANYWAY',
-  hook: ['THIS ELEVATOR', 'ONLY GOES SIDEWAYS.'],
+  hook: ['THIS ELEVATOR', 'GOES SIDEWAYS.'],
   title: 'Engineers built an elevator that only goes sideways',
   description: 'Press floor ten. Arrive somewhere you did not expect. (A made-up elevator. Real ones go up.)',
   tags: ['engineering', 'funny', 'badideas', 'elevator', 'comedy', 'shorts'],
@@ -56,7 +56,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'This elevator only goes sideways.',
+      say: 'This elevator goes sideways.',
       show: ALL, sky: '#9ED2F3', lightAt: [6, 22, 3], lightDist: 30,
       cam: { pos: [14, 17, 30], look: [8, 31, 3], fov: 50, to: { pos: [18, 17, 28], look: [12, 31, 3], fov: 48 } },
       update: (w, p, t) => { ride(w, 4 + t * 6, t); press(w, t, -1); },
