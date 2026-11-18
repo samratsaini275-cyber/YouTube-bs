@@ -111,8 +111,8 @@ export default {
       },
     },
     {
-      say: 'Gary\'s band: jazz, rock, or kazoo? Comment below.',
-      quiz: { q: 'What band should Gary start?', options: ['Jazz', 'Rock', 'Kazoo'], answer: 'Gary is made up, so any of them. He is already practising the kazoo.' },
+      say: 'Gary\'s band: jazz, rock, or opera? Comment below.',
+      quiz: { q: 'What band should Gary start?', options: ['Jazz', 'Rock', 'Opera'], answer: 'Gary is made up, so any of them. He is already warming up for the opera.' },
       show: STAGE, sky: '#274B73', lightAt: [0, 4, -2], lightDist: 18,
       cam: { pos: [5, 2, 14], look: [0, 8, -4], fov: 50, to: { pos: [-5, 2, 14], look: [0, 8, -4] } },
       update: (w, p, t) => { party(w, t); w.g.position.set(0, 0, 3); w.g.rotation.set(0, -Math.PI / 2, 0); scurry(w.g, t, 12); },
