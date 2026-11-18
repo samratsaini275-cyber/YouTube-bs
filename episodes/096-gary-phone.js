@@ -93,7 +93,7 @@ export default {
       },
     },
     {
-      say: 'His selfie? One giant eye.',
+      say: 'Selfie time? One giant eye.',
       show: [...BASE, 'on', 'flash'], sky: '#F2D9B8', lightAt: [1, 3, -2], lightDist: 10,
       cam: { pos: [2.6, 1.5, -2.1], look: [.9, 1.4, -2.3], fov: 40, to: { pos: [2.1, 1.48, -2.15], look: [.9, 1.4, -2.3], fov: 38 } },
       update: (w, p, t) => {
