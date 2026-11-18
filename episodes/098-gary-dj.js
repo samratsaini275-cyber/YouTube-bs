@@ -117,8 +117,8 @@ export default {
       },
     },
     {
-      say: 'Gary\'s DJ name: DJ Crumb, Six Legs, or Antonio? Comment below.',
-      quiz: { q: 'What should Gary\'s DJ name be?', options: ['DJ Crumb', 'Six Legs', 'Antonio'], answer: 'Gary is made up, so any of them. The crumb votes for DJ Crumb.' },
+      say: 'Gary\'s stage name: Crumb, Six Legs, or Antonio? Comment below.',
+      quiz: { q: 'What should Gary\'s DJ name be?', options: ['Crumb', 'Six Legs', 'Antonio'], answer: 'Gary is made up, so any of them. The crumb votes for Crumb.' },
       show: [...BASE], sky: '#1E1530', lightAt: [-1.5, 4, 0], lightDist: 16,
       cam: { pos: [3, 2.5, 14], look: [-1, 6, 0], fov: 48, to: { pos: [-4, 2.5, 14], look: [-1, 6, 0] } },
       update: (w, p, t) => { w.rec.rotation.y = t * .8; onRecord(w, -Math.PI / 2, .2, t, 6); w.g.rotation.set(0, .3, 0); pulse(w, t); w.lights.forEach(l => { l.visible = false; }); },
