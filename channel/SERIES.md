@@ -51,7 +51,9 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
   the voice slightly without changing its timing (pipeline/build.mjs).
 
 - Narration lesson (17 Nov): in the comment question, "..., or rude" was misheard twice ("router", "root"), and
-  "Straight A pluses" once; avoid "or" before a short word starting with r, and spell-out-able grades. Check the
+  "Straight A pluses" once; avoid "or" before a short word starting with r, and spell-out-able grades. Update 18 Nov: "pop, or kazoo" and
+  "rock, or kazoo" also merged ("Popper", "rocker"); a vowel straight after "or" ("or annoying", "or a nap",
+  "or opera") has read back cleanly, so prefer that for the last option. Check the
   read-back on every build.
 
 - "Gary's Big World" (083–102, chosen 17 Nov 2026 18:55 UTC from channel/stats.json): of 61 public videos, five
