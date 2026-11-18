@@ -19,9 +19,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WORK = Path(os.environ.get("WORK_DIR", ROOT / ".work"))
 SEASON = 20
-NARRATIVES = ["Case Files", "Why Is It Built Like That?", "Engineering Nonsense", "Bad Ideas, Built Anyway", "What Would Happen If…", "Gary's Big World"]
+NARRATIVES = ["Case Files", "Why Is It Built Like That?", "Engineering Nonsense", "Bad Ideas, Built Anyway", "What Would Happen If…", "Gary's Big World", "Animals at Work"]
 # First episode of each narrative. Narrative 2 ended early at 031 (channel owner's request).
-STARTS = [1, 21, 32, 52, 63, 83, 103]
+STARTS = [1, 21, 32, 52, 63, 83, 103, 123]
 
 
 def season_of(n):

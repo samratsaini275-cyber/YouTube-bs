@@ -11,7 +11,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 052–062 | **Bad Ideas, Built Anyway** | More silly, funny-first nonsense engineering, with a hard hook rule: the joke lands in the first two seconds. Ended at 062 when the owner picked the next narrative. |
 | 063–082 | **What Would Happen If…** | One absurd "what would happen if" premise (a house made of ice, a cat the size of a building), then a fast, funny chain of consequences shown step by step. |
 | 083–102 | **Gary's Big World** | Gary the ant (yellow hard hat, recurring since 032) tries one ordinary human-sized thing per episode (the beach, a birthday cake, bowling, a lift) and it goes hilariously wrong at ant scale. |
-| 103–122 | to be chosen | Picked from the view numbers when episode 102 is being written; production does not wait for approval. |
+| 103–122 | **Animals at Work** | One made-up animal (a snail, a pigeon, a goldfish, a sloth) takes one human job (pilot, barber, lifeguard, delivery driver) and it goes wrong in a way only that animal could manage. |
+| 123–142 | to be chosen | Picked from the view numbers when episode 122 is being written; production does not wait for approval. |
 
 ## Rules for every narrative
 
@@ -64,6 +65,18 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
   Gary and the premise ("Gary the ant went bowling."), six words or fewer, done within 2.0 s; Gary visible in the
   first frame, small but readable, with the human-sized object; three or four escalating ant-scale jokes and a
   twist; one short comment question; 15–25 s; pitch 1.5. Gary is made up; real ant facts only when sourced.
+
+- "Animals at Work" (103–122, chosen 18 Nov 2026 ~06:50 UTC from channel/stats.json, checked 06:33 UTC): the five
+  breakouts (031, 032, 050, 051, 052; 683–924 views each) were all posted inside one ~7-hour window
+  (16 Nov 19:19 to 17 Nov 02:40 UTC); every one of the 15 videos posted since (053–067) has 0–9 views, including
+  059, a Gary episode, with 3. So the numbers do not show that Gary himself draws viewers; the timing pattern
+  suggests a distribution event, but that cannot be confirmed from view counts alone. Gary's Big World episodes
+  are not public yet (they post after 082). Animals at Work keeps the one format element that two of the five
+  hits shared (a small animal doing a big human-sized task) but rotates the cast, so the next 20 episodes test
+  the format rather than one character. Format: first line names the animal and the job ("This snail became a
+  pilot."), done within 2.0 s; the animal visible in the first frame with its job prop; three or four escalating
+  jokes that come from that animal's nature (slow, forgetful, can't hold things); one short comment question
+  with a vowel after "or"; 15–25 s; pitch 1.5. All animals and jobs are made up; real animal facts only when sourced.
 
 - Engagement rules from 058 on (content audit, 17 Nov 2026; these are judgment calls from reading the scripts and
   timing the narration, not viewer data): the comment question is one spoken line of about 4 s or less (it was taking
@@ -136,4 +149,5 @@ narrative held viewers longest and drew the most comments — rather than this t
 - Engineering Nonsense: complete — 032–051 written and posted (16–17 Nov 2026).
 - Bad Ideas, Built Anyway: 052–062 written. Ended at 062 (owner chose the next narrative).
 - What Would Happen If…: 063–082 written (17 Nov 2026).
-- Gary's Big World: starts at 083.
+- Gary's Big World: 083–102 written (18 Nov 2026).
+- Animals at Work: starts at 103.
