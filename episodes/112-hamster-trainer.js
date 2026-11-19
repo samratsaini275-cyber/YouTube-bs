@@ -55,8 +55,8 @@ export default {
   pitch: 1.5,
   case: 'THE HAMSTER PERSONAL TRAINER',
   year: 'ANIMALS AT WORK',
-  hook: ['THIS HAMSTER', 'BECAME A PERSONAL TRAINER.'],
-  title: 'This hamster became a personal trainer',
+  hook: ['THIS HAMSTER', 'IS A GYM TRAINER.'],
+  title: 'This hamster is a gym trainer',
   description: 'One exercise: the wheel. Clients last about four seconds. Snacks go in the cheeks. (A made-up hamster and a made-up gym.)',
   tags: ['animalsatwork', 'funny', 'hamster', 'gym', 'comedy', 'shorts'],
   sources: [
@@ -65,7 +65,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'This hamster became a personal trainer.',
+      say: 'This hamster is a gym trainer.',
       show: ['ground', 'gym', 'ham'], sky: '#5A6070', lightAt: [0, 4, 2], lightDist: 10,
       cam: { pos: [2, 1.8, 10], look: [0, 4.3, 0], fov: 46, to: { pos: [1.8, 1.8, 9.2], look: [0, 4.2, 0], fov: 44 } },
       update: (w, p, t) => { w.h.cheeks.forEach(c => c.scale.setScalar(1)); w.ham.position.set(0, 0, 0); w.ham.rotation.y = .2; w.h.body.position.y = .1 * Math.abs(Math.sin(t * 6)); w.h.head.rotation.z = .1 * Math.sin(t * 3); },

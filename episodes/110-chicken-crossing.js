@@ -51,8 +51,8 @@ export default {
   pitch: 1.5,
   case: 'THE CHICKEN CROSSING GUARD',
   year: 'ANIMALS AT WORK',
-  hook: ['THIS CHICKEN', 'BECAME A CROSSING GUARD.'],
-  title: 'This chicken became a crossing guard',
+  hook: ['THIS CHICKEN', 'GUARDS CROSSINGS.'],
+  title: 'This chicken guards crossings',
   description: 'Every car stops for him. Then he crosses the road. Again. And again. Nobody knows why. (A made-up chicken.)',
   tags: ['animalsatwork', 'funny', 'chicken', 'crossingguard', 'comedy', 'shorts'],
   sources: [
@@ -61,7 +61,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'This chicken became a crossing guard.',
+      say: 'This chicken guards crossings.',
       show: ['ground', 'road', 'hen'], sky: '#9ED2F3', lightAt: [0, 4, 4], lightDist: 14,
       cam: { pos: [3, 2.8, 17], look: [0, 5.8, 4], fov: 46, to: { pos: [2.8, 2.8, 16], look: [0, 5.7, 4], fov: 44 } },
       update: (w, p, t) => { w.hen.position.set(0, 0, 4); w.hen.rotation.y = -Math.PI / 2 + .4; strut(w.c, 0); w.c.wing.rotation.x = -.2 * Math.sin(t * 3); },
