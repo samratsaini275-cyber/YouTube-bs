@@ -12,7 +12,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 063–082 | **What Would Happen If…** | One absurd "what would happen if" premise (a house made of ice, a cat the size of a building), then a fast, funny chain of consequences shown step by step. |
 | 083–102 | **Gary's Big World** | Gary the ant (yellow hard hat, recurring since 032) tries one ordinary human-sized thing per episode (the beach, a birthday cake, bowling, a lift) and it goes hilariously wrong at ant scale. |
 | 103–122 | **Animals at Work** | One made-up animal (a snail, a pigeon, a goldfish, a sloth) takes one human job (pilot, barber, lifeguard, delivery driver) and it goes wrong in a way only that animal could manage. |
-| 123–142 | to be chosen | Picked from the view numbers when episode 122 is being written; production does not wait for approval. |
+| 123–142 | **Objects With Opinions** | One everyday object (a fridge, a toaster, a sock, a shopping trolley) gets a voice and complains about its life in a fast run of jokes, with a twist at the end. |
+| 143–162 | to be chosen | Picked from the view numbers when episode 142 is being written; production does not wait for approval. |
 
 ## Rules for every narrative
 
@@ -77,6 +78,16 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
   pilot."), done within 2.0 s; the animal visible in the first frame with its job prop; three or four escalating
   jokes that come from that animal's nature (slow, forgetful, can't hold things); one short comment question
   with a vowel after "or"; 15–25 s; pitch 1.5. All animals and jobs are made up; real animal facts only when sourced.
+
+- "Objects With Opinions" (123–142, chosen 19 Nov 2026 ~22:00 UTC): this is a judgment call, not a data result.
+  The 20:22 UTC stats run returned the same pattern as before (five breakouts posted within one window, 0–9 views
+  on 053–067) and no readable counts for 068 onwards, and none of narrative 6 (Gary) or 7 (Animals at Work) is
+  public yet (074–076 posted so far). With no signal to follow, narrative 8 tests a different format: the object
+  itself is the narrator's subject ("This fridge has opinions."), so the hook is a talking thing rather than an
+  animal or Gary. Format: first line names the object and that it has a complaint, within 2.0 s; the object
+  visible with a face in the first frame; three or four escalating complaints and a twist; one short comment
+  question with a vowel after "or"; 15–25 s; pitch 1.5. Re-check the numbers once Gary and Animals at Work
+  episodes have been public for a day.
 
 - Engagement rules from 058 on (content audit, 17 Nov 2026; these are judgment calls from reading the scripts and
   timing the narration, not viewer data): the comment question is one spoken line of about 4 s or less (it was taking
@@ -150,4 +161,5 @@ narrative held viewers longest and drew the most comments — rather than this t
 - Bad Ideas, Built Anyway: 052–062 written. Ended at 062 (owner chose the next narrative).
 - What Would Happen If…: 063–082 written (17 Nov 2026).
 - Gary's Big World: 083–102 written (18 Nov 2026).
-- Animals at Work: starts at 103.
+- Animals at Work: 103–122 written (18–19 Nov 2026).
+- Objects With Opinions: starts at 123.
