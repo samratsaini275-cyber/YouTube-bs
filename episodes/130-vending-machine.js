@@ -43,8 +43,8 @@ export default {
   pitch: 1.5,
   case: 'THE VENDING MACHINE WITH A COMPLAINT',
   year: 'OBJECTS WITH OPINIONS',
-  hook: ['THIS VENDING MACHINE', 'HAS A COMPLAINT.'],
-  title: 'This vending machine has a complaint',
+  hook: ['THIS SNACK MACHINE', 'IS FED UP.'],
+  title: 'This snack machine is fed up',
   description: 'People shake him. People kick him. The snack still gets stuck. Turns out he was saving it for himself. (A made-up talking vending machine.)',
   tags: ['objectswithopinions', 'funny', 'vendingmachine', 'snacks', 'comedy', 'shorts'],
   sources: [
@@ -53,7 +53,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'This vending machine has a complaint.',
+      say: 'This snack machine is fed up.',
       show: ['ground', 'hall', 'vm'], sky: '#DCE3EA', lightAt: [0, 5, 3], lightDist: 14,
       cam: { pos: [2, 3, 17], look: [0, 7.8, 0], fov: 46, to: { pos: [1.8, 3, 16], look: [0, 7.7, 0], fov: 44 } },
       update: (w, p, t) => { w.vm.position.set(0, 0, 0); w.vm.rotation.set(0, -.15, 0); w.v.body.rotation.z = 0; w.v.stuck.position.set(-.5, 3.6, 1.7); w.v.stuck.rotation.set(0, 0, 0); talk(w.v, t, t > .2); },
