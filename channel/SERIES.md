@@ -13,8 +13,26 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 083–102 | **Gary's Big World** | Gary the ant (yellow hard hat, recurring since 032) tries one ordinary human-sized thing per episode (the beach, a birthday cake, bowling, a lift) and it goes hilariously wrong at ant scale. |
 | 103–122 | **Animals at Work** | One made-up animal (a snail, a pigeon, a goldfish, a sloth) takes one human job (pilot, barber, lifeguard, delivery driver) and it goes wrong in a way only that animal could manage. |
 | 123–142 | **Objects With Opinions** | One everyday object (a fridge, a toaster, a sock, a shopping trolley) gets a voice and complains about its life in a fast run of jokes, with a twist at the end. |
-| 143–162 | **Bolt Takes It Literally** | Bolt, a small made-up robot, is given one everyday instruction or saying ("break the ice", "hit the road", "keep an eye on it") and carries it out word for word, with escalating results. |
-| 163–182 | to be chosen | Picked from the view numbers when episode 162 is being written; production does not wait for approval. |
+| 143–144 | **Bolt Takes It Literally** | Bolt, a small made-up robot, carries out one saying word for word. Ended at 144 at the owner's request (20 Nov: "keep checking what videos r doing good and base the next ones off those"). |
+| 145–164 | **What Would Happen If… (season 2)** | Same format as 063–082, the only narrative with repeated hits (see "Numbers, 20 Nov" below). |
+| 165–184 | to be chosen | Picked from the view numbers; production does not wait for approval. |
+
+## Numbers, 20 Nov 2026 ~20:10 UTC (public Shorts tab, read through Firecrawl's youtube-com provider)
+
+Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,000–1,099).
+
+- Timing: all 16 videos with 280+ views were posted between 19:00 and 03:00 UTC. None of the ~30 posted outside
+  that window has more than 26. Gary's Big World 083–096 were all posted 04:59–18:59 UTC and have 0–1 views each,
+  so these numbers cannot say whether Gary works; they only say the window matters. 097–102 post inside the
+  window tonight and will test Gary fairly.
+- Format: inside the window, "What would happen if…" (063–069, 074–081) got 280+ views on 10 of 15 videos
+  (067 dogs drive, 068 talking fridge, 069 fast snail, 074 homework, 075 walking trees, 076 human tails,
+  079 cats text, 080 everyone flies, 081 pet dinosaur 1.3K). Bursts posted minutes apart (033–049, 053–057) mostly
+  flopped even inside the window.
+- So narrative 10 returns to "What would happen if…" (owner asked to base new videos on what does well).
+  Animals at Work, Objects With Opinions and Bolt are not public yet; judge them only on in-window posts.
+- How to re-check: Firecrawl `alexandria_library_read` with provider youtube-com, capability videos/channel_shorts,
+  channel UCujyDKnNLFxLJS8qcXVuBMQ (sort latest or popular). stats.py is still blocked by YouTube's bot check.
 
 ## Rules for every narrative
 
@@ -175,4 +193,5 @@ narrative held viewers longest and drew the most comments — rather than this t
 - Gary's Big World: 083–102 written (18 Nov 2026).
 - Animals at Work: 103–122 written (18–19 Nov 2026).
 - Objects With Opinions: 123–142 written (19–20 Nov 2026).
-- Bolt Takes It Literally: starts at 143.
+- Bolt Takes It Literally: 143–144 written; ended early at the owner's request to follow the numbers.
+- What Would Happen If… (season 2): starts at 145.
