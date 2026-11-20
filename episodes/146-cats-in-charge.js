@@ -111,8 +111,8 @@ export default {
       },
     },
     {
-      say: 'Cats in charge: great, scary, or already true? Comment below.',
-      quiz: { q: 'Should cats be in charge?', options: ['Great idea', 'Scary', 'Already true'], answer: 'This is a made-up cat government. Probably.' },
+      say: 'Cats in charge: great, already true, or awful? Comment below.',
+      quiz: { q: 'Should cats be in charge?', options: ['Great idea', 'Already true', 'Awful'], answer: 'This is a made-up cat government. Probably.' },
       show: ['ground', 'room', 'throne', 'ct'], sky: '#274B73', lightAt: [0, 5, 4], lightDist: 12,
       cam: { pos: [.3, 1.2, 8], look: [0, 4.2, 0], fov: 46, to: { pos: [-1.2, 1.2, 8], look: [0, 4.2, 0] } },
       update: (w, p, t) => { pose(w, -.2, 1.75, -.4, -1.25); wag(w, t); w.c.crown.visible = true; },
