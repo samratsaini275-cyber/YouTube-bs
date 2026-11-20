@@ -75,7 +75,9 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   "Straight A pluses" once; avoid "or" before a short word starting with r, and spell-out-able grades. Update 18 Nov: "pop, or kazoo" and
   "rock, or kazoo" also merged ("Popper", "rocker"); a vowel straight after "or" ("or annoying", "or a nap",
   "or opera") has read back cleanly, so prefer that for the last option. Check the
-  read-back on every build.
+  read-back on every build. Update 20 Nov: a vowel after "or" is not enough on its own. "scary, or already" read back as
+  "scare are already" and "gross, or awesome" as "groves are awesome"; what fixed both was ending the list on a
+  short phrase starting with "a" ("or awful", "or a bit gross").
 
 - "Gary's Big World" (083–102, chosen 17 Nov 2026 18:55 UTC from channel/stats.json): of 61 public videos, five
   had ~670–920 views (052 Pizza Car 921, 051 Gary's Tunnel 894, 032 Ant Bridge 856, 050 Top Shelf Ladder 847,
