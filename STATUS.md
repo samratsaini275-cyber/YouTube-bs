@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 142 — 🎙️ narrating 0/8
+**Now:** idle — nothing is building
 
-**Finished videos:** 141 of 142 written &nbsp; `████████████████████`
+**Finished videos:** 144 of 144 written &nbsp; `████████████████████`
 
-**Narrative 8: Objects With Opinions** — 19 of 20 finished &nbsp; `███████████████████░`
+**Narrative 9: Bolt Takes It Literally** — 2 of 2 finished &nbsp; `████████████████████`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -149,6 +149,8 @@
 | 139 | The Phone With A Complaint | 3D | ✅ done |
 | 140 | The Mirror With A Complaint | 3D | ✅ done |
 | 141 | The Robot Vacuum With A Complaint | 3D | ✅ done |
-| 142 | The Washer With A Complaint | 3D | 🎙️ narrating 0/8 |
+| 142 | The Washer With A Complaint | 3D | ✅ done |
+| 143 | Bolt Takes It Literally | 3D | ✅ done |
+| 144 | Bolt Takes It Literally | 3D | ✅ done |
 
-_Updated 2026-11-20 18:02 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-20 20:38 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
