@@ -45,7 +45,7 @@ export default {
   pitch: 1.5,
   case: 'THE CONE WITH A COMPLAINT',
   year: 'OBJECTS WITH OPINIONS',
-  hook: ['THIS TRAFFIC CONE', 'HAS A COMPLAINT.'],
+  hook: ['THIS CONE', 'HAS A COMPLAINT.'],
   title: 'This traffic cone has a complaint',
   description: 'Cars knock him over. Students wear him as a hat. So he quit, and became a party hat for real. (A made-up talking cone.)',
   tags: ['objectswithopinions', 'funny', 'trafficcone', 'road', 'comedy', 'shorts'],
@@ -55,7 +55,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'This traffic cone has a complaint.',
+      say: 'This cone has a complaint.',
       show: ['ground', 'road', 'cn'], sky: '#9ED2F3', lightAt: [0, 3, 2], lightDist: 10,
       cam: { pos: [1.5, 2.2, 10.5], look: [0, 4.4, 0], fov: 44, to: { pos: [1.4, 2.2, 9.8], look: [0, 4.3, 0], fov: 42 } },
       update: (w, p, t) => { w.cn.position.set(0, 0, 0); w.cn.rotation.set(0, -.2, 0); w.cn.scale.setScalar(1); talk(w.c, t, t > .2); },
@@ -85,8 +85,8 @@ export default {
       },
     },
     {
-      say: 'Traffic cone: hat, road, or a party? Comment below.',
-      quiz: { q: 'What is a traffic cone really for?', options: ['A hat', 'The road', 'A party'], answer: 'This cone is made up. It voted party.' },
+      say: 'Traffic cone: a hat, a party, or a road? Comment below.',
+      quiz: { q: 'What is a traffic cone really for?', options: ['A hat', 'A party', 'A road'], answer: 'This cone is made up. It voted party.' },
       show: ['ground', 'road', 'cn'], sky: '#274B73', lightAt: [0, 3, 2], lightDist: 10,
       cam: { pos: [1.5, 1.2, 9.5], look: [0, 4.8, 0], fov: 44, to: { pos: [-1.5, 1.2, 9.5], look: [0, 4.8, 0] } },
       update: (w, p, t) => { w.cn.position.set(0, 0, 0); w.cn.rotation.set(0, -.2, 0); w.cn.scale.setScalar(1); talk(w.c, t, false); },
