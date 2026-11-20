@@ -104,8 +104,8 @@ export default {
       },
     },
     {
-      say: 'A trunk: useful, gross, or awesome? Comment below.',
-      quiz: { q: 'Would you want a trunk?', options: ['Useful', 'Gross', 'Awesome'], answer: 'Human trunks are made up. Elephants keep theirs.' },
+      say: 'A trunk: useful, awesome, or a bit gross? Comment below.',
+      quiz: { q: 'Would you want a trunk?', options: ['Useful', 'Awesome', 'A bit gross'], answer: 'Human trunks are made up. Elephants keep theirs.' },
       show: ['ground', 'room', 'pp'], sky: '#274B73', lightAt: [0, 5, 4], lightDist: 12,
       cam: { pos: [.8, 1, 7], look: [0, 4.6, 0], fov: 46, to: { pos: [-.8, 1, 7], look: [0, 4.6, 0] } },
       update: (w, p, t) => { stand(w, 0, 0, .25); curl(w.p.trunk, .25, .3, t); },
