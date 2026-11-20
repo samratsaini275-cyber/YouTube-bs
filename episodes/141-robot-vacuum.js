@@ -47,7 +47,7 @@ export default {
   pitch: 1.5,
   case: 'THE ROBOT VACUUM WITH A COMPLAINT',
   year: 'OBJECTS WITH OPINIONS',
-  hook: ['THIS ROBOT VACUUM', 'HAS A COMPLAINT.'],
+  hook: ['THIS VACUUM', 'HAS A COMPLAINT.'],
   title: 'This robot vacuum has a complaint',
   description: 'Cleans everything. Gets no thanks. Works as a cat taxi. Gets stuck under the same sofa every day. (A made-up talking vacuum.)',
   tags: ['objectswithopinions', 'funny', 'robotvacuum', 'cat', 'comedy', 'shorts'],
@@ -57,7 +57,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'This robot vacuum has a complaint.',
+      say: 'This vacuum has a complaint.',
       show: ['ground', 'room', 'sofa', 'vc'], sky: '#CFE0F0', lightAt: [0, 4, 3], lightDist: 10,
       cam: { pos: [.4, 1.0, 6.2], look: [0, .62, 0], fov: 46, to: { pos: [.3, 1.0, 5.6], look: [0, .6, 0], fov: 44 } },
       update: (w, p, t) => { park(w); talk(w.v, t, t > .2); },
