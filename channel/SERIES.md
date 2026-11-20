@@ -13,7 +13,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 083–102 | **Gary's Big World** | Gary the ant (yellow hard hat, recurring since 032) tries one ordinary human-sized thing per episode (the beach, a birthday cake, bowling, a lift) and it goes hilariously wrong at ant scale. |
 | 103–122 | **Animals at Work** | One made-up animal (a snail, a pigeon, a goldfish, a sloth) takes one human job (pilot, barber, lifeguard, delivery driver) and it goes wrong in a way only that animal could manage. |
 | 123–142 | **Objects With Opinions** | One everyday object (a fridge, a toaster, a sock, a shopping trolley) gets a voice and complains about its life in a fast run of jokes, with a twist at the end. |
-| 143–162 | to be chosen | Picked from the view numbers when episode 142 is being written; production does not wait for approval. |
+| 143–162 | **Bolt Takes It Literally** | Bolt, a small made-up robot, is given one everyday instruction or saying ("break the ice", "hit the road", "keep an eye on it") and carries it out word for word, with escalating results. |
+| 163–182 | to be chosen | Picked from the view numbers when episode 162 is being written; production does not wait for approval. |
 
 ## Rules for every narrative
 
@@ -89,6 +90,17 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
   question with a vowel after "or"; 15–25 s; pitch 1.5. Re-check the numbers once Gary and Animals at Work
   episodes have been public for a day.
 
+- "Bolt Takes It Literally" (143–162, chosen 20 Nov 2026 ~18:00 UTC): a judgment call, not a data result. A
+  stats.py run at about 17:58 UTC timed out without reading any video (YouTube serves this environment a bot
+  check), so the newest real counts are still those from 18 Nov, and they do not separate formats. Following the
+  rule "if the numbers do not separate them, try something new", narrative 9 changes the joke engine: instead of a
+  creature or object complaining, the comedy is wordplay made visible, with sayings taken literally. It keeps one
+  recurring character (Bolt) so viewers can recognise the series, the element the early Gary hits shared. Format:
+  the first line is the instruction to Bolt ("Bolt, break the ice."), done within 2.0 s; Bolt and the object
+  visible in the first frame; three or four escalating literal readings and a twist; one short comment question
+  with a vowel after "or"; 15–25 s; pitch 1.5. Bolt is made up; no person or animal is hurt (a "leg" that
+  breaks is a table leg). Re-check the numbers whenever stats.py can read the channel again.
+
 - Engagement rules from 058 on (content audit, 17 Nov 2026; these are judgment calls from reading the scripts and
   timing the narration, not viewer data): the comment question is one spoken line of about 4 s or less (it was taking
   about half of each 052–057 video); every episode has at least four joke beats before the question, including one
@@ -162,4 +174,5 @@ narrative held viewers longest and drew the most comments — rather than this t
 - What Would Happen If…: 063–082 written (17 Nov 2026).
 - Gary's Big World: 083–102 written (18 Nov 2026).
 - Animals at Work: 103–122 written (18–19 Nov 2026).
-- Objects With Opinions: starts at 123.
+- Objects With Opinions: 123–142 written (19–20 Nov 2026).
+- Bolt Takes It Literally: starts at 143.

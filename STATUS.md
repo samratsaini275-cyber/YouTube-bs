@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 142 — 🎙️ narrating 0/8
 
-**Finished videos:** 74 of 74 written &nbsp; `████████████████████`
+**Finished videos:** 141 of 142 written &nbsp; `████████████████████`
 
-**Narrative 5: to be chosen** — 3 of 20 finished &nbsp; `███░░░░░░░░░░░░░░░░░`
+**Narrative 8: Objects With Opinions** — 19 of 20 finished &nbsp; `███████████████████░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -82,5 +82,73 @@
 | 072 | The Reflection | 3D | ✅ done |
 | 073 | The Flying Cows | 3D | ✅ done |
 | 074 | The Homework That Does Itself | 3D | ✅ done |
+| 075 | The Walking Trees | 3D | ✅ done |
+| 076 | Human Tails | 3D | ✅ done |
+| 077 | The Sun\ | 3D | ✅ done |
+| 078 | The Baby Government | 3D | ✅ done |
+| 079 | The Texting Cat | 3D | ✅ done |
+| 080 | Everyone Can Fly | 3D | ✅ done |
+| 081 | The Pet Dinosaur | 3D | ✅ done |
+| 082 | The Walking Pizza | 3D | ✅ done |
+| 083 | Gary Goes Bowling | 3D | ✅ done |
+| 084 | Gary Bakes A Cake | 3D | ✅ done |
+| 085 | Gary Goes To The Beach | 3D | ✅ done |
+| 086 | Gary Takes The Lift | 3D | ✅ done |
+| 087 | Gary Goes To The Cinema | 3D | ✅ done |
+| 088 | Gary Goes Shopping | 3D | ✅ done |
+| 089 | Gary Goes To The Gym | 3D | ✅ done |
+| 090 | Gary Goes Camping | 3D | ✅ done |
+| 091 | Gary Gets A Puppy | 3D | ✅ done |
+| 092 | Gary Goes To School | 3D | ✅ done |
+| 093 | Gary Goes To A Concert | 3D | ✅ done |
+| 094 | Gary Goes On Holiday | 3D | ✅ done |
+| 095 | Gary Plays Football | 3D | ✅ done |
+| 096 | Gary Gets A Phone | 3D | ✅ done |
+| 097 | Gary Learns To Swim | 3D | ✅ done |
+| 098 | Dj Gary | 3D | ✅ done |
+| 099 | Gary The Waiter | 3D | ✅ done |
+| 100 | Gary Goes To Space | 3D | ✅ done |
+| 101 | Gary Does Yoga | 3D | ✅ done |
+| 102 | Super Gary | 3D | ✅ done |
+| 103 | The Snail Pilot | 3D | ✅ done |
+| 104 | The Pigeon Barber | 3D | ✅ done |
+| 105 | The Sloth Firefighter | 3D | ✅ done |
+| 106 | The Cat Lifeguard | 3D | ✅ done |
+| 107 | The Goat Gardener | 3D | ✅ done |
+| 108 | The Penguin Waiter | 3D | ✅ done |
+| 109 | The Octopus Office Worker | 3D | ✅ done |
+| 110 | The Chicken Crossing Guard | 3D | ✅ done |
+| 111 | The Kangaroo Mail Carrier | 3D | ✅ done |
+| 112 | The Hamster Personal Trainer | 3D | ✅ done |
+| 113 | The Duck Weather Reporter | 3D | ✅ done |
+| 114 | The Giraffe Window Cleaner | 3D | ✅ done |
+| 115 | The Bat Receptionist | 3D | ✅ done |
+| 116 | The Beaver Carpenter | 3D | ✅ done |
+| 117 | The Crab Tailor | 3D | ✅ done |
+| 118 | The Owl Teacher | 3D | ✅ done |
+| 119 | The Pufferfish Balloon Artist | 3D | ✅ done |
+| 120 | The Dog Security Guard | 3D | ✅ done |
+| 121 | The Elephant Plumber | 3D | ✅ done |
+| 122 | The Flamingo Ballet Teacher | 3D | ✅ done |
+| 123 | The Sock With A Complaint | 3D | ✅ done |
+| 124 | The Trolley With A Complaint | 3D | ✅ done |
+| 125 | The Alarm Clock With A Complaint | 3D | ✅ done |
+| 126 | The Cone With A Complaint | 3D | ✅ done |
+| 127 | The Remote With A Complaint | 3D | ✅ done |
+| 128 | The Toaster With A Complaint | 3D | ✅ done |
+| 129 | The Pillow With A Complaint | 3D | ✅ done |
+| 130 | The Vending Machine With A Complaint | 3D | ✅ done |
+| 131 | The Bin With A Complaint | 3D | ✅ done |
+| 132 | The Doorbell With A Complaint | 3D | ✅ done |
+| 133 | The Umbrella With A Complaint | 3D | ✅ done |
+| 134 | The Balloon With A Complaint | 3D | ✅ done |
+| 135 | The Light Bulb With A Complaint | 3D | ✅ done |
+| 136 | The Chair With A Complaint | 3D | ✅ done |
+| 137 | The Fridge With A Complaint | 3D | ✅ done |
+| 138 | The Microwave With A Complaint | 3D | ✅ done |
+| 139 | The Phone With A Complaint | 3D | ✅ done |
+| 140 | The Mirror With A Complaint | 3D | ✅ done |
+| 141 | The Robot Vacuum With A Complaint | 3D | ✅ done |
+| 142 | The Washer With A Complaint | 3D | 🎙️ narrating 0/8 |
 
-_Updated 2026-11-17 15:38 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-20 18:02 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
