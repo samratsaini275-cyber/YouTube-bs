@@ -34,6 +34,11 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   can get shown; the posting slot seems to matter more than the character. The strongest slot so far is
   00:00–03:00 UTC: 050, 051, 052, 067, 068, 069, 079, 080, 081 and now 101 all went up there (053 is the one miss,
   posted 9 minutes after 052). Of the 19:00–00:00 posts only 031–033 and 074–076 broke out.
+- Update 21 Nov 08:54 UTC (`channel/views-2026-11-21-0854.json`): 102 Gary superhero (posted 01:24) 814,
+  101 Gary yoga (00:19) 485, 103 snail pilot, the first Animals at Work episode (02:29), 296. Everything posted
+  03:33–07:49 (104–108) has 0–1. So every format tested in the 00:00–03:00 UTC slot (What would happen if, Gary,
+  Animals at Work) gets hundreds of views, and posts outside it get almost none, even days later (070–073 still
+  have 3–16). The slot matters more than the format.
 - So narrative 10 returns to "What would happen if…" (owner asked to base new videos on what does well).
   Animals at Work, Objects With Opinions and Bolt are not public yet; judge them only on in-window posts.
 - How to re-check: Firecrawl `alexandria_library_read` with provider youtube-com, capability videos/channel_shorts,
