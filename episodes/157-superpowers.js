@@ -61,7 +61,7 @@ export default {
   pitch: 1.5,
   case: 'SUPERPOWERS FOR EVERYONE',
   year: 'WHAT WOULD HAPPEN IF…',
-  hook: ['WHAT IF EVERYONE', 'HAD SUPERPOWERS?'],
+  hook: ['WHAT IF EVERYONE', 'HAD POWERS?'],
   title: 'What would happen if everyone had superpowers?',
   description: 'Traffic? Fly over it. Hide and seek never ends. Grandma lifts the car to park. And your power is slightly faster toast. (Made-up superpowers.)',
   tags: ['whatif', 'funny', 'superpowers', 'superhero', 'comedy', 'shorts'],
@@ -71,7 +71,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'What if everyone had superpowers?',
+      say: 'What if everyone had powers?',
       show: ['ground', 'city', 'pp'], sky: '#9ED2F3', lightAt: [0, 8, 5], lightDist: 18,
       cam: { pos: [.6, 3.4, 11], look: [0, 6.9, 0], fov: 46, to: { pos: [.5, 3.4, 10.2], look: [0, 6.9, 0], fov: 44 } },
       update: (w, p, t) => { w.pp.position.set(-.4 + t * .4, 3 + .2 * Math.sin(t * 3), 0); w.pp.rotation.set(.35, .3, .1); w.p.cape.rotation.x = .5 + .25 * Math.sin(t * 12); w.p.mouth.scale.y = 1.4; },
