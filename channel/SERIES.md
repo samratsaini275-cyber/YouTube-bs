@@ -29,6 +29,11 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   (067 dogs drive, 068 talking fridge, 069 fast snail, 074 homework, 075 walking trees, 076 human tails,
   079 cats text, 080 everyone flies, 081 pet dinosaur 1.3K). Bursts posted minutes apart (033–049, 053–057) mostly
   flopped even inside the window.
+- Update 21 Nov 02:29 UTC (`channel/views-2026-11-21.json`): of the in-window Gary posts, 101 (posted 00:19 UTC)
+  has 243 views after ~2 hours, 102 (01:24) has 12 after 1 hour, and 097–100 (posted 20:03–23:16) have 0–1. So Gary
+  can get shown; the posting slot seems to matter more than the character. The strongest slot so far is
+  00:00–03:00 UTC: 050, 051, 052, 067, 068, 069, 079, 080, 081 and now 101 all went up there (053 is the one miss,
+  posted 9 minutes after 052). Of the 19:00–00:00 posts only 031–033 and 074–076 broke out.
 - So narrative 10 returns to "What would happen if…" (owner asked to base new videos on what does well).
   Animals at Work, Objects With Opinions and Bolt are not public yet; judge them only on in-window posts.
 - How to re-check: Firecrawl `alexandria_library_read` with provider youtube-com, capability videos/channel_shorts,
