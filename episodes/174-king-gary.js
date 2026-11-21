@@ -65,7 +65,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'What if Gary the ant ruled the world?',
+      say: 'What if Gary ruled the world?',
       show: ['ground', 'hill', 'throne', 'g', 'crowd'], sky: '#9ED2F3', lightAt: [0, 3, 0], lightDist: 16,
       cam: { pos: [2, 3.6, 11], look: [0, 5.4, 0], fov: 46, to: { pos: [1.8, 3.6, 10.2], look: [0, 5.4, 0], fov: 44 } },
       update: (w, p, t) => { w.throne.position.set(0, 3.25, 0); king(w, .1, 3.4, 0, -.6, t); cheer(w, t, 0, 4.5, 8); },
