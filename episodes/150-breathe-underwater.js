@@ -61,8 +61,8 @@ export default {
   pitch: 1.5,
   case: 'BREATHING UNDERWATER',
   year: 'WHAT WOULD HAPPEN IF…',
-  hook: ['WHAT IF WE COULD', 'BREATHE UNDERWATER?'],
-  title: 'What would happen if we could breathe underwater?',
+  hook: ['WHAT IF HUMANS', 'HAD GILLS?'],
+  title: 'What would happen if humans had gills?',
   description: 'School moves to the seabed. Your goldfish walks you. Bath time lasts three days. And the sharks just want a hug. (A made-up underwater life.)',
   tags: ['whatif', 'funny', 'underwater', 'shark', 'ocean', 'shorts'],
   sources: [
@@ -71,7 +71,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'What if we could breathe underwater?',
+      say: 'What if humans had gills?',
       show: ['ground', 'sea', 'bubbles', 'pp', 'school'], sky: SEA, lightAt: [0, 6, 4], lightDist: 16,
       cam: { pos: [.4, 2.6, 9.5], look: [0, 4.3, 0], fov: 48, to: { pos: [.3, 2.6, 8.7], look: [0, 4.25, 0], fov: 46 } },
       update: (w, p, t) => {
