@@ -45,8 +45,8 @@ export default {
   pitch: 1.5,
   case: 'THE ROBOT TEACHER',
   year: 'WHAT WOULD HAPPEN IF…',
-  hook: ['WHAT IF ROBOTS', 'WERE YOUR TEACHERS?'],
-  title: 'What would happen if robots were your teachers?',
+  hook: ['WHAT IF ROBOTS', 'TAUGHT SCHOOL?'],
+  title: 'What would happen if robots taught school?',
   description: 'Late homework? It already knows. Lunch lasts forty seconds. Tests are marked before you finish. And the door is still a problem. (A made-up robot teacher.)',
   tags: ['whatif', 'funny', 'robot', 'school', 'teacher', 'shorts'],
   sources: [
@@ -55,7 +55,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'What if robots were your teachers?',
+      say: 'What if robots taught school?',
       show: ['ground', 'room', 'bo'], sky: '#D8EAD2', lightAt: [0, 5, 4], lightDist: 12,
       cam: { pos: [0, 2.6, 8.5], look: [0, 3.3, 0], fov: 46, to: { pos: [0, 2.6, 7.7], look: [0, 3.25, 0], fov: 44 } },
       update: (w, p, t) => { reset(w); w.b.armR.rotation.z = .4 + .3 * Math.sin(t * 4); w.b.armR.rotation.x = -1.2; w.b.head.rotation.y = .2 * Math.sin(t * 2); w.b.tip.scale.setScalar(1 + .3 * Math.sin(t * 10)); },
