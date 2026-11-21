@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 164 — 🎙️ narrating 0/11
 
-**Finished videos:** 144 of 144 written &nbsp; `████████████████████`
+**Finished videos:** 163 of 164 written &nbsp; `████████████████████`
 
-**Narrative 9: Bolt Takes It Literally** — 2 of 2 finished &nbsp; `████████████████████`
+**Narrative 10: What Would Happen If… (season 2)** — 19 of 20 finished &nbsp; `███████████████████░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -152,5 +152,25 @@
 | 142 | The Washer With A Complaint | 3D | ✅ done |
 | 143 | Bolt Takes It Literally | 3D | ✅ done |
 | 144 | Bolt Takes It Literally | 3D | ✅ done |
+| 145 | The Talking Dog | 3D | ✅ done |
+| 146 | The Cat In Charge | 3D | ✅ done |
+| 147 | The Human Trunk | 3D | ✅ done |
+| 148 | The Dog At School | 3D | ✅ done |
+| 149 | The Upside-Down Day | 3D | ✅ done |
+| 150 | Breathing Underwater | 3D | ✅ done |
+| 151 | The Talking Car | 3D | ✅ done |
+| 152 | Pets Doing Chores | 3D | ✅ done |
+| 153 | The T. Rex Next Door | 3D | ✅ done |
+| 154 | The Walking House | 3D | ✅ done |
+| 155 | The Flying Dog | 3D | ✅ done |
+| 156 | The Robot Teacher | 3D | ✅ done |
+| 157 | Superpowers For Everyone | 3D | ✅ done |
+| 158 | The Talking Cat | 3D | ✅ done |
+| 159 | The Snake With Legs | 3D | ✅ done |
+| 160 | The Dinosaur At School | 3D | ✅ done |
+| 161 | The Fast Sloth | 3D | ✅ done |
+| 162 | The Walking Fish | 3D | ✅ done |
+| 163 | The Talking Tree | 3D | ✅ done |
+| 164 | The Dinosaurs Are Back | 3D | 🎙️ narrating 0/11 |
 
-_Updated 2026-11-20 20:38 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-21 19:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._

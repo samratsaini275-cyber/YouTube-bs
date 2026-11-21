@@ -15,7 +15,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 123–142 | **Objects With Opinions** | One everyday object (a fridge, a toaster, a sock, a shopping trolley) gets a voice and complains about its life in a fast run of jokes, with a twist at the end. |
 | 143–144 | **Bolt Takes It Literally** | Bolt, a small made-up robot, carries out one saying word for word. Ended at 144 at the owner's request (20 Nov: "keep checking what videos r doing good and base the next ones off those"). |
 | 145–164 | **What Would Happen If… (season 2)** | Same format as 063–082, the only narrative with repeated hits (see "Numbers, 20 Nov" below). |
-| 165–184 | to be chosen | Picked from the view numbers; production does not wait for approval. |
+| 165–184 | **What Would Happen If… (season 3, with Gary)** | Same format; about every third premise stars Gary the ant ("What if Gary the ant were giant?"), since Gary's in-slot posts drew 836 and 485 views. |
+| 185–204 | to be chosen | Picked from the view numbers; production does not wait for approval. |
 
 ## Numbers, 20 Nov 2026 ~20:10 UTC (public Shorts tab, read through Firecrawl's youtube-com provider)
 
@@ -208,4 +209,7 @@ narrative held viewers longest and drew the most comments — rather than this t
 - Animals at Work: 103–122 written (18–19 Nov 2026).
 - Objects With Opinions: 123–142 written (19–20 Nov 2026).
 - Bolt Takes It Literally: 143–144 written; ended early at the owner's request to follow the numbers.
-- What Would Happen If… (season 2): starts at 145.
+- What Would Happen If… (season 2): 145–164 written (20–21 Nov 2026).
+- What Would Happen If… (season 3, with Gary): starts at 165. Chosen 21 Nov ~20:00 UTC from the numbers: in the
+  00:00–03:00 UTC slot the format hit on 10 of 15 posts (081 now 1.6K, 080 1.1K) and Gary got 836 (102) and 485 (101),
+  so season 3 keeps the format and tests Gary inside it.
