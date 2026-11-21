@@ -121,8 +121,8 @@ export default {
       },
     },
     {
-      say: 'Giant Gary: cool, great, or a disaster? Comment below.',
-      quiz: { q: 'Would you want a giant Gary?', options: ['Cool', 'Great', 'A disaster'], answer: 'Gary is made up. He is still regular size. Probably.' },
+      say: 'Giant Gary: awesome, terrifying, or a bit much? Comment below.',
+      quiz: { q: 'Would you want a giant Gary?', options: ['Awesome', 'Terrifying', 'A bit much'], answer: 'Gary is made up. He is still regular size. Probably.' },
       show: ['ground', 'park', 'g'], sky: '#274B73', lightAt: [0, 14, 8], lightDist: 34,
       cam: { pos: [10, 2, 26], look: [0, 9, 0], fov: 46, to: { pos: [-10, 2, 26], look: [0, 9, 0] } },
       update: (w, p, t) => { giant(w, -2, 0, -.6, t); },
