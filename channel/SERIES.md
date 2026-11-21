@@ -42,6 +42,8 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   have 3–16). The slot matters more than the format.
 - Update 21 Nov 15:23 UTC (`channel/views-2026-11-21-1523.json`): 104–114 (posted 03:33–14:17 UTC) all have
   0–2 views; 102 is at 836, 080 has passed 1.1K, 081 is at 1.6K. Same pattern as before.
+- Update 21 Nov 21:52 UTC (`channel/views-2026-11-21-2150.json`): 104–120 (posted 03:33–20:46 UTC) have
+  0–5 views each. 081 is at 1.7K, 102 at 846, 101 at 486. No new breakout; the slot pattern still holds.
 - So narrative 10 returns to "What would happen if…" (owner asked to base new videos on what does well).
   Animals at Work, Objects With Opinions and Bolt are not public yet; judge them only on in-window posts.
 - How to re-check: Firecrawl `alexandria_library_read` with provider youtube-com, capability videos/channel_shorts,
