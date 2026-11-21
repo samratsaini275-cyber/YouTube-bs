@@ -56,7 +56,7 @@ export default {
   pitch: 1.5,
   case: 'THE T. REX NEXT DOOR',
   year: 'WHAT WOULD HAPPEN IF…',
-  hook: ['WHAT IF A T. REX', 'LIVED NEXT DOOR?'],
+  hook: ['WHAT IF A T-REX', 'LIVED NEXT DOOR?'],
   title: 'What would happen if a T. rex lived next door?',
   description: 'The lawn gets mowed in one stomp. The barbecue disappears, grill and all. Fences are optional. And the doorbell stays out of reach. (A made-up neighbour.)',
   tags: ['whatif', 'funny', 'dinosaur', 'trex', 'neighbour', 'shorts'],
@@ -67,7 +67,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'What if a T. rex lived next door?',
+      say: 'What if a T-rex lived next door?',
       show: ['ground', 'house', 'fence', 'dino'], sky: '#9ED2F3', lightAt: [0, 10, 6], lightDist: 30,
       cam: { pos: [3, 5, 36], look: [1.5, 12, 0], fov: 50, to: { pos: [3, 5, 33], look: [1.5, 12, 0], fov: 48 } },
       update: (w, p, t) => { still(w, -1, -2, -.7); stomp(w.r, t, 4, true); w.r.neck.rotation.z = -.15 + .08 * Math.sin(t * 2); w.r.jaw.rotation.z = -.15 - .15 * Math.abs(Math.sin(t * 3)); },
@@ -113,8 +113,8 @@ export default {
       },
     },
     {
-      say: 'A T. rex neighbour: cool, loud, or a bit scary? Comment below.',
-      quiz: { q: 'Would you want a T. rex next door?', options: ['Cool', 'Too loud', 'A bit scary'], answer: 'This neighbour is made up. T. rexes died out about 66 million years ago.' },
+      say: 'A T-rex neighbour: awesome, great, or a bit scary? Comment below.',
+      quiz: { q: 'Would you want a T. rex next door?', options: ['Awesome', 'Great', 'A bit scary'], answer: 'This neighbour is made up. T. rexes died out about 66 million years ago.' },
       show: ['ground', 'house', 'fence', 'dino'], sky: '#274B73', lightAt: [0, 10, 6], lightDist: 30,
       cam: { pos: [14, 3, 32], look: [0, 16, 0], fov: 46, to: { pos: [-14, 3, 32], look: [0, 16, 0] } },
       update: (w, p, t) => { still(w, -3, 0, -.4); stomp(w.r, t, 4, true); },
