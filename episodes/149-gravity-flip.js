@@ -76,8 +76,8 @@ export default {
   pitch: 1.5,
   case: 'THE UPSIDE-DOWN DAY',
   year: 'WHAT WOULD HAPPEN IF…',
-  hook: ['WHAT IF GRAVITY', 'FLIPPED FOR A DAY?'],
-  title: 'What would happen if gravity flipped for a day?',
+  hook: ['WHAT IF', 'GRAVITY FLIPPED?'],
+  title: 'What would happen if gravity flipped?',
   description: 'Breakfast on the ceiling. Dogs become balloons. Rain falls up. And the cat does not care at all. (A made-up upside-down day.)',
   tags: ['whatif', 'funny', 'gravity', 'upsidedown', 'cat', 'shorts'],
   sources: [
@@ -86,7 +86,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'What if gravity flipped for a day?',
+      say: 'What if gravity flipped?',
       show: ['ground', 'room', 'pp'], sky: '#F6E3C2', lightAt: [0, 5, 4], lightDist: 14,
       cam: { pos: [.6, 2.6, 11], look: [0, 3.9, 0], fov: 50, to: { pos: [.5, 2.6, 10.2], look: [0, 3.9, 0], fov: 48 } },
       update: (w, p, t) => { const q = Math.min(1, t / .5); flip(w.pp, 0, CEIL * q + (1 - q) * 0, 0, .2); w.pp.rotation.z = Math.PI * q; w.p.mouth.scale.y = 1 + 2 * q; w.pp.position.y = q < 1 ? 3 * q : CEIL; },
@@ -130,8 +130,8 @@ export default {
       },
     },
     {
-      say: 'Flipped gravity: fun, scary, or a nightmare? Comment below.',
-      quiz: { q: 'One day of flipped gravity would be…', options: ['Fun', 'Scary', 'A nightmare'], answer: 'Gravity is not flipping. This day is made up.' },
+      say: 'Flipped gravity: fun, great, or a nightmare? Comment below.',
+      quiz: { q: 'One day of flipped gravity would be…', options: ['Fun', 'Great', 'A nightmare'], answer: 'Gravity is not flipping. This day is made up.' },
       show: ['ground', 'room', 'pp'], sky: '#274B73', lightAt: [0, 5, 4], lightDist: 14,
       cam: { pos: [.6, 1.4, 9.5], look: [0, 5.6, 0], fov: 48, to: { pos: [-1, 1.4, 9.5], look: [0, 5.6, 0] } },
       update: (w, p, t) => { flip(w.pp, 0, CEIL, 0, .2); w.p.mouth.scale.y = 1.5; },
