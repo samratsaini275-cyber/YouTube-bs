@@ -16,7 +16,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 143–144 | **Bolt Takes It Literally** | Bolt, a small made-up robot, carries out one saying word for word. Ended at 144 at the owner's request (20 Nov: "keep checking what videos r doing good and base the next ones off those"). |
 | 145–164 | **What Would Happen If… (season 2)** | Same format as 063–082, the only narrative with repeated hits (see "Numbers, 20 Nov" below). |
 | 165–184 | **What Would Happen If… (season 3, with Gary)** | Same format; about every third premise stars Gary the ant ("What if Gary the ant were giant?"), since Gary's in-slot posts drew 836 and 485 views. |
-| 185–204 | to be chosen | Picked from the view numbers; production does not wait for approval. |
+| 185–204 | **What Would Happen If… (season 4: animals and dinosaurs)** | Same format, premises weighted to animals and dinosaurs (081 dinosaurs as pets is the channel best at 1.7K); Gary every fourth. |
+| 205–224 | to be chosen | Picked from the view numbers; production does not wait for approval. |
 
 ## Numbers, 20 Nov 2026 ~20:10 UTC (public Shorts tab, read through Firecrawl's youtube-com provider)
 
@@ -218,3 +219,8 @@ narrative held viewers longest and drew the most comments — rather than this t
 - What Would Happen If… (season 3, with Gary): starts at 165. Chosen 21 Nov ~20:00 UTC from the numbers: in the
   00:00–03:00 UTC slot the format hit on 10 of 15 posts (081 now 1.6K, 080 1.1K) and Gary got 836 (102) and 485 (101),
   so season 3 keeps the format and tests Gary inside it.
+- What Would Happen If… (season 3, with Gary): 165–184 written (21–22 Nov 2026).
+- What Would Happen If… (season 4: animals and dinosaurs): starts at 185. Chosen 22 Nov ~02:00 UTC from the numbers
+  (read 21 Nov 21:52 UTC): every video over 280 views is a What-if or a Gary episode; the top one is 081 dinosaurs as pets
+  (1.7K), then four What-ifs at 1.1K (fly, tails, trees walk, homework). None of season 2 or 3 is public yet (queue at 125),
+  so there is no newer evidence against the format. Season 4 keeps it and leans on animals and dinosaurs.
