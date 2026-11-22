@@ -107,7 +107,7 @@ export default {
       },
     },
     {
-      say: 'But stopping? Gary never learned that.',
+      say: 'But stopping? Nobody taught him that.',
       show: ['ground', 'road', 'town', 'dino', 'g', 'dust'], sky: '#9ED2F3', lightAt: [0, 8, 0], lightDist: 30,
       cam: { pos: [-6, 9, 34], look: [0, 10, 0], fov: 50, to: { pos: [-4, 9, 34], look: [6, 10, 0], fov: 50 } },
       shake: (t) => .08,
