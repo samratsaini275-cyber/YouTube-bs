@@ -70,7 +70,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'What if Gary could talk to humans?',
+      say: 'What if Gary could talk to us?',
       show: ['ground', 'table', 'cube', 'g', 'pp', 'bub'], sky: '#9ED2F3', lightAt: [0, 4, 0], lightDist: 14,
       cam: { pos: [1.2, 5.6, 12], look: [1, 6.15, 0], fov: 50, to: { pos: [1.1, 5.6, 11.2], look: [1, 6.15, 0], fov: 48 } },
       update: (w, p, t) => { w.cube.position.set(-.4, 4.1, 1.5); g(w, -.4, 5, 1.5, -.7, t); talk(w, t); human(w, 2.6, -4.6, -.5, 2.6); },
