@@ -63,7 +63,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'What if dinosaurs played football?',
+      say: 'What if dinos played football?',
       show: ['ground', 'lines', 'dino', 'ball'], sky: '#9ED2F3', lightAt: [0, 8, 0], lightDist: 28,
       cam: { pos: [14, 7, 32], look: [2, 12.4, 0], fov: 46, to: { pos: [13, 7, 30], look: [2, 12.4, 0], fov: 44 } },
       update: (w, p, t) => { pose(w, -3, 0, -.4, t); w.ball.position.set(4.5, 1, 3); w.ball.rotation.set(0, t, 0); w.r.neck.rotation.z = -.2 + .05 * Math.sin(t * 2); },
