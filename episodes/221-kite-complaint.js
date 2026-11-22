@@ -65,7 +65,7 @@ export default {
       update: (w, p, t) => { fly(w, .3, 8.2, 4, .5 + .06 * Math.sin(t * 9), t); flutter(w.e, t, .3); grump(w.e, .6); },
     },
     {
-      say: 'His string? Always in knots.',
+      say: 'His string? Knotted. Every time.',
       show: ['grass', 'hills', 'clouds', 'kt', 'knot'], sky: '#9ED2F3', lightAt: [0, 9, 4], lightDist: 24,
       cam: { pos: [0, 5, 9], look: [0, 4.8, 0], fov: 46, to: { pos: [0, 5, 8.2], look: [0, 4.8, 0], fov: 44 } },
       update: (w, p, t) => { fly(w, 0, 6, 0, .15 * Math.sin(t * 3), t); flutter(w.e, t); grump(w.e, -.35); w.e.mouth.scale.y = 2.4; w.knot.position.set(0, 3, .3); w.knot.rotation.set(t * 2, t * 3, 0); w.knot.scale.setScalar(1 + p * .6); },
