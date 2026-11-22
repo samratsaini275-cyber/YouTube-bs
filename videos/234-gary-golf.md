@@ -1,6 +1,6 @@
 # Gary the ant played golf
 
-**File:** `234-gary-golf.mp4` · 1080x1920 · 16.3 s
+**File:** `234-gary-golf.mp4` · 1080x1920 · 16.6 s
 
 ## Description
 
@@ -13,7 +13,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 ## Quiz
 
 What is Gary's golf score?
-A) One
+A) A birdie
 B) A hundred
 C) Still going
 
@@ -33,4 +33,4 @@ He swung as hard as he could. Nothing.
 
 So he pushed it. One hole took three weeks.
 
-Gary's golf score: one, a hundred, or still going? Comment below.
+Gary's golf score: a birdie, a hundred, or still going? Comment below.
