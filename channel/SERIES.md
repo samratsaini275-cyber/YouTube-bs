@@ -49,6 +49,10 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   trolley complaint (posted 01:02) has 278 after one to three hours, while 121 (21:52) and 122 (22:56) have none. So the
   slot is roughly 23:30–02:30 UTC, and it works even for Objects With Opinions, not only What-if. 125 (02:07) has 0 after
   one hour; check again next read. Cats could text has risen to 392; 081 still 1.7K.
+- Update 22 Nov 08:32 UTC (`channel/views-2026-11-22-0832.json`): 124 trolley complaint (01:02) has 878, 123 sock (23:59)
+  442, 125 alarm clock (02:07) 295 (it was 0 after one hour, so in-slot posts can start late). 126 traffic cone (03:11) has
+  7, 127 (04:15) 1, 128–130 (05:20–07:28) none. Third night running with the same split: posts at about 23:30–02:30 UTC
+  get hundreds of views, posts outside it get almost none. 102 Gary superhero 849, subscribers still 10.
 - So narrative 10 returns to "What would happen if…" (owner asked to base new videos on what does well).
   Animals at Work, Objects With Opinions and Bolt are not public yet; judge them only on in-window posts.
 - How to re-check: Firecrawl `alexandria_library_read` with provider youtube-com, capability videos/channel_shorts,
