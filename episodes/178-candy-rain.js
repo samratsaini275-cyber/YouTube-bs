@@ -44,10 +44,10 @@ export default {
   year: 'WHAT WOULD HAPPEN IF…',
   hook: ['WHAT IF IT', 'RAINED CANDY?'],
   title: 'What would happen if it rained candy?',
-  description: 'Umbrellas become candy bowls. Puddles are chocolate. The dentist is the busiest person in town. And broccoli is still on your plate. (A comedy what-if.)',
+  description: 'Umbrellas become candy bowls. Puddles are chocolate. The dentist is busier than ever. And broccoli is still on your plate. (A comedy what-if.)',
   tags: ['whatif', 'candy', 'funny', 'weather', 'sweets', 'shorts'],
   sources: [
-    'Comedy what-if; no factual claims.',
+    'Quiz fact: frogs and fish have been reported falling with rain, probably lifted by waterspouts or strong updrafts (Library of Congress, "Can it rain frogs, fish, and other objects?", loc.gov, updated 2024).',
   ],
   setup,
   scenes: [
@@ -77,7 +77,7 @@ export default {
       },
     },
     {
-      say: 'The dentist? Busiest person in town.',
+      say: 'The dentist? Busier than ever.',
       show: ['ground', 'houses', 'dent', 'queue', 'candy'], sky: '#F7C6E0', lightAt: [4, 3, 0], lightDist: 18,
       cam: { pos: [13, 9, 17], look: [3, 4, -1], fov: 52, to: { pos: [12.5, 9, 16], look: [3, 4, -1], fov: 50 } },
       update: (w, p, t) => {
@@ -92,8 +92,8 @@ export default {
       update: (w, p, t) => { stand(w, 0, -2.6, 0, .6); w.pp.position.y = 1.8; w.p.head.rotation.z = .15 * Math.sin(t * 1.5); w.p.head.rotation.x = .25; },
     },
     {
-      say: 'Candy rain: amazing, gross, or too sweet? Comment below.',
-      quiz: { q: 'Would you want candy rain?', options: ['Amazing', 'Gross', 'Too sweet'], answer: 'It cannot rain candy. But it has rained frogs and fish after storms!' },
+      say: 'Candy rain: amazing, too sweet, or just right? Comment below.',
+      quiz: { q: 'Would you want candy rain?', options: ['Amazing', 'Too sweet', 'Just right'], answer: 'It cannot rain candy. But it has rained frogs and fish after storms!' },
       show: ['ground', 'houses', 'pp', 'candy'], sky: '#274B73', lightAt: [0, 3, 0], lightDist: 16,
       cam: { pos: [5, 3.4, 8], look: [0, 4.4, 0], fov: 46, to: { pos: [-5, 3.4, 8], look: [0, 4.4, 0] } },
       update: (w, p, t) => { stand(w, 0, 0, 0, 2.2); w.pp.position.y = 0; w.p.head.rotation.set(-.3, 0, 0); rain(w, t, 0, 0, 9, 11); },
