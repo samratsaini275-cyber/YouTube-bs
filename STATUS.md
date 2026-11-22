@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 164 — 🎙️ narrating 0/11
+**Now:** episode 184 — 🎙️ narrating 0/11
 
-**Finished videos:** 163 of 164 written &nbsp; `████████████████████`
+**Finished videos:** 183 of 184 written &nbsp; `████████████████████`
 
-**Narrative 10: What Would Happen If… (season 2)** — 19 of 20 finished &nbsp; `███████████████████░`
+**Narrative 11: What Would Happen If… (season 3, with Gary)** — 19 of 20 finished &nbsp; `███████████████████░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -171,6 +171,26 @@
 | 161 | The Fast Sloth | 3D | ✅ done |
 | 162 | The Walking Fish | 3D | ✅ done |
 | 163 | The Talking Tree | 3D | ✅ done |
-| 164 | The Dinosaurs Are Back | 3D | 🎙️ narrating 0/11 |
+| 164 | The Dinosaurs Are Back | 3D | ✅ done |
+| 165 | Giant Gary | 3D | ✅ done |
+| 166 | Dogs Driving | 3D | ✅ done |
+| 167 | Giant Cats | 3D | ✅ done |
+| 168 | Gary Can Fly | 3D | ✅ done |
+| 169 | Tiny Dinosaurs | 3D | ✅ done |
+| 170 | Long Necks | 3D | ✅ done |
+| 171 | Gary Gets A Pet | 3D | ✅ done |
+| 172 | Walking Beds | 3D | ✅ done |
+| 173 | Flying Penguins | 3D | ✅ done |
+| 174 | King Gary | 3D | ✅ done |
+| 175 | Living Shadows | 3D | ✅ done |
+| 176 | Flying Cars | 3D | ✅ done |
+| 177 | Gary Can Talk | 3D | ✅ done |
+| 178 | Candy Rain | 3D | ✅ done |
+| 179 | Human Wings | 3D | ✅ done |
+| 180 | Super Strong Gary | 3D | ✅ done |
+| 181 | Talking Dinosaurs | 3D | ✅ done |
+| 182 | Flying Cats | 3D | ✅ done |
+| 183 | A Hundred Garys | 3D | ✅ done |
+| 184 | Gary Meets T-Rex | 3D | 🎙️ narrating 0/11 |
 
-_Updated 2026-11-21 19:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-22 01:58 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
