@@ -45,6 +45,10 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   0–2 views; 102 is at 836, 080 has passed 1.1K, 081 is at 1.6K. Same pattern as before.
 - Update 21 Nov 21:52 UTC (`channel/views-2026-11-21-2150.json`): 104–120 (posted 03:33–20:46 UTC) have
   0–5 views each. 081 is at 1.7K, 102 at 846, 101 at 486. No new breakout; the slot pattern still holds.
+- Update 22 Nov 03:11 UTC (`channel/views-2026-11-22-0311.json`): 123 sock complaint (posted 23:59) has 369 and 124
+  trolley complaint (posted 01:02) has 278 after one to three hours, while 121 (21:52) and 122 (22:56) have none. So the
+  slot is roughly 23:30–02:30 UTC, and it works even for Objects With Opinions, not only What-if. 125 (02:07) has 0 after
+  one hour; check again next read. Cats could text has risen to 392; 081 still 1.7K.
 - So narrative 10 returns to "What would happen if…" (owner asked to base new videos on what does well).
   Animals at Work, Objects With Opinions and Bolt are not public yet; judge them only on in-window posts.
 - How to re-check: Firecrawl `alexandria_library_read` with provider youtube-com, capability videos/channel_shorts,
