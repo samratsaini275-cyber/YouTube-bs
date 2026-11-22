@@ -81,7 +81,7 @@ export default {
       },
     },
     {
-      say: 'The taste test? Eats the whole pot.',
+      say: 'The taste test? Gulp. The whole pot.',
       show: ['floor', 'wall', 'tiles', 'dino', 'stove', 'pot', 'steam'], sky: '#EAF2F5', lightAt: [0, 8, 0], lightDist: 26,
       cam: { pos: [10, 8, 28], look: [1, 9.5, 0], fov: 46, to: { pos: [9.5, 8, 26.5], look: [1, 9.5, 0], fov: 44 } },
       update: (w, p, t) => {
