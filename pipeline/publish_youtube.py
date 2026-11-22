@@ -2,7 +2,8 @@
 
 Run by .github/workflows/publish.yml. Needs three secrets in the environment — never commit them:
   YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN
-Optional: YT_PRIVACY (private | unlisted | public, default private), YT_COUNT (how many to post, default 1).
+Optional: YT_PRIVACY (private | unlisted | public, default private), YT_COUNT (how many to post, default 1),
+YT_ONLY (post only the video whose file name starts with this, e.g. 900-town-lies-float).
 
   python3 pipeline/publish_youtube.py           post the next episode now
   python3 pipeline/publish_youtube.py --daily   post only if nothing was posted in the last 20 hours
@@ -78,6 +79,9 @@ def main():
             return
     privacy = os.environ.get("YT_PRIVACY", "private")
     todo = [v for v in sorted((ROOT / "videos").glob("*.mp4")) if v.stem not in done][: int(os.environ.get("YT_COUNT", "1"))]
+    only = os.environ.get("YT_ONLY")
+    if only:
+        todo = [v for v in sorted((ROOT / "videos").glob(only + "*.mp4")) if v.stem not in done][:1]
     if not todo:
         print("Nothing left to post.")
         return
