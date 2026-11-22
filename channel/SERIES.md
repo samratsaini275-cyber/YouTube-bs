@@ -58,6 +58,9 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
 - Update 22 Nov 13:07 UTC (`channel/views-2026-11-22-1307.json`): 126–135 (posted 03:11–12:45 UTC) have 0–8 views each.
   In-slot posts barely moved since 08:32 (124 at 880, 123 at 442, 125 at 322), so most views arrive in the first few
   hours. Subscribers still 10. No new evidence about formats; the slot pattern still holds.
+- Update 22 Nov 19:14 UTC (`channel/views-2026-11-22-1914.json`): 132–140 (posted 09:35–18:08 UTC) have 0–4 views each.
+  102 Gary superhero has reached 1K (shown rounded as "1K"). Subscribers still 10. The pilot of a new long format
+  (900, In This Town, 90 s) posts at 00:10 UTC, inside the slot, to be compared with in-slot shorts.
 - So narrative 10 returns to "What would happen if…" (owner asked to base new videos on what does well).
   Animals at Work, Objects With Opinions and Bolt are not public yet; judge them only on in-window posts.
 - How to re-check: Firecrawl `alexandria_library_read` with provider youtube-com, capability videos/channel_shorts,
