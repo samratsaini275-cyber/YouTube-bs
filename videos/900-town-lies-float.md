@@ -1,6 +1,6 @@
 # In this town, every lie becomes a balloon
 
-**File:** `900-town-lies-float.mp4` · 1080x1920 · 90.9 s
+**File:** `900-town-lies-float.mp4` · 1080x1920 · 90.0 s
 
 ## Description
 
@@ -23,7 +23,7 @@ Every lie you tell becomes a balloon.
 
 Tied to your wrist. All day.
 
-Small lies, small balloons.
+Little lies, little balloons.
 
 Big lies? Huge balloons.
 
@@ -33,7 +33,7 @@ Dave says he's five minutes away. A lot.
 
 He hasn't touched the ground since March.
 
-This is Mrs. Lee.
+This is Missus Lee.
 
 She told her kids the ice cream van only plays music when it's empty.
 
