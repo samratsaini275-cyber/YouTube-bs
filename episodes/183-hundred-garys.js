@@ -55,7 +55,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'What if there were a hundred Garys?',
+      say: 'What about a hundred Garys?',
       show: ['ground', 'crowd'], sky: '#9ED2F3', lightAt: [0, 2, -4], lightDist: 16,
       cam: { pos: [2, 2.6, 7], look: [0, 2.3, -3], fov: 50, to: { pos: [1.8, 2.8, 6.2], look: [0, 2.3, -3], fov: 48 } },
       update: (w, p, t) => { hero(w, -.2, 2.2, -.9, t); swarm(w, t, (g, i) => { g.position.y = .12 * Math.abs(Math.sin(t * 6 + i)); }); },
