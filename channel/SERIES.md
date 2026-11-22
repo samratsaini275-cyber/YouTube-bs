@@ -93,6 +93,9 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   read-back on every build. Update 20 Nov: a vowel after "or" is not enough on its own. "scary, or already" read back as
   "scare are already" and "gross, or awesome" as "groves are awesome"; what fixed both was ending the list on a
   short phrase starting with "a" ("or awful", "or a bit gross").
+  Update 22 Nov: "busiest"/"busier" read back as "booziest"/"boozier" twice (178); avoid "busy" words. "gross, or too sweet"
+  merged into "growths are"; "amazing, too sweet, or just right" read cleanly. Hook lines over ~7 words ("What if Gary the ant
+  ruled the world?", "...talk to humans?") ran 2.04–2.15 s; drop "the ant" or shorten.
 
 - "Gary's Big World" (083–102, chosen 17 Nov 2026 18:55 UTC from channel/stats.json): of 61 public videos, five
   had ~670–920 views (052 Pizza Car 921, 051 Gary's Tunnel 894, 032 Ant Bridge 856, 050 Top Shelf Ladder 847,
