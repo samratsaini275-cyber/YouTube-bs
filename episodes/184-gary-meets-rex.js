@@ -79,7 +79,7 @@ export default {
   tags: ['whatif', 'garytheant', 'trex', 'dinosaurs', 'funny', 'shorts'],
   sources: [
     'Comedy sketch: Gary the ant is made up.',
-    'Quiz fact: ants already existed in the Late Cretaceous, when Tyrannosaurus rex lived; ant fossils in amber predate T. rex (general palaeontology; cited from general knowledge).',
+    'Quiz fact: the oldest known ant fossil is about 113 million years old (a hell ant from the Crato Formation, Brazil; Phys.org 2025, Wikipedia "Haidomyrmecinae"); T. rex lived about 68-66 million years ago (T. rex date from general knowledge).',
   ],
   setup,
   scenes: [
