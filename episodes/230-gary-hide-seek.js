@@ -67,7 +67,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'Gary the ant played hide and seek.',
+      say: 'Gary played hide and seek.',
       show: ['grass', 'bushes', 'tree', 'g', 'kp', 'hands'], sky: '#9ED2F3', lightAt: [0, 6, 3], lightDist: 22,
       cam: { pos: [1.4, 2.4, 10], look: [-.5, 1.9, 0], fov: 50, to: { pos: [1.3, 2.4, 9.3], look: [-.5, 1.9, 0], fov: 48 } },
       update: (w, p, t) => { w.tree.position.set(-3, 0, -2); w.kp.position.set(-2.2, 0, -1); w.kp.rotation.y = Math.PI * .9; w.hands.position.set(-2.2, 3.3, -1.75); gy(w, 1, 0, .6, -1.3, t); w.g.rotation.z = .1 * Math.sin(t * 6); },
