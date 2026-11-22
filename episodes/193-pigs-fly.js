@@ -91,8 +91,8 @@ export default {
       },
     },
     {
-      say: 'Flying pigs: amazing, weird, or finally? Comment below.',
-      quiz: { q: 'Should pigs be able to fly?', options: ['Amazing', 'Weird', 'Finally!'], answer: 'The saying "when pigs fly" means something will never happen. Until now.' },
+      say: 'Flying pigs: amazing, weird, or about time? Comment below.',
+      quiz: { q: 'Should pigs be able to fly?', options: ['Amazing', 'Weird', 'About time'], answer: 'The saying "when pigs fly" means something will never happen. Until now.' },
       show: ['ground', 'barn', 'fence', 'pg'], sky: '#274B73', lightAt: [0, 5, 0], lightDist: 18,
       cam: { pos: [4, 5.5, 9], look: [0, 6.8, 0], fov: 44, to: { pos: [-4, 5.5, 9], look: [0, 6.8, 0] } },
       update: (w, p, t) => { w.barn.position.set(-4, 0, -9); fly(w, 0, 5 + .2 * Math.sin(t * 3), 0, -1.2, t, 10); },
