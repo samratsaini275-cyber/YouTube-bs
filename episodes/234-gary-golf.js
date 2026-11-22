@@ -93,8 +93,8 @@ export default {
       },
     },
     {
-      say: 'Gary\'s golf score: one, a hundred, or still going? Comment below.',
-      quiz: { q: 'What is Gary\'s golf score?', options: ['One', 'A hundred', 'Still going'], answer: 'Fun fact: ants have no lungs. They breathe through tiny holes in their sides.' },
+      say: 'Gary\'s golf score: a birdie, a hundred, or still going? Comment below.',
+      quiz: { q: 'What is Gary\'s golf score?', options: ['A birdie', 'A hundred', 'Still going'], answer: 'Fun fact: ants have no lungs. They breathe through tiny holes in their sides.' },
       show: ['grass', 'hills', 'g', 'ball', 'club'], sky: '#274B73', lightAt: [0, 6, 3], lightDist: 20,
       cam: { pos: [3.4, 2, 7], look: [-.2, 1.3, 0], fov: 46, to: { pos: [-1.6, 2, 7.5], look: [-.2, 1.3, 0] } },
       update: (w, p, t) => { w.ball.position.set(-1.6, 1.6, -.4); gy(w, .8, 0, .4, -1.3, t); w.club.position.set(.5, 0, .9); w.club.rotation.set(0, 0, .3); },
