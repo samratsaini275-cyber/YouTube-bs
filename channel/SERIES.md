@@ -101,6 +101,9 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   Update 22 Nov: "busiest"/"busier" read back as "booziest"/"boozier" twice (178); avoid "busy" words. "gross, or too sweet"
   merged into "growths are"; "amazing, too sweet, or just right" read cleanly. Hook lines over ~7 words ("What if Gary the ant
   ruled the world?", "...talk to humans?") ran 2.04–2.15 s; drop "the ant" or shorten.
+  Update 22 Nov (season 4): more merges before "or" — "weird, or finally" → "weirder finally", "fierce, or ridiculous" →
+  "fears are ridiculous". Ending the list with "or a bit …" / "or about time" read cleanly every time. "Eats the whole pot"
+  read back as "It's the whole pot"; "Gary never" once as "Derry never". Keep comment questions to the "X, Y, or a …" shape.
 
 - "Gary's Big World" (083–102, chosen 17 Nov 2026 18:55 UTC from channel/stats.json): of 61 public videos, five
   had ~670–920 views (052 Pizza Car 921, 051 Gary's Tunnel 894, 032 Ant Bridge 856, 050 Top Shelf Ladder 847,
