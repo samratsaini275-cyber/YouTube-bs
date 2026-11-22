@@ -17,7 +17,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 145–164 | **What Would Happen If… (season 2)** | Same format as 063–082, the only narrative with repeated hits (see "Numbers, 20 Nov" below). |
 | 165–184 | **What Would Happen If… (season 3, with Gary)** | Same format; about every third premise stars Gary the ant ("What if Gary the ant were giant?"), since Gary's in-slot posts drew 836 and 485 views. |
 | 185–204 | **What Would Happen If… (season 4: animals and dinosaurs)** | Same format, premises weighted to animals and dinosaurs (081 dinosaurs as pets is the channel best at 1.7K); Gary every fourth. |
-| 205–224 | to be chosen | Picked from the view numbers; production does not wait for approval. |
+| 205–224 | **Objects With Opinions (season 2)** | Same format as 123–142: one everyday object gets a face and a voice and complains about its life, with a twist at the end. Its three in-slot posts drew 878, 442 and 295 views. |
+| 225–244 | to be chosen | Picked from the view numbers; production does not wait for approval. |
 
 ## Numbers, 20 Nov 2026 ~20:10 UTC (public Shorts tab, read through Firecrawl's youtube-com provider)
 
@@ -235,3 +236,9 @@ narrative held viewers longest and drew the most comments — rather than this t
   (read 21 Nov 21:52 UTC): every video over 280 views is a What-if or a Gary episode; the top one is 081 dinosaurs as pets
   (1.7K), then four What-ifs at 1.1K (fly, tails, trees walk, homework). None of season 2 or 3 is public yet (queue at 125),
   so there is no newer evidence against the format. Season 4 keeps it and leans on animals and dinosaurs.
+- What Would Happen If… (season 4: animals and dinosaurs): 185–204 written (22 Nov 2026); 204 Gary's party is the finale.
+- Objects With Opinions (season 2): starts at 205. Chosen 22 Nov ~09:20 UTC from the read at 08:32 UTC. Inside the
+  23:30–02:30 UTC slot, all three Objects With Opinions posts so far got views: 124 trolley 878 (the best post since
+  102), 123 sock 442, 125 alarm clock 295. Outside the slot, every format gets almost nothing, so this is a comparison of
+  in-slot posts only, and three posts is a small sample. The queue already holds 60 What-if episodes (145–204, unposted),
+  so a second Objects season also stops the queue from being one format for three days.

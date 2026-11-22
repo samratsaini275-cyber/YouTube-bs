@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 184 — 🎙️ narrating 0/11
+**Now:** idle — nothing is building
 
-**Finished videos:** 183 of 184 written &nbsp; `████████████████████`
+**Finished videos:** 204 of 204 written &nbsp; `████████████████████`
 
-**Narrative 11: What Would Happen If… (season 3, with Gary)** — 19 of 20 finished &nbsp; `███████████████████░`
+**Narrative 12: What Would Happen If… (season 4: animals and dinosaurs)** — 20 of 20 finished &nbsp; `████████████████████`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -191,6 +191,26 @@
 | 181 | Talking Dinosaurs | 3D | ✅ done |
 | 182 | Flying Cats | 3D | ✅ done |
 | 183 | A Hundred Garys | 3D | ✅ done |
-| 184 | Gary Meets T-Rex | 3D | 🎙️ narrating 0/11 |
+| 184 | Gary Meets T-Rex | 3D | ✅ done |
+| 185 | Dinosaurs In Town | 3D | ✅ done |
+| 186 | Giant Dogs | 3D | ✅ done |
+| 187 | Dino Football | 3D | ✅ done |
+| 188 | Gary Gets A Dog | 3D | ✅ done |
+| 189 | Tiny Elephants | 3D | ✅ done |
+| 190 | T-Rex Birthday | 3D | ✅ done |
+| 191 | Talking Penguins | 3D | ✅ done |
+| 192 | Gary Finds An Egg | 3D | ✅ done |
+| 193 | Flying Pigs | 3D | ✅ done |
+| 194 | T-Rex Chef | 3D | ✅ done |
+| 195 | Giant Frogs | 3D | ✅ done |
+| 196 | Gary Rides A T-Rex | 3D | ✅ done |
+| 197 | T-Rex Swimming | 3D | ✅ done |
+| 198 | Giant Hamsters | 3D | ✅ done |
+| 199 | Dancing T-Rex | 3D | ✅ done |
+| 200 | Dino Gary | 3D | ✅ done |
+| 201 | T-Rex Gets A Pet | 3D | ✅ done |
+| 202 | Talking Cows | 3D | ✅ done |
+| 203 | T-Rex At The Dentist | 3D | ✅ done |
+| 204 | Gary Throws A Party | 3D | ✅ done |
 
-_Updated 2026-11-22 01:58 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-22 09:22 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
