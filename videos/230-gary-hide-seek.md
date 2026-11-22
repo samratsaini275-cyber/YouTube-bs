@@ -1,6 +1,6 @@
 # Gary the ant played hide and seek
 
-**File:** `230-gary-hide-seek.mp4` · 1080x1920 · 15.1 s
+**File:** `230-gary-hide-seek.mp4` · 1080x1920 · 14.9 s
 
 ## Description
 
@@ -25,7 +25,7 @@ Answer (for a pinned comment or reply, not shown in the video): Fun fact: ants h
 
 ## Script
 
-Gary the ant played hide and seek.
+Gary played hide and seek.
 
 He hid behind a pebble.
 
