@@ -60,7 +60,7 @@ export default {
       update: (w, p, t) => { sit(w, 0, .2, 0, -.35, t); grump(w.s, .35); },
     },
     {
-      say: 'Every lunch, he gets squashed.',
+      say: 'Every lunchtime? Squashed.',
       show: ['table', 'wall', 'sw', 'book'], sky: '#F3E6D0', lightAt: [0, 6, 2], lightDist: 20,
       cam: { pos: [12, 4, 6], look: [0, 2.6, 0], fov: 46, to: { pos: [11, 4, 5.5], look: [0, 2.6, 0], fov: 44 } },
       update: (w, p, t) => {
