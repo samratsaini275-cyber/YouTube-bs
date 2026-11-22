@@ -2,9 +2,9 @@
 
 **Now:** idle — nothing is building
 
-**Finished videos:** 204 of 204 written &nbsp; `████████████████████`
+**Finished videos:** 224 of 224 written &nbsp; `████████████████████`
 
-**Narrative 12: What Would Happen If… (season 4: animals and dinosaurs)** — 20 of 20 finished &nbsp; `████████████████████`
+**Narrative 13: Objects With Opinions (season 2)** — 20 of 20 finished &nbsp; `████████████████████`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -212,5 +212,25 @@
 | 202 | Talking Cows | 3D | ✅ done |
 | 203 | T-Rex At The Dentist | 3D | ✅ done |
 | 204 | Gary Throws A Party | 3D | ✅ done |
+| 205 | The Football | 3D | ✅ done |
+| 206 | The Pencil | 3D | ✅ done |
+| 207 | The Sandwich | 3D | ✅ done |
+| 208 | The Shoe | 3D | ✅ done |
+| 209 | The Kettle | 3D | ✅ done |
+| 210 | The Backpack | 3D | ✅ done |
+| 211 | The Toothbrush | 3D | ✅ done |
+| 212 | The Ice Cream | 3D | ✅ done |
+| 213 | The Bed | 3D | ✅ done |
+| 214 | The Car | 3D | ✅ done |
+| 215 | The Snowman | 3D | ✅ done |
+| 216 | The Rubber Duck | 3D | ✅ done |
+| 217 | The Cactus | 3D | ✅ done |
+| 218 | The Piano | 3D | ✅ done |
+| 219 | The Lamp | 3D | ✅ done |
+| 220 | The Pizza | 3D | ✅ done |
+| 221 | The Kite | 3D | ✅ done |
+| 222 | The Clock | 3D | ✅ done |
+| 223 | The Sponge | 3D | ✅ done |
+| 224 | The Meeting | 3D | ✅ done |
 
-_Updated 2026-11-22 09:22 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-22 13:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._

@@ -18,7 +18,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 165–184 | **What Would Happen If… (season 3, with Gary)** | Same format; about every third premise stars Gary the ant ("What if Gary the ant were giant?"), since Gary's in-slot posts drew 836 and 485 views. |
 | 185–204 | **What Would Happen If… (season 4: animals and dinosaurs)** | Same format, premises weighted to animals and dinosaurs (081 dinosaurs as pets is the channel best at 1.7K); Gary every fourth. |
 | 205–224 | **Objects With Opinions (season 2)** | Same format as 123–142: one everyday object gets a face and a voice and complains about its life, with a twist at the end. Its three in-slot posts drew 878, 442 and 295 views. |
-| 225–244 | to be chosen | Picked from the view numbers; production does not wait for approval. |
+| 225–244 | **Gary's Big World (season 2)** | Gary the ant (yellow hard hat) tries one ordinary human-sized thing per episode and it goes wrong at ant scale; same format as 083–102. |
+| 245–264 | to be chosen | Picked from the view numbers; production does not wait for approval. |
 
 ## Numbers, 20 Nov 2026 ~20:10 UTC (public Shorts tab, read through Firecrawl's youtube-com provider)
 
@@ -54,6 +55,9 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   442, 125 alarm clock (02:07) 295 (it was 0 after one hour, so in-slot posts can start late). 126 traffic cone (03:11) has
   7, 127 (04:15) 1, 128–130 (05:20–07:28) none. Third night running with the same split: posts at about 23:30–02:30 UTC
   get hundreds of views, posts outside it get almost none. 102 Gary superhero 849, subscribers still 10.
+- Update 22 Nov 13:07 UTC (`channel/views-2026-11-22-1307.json`): 126–135 (posted 03:11–12:45 UTC) have 0–8 views each.
+  In-slot posts barely moved since 08:32 (124 at 880, 123 at 442, 125 at 322), so most views arrive in the first few
+  hours. Subscribers still 10. No new evidence about formats; the slot pattern still holds.
 - So narrative 10 returns to "What would happen if…" (owner asked to base new videos on what does well).
   Animals at Work, Objects With Opinions and Bolt are not public yet; judge them only on in-window posts.
 - How to re-check: Firecrawl `alexandria_library_read` with provider youtube-com, capability videos/channel_shorts,
@@ -242,3 +246,8 @@ narrative held viewers longest and drew the most comments — rather than this t
   102), 123 sock 442, 125 alarm clock 295. Outside the slot, every format gets almost nothing, so this is a comparison of
   in-slot posts only, and three posts is a small sample. The queue already holds 60 What-if episodes (145–204, unposted),
   so a second Objects season also stops the queue from being one format for three days.
+- Objects With Opinions (season 2): 205–224 written (22 Nov 2026); 224 "Every object has a complaint" is the finale.
+- Gary's Big World (season 2): starts at 225. Chosen 22 Nov ~13:10 UTC from the read at 13:07 UTC. Gary's only two posts
+  inside the 23:30–02:30 UTC slot both drew hundreds (102 superhero 849, 101 yoga 486), the same level as the best
+  What-if and Objects posts. The queue already holds 60 unposted What-if episodes (145–204) and 20 Objects (205–224),
+  so a Gary season adds a third proven in-slot format. Two posts is a very small sample; this is a judgment, not a measurement.
