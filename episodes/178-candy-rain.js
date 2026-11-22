@@ -44,7 +44,7 @@ export default {
   year: 'WHAT WOULD HAPPEN IF…',
   hook: ['WHAT IF IT', 'RAINED CANDY?'],
   title: 'What would happen if it rained candy?',
-  description: 'Umbrellas become candy bowls. Puddles are chocolate. The dentist is busier than ever. And broccoli is still on your plate. (A comedy what-if.)',
+  description: 'Umbrellas become candy bowls. Puddles are chocolate. The dentist has a huge queue. And broccoli is still on your plate. (A comedy what-if.)',
   tags: ['whatif', 'candy', 'funny', 'weather', 'sweets', 'shorts'],
   sources: [
     'Quiz fact: frogs and fish have been reported falling with rain, probably lifted by waterspouts or strong updrafts (Library of Congress, "Can it rain frogs, fish, and other objects?", loc.gov, updated 2024).',
@@ -77,7 +77,7 @@ export default {
       },
     },
     {
-      say: 'The dentist? Busier than ever.',
+      say: 'The dentist? The queue is huge.',
       show: ['ground', 'houses', 'dent', 'queue', 'candy'], sky: '#F7C6E0', lightAt: [4, 3, 0], lightDist: 18,
       cam: { pos: [13, 9, 17], look: [3, 4, -1], fov: 52, to: { pos: [12.5, 9, 16], look: [3, 4, -1], fov: 50 } },
       update: (w, p, t) => {
