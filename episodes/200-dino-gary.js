@@ -123,8 +123,8 @@ export default {
       update: (w, p, t) => { gy(w, 0, .05, .8, -.5, t, true); w.g.position.y = .05 + .1 * Math.abs(Math.sin(t * 8)); w.g.rotation.z = .1 * Math.sin(t * 6); },
     },
     {
-      say: 'Dino Gary: cute, fierce, or ridiculous? Comment below.',
-      quiz: { q: 'Is Gary a real dinosaur now?', options: ['Cute', 'Fierce', 'Ridiculous'], answer: 'Gary is still an ant. Insects have six legs. T-rex had two (plus tiny arms).' },
+      say: 'Dino Gary: cute, fierce, or a bit silly? Comment below.',
+      quiz: { q: 'Is Gary a real dinosaur now?', options: ['Cute', 'Fierce', 'A bit silly'], answer: 'Gary is still an ant. Insects have six legs. T-rex had two (plus tiny arms).' },
       show: ['ground', 'ferns', 'g'], sky: '#274B73', lightAt: [0, 2, 0], lightDist: 12,
       cam: { pos: [3, 3.6, 8], look: [0, 1.6, 0], fov: 44, to: { pos: [-3, 3.6, 8], look: [0, 1.6, 0] } },
       update: (w, p, t) => { gy(w, 0, .05, 1, -Math.PI / 2 + .9, t); },
