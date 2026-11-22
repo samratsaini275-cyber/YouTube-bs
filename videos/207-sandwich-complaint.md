@@ -1,6 +1,6 @@
 # This sandwich has a complaint
 
-**File:** `207-sandwich-complaint.mp4` · 1080x1920 · 19.9 s
+**File:** `207-sandwich-complaint.mp4` · 1080x1920 · 21.0 s
 
 ## Description
 
@@ -27,7 +27,7 @@ Answer (for a pinned comment or reply, not shown in the video): Fun fact: the sa
 
 This sandwich has a complaint.
 
-Every lunch, he gets squashed.
+Every lunchtime? Squashed.
 
 Then someone bites him. No warning.
 
