@@ -79,7 +79,7 @@ Strike.
 
 The mayor sat up and said: sorry.
 
-First sorry in forty years.
+His first sorry in forty years.
 
 He went home six feet tall. He said it was nice to fit through a door.
 
