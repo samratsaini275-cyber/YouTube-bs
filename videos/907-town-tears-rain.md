@@ -1,6 +1,6 @@
 # In this town, crying makes it rain
 
-**File:** `907-town-tears-rain.mp4` · 1080x1920 · 67.4 s
+**File:** `907-town-tears-rain.mp4` · 1080x1920 · 67.5 s
 
 ## Description
 
@@ -53,7 +53,7 @@ Barry did the ceremony. Five dollars.
 
 He said: you may now kiss the bride.
 
-So we kissed.
+So I kissed my wife.
 
 Everyone cheered. And the rain stopped.
 
