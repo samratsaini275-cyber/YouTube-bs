@@ -17,7 +17,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 
 ## Script
 
-In this town, hair shows feelings.
+In this town, hair shows moods.
 
 Red means angry.
 
@@ -33,7 +33,7 @@ He is late for everything.
 
 Missus Lee's hair goes red when someone parks outside her house.
 
-Barry sells hats. Five dollars each. Business is great.
+Barry has a hat stand. Five dollars each. Business is great.
 
 And the mayor? He shaved his head.
 
