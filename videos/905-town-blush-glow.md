@@ -1,6 +1,6 @@
 # In this town, blushing makes your face glow
 
-**File:** `905-town-blush-glow.mp4` · 1080x1920 · 64.4 s
+**File:** `905-town-blush-glow.mp4` · 1080x1920 · 64.6 s
 
 ## Description
 
@@ -25,7 +25,7 @@ This is Dave. He blushes when anyone says his name.
 
 He has never won at hide and seek.
 
-Barry sells sunglasses. Five dollars each.
+Barry has a sunglasses stand. Five dollars each.
 
 The mayor glows at every speech. So the town turned off the streetlights.
 
