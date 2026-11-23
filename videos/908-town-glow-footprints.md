@@ -1,6 +1,6 @@
 # In this town, your footprints glow
 
-**File:** `908-town-glow-footprints.mp4` · 1080x1920 · 59.2 s
+**File:** `908-town-glow-footprints.mp4` · 1080x1920 · 59.3 s
 
 ## Description
 
@@ -41,7 +41,7 @@ Into the town hall. Up the stairs.
 
 Small footprints. Very small. With four feet.
 
-They stopped at a door.
+The trail ended at a door.
 
 Inside was Mister Biscuit.
 
