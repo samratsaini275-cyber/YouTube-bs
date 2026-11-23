@@ -19,7 +19,8 @@ every 20 episodes. A narrative always runs for exactly 20 episodes before the ne
 | 185–204 | **What Would Happen If… (season 4: animals and dinosaurs)** | Same format, premises weighted to animals and dinosaurs (081 dinosaurs as pets is the channel best at 1.7K); Gary every fourth. |
 | 205–224 | **Objects With Opinions (season 2)** | Same format as 123–142: one everyday object gets a face and a voice and complains about its life, with a twist at the end. Its three in-slot posts drew 878, 442 and 295 views. |
 | 225–244 | **Gary's Big World (season 2)** | Gary the ant (yellow hard hat) tries one ordinary human-sized thing per episode and it goes wrong at ant scale; same format as 083–102. |
-| 245–264 | to be chosen | Picked from the view numbers; production does not wait for approval. |
+| 245–264 | **What Would Happen If… (season 5)** | Same format as 063–082. Chosen 23 Nov: "What would happen if" still has the most in-slot hits (147 humans with trunks 803 views at 6 h, the night's best regular short; 081 1.7K, 102 Gary superhero 1K). Gary stars in about every fourth premise. |
+| 265–284 | to be chosen | Picked from the view numbers; production does not wait for approval. |
 | 900– | In This Town (long form, 60–120 s) | Ongoing side series. Pilot 900 had 218 views at 3 h; on 23 Nov the owner asked for more. One town rule per episode, same townspeople (Milo, Rosie, Dave, Missus Lee, Barry, the mayor), callback ending. Posted inside the 23:30–02:30 UTC window with `YT_ONLY=9NN`. |
 
 ## Numbers, 20 Nov 2026 ~20:10 UTC (public Shorts tab, read through Firecrawl's youtube-com provider)

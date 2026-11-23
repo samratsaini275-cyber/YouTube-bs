@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 244 — 🎙️ narrating 0/11
 
-**Finished videos:** 224 of 224 written &nbsp; `████████████████████`
+**Finished videos:** 253 of 254 written &nbsp; `████████████████████`
 
-**Narrative 13: Objects With Opinions (season 2)** — 20 of 20 finished &nbsp; `████████████████████`
+**Narrative 15: What Would Happen If… (season 5)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -232,5 +232,35 @@
 | 222 | The Clock | 3D | ✅ done |
 | 223 | The Sponge | 3D | ✅ done |
 | 224 | The Meeting | 3D | ✅ done |
+| 225 | Skater Gary | 3D | ✅ done |
+| 226 | Fishing Gary | 3D | ✅ done |
+| 227 | Chef Gary | 3D | ✅ done |
+| 228 | Zoo Gary | 3D | ✅ done |
+| 229 | Bookworm Gary | 3D | ✅ done |
+| 230 | Hide And Seek | 3D | ✅ done |
+| 231 | Firefighter Gary | 3D | ✅ done |
+| 232 | Selfie Gary | 3D | ✅ done |
+| 233 | Bungee Gary | 3D | ✅ done |
+| 234 | Golfer Gary | 3D | ✅ done |
+| 235 | Snowman Gary | 3D | ✅ done |
+| 236 | Karaoke Gary | 3D | ✅ done |
+| 237 | Sleepover Gary | 3D | ✅ done |
+| 238 | Beach Gary | 3D | ✅ done |
+| 239 | Bowling Gary | 3D | ✅ done |
+| 240 | Cinema Gary | 3D | ✅ done |
+| 241 | Camping Gary | 3D | ✅ done |
+| 242 | Gym Gary | 3D | ✅ done |
+| 243 | Concert Gary | 3D | ✅ done |
+| 244 | Party Gary | 3D | 🎙️ narrating 0/11 |
+| 900 | Lies Float | 3D | ✅ done |
+| 901 | Sorry Shrinks | 3D | ✅ done |
+| 902 | Yawns Knock You Out | 3D | ✅ done |
+| 903 | Sneezes Swap Bodies | 3D | ✅ done |
+| 904 | Hair Shows Feelings | 3D | ✅ done |
+| 905 | Blushing Glows | 3D | ✅ done |
+| 906 | Cats Say Your Thoughts | 3D | ✅ done |
+| 907 | Crying Makes It Rain | 3D | ✅ done |
+| 908 | Footprints Glow | 3D | ✅ done |
+| 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-22 13:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-23 19:55 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
