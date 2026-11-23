@@ -1,6 +1,6 @@
 # In this town, singing makes plants grow
 
-**File:** `909-town-singing-plants.mp4` · 1080x1920 · 56.0 s
+**File:** `909-town-singing-plants.mp4` · 1080x1920 · 55.6 s
 
 ## Description
 
@@ -17,7 +17,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 
 ## Script
 
-In this town, singing grows plants.
+In this town, songs grow plants.
 
 Sing to a seed, and it grows. Fast.
 
@@ -41,7 +41,7 @@ Rosie sang beautifully. Our pumpkin grew and grew.
 
 Then I joined in.
 
-Our pumpkin started to shrink.
+Then the pumpkin shrank.
 
 Rosie gave me a look. I stopped.
 
