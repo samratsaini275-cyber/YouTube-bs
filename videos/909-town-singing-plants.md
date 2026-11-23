@@ -1,6 +1,6 @@
 # In this town, singing makes plants grow
 
-**File:** `909-town-singing-plants.mp4` · 1080x1920 · 55.6 s
+**File:** `909-town-singing-plants.mp4` · 1080x1920 · 55.7 s
 
 ## Description
 
@@ -41,7 +41,7 @@ Rosie sang beautifully. Our pumpkin grew and grew.
 
 Then I joined in.
 
-Then the pumpkin shrank.
+Then it started shrinking.
 
 Rosie gave me a look. I stopped.
 
