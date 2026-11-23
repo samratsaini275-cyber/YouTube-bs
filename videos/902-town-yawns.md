@@ -1,6 +1,6 @@
 # In this town, one yawn puts everyone to sleep
 
-**File:** `902-town-yawns.mp4` · 1080x1920 · 92.3 s
+**File:** `902-town-yawns.mp4` · 1080x1920 · 92.6 s
 
 ## Description
 
@@ -25,7 +25,7 @@ Even you.
 
 This is Dave.
 
-Dave yawned on the bus once.
+Dave once yawned on a bus.
 
 Everyone fell asleep. Even the driver.
 
@@ -39,7 +39,7 @@ Barry sells coffee. Five dollars a cup.
 
 The mayor hasn't yawned in twelve years.
 
-His speeches last three hours.
+His speeches go on for three hours.
 
 And me? I'm Milo.
 
@@ -77,7 +77,7 @@ She asked: did you eat my cake?
 
 I said: no.
 
-And there it was. A balloon. Shaped like a cake.
+And there it was. A balloon. It looked just like a cake.
 
 Rosie laughed and said: best birthday ever.
 
