@@ -68,7 +68,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'Gary the ant sang karaoke.',
+      say: 'Gary tried karaoke.',
       show: ['stage', 'back', 'curtain', 'spot', 'beam', 'g'], sky: '#1E1430', lightAt: [0, 6, 3], lightDist: 20,
       cam: { pos: [1.6, 1.4, 6.5], look: [0, .55, 0], fov: 46, to: { pos: [1.5, 1.4, 5.9], look: [0, .55, 0], fov: 44 } },
       update: (w, p, t) => { gy(w, 0, 0, 0, -1.4, t); w.g.rotation.z = .12 * Math.sin(t * 7); sing(w, t); },
