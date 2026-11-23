@@ -1,6 +1,6 @@
 # In this town, sneezing swaps your body
 
-**File:** `903-town-sneeze-swap.mp4` · 1080x1920 · 76.0 s
+**File:** `903-town-sneeze-swap.mp4` · 1080x1920 · 76.2 s
 
 ## Description
 
@@ -17,7 +17,7 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 
 ## Script
 
-In this town, sneezes swap bodies.
+In this town, sneezes swap you.
 
 Sneeze, and you swap with whoever is closest.
 
@@ -33,11 +33,11 @@ He cancelled Mondays.
 
 Missus Lee carries pepper everywhere. For emergencies.
 
-Barry sells tissues. Five dollars each.
+Barry has a tissue stand. Five dollars each.
 
 And me? I'm Milo.
 
-Tonight, I met Rosie's dad.
+Tonight, I finally met Rosie's dad.
 
 He's a police officer.
 
@@ -49,7 +49,7 @@ My nose started to twitch.
 
 I held it in. For ten minutes.
 
-Then: achoo.
+Then I sneezed.
 
 Now I was Rosie's dad.
 
