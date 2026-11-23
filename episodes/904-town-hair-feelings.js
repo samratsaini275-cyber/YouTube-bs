@@ -99,7 +99,7 @@ export default {
   sources: ['Fiction: an original comedy story. It makes no factual claims.'],
   setup,
   scenes: [
-    S('In this town, hair shows feelings.', { show: [...TOWN, 'dave'], cam: F(0, 4.65, 0, 9, .56), update: (w, p, t) => { const c = [null, COL.angry, COL.sad, COL.love, COL.nervous][Math.min(4, Math.floor(t / .4))]; P(w, 'dave', 0, 0, 0, 0, t, false, 0, c, .5); } }),
+    S('In this town, hair shows moods.', { show: [...TOWN, 'dave'], cam: F(0, 4.65, 0, 9, .56), update: (w, p, t) => { const c = [null, COL.angry, COL.sad, COL.love, COL.nervous][Math.min(4, Math.floor(t / .4))]; P(w, 'dave', 0, 0, 0, 0, t, false, 0, c, .5); } }),
     S('Red means angry.', { label: '*RED*', show: [...TOWN, 'dave'], cam: F(0, 4.65, 0, 8, .55, 1), update: (w, p, t) => { const a = P(w, 'dave', 0, 0, 0, 0, t, true, 0, COL.angry, .6); a.arms[0].rotation.z = -.4; a.arms[1].rotation.z = .4; a.root.position.y = .08 * Math.abs(Math.sin(t * 10)); } }),
     S('Blue means sad.', { label: '*BLUE*', show: [...TOWN, 'lee'], cam: F(0, 4.65, 0, 8, .55, -1), update: (w, p, t) => { const a = P(w, 'lee', 0, 0, 0, 0, t, false, 0, COL.sad, .5); a.head.rotation.x = .3; } }),
     S('Pink means you\'re in love.', { label: '*PINK*', show: [...TOWN, 'barry'], cam: F(0, 4.65, 0, 8, .55, 1), update: (w, p, t) => { const a = P(w, 'barry', 0, 0, 0, 0, t, false, 0, COL.love, .6); a.head.rotation.z = .15 * Math.sin(t * 3); } }),
@@ -107,7 +107,7 @@ export default {
     S('This is Dave. His hair is always yellow.', { label: '*DAVE*', show: [...TOWN, 'dave'], cam: F(0, 4.65, 0, 10, .55), update: (w, p, t) => { P(w, 'dave', 0, 0, 0, 0, t, false, 1, COL.nervous, .6); } }),
     S('He is late for everything.', { label: '*DAVE*', show: [...TOWN, 'dave'], cam: F(0, 3.6, 0, 11, .5, 3), update: (w, p, t) => { const a = P(w, 'dave', -4 + p * 8, 0, 0, Math.PI / 2, t, false, 0, COL.nervous, .6); walk(a, t, 14); } }),
     S('Missus Lee\'s hair goes red when someone parks outside her house.', { label: '*MRS LEE*', show: [...TOWN, 'lee', 'car'], cam: F(0, 4, 0, 13, .55, -2), update: (w, p, t) => { w.car.position.set(3 + Math.max(0, .5 - p) * 16, 0, 1); w.car.rotation.y = 0; const angry = p > .55; const a = P(w, 'lee', -1.6, 0, -1, .5, t, angry, 0, angry ? COL.angry : null, .7); if (angry) a.arms[1].rotation.z = 2.6; } }),
-    S('Barry sells hats. Five dollars each. Business is great.', { label: '*BARRY*', show: [...TOWN, 'stall', 'barry'], cam: F(0, 4, 0, 10, .55, 1.5), update: (w, p, t) => { P(w, 'barry', 0, 0, -.4, 0, t, true, 1); } }),
+    S('Barry has a hat stand. Five dollars each. Business is great.', { label: '*BARRY*', show: [...TOWN, 'stall', 'barry'], cam: F(0, 4, 0, 10, .55, 1.5), update: (w, p, t) => { P(w, 'barry', 0, 0, -.4, 0, t, true, 1); } }),
     S('And the mayor? He shaved his head.', { label: '*THE MAYOR*', show: [...TOWN, 'mayor'], cam: F(0, 4.65, 0, 8, .55), update: (w, p, t) => { const a = P(w, 'mayor', 0, 0, 0, 0, t); bald(a, true); } }),
     S('Nobody knows how he feels. Ever.', { label: '*THE MAYOR*', show: [...TOWN, 'mayor'], cam: F(0, 4.65, 0, 6, .55, 1), update: (w, p, t) => { const a = P(w, 'mayor', 0, 0, 0, 0, t); bald(a, true); a.head.rotation.y = .2 * Math.sin(t * 1.2); } }),
     S('And me? I\'m Milo.', { label: '*MILO*', show: [...TOWN, 'milo'], cam: F(0, 4.65, 0, 9, .55), update: (w, p, t) => { P(w, 'milo', 0, 0, 0, 0, t, false, 1); } }),
