@@ -1,6 +1,6 @@
 # Gary the ant went to the cinema
 
-**File:** `240-gary-cinema.mp4` · 1080x1920 · 16.4 s
+**File:** `240-gary-cinema.mp4` · 1080x1920 · 16.6 s
 
 ## Description
 
@@ -33,6 +33,6 @@ Then someone sat down.
 
 Gary watched the whole film from there.
 
-Flat as a ticket.
+Flatter than a ticket.
 
 What makes popcorn pop: air, steam, or oil? Comment below.
