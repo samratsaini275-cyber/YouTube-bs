@@ -1,6 +1,6 @@
 # Gary the ant sang karaoke
 
-**File:** `236-gary-karaoke.mp4` · 1080x1920 · 14.8 s
+**File:** `236-gary-karaoke.mp4` · 1080x1920 · 14.7 s
 
 ## Description
 
@@ -25,7 +25,7 @@ Answer (for a pinned comment or reply, not shown in the video): Fun fact: some a
 
 ## Script
 
-Gary the ant sang karaoke.
+Gary tried karaoke.
 
 The microphone is a tower.
 
