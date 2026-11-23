@@ -59,6 +59,7 @@ Full list: `channel/views-2026-11-20.json`. Counts are as displayed ("1K" = 1,00
   In-slot posts barely moved since 08:32 (124 at 880, 123 at 442, 125 at 322), so most views arrive in the first few
   hours. Subscribers still 10. No new evidence about formats; the slot pattern still holds.
 - Update 22 Nov 19:14 UTC (`channel/views-2026-11-22-1914.json`): 132–140 (posted 09:35–18:08 UTC) have 0–4 views each.
+- Update 23 Nov 03:12 UTC (`channel/views-2026-11-23-0312.json`): pilot 900 "In This Town" (90 s, posted 00:11) has 218 views at 3 h. 146 cats (posted ~01:15) 154. 145 dogs-talk (posted 23:32, in the window) shows "No views", which does not match the window pattern; cause unknown. 147 (02:17) none yet. 11 subscribers (+1). Pilot is in the range of earlier in-window shorts at 1–3 h (278–369 for 123–125) but slightly below; one data point.
   102 Gary superhero has reached 1K (shown rounded as "1K"). Subscribers still 10. The pilot of a new long format
   (900, In This Town, 90 s) posts at 00:10 UTC, inside the slot, to be compared with in-slot shorts.
 - So narrative 10 returns to "What would happen if…" (owner asked to base new videos on what does well).
