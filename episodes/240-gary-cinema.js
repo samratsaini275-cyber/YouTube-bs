@@ -74,7 +74,7 @@ export default {
     { say: 'Gary watched the whole film from there.', label: '2 HOURS LATER', show: [...HALL, 'g', 'bum'], sky: DARK, lightAt: [0, 6, 3], lightDist: 20,
       cam: { pos: [-.8, 2.8, 6], look: [-2.4, 2.4, 1], fov: 46, to: { pos: [-1, 2.8, 5.6], look: [-2.4, 2.4, 1], fov: 45 } },
       update: (w, p, t) => { w.bum.position.set(-3, 3.2, 0); gy(w, -2.2, 2, 1.6, -.2, t); w.g.scale.set(1.3, .35, 1.3); w.g.rotation.z = 0; } },
-    { say: 'Flat as a ticket.', label: '*SQUASHED*', show: [...HALL, 'g'], sky: DARK, lightAt: [0, 6, 3], lightDist: 20,
+    { say: 'Flatter than a ticket.', label: '*SQUASHED*', show: [...HALL, 'g'], sky: DARK, lightAt: [0, 6, 3], lightDist: 20,
       cam: { pos: [-1.4, 3.2, 5], look: [-3, 2, 0], fov: 46, to: { pos: [-1.6, 3.2, 4.6], look: [-3, 2, 0], fov: 45 } },
       update: (w, p, t) => { gy(w, -3, 2, -.3, -1.4, t); w.g.scale.set(1.3, .3 + .9 * Math.max(0, p - .5) * 2, 1.3); w.g.scale.y = Math.min(1.3, w.g.scale.y); } },
     { say: 'What makes popcorn pop: air, steam, or oil? Comment below.',
