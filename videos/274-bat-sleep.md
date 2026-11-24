@@ -1,6 +1,6 @@
 # What would happen if humans slept upside down like bats?
 
-**File:** `274-bat-sleep.mp4` · 1080x1920 · 21.8 s
+**File:** `274-bat-sleep.mp4` · 1080x1920 · 21.9 s
 
 ## Description
 
@@ -27,7 +27,7 @@ Answer (for a pinned comment or reply, not shown in the video): People cannot. B
 
 What if humans slept like bats?
 
-Beds? Nope. Ceilings.
+Beds? Nope. On the ceiling.
 
 Breakfast? Very messy.
 
