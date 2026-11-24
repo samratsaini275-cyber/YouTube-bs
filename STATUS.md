@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 263 — 🎙️ narrating 0/?
+**Now:** episode 283 — 🎙️ narrating 0/?
 
-**Finished videos:** 272 of 274 written &nbsp; `████████████████████`
+**Finished videos:** 292 of 294 written &nbsp; `████████████████████`
 
-**Narrative 16: What Would Happen If… (season 6)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 17: What Would Happen If… (season 7)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -270,8 +270,28 @@
 | 260 | The Human Pouch | 3D | ✅ done |
 | 261 | The Human Antlers | 3D | ✅ done |
 | 262 | The Four Arms | 3D | ✅ done |
-| 263 | Gary Goes To School | 3D | 🎙️ narrating 0/? |
-| 264 | The Glowing Humans | 3D | 📝 scripted, in queue |
+| 263 | Gary Goes To School | 3D | ✅ done |
+| 264 | The Glowing Humans | 3D | ✅ done |
+| 265 | The Giant Bunnies | 3D | ✅ done |
+| 266 | The Owl Heads | 3D | ✅ done |
+| 267 | Invisible Gary | 3D | ✅ done |
+| 268 | The Flying Whales | 3D | ✅ done |
+| 269 | The Elephant Ears | 3D | ✅ done |
+| 270 | The Tiny Dogs | 3D | ✅ done |
+| 271 | Pirate Gary | 3D | ✅ done |
+| 272 | The Frog Tongues | 3D | ✅ done |
+| 273 | The Giant Penguins | 3D | ✅ done |
+| 274 | The Bat Sleepers | 3D | ✅ done |
+| 275 | Chef Gary | 3D | ✅ done |
+| 276 | The Tiny Giraffes | 3D | ✅ done |
+| 277 | The Hamster Cheeks | 3D | ✅ done |
+| 278 | The Land Octopus | 3D | ✅ done |
+| 279 | Detective Gary | 3D | ✅ done |
+| 280 | The Human Pufferfish | 3D | ✅ done |
+| 281 | The Giant Bees | 3D | ✅ done |
+| 282 | The Stalk Eyes | 3D | ✅ done |
+| 283 | Firefighter Gary | 3D | 🎙️ narrating 0/? |
+| 284 | The Wheel Feet | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -283,4 +303,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-24 10:50 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-24 16:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
