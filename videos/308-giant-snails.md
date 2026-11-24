@@ -1,6 +1,6 @@
 # What would happen if snails were giant?
 
-**File:** `308-giant-snails.mp4` · 1080x1920 · 20.2 s
+**File:** `308-giant-snails.mp4` · 1080x1920 · 20.1 s
 
 ## Description
 
@@ -29,7 +29,7 @@ What if snails were giant?
 
 Traffic? A very slow jam.
 
-Your lawn? Slime everywhere.
+Your grass? Slime everywhere.
 
 The lettuce? One bite each.
 
