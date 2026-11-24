@@ -33,6 +33,6 @@ Cloudy days? Everyone is starving.
 
 Food? Totally pointless.
 
-And sunbathing? Now it is dinner.
+And beach days? Now it is dinner.
 
 Eating sunlight: useful, awesome, or way too weird? Comment below.
