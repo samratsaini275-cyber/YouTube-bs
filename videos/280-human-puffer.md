@@ -1,6 +1,6 @@
 # What would happen if humans could puff up like pufferfish?
 
-**File:** `280-human-puffer.mp4` · 1080x1920 · 20.8 s
+**File:** `280-human-puffer.mp4` · 1080x1920 · 21.1 s
 
 ## Description
 
@@ -27,7 +27,7 @@ Answer (for a pinned comment or reply, not shown in the video): Made up for peop
 
 What if humans could puff up?
 
-One spider? Boom. Ball.
+One spider? Poof. Instant ball.
 
 Doorways? A big problem.
 
