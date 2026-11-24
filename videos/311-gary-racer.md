@@ -1,6 +1,6 @@
-# What would happen if Gary the ant was a race car driver?
+# What would happen if Gary the ant raced cars?
 
-**File:** `311-gary-racer.mp4` · 1080x1920 · 19.8 s
+**File:** `311-gary-racer.mp4` · 1080x1920 · 19.6 s
 
 ## Description
 
@@ -25,7 +25,7 @@ Answer (for a pinned comment or reply, not shown in the video): Saharan silver a
 
 ## Script
 
-What if Gary was a race car driver?
+What if Gary raced cars?
 
 His race car? A bottle cap.
 
