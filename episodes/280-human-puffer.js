@@ -52,7 +52,7 @@ export default {
     { say: 'What if humans could puff up?', show: ['floor', 'wall', 'pp'], sky: '#E0EEF2', lightAt: [0, 6, 5], lightDist: 14,
       cam: { pos: [0, 4.2, 12], look: [0, 5.5, 0], fov: 54, to: { pos: [0, 4.2, 11.2], look: [0, 5.5, 0], fov: 52 } },
       update: (w, p, t) => { stand(w, 0, 0, 0); puff(w.p, Math.min(1, Math.max(0, (t - .3) * 1.4))); w.p.mouth.scale.set(.5, .5, 1); } },
-    { say: 'One spider? Boom. Instant ball.', label: '*POOF*', show: ['floor', 'wall', 'pp', 'spider'], sky: '#E0EEF2', lightAt: [0, 6, 5], lightDist: 14, shake: (t) => t > .9 && t < 1.2 ? .25 : 0,
+    { say: 'One spider? Poof. Instant ball.', label: '*POOF*', show: ['floor', 'wall', 'pp', 'spider'], sky: '#E0EEF2', lightAt: [0, 6, 5], lightDist: 14, shake: (t) => t > .9 && t < 1.2 ? .25 : 0,
       cam: { pos: [1.4, 3.6, 11], look: [.4, 3.8, 0], fov: 52, to: { pos: [1.3, 3.6, 10.3], look: [.4, 3.8, 0], fov: 50 } },
       update: (w, p, t) => { stand(w, -.6, 0, .3); const a = t > .9 ? Math.min(1, (t - .9) * 5) : 0; puff(w.p, a); w.p.mouth.scale.set(1, a > 0 ? 2.4 : 1, 1); w.spider.position.set(2.4, 2 + .1 * Math.sin(t * 6), .6); w.spider.rotation.y = -.6; } },
     { say: 'Doorways? A big problem.', show: ['floor', 'pp', 'door', 'friends'], sky: '#E0EEF2', lightAt: [0, 6, 8], lightDist: 16,
