@@ -54,7 +54,7 @@ export default {
     { say: 'What if humans slept like bats?', show: ['floor', 'wall', 'ceiling', 'bar', 'pp', 'zz'], sky: '#DCE3F0', lightAt: [0, 6, 5], lightDist: 14,
       cam: { pos: [0, 4.4, 10], look: [0, 5.5, 0], fov: 52, to: { pos: [0, 4.4, 9.3], look: [0, 5.5, 0], fov: 50 } },
       update: (w, p, t) => { hang(w.p, 0, 8, 0, 0, .05 * Math.sin(t * 1.5)); sleep(w.p, true); pose(w.p, .1); w.zz.children.forEach(c => { const q = (t * .5 + c.userData.i / 3) % 1; c.position.set(.9 + q * .8, 4.2 - q * 1.6, .6); c.scale.setScalar(.6 + q * .6); }); } },
-    { say: 'Beds? Nope. Ceilings.', show: ['floor', 'wall', 'ceiling', 'bar', 'pp', 'alarm'], sky: '#DCE3F0', lightAt: [0, 6, 5], lightDist: 14,
+    { say: 'Beds? Nope. On the ceiling.', show: ['floor', 'wall', 'ceiling', 'bar', 'pp', 'alarm'], sky: '#DCE3F0', lightAt: [0, 6, 5], lightDist: 14,
       cam: { pos: [2, 3.6, 10], look: [.4, 4.4, 0], fov: 52, to: { pos: [1.8, 3.6, 9.3], look: [.4, 4.4, 0], fov: 50 } },
       update: (w, p, t) => { hang(w.p, 0, 8, 0, 0, 0); const awake = p > .45; sleep(w.p, !awake); pose(w.p, awake ? .6 : .1); w.p.mouth.scale.set(1, awake ? 2.4 : 1, 1); w.alarm.position.set(2.2, 1 + (awake ? .05 * Math.abs(Math.sin(t * 40)) : 0), .4); w.alarm.rotation.z = awake ? .15 * Math.sin(t * 40) : 0; } },
     { say: 'Breakfast? Very messy.', show: ['floor', 'wall', 'ceiling', 'bar', 'pp', 'cereal', 'flakes'], sky: '#DCE3F0', lightAt: [0, 6, 5], lightDist: 14,
