@@ -65,7 +65,7 @@ export default {
     { say: 'Traffic? A very slow jam.', label: 'HONK', show: ['ground', 'road', 'sr', 'cars'], sky: '#9ED2F3', lightAt: [4, 14, 10], lightDist: 40,
       cam: { pos: [3, 6, 17], look: [-2.6, 2.4, 0], fov: 54, to: { pos: [2.6, 6, 16], look: [-2.6, 2.4, 0], fov: 52 } },
       update: (w, p, t) => { snAt(w, 1.5 + p * .3, 0, 0, 0, 1.6); look(w.sn, t); glide(w.sn, t); w.cars.children.forEach(c => { const i = c.userData.i; c.position.set(-3.5 - i * 3, .05 * Math.abs(Math.sin(t * 9 + i)), 0); }); } },
-    { say: 'Your lawn? Slime everywhere.', label: 'WHOA', show: ['ground', 'sr', 'slime', 'pp'], sky: '#9ED2F3', lightAt: [4, 14, 10], lightDist: 40,
+    { say: 'Your grass? Slime everywhere.', label: 'WHOA', show: ['ground', 'sr', 'slime', 'pp'], sky: '#9ED2F3', lightAt: [4, 14, 10], lightDist: 40,
       cam: { pos: [1, 4, 15], look: [-1, 2.6, 0], fov: 54, to: { pos: [1, 4, 14.2], look: [-1, 2.6, 0], fov: 52 } },
       update: (w, p, t) => { snAt(w, -7, 0, -2, 0, 1.6); look(w.sn, t); w.slime.position.set(0, .03, 1.5); stand(w, -2 + p * 4, 1.5, Math.PI / 2); w.pp.rotation.z = .4 * Math.sin(t * 6); w.p.arms.forEach((a, i) => a.rotation.set(0, 0, a.userData.s * (1.8 + .6 * Math.sin(t * 8 + i)))); w.p.mouth.scale.set(1.2, 2, 1); } },
     { say: 'The lettuce? One bite each.', label: 'MUNCH', show: ['ground', 'sr', 'lettuce'], sky: '#9ED2F3', lightAt: [4, 14, 10], lightDist: 40,
