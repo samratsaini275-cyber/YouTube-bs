@@ -1,6 +1,6 @@
 # What would happen if Gary the ant was a detective?
 
-**File:** `279-gary-detective.mp4` · 1080x1920 · 20.2 s
+**File:** `279-gary-detective.mp4` · 1080x1920 · 20.1 s
 
 ## Description
 
@@ -13,8 +13,8 @@ Narration: synthetic voice. Visuals: original animated diagrams, schematic and n
 ## Quiz
 
 Detective Gary is…
-A) Genius
-B) Guilty
+A) Smart
+B) Sneaky
 C) Both
 
 Answer (for a pinned comment or reply, not shown in the video): Real ants smell with their antennae to follow trails.
@@ -35,4 +35,4 @@ The evidence board? Very serious.
 
 And the culprit? It was Gary.
 
-Detective Gary: genius, guilty, or both? Comment below.
+Detective Gary: smart, sneaky, or both? Comment below.
