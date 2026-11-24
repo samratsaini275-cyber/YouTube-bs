@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 315 — 🎙️ narrating 0/?
 
-**Finished videos:** 308 of 314 written &nbsp; `████████████████████`
+**Finished videos:** 322 of 334 written &nbsp; `███████████████████░`
 
-**Narrative 18: What Would Happen If… (season 8)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 19: What Would Happen If… (season 9)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -306,12 +306,32 @@
 | 296 | The Giant Hedgehogs | 3D | ✅ done |
 | 297 | The Shark Teeth | 3D | ✅ done |
 | 298 | The Giant Crabs | 3D | ✅ done |
-| 299 | Lifeguard Gary | 3D | 📝 scripted, in queue |
-| 300 | The Gecko Hands | 3D | 📝 scripted, in queue |
-| 301 | The Giant Ladybugs | 3D | 📝 scripted, in queue |
-| 302 | The Snake Jaws | 3D | 📝 scripted, in queue |
-| 303 | Cowboy Gary | 3D | 📝 scripted, in queue |
-| 304 | The Beaver Teeth | 3D | 📝 scripted, in queue |
+| 299 | Lifeguard Gary | 3D | ✅ done |
+| 300 | The Gecko Hands | 3D | ✅ done |
+| 301 | The Giant Ladybugs | 3D | ✅ done |
+| 302 | The Snake Jaws | 3D | ✅ done |
+| 303 | Cowboy Gary | 3D | ✅ done |
+| 304 | The Beaver Teeth | 3D | ✅ done |
+| 305 | The Giant Squirrels | 3D | ✅ done |
+| 306 | The Cat Whiskers | 3D | ✅ done |
+| 307 | Super Gary | 3D | ✅ done |
+| 308 | The Giant Snails | 3D | ✅ done |
+| 309 | The Octopus Ink | 3D | ✅ done |
+| 310 | The Giant Ducks | 3D | ✅ done |
+| 311 | Racer Gary | 3D | ✅ done |
+| 312 | The Giant Koalas | 3D | ✅ done |
+| 313 | The Porcupine Quills | 3D | 📝 scripted, in queue |
+| 314 | The Giant Guinea Pigs | 3D | 📝 scripted, in queue |
+| 315 | Sir Gary | 3D | 🎙️ narrating 0/? |
+| 316 | The Hooves | 3D | 📝 scripted, in queue |
+| 317 | The Giant Seals | 3D | 📝 scripted, in queue |
+| 318 | The Bug Antennae | 3D | 📝 scripted, in queue |
+| 319 | Farmer Gary | 3D | 📝 scripted, in queue |
+| 320 | The Giant Turtles | 3D | 📝 scripted, in queue |
+| 321 | The Bat Ears | 3D | 📝 scripted, in queue |
+| 322 | The Giant Pandas | 3D | 📝 scripted, in queue |
+| 323 | Postman Gary | 3D | 📝 scripted, in queue |
+| 324 | The Peacock Tail | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -323,4 +343,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-24 19:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-24 22:05 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
