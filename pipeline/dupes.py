@@ -7,6 +7,7 @@ for f in sorted(glob.glob('episodes/*.js')):
     if not m:
         continue
     t = re.sub(r"[?.!]|\(.*?\)", "", m.group(1).lower()).replace("what would happen if ", "").strip()
+    t = re.sub(r"\b(huge|enormous|massive|big)\b", "giant", t)
     d[t].append(f.split('/')[1].split('-')[0])
 bad = {t: v for t, v in d.items() if len(v) > 1}
 for t, v in bad.items():
