@@ -65,7 +65,7 @@ export default {
     { say: 'Traffic? Everyone goes sideways.', show: ['ground', 'road', 'cc', 'cars'], sky: '#9ED2F3', lightAt: [4, 14, 10], lightDist: 40,
       cam: { pos: [8, 8, 18], look: [0, 2.4, 0], fov: 56, to: { pos: [7, 8, 17], look: [0, 2.4, 0], fov: 54 } },
       update: (w, p, t) => { w.cc.scale.setScalar(2.4); w.cc.position.set(-1 + p * 3, 0, 0); w.cc.rotation.y = Math.PI / 2; scuttle(w.cr, t); snap(w.cr, t * .5); w.cars.children.forEach(c => { const i = c.userData.i; c.position.set(-1 + p * 3 + (i - 1) * 3, 0, -2.4 - (i % 2) * .4); c.rotation.y = Math.PI / 2; }); } },
-    { say: 'Hedge trimming? One snip.', label: '*SNIP*', show: ['ground', 'cc', 'hedge'], sky: '#9ED2F3', lightAt: [4, 14, 10], lightDist: 40,
+    { say: 'Your hedge? One snip.', label: '*SNIP*', show: ['ground', 'cc', 'hedge'], sky: '#9ED2F3', lightAt: [4, 14, 10], lightDist: 40,
       cam: { pos: [0, 6, 16], look: [0, 2.6, 0], fov: 54, to: { pos: [0, 6, 15], look: [0, 2.6, 0], fov: 52 } },
       update: (w, p, t) => { w.hedge.position.set(0, 0, 0); w.cc.scale.setScalar(2); const x = -5 + p * 10; w.cc.position.set(x, 0, -3); w.cc.rotation.y = Math.PI / 2; scuttle(w.cr, t); snap(w.cr, t * 2); w.hedge.children.forEach(h => { const i = h.userData.i, done = (-4.2 + i * 1.2) < x; h.scale.y = done ? .55 : 1; h.position.y = done ? .44 : .8; }); } },
     { say: 'Sandcastles? Now they are crab castles.', show: ['sand', 'cc', 'castle'], sky: '#9ED2F3', lightAt: [4, 14, 10], lightDist: 40,
