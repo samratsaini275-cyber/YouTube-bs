@@ -1063,6 +1063,11 @@
   "263-gary-school": {
    "skipped": "duplicate premise of 092-gary-school (\"gary the ant went to school\"); not posted",
    "noted": "2026-11-24"
+  },
+  "188-gary-dog": {
+   "id": "jKlNYwKA6s4",
+   "privacy": "public",
+   "at": "2026-11-24T22:30:36+00:00"
   }
  }
 }
