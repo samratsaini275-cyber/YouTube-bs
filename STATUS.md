@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 283 — 🎙️ narrating 0/?
+**Now:** idle — nothing is building
 
-**Finished videos:** 292 of 294 written &nbsp; `████████████████████`
+**Finished videos:** 308 of 314 written &nbsp; `████████████████████`
 
-**Narrative 17: What Would Happen If… (season 7)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 18: What Would Happen If… (season 8)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -290,8 +290,28 @@
 | 280 | The Human Pufferfish | 3D | ✅ done |
 | 281 | The Giant Bees | 3D | ✅ done |
 | 282 | The Stalk Eyes | 3D | ✅ done |
-| 283 | Firefighter Gary | 3D | 🎙️ narrating 0/? |
-| 284 | The Wheel Feet | 3D | 📝 scripted, in queue |
+| 283 | Firefighter Gary | 3D | ✅ done |
+| 284 | The Wheel Feet | 3D | ✅ done |
+| 285 | The Tiny Lions | 3D | ✅ done |
+| 286 | The Camel Humps | 3D | ✅ done |
+| 287 | Doctor Gary | 3D | ✅ done |
+| 288 | The Tiny Cows | 3D | ✅ done |
+| 289 | The Duck Feet | 3D | ✅ done |
+| 290 | The Giant Mice | 3D | ✅ done |
+| 291 | Gary The Magician | 3D | ✅ done |
+| 292 | The Unicorn Horns | 3D | ✅ done |
+| 293 | The Tiny Sharks | 3D | ✅ done |
+| 294 | The Flamingo Legs | 3D | ✅ done |
+| 295 | Captain Gary | 3D | ✅ done |
+| 296 | The Giant Hedgehogs | 3D | ✅ done |
+| 297 | The Shark Teeth | 3D | ✅ done |
+| 298 | The Giant Crabs | 3D | ✅ done |
+| 299 | Lifeguard Gary | 3D | 📝 scripted, in queue |
+| 300 | The Gecko Hands | 3D | 📝 scripted, in queue |
+| 301 | The Giant Ladybugs | 3D | 📝 scripted, in queue |
+| 302 | The Snake Jaws | 3D | 📝 scripted, in queue |
+| 303 | Cowboy Gary | 3D | 📝 scripted, in queue |
+| 304 | The Beaver Teeth | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -303,4 +323,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-24 16:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-24 19:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
