@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 244 — 🎙️ narrating 0/11
+**Now:** episode 263 — 🎙️ narrating 0/?
 
-**Finished videos:** 253 of 254 written &nbsp; `████████████████████`
+**Finished videos:** 272 of 274 written &nbsp; `████████████████████`
 
-**Narrative 15: What Would Happen If… (season 5)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 16: What Would Happen If… (season 6)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -251,7 +251,27 @@
 | 241 | Camping Gary | 3D | ✅ done |
 | 242 | Gym Gary | 3D | ✅ done |
 | 243 | Concert Gary | 3D | ✅ done |
-| 244 | Party Gary | 3D | 🎙️ narrating 0/11 |
+| 244 | Party Gary | 3D | ✅ done |
+| 245 | The Human Wing | 3D | ✅ done |
+| 246 | The Human Chameleon | 3D | ✅ done |
+| 247 | Flying Gary | 3D | ✅ done |
+| 248 | The Human Shell | 3D | ✅ done |
+| 249 | The T-Rex Arms | 3D | ✅ done |
+| 250 | The Spring Legs | 3D | ✅ done |
+| 251 | Gary\ | 3D | ✅ done |
+| 252 | The Back Eyes | 3D | ✅ done |
+| 253 | The Fire Breath | 3D | ✅ done |
+| 254 | The Flying Cow | 3D | ✅ done |
+| 255 | Space Gary | 3D | ✅ done |
+| 256 | The Human Hibernation | 3D | ✅ done |
+| 257 | The Sunlight Diet | 3D | ✅ done |
+| 258 | The Magnet Hands | 3D | ✅ done |
+| 259 | Gary Gets A Job | 3D | ✅ done |
+| 260 | The Human Pouch | 3D | ✅ done |
+| 261 | The Human Antlers | 3D | ✅ done |
+| 262 | The Four Arms | 3D | ✅ done |
+| 263 | Gary Goes To School | 3D | 🎙️ narrating 0/? |
+| 264 | The Glowing Humans | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -263,4 +283,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-23 19:55 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-24 10:50 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
