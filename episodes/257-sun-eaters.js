@@ -59,7 +59,7 @@ export default {
     { say: 'Food? Totally pointless.', show: ['ground', 'pp', 'plate', 'cross', 'sun'], sky: '#7EC8F2', lightAt: [2, 8, 6], lightDist: 16,
       cam: { pos: [1.2, 4, 7.6], look: [.4, 3.4, 0], fov: 46, to: { pos: [1.1, 4, 7], look: [.4, 3.4, 0], fov: 44 } },
       update: (w, p, t) => { stand(w, -.6, 0, .25); arms(w.p, false); w.p.head.rotation.y = .3; w.plate.position.set(1.6, 2.4, 1); w.plate.rotation.x = .5; w.cross.position.set(1.6, 2.6, 1.3); w.cross.visible = p > .35; w.cross.scale.setScalar(Math.min(1, (p - .35) * 6) * .8); w.sun.position.set(-4, 9, -6); w.p.mouth.scale.set(.6, 1, 1); } },
-    { say: 'And sunbathing? Now it is dinner.', label: 'ALL YOU CAN EAT', show: ['ground', 'pp', 'towel', 'sun'], sky: '#FFB45A', lightAt: [2, 8, 6], lightDist: 16,
+    { say: 'And beach days? Now it is dinner.', label: 'ALL YOU CAN EAT', show: ['ground', 'pp', 'towel', 'sun'], sky: '#FFB45A', lightAt: [2, 8, 6], lightDist: 16,
       cam: { pos: [0, 8.6, 1.6], look: [0, .8, -.9], fov: 50, to: { pos: [0, 8, 1.4], look: [0, .8, -.9], fov: 50 } },
       update: (w, p, t) => { w.pp.position.set(0, .85, 1.6); w.pp.rotation.set(-Math.PI / 2, 0, 0); arms(w.p, true); w.p.head.rotation.set(0, 0, 0); w.p.mouth.scale.set(1.4, 2, 1); w.towel.position.set(0, .03, -.2); w.sun.position.set(3, 9, -6); w.sun.rotation.z = t * .4; } },
     { say: 'Eating sunlight: useful, awesome, or way too weird? Comment below.',
