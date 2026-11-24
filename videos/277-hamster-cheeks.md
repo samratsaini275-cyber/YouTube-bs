@@ -1,6 +1,6 @@
 # What would happen if humans had hamster cheeks?
 
-**File:** `277-hamster-cheeks.mp4` · 1080x1920 · 22.3 s
+**File:** `277-hamster-cheeks.mp4` · 1080x1920 · 22.1 s
 
 ## Description
 
@@ -25,7 +25,7 @@ Answer (for a pinned comment or reply, not shown in the video): Made up for peop
 
 ## Script
 
-What if humans had hamster cheeks?
+What if we had hamster cheeks?
 
 Buffets? One trip. Everything.
 
