@@ -60,7 +60,7 @@ export default {
     { say: 'What if Gary was a knight?', show: ['floor', 'wall', 'g', 'helm', 'sword'], sky: '#CFE6F2', lightAt: [0, 6, 3], lightDist: 16,
       cam: { pos: [1.4, 1.2, 5.6], look: [0, .9, 0], fov: 46, to: { pos: [1.3, 1.2, 5], look: [0, .9, 0], fov: 44 } },
       update: (w, p, t) => { gy(w, 0, 0, .4, -1.4, t); w.sword.rotation.z = -.5 + .3 * Math.sin(t * 4); w.g.rotation.z = .05 * Math.sin(t * 5); } },
-    { say: 'His armour? A thimble.', label: '*CLANG*', show: ['floor', 'wall', 'g', 'thimble'], sky: '#CFE6F2', lightAt: [0, 6, 3], lightDist: 16, shake: (t) => t > .9 && t < 1.2 ? .15 : 0,
+    { say: 'His armour? A tiny thimble.', label: '*CLANG*', show: ['floor', 'wall', 'g', 'thimble'], sky: '#CFE6F2', lightAt: [0, 6, 3], lightDist: 16, shake: (t) => t > .9 && t < 1.2 ? .15 : 0,
       cam: { pos: [0, 2.2, 7.5], look: [0, 1.2, 0], fov: 48, to: { pos: [0, 2.2, 7], look: [0, 1.2, 0], fov: 46 } },
       update: (w, p, t) => { gy(w, 0, 0, 0, -1.4, t, t > 1); w.g.position.x = t > 1 ? (t - 1) * .5 : 0; const drop = Math.min(1, t / .9); w.thimble.scale.setScalar(.55); w.thimble.position.set(w.g.position.x + .1, .32 + 4 * (1 - drop * drop), 0); } },
     { say: 'His sword? A toothpick.', show: ['floor', 'wall', 'g', 'helm', 'sword'], sky: '#CFE6F2', lightAt: [0, 6, 3], lightDist: 16,
