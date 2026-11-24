@@ -1,6 +1,6 @@
 # What would happen if Gary the ant was a knight?
 
-**File:** `315-gary-knight.mp4` · 1080x1920 · 15.9 s
+**File:** `315-gary-knight.mp4` · 1080x1920 · 16.2 s
 
 ## Description
 
@@ -27,7 +27,7 @@ Answer (for a pinned comment or reply, not shown in the video): One real ant can
 
 What if Gary was a knight?
 
-His armour? A thimble.
+His armour? A tiny thimble.
 
 His sword? A toothpick.
 
