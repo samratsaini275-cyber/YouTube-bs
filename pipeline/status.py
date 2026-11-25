@@ -19,9 +19,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WORK = Path(os.environ.get("WORK_DIR", ROOT / ".work"))
 SEASON = 20
-NARRATIVES = ["Case Files", "Why Is It Built Like That?", "Engineering Nonsense", "Bad Ideas, Built Anyway", "What Would Happen If…", "Gary's Big World", "Animals at Work", "Objects With Opinions", "Bolt Takes It Literally", "What Would Happen If… (season 2)", "What Would Happen If… (season 3, with Gary)", "What Would Happen If… (season 4: animals and dinosaurs)", "Objects With Opinions (season 2)", "Gary's Big World (season 2)", "What Would Happen If… (season 5)", "What Would Happen If… (season 6)", "What Would Happen If… (season 7)", "What Would Happen If… (season 8)", "What Would Happen If… (season 9)"]
+NARRATIVES = ["Case Files", "Why Is It Built Like That?", "Engineering Nonsense", "Bad Ideas, Built Anyway", "What Would Happen If…", "Gary's Big World", "Animals at Work", "Objects With Opinions", "Bolt Takes It Literally", "What Would Happen If… (season 2)", "What Would Happen If… (season 3, with Gary)", "What Would Happen If… (season 4: animals and dinosaurs)", "Objects With Opinions (season 2)", "Gary's Big World (season 2)", "What Would Happen If… (season 5)", "What Would Happen If… (season 6)", "What Would Happen If… (season 7)", "What Would Happen If… (season 8)", "What Would Happen If… (season 9)", "What Would Happen If… (season 10)"]
 # First episode of each narrative. Narrative 2 ended early at 031 (channel owner's request).
-STARTS = [1, 21, 32, 52, 63, 83, 103, 123, 143, 145, 165, 185, 205, 225, 245, 265, 285, 305, 325, 345]
+STARTS = [1, 21, 32, 52, 63, 83, 103, 123, 143, 145, 165, 185, 205, 225, 245, 265, 285, 305, 325, 345, 365]
 
 
 def season_of(n):

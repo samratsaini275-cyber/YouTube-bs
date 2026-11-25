@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 315 — 🎙️ narrating 0/?
+**Now:** episode 342 — 🎙️ narrating 0/?
 
-**Finished videos:** 322 of 334 written &nbsp; `███████████████████░`
+**Finished videos:** 351 of 354 written &nbsp; `████████████████████`
 
-**Narrative 19: What Would Happen If… (season 9)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 20: What Would Happen If… (season 10)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -320,18 +320,38 @@
 | 310 | The Giant Ducks | 3D | ✅ done |
 | 311 | Racer Gary | 3D | ✅ done |
 | 312 | The Giant Koalas | 3D | ✅ done |
-| 313 | The Porcupine Quills | 3D | 📝 scripted, in queue |
-| 314 | The Giant Guinea Pigs | 3D | 📝 scripted, in queue |
-| 315 | Sir Gary | 3D | 🎙️ narrating 0/? |
-| 316 | The Hooves | 3D | 📝 scripted, in queue |
-| 317 | The Giant Seals | 3D | 📝 scripted, in queue |
-| 318 | The Bug Antennae | 3D | 📝 scripted, in queue |
-| 319 | Farmer Gary | 3D | 📝 scripted, in queue |
-| 320 | The Giant Turtles | 3D | 📝 scripted, in queue |
-| 321 | The Bat Ears | 3D | 📝 scripted, in queue |
-| 322 | The Giant Pandas | 3D | 📝 scripted, in queue |
-| 323 | Postman Gary | 3D | 📝 scripted, in queue |
-| 324 | The Peacock Tail | 3D | 📝 scripted, in queue |
+| 313 | The Porcupine Quills | 3D | ✅ done |
+| 314 | The Giant Guinea Pigs | 3D | ✅ done |
+| 315 | Sir Gary | 3D | ✅ done |
+| 316 | The Hooves | 3D | ✅ done |
+| 317 | The Giant Seals | 3D | ✅ done |
+| 318 | The Bug Antennae | 3D | ✅ done |
+| 319 | Farmer Gary | 3D | ✅ done |
+| 320 | The Giant Turtles | 3D | ✅ done |
+| 321 | The Bat Ears | 3D | ✅ done |
+| 322 | The Giant Pandas | 3D | ✅ done |
+| 323 | Postman Gary | 3D | ✅ done |
+| 324 | The Peacock Tail | 3D | ✅ done |
+| 325 | The Giant Raccoons | 3D | ✅ done |
+| 326 | The Giant Otters | 3D | ✅ done |
+| 327 | The Chameleon Eyes | 3D | ✅ done |
+| 328 | Artist Gary | 3D | ✅ done |
+| 329 | The Giant Hippos | 3D | ✅ done |
+| 330 | The Giant Goats | 3D | ✅ done |
+| 331 | The Bird Beak | 3D | ✅ done |
+| 332 | The Giant Kangaroos | 3D | ✅ done |
+| 333 | Teacher Gary | 3D | ✅ done |
+| 334 | The Giant Sloths | 3D | ✅ done |
+| 335 | The Giant Parrots | 3D | ✅ done |
+| 336 | The Skunk Tail | 3D | ✅ done |
+| 337 | The Giant Chickens | 3D | ✅ done |
+| 338 | Weather Gary | 3D | ✅ done |
+| 339 | The Giant Beavers | 3D | ✅ done |
+| 340 | The Giant Moose | 3D | ✅ done |
+| 341 | The Electric Eel | 3D | ✅ done |
+| 342 | The Giant Butterflies | 3D | 🎙️ narrating 0/? |
+| 343 | Builder Gary | 3D | 📝 scripted, in queue |
+| 344 | The Giant Flamingos | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -343,4 +363,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-24 22:05 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-25 01:31 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
