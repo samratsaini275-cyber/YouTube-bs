@@ -81,7 +81,7 @@ export default {
     { say: 'And the cure? A belly rub. Now Gary is lost in the fur.', label: 'GARY?', show: ['floor', 'wall', 'cr', 'fur', 'g'], sky: '#EAF6F2', lightAt: [2, 10, 8], lightDist: 30,
       cam: { pos: [3, 3.6, 9], look: [0, 1.6, 0], fov: 54, to: { pos: [3, 3.6, 8.5], look: [0, 1.6, 0], fov: 52 } },
       update: (w, p, t) => { w.c.body.scale.set(1.4, 1, 1); ctAt(w, -1, -1, -.5, 1.3); w.c.body.rotation.x = -.6; w.c.head.rotation.z = .3; w.c.eyes.forEach(e => e.scale.y = .2); const lost = p > .5; w.g.visible = true; gy(w, .2, lost ? 1.2 : 0, 1.4, -1.2, t, !lost); w.g.visible = !lost || Math.sin(t * 6) > .6; w.fur.children.forEach(f => { const i = f.userData.i; f.position.set(-.6 + (i % 6) * .5, .6 + Math.floor(i / 6) * .4 + .05 * Math.sin(t * 4 + i), 1.1 + (i % 3) * .2); f.visible = lost; }); } },
-    { say: 'Vet Gary: brave, tiny, or totally lost? Comment below.',
+    { say: 'Is Gary a good vet? Comment below.',
       quiz: { q: 'Vet Gary is…', options: ['Brave', 'Tiny', 'Totally lost'], answer: 'Real ants look after aphids, like tiny farmers with tiny cows.' },
       show: ['floor', 'g', 'steth'], sky: '#274B73', lightAt: [0, 5, 4], lightDist: 12,
       cam: { pos: [.6, .3, 4.6], look: [0, 1.6, 0], fov: 44, to: { pos: [-.6, .3, 4.6], look: [0, 1.6, 0] } },

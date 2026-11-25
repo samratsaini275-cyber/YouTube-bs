@@ -71,7 +71,7 @@ export default {
     { say: 'And the payment? One crumb.', label: 'THANKS…?', show: ['floor', 'wall', 'g', 'mirror', 'croc', 'crumb', 'stars'], sky: '#F2FAFB', lightAt: [0, 6, 3], lightDist: 16,
       cam: { pos: [3.2, 2.4, 7], look: [1.8, 1, 0], fov: 50, to: { pos: [3.2, 2.4, 6.5], look: [1.8, 1, 0], fov: 48 } },
       update: (w, p, t) => { w.croc.position.set(-.5, 0, -.6); w.croc.rotation.y = -.4; jaw(w, t < .5 ? t * 1.6 : .8); const out = Math.min(1, t / .6); gy(w, 1.6 + out * 1.1, 0, .6 + out * .6, -1.1, t, t < .6); w.g.rotation.z = .1 * Math.sin(t * 8); w.crumb.position.set(2.2, 0, 1.6); w.stars.children.forEach(s => { const i = s.userData.i, a = t * 4 + i; s.position.set(3 + Math.cos(a) * .4, 1.1 + Math.sin(a * 2) * .05, 1.2 + Math.sin(a) * .4); }); } },
-    { say: 'Dentist Gary: brave, tiny, or totally lost? Comment below.',
+    { say: 'Is Gary a good dentist? Comment below.',
       quiz: { q: 'Dentist Gary is…', options: ['Brave', 'Tiny', 'Totally lost'], answer: 'Real trap-jaw ants snap their jaws faster than almost any animal.' },
       show: ['floor', 'g', 'mirror'], sky: '#274B73', lightAt: [0, 5, 4], lightDist: 12,
       cam: { pos: [.6, .3, 4.6], look: [0, 1.6, 0], fov: 44, to: { pos: [-.6, .3, 4.6], look: [0, 1.6, 0] } },
