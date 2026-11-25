@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 361 — 🎙️ narrating 0/?
+**Now:** episode 384 — 🎙️ narrating 0/?
 
-**Finished videos:** 370 of 374 written &nbsp; `████████████████████`
+**Finished videos:** 393 of 394 written &nbsp; `████████████████████`
 
-**Narrative 21: What Would Happen If… (season 11: cats and giant animals)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 22: In This Town… (short format, cats first)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -368,10 +368,30 @@
 | 358 | The Giant Zebras | 3D | ✅ done |
 | 359 | Dentist Gary | 3D | ✅ done |
 | 360 | The Giant Foxes | 3D | ✅ done |
-| 361 | The Giant Walruses | 3D | 🎙️ narrating 0/? |
-| 362 | The Giant Rhinos | 3D | 📝 scripted, in queue |
-| 363 | The Giant Gorillas | 3D | 📝 scripted, in queue |
-| 364 | Gary Meets A Giant Cat | 3D | 📝 scripted, in queue |
+| 361 | The Giant Walruses | 3D | ✅ done |
+| 362 | The Giant Rhinos | 3D | ✅ done |
+| 363 | The Giant Gorillas | 3D | ✅ done |
+| 364 | Gary Meets A Giant Cat | 3D | ✅ done |
+| 365 | Cats With Thumbs | 3D | ✅ done |
+| 366 | The Giant Octopuses | 3D | ✅ done |
+| 367 | Cats That Drive | 3D | ✅ done |
+| 368 | The Giant Ostriches | 3D | ✅ done |
+| 369 | Vet Gary | 3D | ✅ done |
+| 370 | Cats At School | 3D | ✅ done |
+| 371 | The Giant Moles | 3D | ✅ done |
+| 372 | The Tiny Cats | 3D | ✅ done |
+| 373 | The Giant Woodpeckers | 3D | ✅ done |
+| 374 | Cat Sitter Gary | 3D | ✅ done |
+| 375 | The Cat Cafe | 3D | ✅ done |
+| 376 | The Giant Crows | 3D | ✅ done |
+| 377 | Super Cats | 3D | ✅ done |
+| 378 | The Giant Puffins | 3D | ✅ done |
+| 379 | Gary At The Cat Show | 3D | ✅ done |
+| 380 | Cats In Space | 3D | ✅ done |
+| 381 | The Giant Jellyfish | 3D | ✅ done |
+| 382 | The Cat Birthday | 3D | ✅ done |
+| 383 | The Giant Seahorses | 3D | ✅ done |
+| 384 | Gary Rides A Cat | 3D | 🎙️ narrating 0/? |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -383,4 +403,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-25 04:57 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-25 20:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
