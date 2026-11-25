@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 342 — 🎙️ narrating 0/?
+**Now:** episode 361 — 🎙️ narrating 0/?
 
-**Finished videos:** 351 of 354 written &nbsp; `████████████████████`
+**Finished videos:** 370 of 374 written &nbsp; `████████████████████`
 
-**Narrative 20: What Would Happen If… (season 10)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 21: What Would Happen If… (season 11: cats and giant animals)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -349,9 +349,29 @@
 | 339 | The Giant Beavers | 3D | ✅ done |
 | 340 | The Giant Moose | 3D | ✅ done |
 | 341 | The Electric Eel | 3D | ✅ done |
-| 342 | The Giant Butterflies | 3D | 🎙️ narrating 0/? |
-| 343 | Builder Gary | 3D | 📝 scripted, in queue |
-| 344 | The Giant Flamingos | 3D | 📝 scripted, in queue |
+| 342 | The Giant Butterflies | 3D | ✅ done |
+| 343 | Builder Gary | 3D | ✅ done |
+| 344 | The Giant Flamingos | 3D | ✅ done |
+| 345 | The Giant Cows | 3D | ✅ done |
+| 346 | The Giant Dolphins | 3D | ✅ done |
+| 347 | The Giant Llamas | 3D | ✅ done |
+| 348 | The Armadillo Armour | 3D | ✅ done |
+| 349 | Scientist Gary | 3D | ✅ done |
+| 350 | The Giant Owls | 3D | ✅ done |
+| 351 | The Giant Camels | 3D | ✅ done |
+| 352 | The Giant Lizards | 3D | ✅ done |
+| 353 | The Giant Pigs | 3D | ✅ done |
+| 354 | Hairdresser Gary | 3D | ✅ done |
+| 355 | The Giant Geese | 3D | ✅ done |
+| 356 | The Giant Monkeys | 3D | ✅ done |
+| 357 | The Giant Bears | 3D | ✅ done |
+| 358 | The Giant Zebras | 3D | ✅ done |
+| 359 | Dentist Gary | 3D | ✅ done |
+| 360 | The Giant Foxes | 3D | ✅ done |
+| 361 | The Giant Walruses | 3D | 🎙️ narrating 0/? |
+| 362 | The Giant Rhinos | 3D | 📝 scripted, in queue |
+| 363 | The Giant Gorillas | 3D | 📝 scripted, in queue |
+| 364 | Gary Meets A Giant Cat | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -363,4 +383,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-25 01:31 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-25 04:57 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
