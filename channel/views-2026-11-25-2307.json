@@ -1,0 +1,15 @@
+{
+ "observed_utc": "2026-11-25T23:07Z",
+ "source": "youtube-com videos/channel_shorts via Firecrawl Alexandria (first 48 shorts on the page)",
+ "subscribers": 17,
+ "top_on_page": {
+  "906 In this town, cats say what you are thinking": 968,
+  "T-rex birthday party": 255,
+  "904 hair shows how you feel": 137,
+  "168 Gary could fly": 121,
+  "907 crying makes it rain": 62,
+  "dinosaurs could talk": 30
+ },
+ "objects_with_opinions_205_210": "0-1 views each (football, pencil, sandwich, shoe, kettle, backpack)",
+ "note": "906 grew only 959 -> 968 in 3 h (slowing). The Objects With Opinions posts (205-210) all have 0-1 views; the queue still holds 211-224 from that season."
+}
