@@ -1,6 +1,6 @@
-# What would happen if humans had chameleon eyes?
+# What would happen if you had chameleon eyes?
 
-**File:** `327-chameleon-eyes.mp4` · 1080x1920 · 17.3 s
+**File:** `327-chameleon-eyes.mp4` · 1080x1920 · 17.2 s
 
 ## Description
 
@@ -25,7 +25,7 @@ Answer (for a pinned comment or reply, not shown in the video): Made up for peop
 
 ## Script
 
-What if humans had chameleon eyes?
+What if you had chameleon eyes?
 
 Two books at once? Easy.
 
