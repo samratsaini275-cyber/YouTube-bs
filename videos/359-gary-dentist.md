@@ -1,6 +1,6 @@
 # What would happen if Gary the ant was a dentist?
 
-**File:** `359-gary-dentist.mp4` · 1080x1920 · 16.8 s
+**File:** `359-gary-dentist.mp4` · 1080x1920 · 16.1 s
 
 ## Description
 
@@ -33,4 +33,4 @@ He says, open wide. And it closes.
 
 And the payment? One crumb.
 
-Dentist Gary: brave, tiny, or totally lost? Comment below.
+Is Gary a good dentist? Comment below.
