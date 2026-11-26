@@ -48,7 +48,7 @@ export default {
   title: 'In this town, cats rate boxes',
   description: 'A fancy bed? One star. A plain box? Five stars. A box way too small? Still sits. (A made-up comedy sketch.)',
   tags: ['inthistown', 'funny', 'cat', 'cats', 'box', 'shorts'],
-  sources: ['Comedy sketch: cat box reviews are made up. Quiz fact: in a randomized trial at a Dutch animal shelter, newly arrived cats given a hiding box showed a faster drop in Cat-Stress-Score and reached a low-stress steady state about seven days earlier than cats without one (van der Leij et al., "The effect of a hiding box on stress levels and body weight in Dutch shelter cats; a randomized controlled trial", PLOS ONE, 2019; see also Vinke et al., Applied Animal Behaviour Science, 2014).'],
+  sources: ['Comedy sketch: cat box reviews are made up. Quiz fact: in a citizen-science study, owners taped shapes on the floor at home; cats sat in an illusory square (the Kanizsa illusion, drawn only by its corners) just as often as in a real square, and more often than in a control shape (Smith et al., "If I fits I sits: A citizen science investigation into illusory contour susceptibility in domestic cats", Applied Animal Behaviour Science, 2021).'],
   setup,
   scenes: [
     { say: 'In this town, cats rate boxes.', show: ['floor', 'wall', 'bigbox', 'card'], sky: '#F5E0C8', lightAt: [2, 9, 8], lightDist: 26,
@@ -64,7 +64,7 @@ export default {
       cam: { pos: [0, 1.8, 6.5], look: [0, .9, 0], fov: 50, to: { pos: [0, 1.8, 6], look: [0, .9, 0], fov: 48 } },
       update: (w, p, t) => { w.card.visible = false; w.tiny.position.set(.1, 0, .55); ctAt(w, .3, .3 + .05 * Math.sin(t * 5), 0, -.5, .42); w.c.body.scale.set(1.6, 1.15, 1.25); w.c.eyes.forEach(e => e.scale.y = .2); } },
     { say: 'Cat box critics: fair, funny, or way too picky? Comment below.',
-      quiz: { q: 'Cat box critics are…', options: ['Fair', 'Funny', 'Way too picky'], answer: 'Made up. But in a shelter study, cats given a hiding box de-stressed faster.' },
+      quiz: { q: 'Cat box critics are…', options: ['Fair', 'Funny', 'Way too picky'], answer: 'Made up. But real cats will even sit in a square that is only an optical illusion.' },
       show: ['floor', 'bigbox', 'card'], sky: '#274B73', lightAt: [0, 8, 6], lightDist: 18,
       cam: { pos: [3, 2.2, 8], look: [0, 1.4, 0], fov: 54, to: { pos: [-2, 2.2, 8], look: [0, 1.4, 0] } },
       update: (w, p, t) => { w.wall.visible = false; w.bigbox.position.set(0, 0, 0); ctAt(w, .4, .12, 0, -.6, .55); holdCard(w, true); } },

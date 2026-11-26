@@ -50,7 +50,7 @@ export default {
   title: 'In this town, cats rate TV shows',
   description: 'Bird videos? Five stars. The news? Asleep. The remote? Sat on. (A made-up comedy sketch.)',
   tags: ['inthistown', 'funny', 'cat', 'cats', 'tv', 'shorts'],
-  sources: ['Comedy sketch: cat TV reviews are made up. Quiz fact: tested at 70 dB, the domestic cat\'s hearing range runs from about 48 Hz to 85 kHz, one of the broadest hearing ranges among mammals (Heffner & Heffner, "Hearing range of the domestic cat", Hearing Research, 1985).'],
+  sources: ['Comedy sketch: cat TV reviews are made up. Quiz fact: in experiments showing cats happy or angry faces and voices, cats were only modestly sensitive to human emotion cues, mostly when the cues came from their owner rather than a stranger (Galvan & Vonk, "Man\'s other best friend: domestic cats (F. silvestris catus) and their discrimination of human emotion cues", Animal Cognition, 2016).'],
   setup,
   scenes: [
     { say: 'In this town, cats rate TV.', show: ['floor', 'wall', 'sofa', 'tv', 'card'], sky: '#3B3F6B', lightAt: [2, 9, 8], lightDist: 26,
@@ -66,7 +66,7 @@ export default {
       cam: { pos: [2.2, 2.8, 9], look: [.4, 2.1, 0], fov: 50, to: { pos: [2, 2.8, 8.5], look: [.4, 2.1, 0], fov: 48 } },
       update: (w, p, t) => { w.zzz.visible = false; w.c.head.position.y = 2.4; const sit = Math.min(1, p * 2.2); screen(w, sit < 1 ? 'news' : 'off'); w.tv.position.set(-1.6, 2.2, -2.2); w.tv.rotation.y = .35; w.sofa.position.set(1.4, 0, .6); w.remote.position.set(1, .95, .9); w.remote.rotation.y = .5; ctAt(w, 2.4 - sit * 1.2, .9 + (sit < 1 ? Math.sin(sit * Math.PI) * .6 : 0), .7, -.2, .42); if (sit >= 1) w.c.eyes.forEach(e => e.scale.y = .2); } },
     { say: 'Best show for cats? Comment below.',
-      quiz: { q: 'Best show for cats?', options: ['Bird videos', 'Fish tank cam', 'The news'], answer: 'Made up. But real cats can hear sounds up to about 85 kHz.' },
+      quiz: { q: 'Best show for cats?', options: ['Bird videos', 'Fish tank cam', 'The news'], answer: 'Made up. But real cats notice your mood a little, mostly if you are their owner.' },
       show: ['floor', 'tv', 'card'], sky: '#274B73', lightAt: [0, 8, 6], lightDist: 18,
       cam: { pos: [2.5, 2.4, 7.5], look: [0, 1.7, 0], fov: 54, to: { pos: [-2, 2.4, 7.5], look: [0, 1.7, 0] } },
       update: (w, p, t) => { w.wall.visible = false; w.sofa.visible = false; w.remote.visible = false; screen(w, 'bird'); w.bird.position.x = -.6 + .9 * Math.sin(t * 2); w.tv.position.set(-1.5, 2.6, -2); w.tv.rotation.y = .3; ctAt(w, .6, 0, 0, -.6, .5); holdCard(w, true); } },

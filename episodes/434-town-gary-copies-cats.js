@@ -68,7 +68,7 @@ export default {
   title: 'In this town, Gary the ant copies cats',
   description: 'A paw lick? Gary licks a leg. A sunny nap? Gary naps too. Knocking stuff off tables? Gary pushes a crumb. (A made-up comedy sketch.)',
   tags: ['inthistown', 'garytheant', 'funny', 'cats', 'ant', 'shorts'],
-  sources: ['Comedy sketch: Gary copying a cat is made up. Quiz fact: ants clean their antennae by pulling them through a clamp-like "antenna cleaner" on each front leg, a notch facing a spur lined with bristles (Hackmann et al., "Functional morphology and efficiency of the antenna cleaner in Camponotus rufifemur ants", Royal Society Open Science, 2015).'],
+  sources: ['Comedy sketch: Gary copying a cat is made up. Quiz fact: queens of the black garden ant (Lasius niger) have the longest lifespan recorded for a social insect; one lived about 28 and three-quarter years in a laboratory, while workers usually live only a year or two (Kutter & Stumper, 1969, as reported in the AnAge database of animal ageing and longevity, and in Kramer et al., "Worker lifespan is an adaptive trait during colony establishment in the long-lived ant Lasius niger", Experimental Gerontology, 2017).'],
   setup,
   scenes: [
     { say: 'In this town, Gary copies cats.', show: ['floor', 'wall', 'books', 'card'], sky: '#F5E0C8', lightAt: [2, 9, 8], lightDist: 26,
@@ -84,7 +84,7 @@ export default {
       cam: { pos: [-.2, 3.4, 8.5], look: [.15, 2.5, 0], fov: 52, to: { pos: [-.2, 3.4, 8], look: [.15, 2.5, 0], fov: 50 } },
       update: (w, p, t) => { w.c.head.position.y = 2.4; ctAt(w, -1.2, 2.1, 0, -.1, .42); const k1 = Math.min(1, Math.max(0, (p - .1) * 4)); w.cup.position.set(.2 + k1 * .6, 2.1 - (k1 > .5 ? (k1 - .5) * 4.2 : 0), .4); w.cup.rotation.z = -k1 * 1.6; if (p < .35) { w.card.visible = false; w.c.paw.position.set(1.4 + k1, 1, .9); } else holdCard(w, p > .7 ? true : null); const k2 = Math.min(1, Math.max(0, (p - .4) * 2.2)); gy(w, 1.2 + k2 * .5, 2.1, .6, 0, t, k2 > 0 && k2 < 1, .9); w.crumb.position.set(1.55 + k2 * .5, 2.18 - (k2 > .9 ? (k2 - .9) * 14 : 0), .6); } },
     { say: 'Is Gary a good cat? Comment below.',
-      quiz: { q: 'Is Gary a good cat?', options: ['Yes', 'No', 'Almost'], answer: 'Made up. But real ants clean their antennae with a clamp on each front leg.' },
+      quiz: { q: 'Is Gary a good cat?', options: ['Yes', 'No', 'Almost'], answer: 'Made up. But one real ant queen lived almost 29 years in a lab.' },
       show: ['floor', 'books', 'card'], sky: '#274B73', lightAt: [0, 8, 6], lightDist: 18,
       cam: { pos: [2, 2, 7.5], look: [0, 1.1, 0], fov: 54, to: { pos: [-2, 2, 7.5], look: [0, 1.1, 0] } },
       update: (w, p, t) => { w.wall.visible = false; w.table.visible = false; w.c.head.position.y = 2.4; ctAt(w, -.3, 0, 0, -.4, .4); holdCard(w, true); w.books.position.set(1.2, 0, .9); gy(w, 1.2, .9, .9, -2.6 + .3 * Math.sin(t * 3), t, true, .75); } },
