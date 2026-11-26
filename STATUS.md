@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 423 — 🎙️ narrating 0/?
+**Now:** episode 435 — 🎙️ narrating 0/?
 
-**Finished videos:** 432 of 434 written &nbsp; `████████████████████`
+**Finished videos:** 444 of 454 written &nbsp; `████████████████████`
 
-**Narrative 24: In This Town… (season 3: cats say it out loud)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 25: In This Town… (season 4: things complain to the cat)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -430,8 +430,28 @@
 | 420 | The Food Bowl Talks | 3D | ✅ done |
 | 421 | The Cat Tree Talks | 3D | ✅ done |
 | 422 | The Cat Brush Talks | 3D | ✅ done |
-| 423 | The Lunchbox Talks | 3D | 🎙️ narrating 0/? |
-| 424 | Everything Talks | 3D | 📝 scripted, in queue |
+| 423 | The Lunchbox Talks | 3D | ✅ done |
+| 424 | Everything Talks | 3D | ✅ done |
+| 425 | Cats Review Dinner | 3D | ✅ done |
+| 426 | Cats Judge Outfits | 3D | ✅ done |
+| 427 | Cats Grade Tests | 3D | ✅ done |
+| 428 | Dogs Rate Walks | 3D | ✅ done |
+| 429 | Cats Rate Gary | 3D | ✅ done |
+| 430 | Cats Rate Singing | 3D | ✅ done |
+| 431 | Cats Rate Gifts | 3D | ✅ done |
+| 432 | Cats Rate Hugs | 3D | ✅ done |
+| 433 | Cats Rate Boxes | 3D | ✅ done |
+| 434 | Gary Copies Cats | 3D | ✅ done |
+| 435 | Cats Rate Nicknames | 3D | 🎙️ narrating 0/? |
+| 436 | Cats Rate Tv | 3D | 📝 scripted, in queue |
+| 437 | Cats Rate Water | 3D | 📝 scripted, in queue |
+| 438 | Cats Rate Laps | 3D | 📝 scripted, in queue |
+| 439 | Gary Tries Cat Toys | 3D | 📝 scripted, in queue |
+| 440 | Cats Rate Rain | 3D | 📝 scripted, in queue |
+| 441 | Dogs Rate Cats | 3D | 📝 scripted, in queue |
+| 442 | Cats Rate High Spots | 3D | 📝 scripted, in queue |
+| 443 | Cats Rate Shoes | 3D | 📝 scripted, in queue |
+| 444 | Cats Crown Gary | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -443,4 +463,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-26 13:40 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-26 18:55 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
