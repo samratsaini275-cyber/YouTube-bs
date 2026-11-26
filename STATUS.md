@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 384 — 🎙️ narrating 0/?
+**Now:** episode 398 — 🎙️ narrating 0/?
 
-**Finished videos:** 393 of 394 written &nbsp; `████████████████████`
+**Finished videos:** 406 of 414 written &nbsp; `████████████████████`
 
-**Narrative 22: In This Town… (short format, cats first)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 23: In This Town… (season 2: things that talk back)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -391,7 +391,27 @@
 | 381 | The Giant Jellyfish | 3D | ✅ done |
 | 382 | The Cat Birthday | 3D | ✅ done |
 | 383 | The Giant Seahorses | 3D | ✅ done |
-| 384 | Gary Rides A Cat | 3D | 🎙️ narrating 0/? |
+| 384 | Gary Rides A Cat | 3D | ✅ done |
+| 385 | The Purring Town | 3D | ✅ done |
+| 386 | The Cat Police | 3D | ✅ done |
+| 387 | The Hiccup Town | 3D | ✅ done |
+| 388 | The Cat Forecast | 3D | ✅ done |
+| 389 | Mayor Gary | 3D | ✅ done |
+| 390 | The Cat Election | 3D | ✅ done |
+| 391 | The No-Gravity Sunday | 3D | ✅ done |
+| 392 | The Cat Post | 3D | ✅ done |
+| 393 | The Lemonade Rain | 3D | ✅ done |
+| 394 | Bus Driver Gary | 3D | ✅ done |
+| 395 | Cats Walk The Dogs | 3D | ✅ done |
+| 396 | The Kids In Charge | 3D | ✅ done |
+| 397 | Cats Are The Alarm | 3D | 📝 scripted, in queue |
+| 398 | Laughing Makes You Float | 3D | 🎙️ narrating 0/? |
+| 399 | Gary The Referee | 3D | 📝 scripted, in queue |
+| 400 | Cats Own The Houses | 3D | 📝 scripted, in queue |
+| 401 | Veggies Taste Like Candy | 3D | 📝 scripted, in queue |
+| 402 | Cat Firefighters | 3D | 📝 scripted, in queue |
+| 403 | Cat Builders | 3D | 📝 scripted, in queue |
+| 404 | Gary\ | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -403,4 +423,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-25 20:07 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-26 08:06 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
