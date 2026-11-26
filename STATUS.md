@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 398 — 🎙️ narrating 0/?
+**Now:** episode 423 — 🎙️ narrating 0/?
 
-**Finished videos:** 406 of 414 written &nbsp; `████████████████████`
+**Finished videos:** 432 of 434 written &nbsp; `████████████████████`
 
-**Narrative 23: In This Town… (season 2: things that talk back)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 24: In This Town… (season 3: cats say it out loud)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -404,14 +404,34 @@
 | 394 | Bus Driver Gary | 3D | ✅ done |
 | 395 | Cats Walk The Dogs | 3D | ✅ done |
 | 396 | The Kids In Charge | 3D | ✅ done |
-| 397 | Cats Are The Alarm | 3D | 📝 scripted, in queue |
-| 398 | Laughing Makes You Float | 3D | 🎙️ narrating 0/? |
-| 399 | Gary The Referee | 3D | 📝 scripted, in queue |
-| 400 | Cats Own The Houses | 3D | 📝 scripted, in queue |
-| 401 | Veggies Taste Like Candy | 3D | 📝 scripted, in queue |
-| 402 | Cat Firefighters | 3D | 📝 scripted, in queue |
-| 403 | Cat Builders | 3D | 📝 scripted, in queue |
-| 404 | Gary\ | 3D | 📝 scripted, in queue |
+| 397 | Cats Are The Alarm | 3D | ✅ done |
+| 398 | Laughing Makes You Float | 3D | ✅ done |
+| 399 | Gary The Referee | 3D | ✅ done |
+| 400 | Cats Own The Houses | 3D | ✅ done |
+| 401 | Veggies Taste Like Candy | 3D | ✅ done |
+| 402 | Cat Firefighters | 3D | ✅ done |
+| 403 | Cat Builders | 3D | ✅ done |
+| 404 | Gary\ | 3D | ✅ done |
+| 405 | The Cat Bed Talks | 3D | ✅ done |
+| 406 | The Trampoline Talks | 3D | ✅ done |
+| 407 | The Fishbowl Talks | 3D | ✅ done |
+| 408 | The Swing Talks | 3D | ✅ done |
+| 409 | Gary\ | 3D | ✅ done |
+| 410 | The Laser Talks | 3D | ✅ done |
+| 411 | The Bathtub Talks | 3D | ✅ done |
+| 412 | The Scratching Post Talks | 3D | ✅ done |
+| 413 | The Collar Bell Talks | 3D | ✅ done |
+| 414 | The Raindrops Talk | 3D | ✅ done |
+| 415 | The Cat Flap Talks | 3D | ✅ done |
+| 416 | The Ice Cubes Talk | 3D | ✅ done |
+| 417 | The Toy Mouse Talks | 3D | ✅ done |
+| 418 | The Slide Talks | 3D | ✅ done |
+| 419 | The Shoes Talk | 3D | ✅ done |
+| 420 | The Food Bowl Talks | 3D | ✅ done |
+| 421 | The Cat Tree Talks | 3D | ✅ done |
+| 422 | The Cat Brush Talks | 3D | ✅ done |
+| 423 | The Lunchbox Talks | 3D | 🎙️ narrating 0/? |
+| 424 | Everything Talks | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -423,4 +443,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-26 08:06 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-26 13:40 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
