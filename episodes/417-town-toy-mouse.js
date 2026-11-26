@@ -70,7 +70,7 @@ export default {
     { say: 'Under the sofa? Holiday.', label: 'AHHH', show: ['floor', 'wall', 'sofa', 'mouse'], sky: '#D8E8C8', lightAt: [2, 9, 8], lightDist: 26,
       cam: { pos: [.2, 1.3, 6], look: [.1, .85, 0], fov: 50, to: { pos: [.2, 1.3, 5.5], look: [.1, .85, 0], fov: 48 } },
       update: (w, p, t) => { w.cr.visible = false; w.sofa.position.set(0, 0, -.4); mAt(w, 0, 0, .2, -.2, .75); w.mouse.rotation.z = .25; w.shades.visible = true; talk(w.mf, t, p < .5); brow(w.mf, -.3); } },
-    { say: 'Three a.m.? It squeaks.', label: 'SQUEAK', show: ['floor', 'wall', 'mouse', 'cr', 'moon', 'notes'], sky: '#1B2140', lightAt: [1, 8, 8], lightDist: 30,
+    { say: 'Three a.m.? Squeak, squeak, squeak.', label: 'SQUEAK', show: ['floor', 'wall', 'mouse', 'cr', 'moon', 'notes'], sky: '#1B2140', lightAt: [1, 8, 8], lightDist: 30,
       cam: { pos: [.7, .95, 6], look: [.7, .95, 0], fov: 50, to: { pos: [.7, .95, 5.6], look: [.7, .95, 0], fov: 48 } },
       update: (w, p, t) => { w.sofa.visible = false; w.wall.visible = false; mAt(w, -.05, 0, .8, -.5, .85); talk(w.mf, t); brow(w.mf, -.4); squeak(w, t, true); ctAt(w, 2, 0, -.2, Math.PI + .3, .5); w.c.eyes.forEach((e, i) => e.scale.y = i % 2 ? 2.6 : 1.8); w.c.eyes.forEach(e => e.material = w.k.mat('#9BE36F', { glow: .8 })); } },
     { say: 'Talking toy mouse: brave, funny, or way too loud? Comment below.',
