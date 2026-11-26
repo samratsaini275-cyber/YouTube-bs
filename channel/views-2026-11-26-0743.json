@@ -1,0 +1,28 @@
+{
+ "observed_utc": "2026-11-26T07:43Z",
+ "source": "youtube-com videos/channel_shorts via Firecrawl Alexandria (first 48 shorts on the page)",
+ "subscribers": 19,
+ "last_night_window_23:30-02:30": {
+  "909 In this town, singing makes plants grow (23:35, long form)": "No views",
+  "212 ice cream complaint (00:11)": 641,
+  "213 bed complaint (01:15)": 756,
+  "214 car complaint (02:19)": 52
+ },
+ "after_window": {
+  "215 snowman (03:25)": 0,
+  "216 rubber duck (04:30)": 0,
+  "217 cactus (05:33)": 1,
+  "218 piano (06:38)": 0
+ },
+ "before_window_yesterday": {
+  "205-211 object complaints (14:00-23:07)": "0-3 each"
+ },
+ "top_on_page": {
+  "906 cats say what you are thinking": 975,
+  "213 bed complaint": 756,
+  "212 ice cream complaint": 641,
+  "T-rex birthday party": 318,
+  "907 crying makes it rain": 84
+ },
+ "note": "Same Objects With Opinions format: 0-3 views when posted outside 23:30-02:30 UTC, 641 and 756 when posted at 00:11 and 01:15. Posting time, not format, explains most of the difference. 909 (long form, 23:35) shows No views, like 905 and 908; 902/903 were unavailable."
+}
