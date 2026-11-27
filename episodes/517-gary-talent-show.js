@@ -64,7 +64,7 @@ export default {
   year: 'GARY\'S BIG WORLD',
   hook: ['GARY THE ANT', 'HELD A TALENT SHOW.'],
   title: 'Gary the ant held a talent show for the cat',
-  description: 'Gary\'s talent? Lifting a crumb. The cat\'s talent? Sleeping. And the winner? The cat, fast asleep. (A made-up comedy sketch.)',
+  description: 'Gary\'s talent? Lifting a crumb. The cat\'s talent? Sleeping. And the winner? The cat, still sleeping. (A made-up comedy sketch.)',
   tags: ['gary', 'ant', 'cat', 'talent', 'funny', 'shorts'],
   sources: [
     'Quiz fact: the claw-sheathing mechanism that lets claws retract when not in use is present in all species of the cat family except the cheetah (Encyclopaedia Britannica, "cat").',
@@ -90,7 +90,7 @@ export default {
       update: (w, p, t) => { hide(w, 'crumb', 'trophy'); w.g.visible = false; ctAt(w, .6, .5, -.2, -.2, .75); w.c.body.scale.set(1.6, .8, 1.25); w.c.eyes.forEach(e => e.scale.y = .1); },
     },
     {
-      say: 'And the winner? The cat. Fast asleep.',
+      say: 'And the winner? The cat. Still sleeping.',
       show: ['floor', 'wall', 'stage', 'g', 'trophy'], ...env,
       cam: { pos: [0, 2.6, 8.5], look: [0, 1.4, 0], fov: 50, to: { pos: [0, 2.6, 7.9], look: [0, 1.4, 0], fov: 48 } },
       update: (w, p, t) => { w.crumb.visible = false; ctAt(w, .6, .5, -.2, -.2, .75); w.c.body.scale.set(1.6, .8, 1.25); w.c.eyes.forEach(e => e.scale.y = .1); w.trophy.visible = p > .4; w.trophy.position.set(.2, 1.35, .5); gy(w, -1.1, .5, 1.3, -1.2, t); w.g.rotation.z = p > .5 ? -.25 : 0; },
