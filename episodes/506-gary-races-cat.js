@@ -63,7 +63,7 @@ export default {
   year: 'GARY\'S BIG WORLD',
   hook: ['GARY THE ANT', 'RACED THE CAT.'],
   title: 'Gary the ant raced the cat',
-  description: 'On your marks? The cat yawned. Gary got a head start of one whole day. And the cat? It napped right on the finish line. (A made-up comedy sketch.)',
+  description: 'On your marks? The cat fell asleep. Gary got a head start of one whole day. And the cat? It napped right on the finish line. (A made-up comedy sketch.)',
   tags: ['gary', 'ant', 'cat', 'race', 'funny', 'shorts'],
   sources: [
     'Quiz fact: cheetahs have been measured sprinting at up to 114 km (71 miles) per hour, but their chases are usually limited to sprints of less than 200 to 300 metres because running builds up heat faster than they can shed it (Encyclopaedia Britannica, "cheetah").',
@@ -77,7 +77,7 @@ export default {
       update: (w, p, t) => { w.finish.visible = false; w.dust.visible = false; ctAt(w, -2.2, 0, -.8, 0, .65); gy(w, -1.4, 0, .9, 0, t); w.g.rotation.z = .1 * Math.sin(t * 6); },
     },
     {
-      say: 'On your marks? The cat yawned.',
+      say: 'On your marks? The cat fell asleep.',
       show: ['floor', 'wall', 'track', 'start', 'g'], ...env,
       cam: { pos: [1.5, 2.2, 5], look: [-1.6, 1.4, 0], fov: 48, to: { pos: [1.3, 2.2, 4.6], look: [-1.6, 1.4, 0], fov: 46 } },
       update: (w, p, t) => { w.finish.visible = false; w.dust.visible = false; ctAt(w, -2.6, 0, -.6, .5, .7); w.c.head.rotation.z = .3 * Math.sin(Math.min(1, p * 2) * Math.PI); w.c.eyes.forEach(e => e.scale.y = p > .3 && p < .8 ? .1 : 1); gy(w, -1.4, 0, .9, 0, t); w.g.rotation.z = .3; },
