@@ -63,7 +63,7 @@ export default {
   pitch: 1.5,
   case: 'MAGIC GARY',
   year: 'GARY\'S BIG WORLD',
-  hook: ['GARY THE ANT', 'DID MAGIC FOR THE CAT.'],
+  hook: ['GARY THE ANT', 'PUT ON A MAGIC SHOW.'],
   title: 'Gary the ant did magic for the cat',
   description: 'The wand is a matchstick. The big trick? Making a crumb disappear, by eating it. And then the cat made Gary disappear. Under one paw. (A made-up comedy sketch.)',
   tags: ['gary', 'ant', 'cat', 'magic', 'funny', 'shorts'],
@@ -73,7 +73,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'Gary did magic for the cat.',
+      say: 'Gary put on a magic show.',
       show: ['floor', 'wall', 'g', 'wand'], ...env,
       cam: { pos: [1.6, 1.8, 7.5], look: [.4, 1.2, 0], fov: 48, to: { pos: [1.5, 1.8, 6.9], look: [.4, 1.2, 0], fov: 46 } },
       update: (w, p, t) => { hide(w, 'hat', 'crumb', 'sparks'); ctAt(w, 1.6, 0, -1.8, -2.2, .7); gy(w, -.3, 0, .9, -1.4, t); w.g.rotation.z = .1 * Math.sin(t * 6); w.wand.position.set(.1, .4, 1); w.wand.rotation.z = -.6 + Math.sin(t * 4) * .2; },
