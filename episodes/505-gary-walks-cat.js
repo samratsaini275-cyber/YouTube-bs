@@ -63,7 +63,7 @@ export default {
   year: 'GARY\'S BIG WORLD',
   hook: ['GARY THE ANT', 'WALKED THE CAT.'],
   title: 'Gary the ant walked the cat',
-  description: 'The leash is one thread. The cat stops every two steps. So Gary rides home on the cat. (A made-up comedy sketch.)',
+  description: 'The leash is a tiny string. The cat stops every two steps. So the cat carries Gary home. (A made-up comedy sketch.)',
   tags: ['gary', 'ant', 'cat', 'funny', 'animation', 'shorts'],
   sources: [
     'Quiz fact: Attaphila fungicola, a tiny cockroach that lives in the nests of Texas leaf-cutter ants, hitchhikes on the winged queen ants when they fly off to start new colonies (Phillips, "Emigrating together but not establishing together: a cockroach rides ants and leaves", The American Naturalist, 2021).',
@@ -77,7 +77,7 @@ export default {
       update: (w, p, t) => { ctAt(w, 1.2, 0, -1.6, -2.2, .7); gy(w, -.3, 0, 1, -1.2, t); w.g.rotation.z = .1 * Math.sin(t * 6); w.cr.updateWorldMatrix(true, true); tie(w, new w.T.Vector3(-.1, .5, 1), w.c.head.getWorldPosition(new w.T.Vector3()).add(new w.T.Vector3(0, -.4, 0))); },
     },
     {
-      say: 'The leash? One thread.',
+      say: 'The leash? A tiny string.',
       show: ['floor', 'wall', 'path', 'g'], ...env,
       cam: { pos: [.6, 1.4, 5], look: [0, .8, 0], fov: 46, to: { pos: [.6, 1.4, 4.6], look: [0, .8, 0], fov: 44 } },
       update: (w, p, t) => { w.cr.visible = false; gy(w, -.3, 0, .5, -1.9, t, true); w.g.rotation.z = -.3; tie(w, new w.T.Vector3(0, .55, .5), new w.T.Vector3(3, 2.4, -1.5)); },
@@ -89,7 +89,7 @@ export default {
       update: (w, p, t) => { const go = Math.sin(t * 4) > 0; ctAt(w, 0, 0, -1.2, Math.PI / 2, .75); if (!go) { w.c.head.rotation.z = -.4; } w.c.body.scale.set(1.4, go ? 1 : .8, 1); gy(w, .3, 0, 2.9, Math.PI / 2, t, true); w.g.rotation.z = -.35; w.cr.updateWorldMatrix(true, true); tie(w, new w.T.Vector3(.3, .55, 2.65), w.c.head.getWorldPosition(new w.T.Vector3()).add(new w.T.Vector3(0, -.35, 0))); },
     },
     {
-      say: 'So Gary rode home on the cat.',
+      say: 'So the cat carried Gary home.',
       show: ['floor', 'wall', 'path', 'bush', 'g'], ...env,
       cam: { pos: [7, 2.6, -1], look: [0, 1.5, -1], fov: 50, to: { pos: [7, 2.6, -5], look: [0, 1.5, -5], fov: 50 } },
       update: (w, p, t) => { w.leash.visible = false; const z = -1 - p * 4; ctAt(w, 0, Math.abs(Math.sin(t * 6)) * .05, z, Math.PI / 2, .8); w.cr.updateWorldMatrix(true, true); const hp = w.c.body.getWorldPosition(new w.T.Vector3()); gy(w, hp.x, hp.y + .95, hp.z, Math.PI / 2, t); w.g.rotation.z = Math.sin(t * 6) * .08; },
