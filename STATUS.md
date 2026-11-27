@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 435 — 🎙️ narrating 0/?
+**Now:** idle — nothing is building
 
-**Finished videos:** 444 of 454 written &nbsp; `████████████████████`
+**Finished videos:** 474 of 474 written &nbsp; `████████████████████`
 
-**Narrative 25: In This Town… (season 4: things complain to the cat)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 26: This X Has a Complaint (cat edition)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -442,16 +442,36 @@
 | 432 | Cats Rate Hugs | 3D | ✅ done |
 | 433 | Cats Rate Boxes | 3D | ✅ done |
 | 434 | Gary Copies Cats | 3D | ✅ done |
-| 435 | Cats Rate Nicknames | 3D | 🎙️ narrating 0/? |
-| 436 | Cats Rate Tv | 3D | 📝 scripted, in queue |
-| 437 | Cats Rate Water | 3D | 📝 scripted, in queue |
-| 438 | Cats Rate Laps | 3D | 📝 scripted, in queue |
-| 439 | Gary Tries Cat Toys | 3D | 📝 scripted, in queue |
-| 440 | Cats Rate Rain | 3D | 📝 scripted, in queue |
-| 441 | Dogs Rate Cats | 3D | 📝 scripted, in queue |
-| 442 | Cats Rate High Spots | 3D | 📝 scripted, in queue |
-| 443 | Cats Rate Shoes | 3D | 📝 scripted, in queue |
-| 444 | Cats Crown Gary | 3D | 📝 scripted, in queue |
+| 435 | Cats Rate Nicknames | 3D | ✅ done |
+| 436 | Cats Rate Tv | 3D | ✅ done |
+| 437 | Cats Rate Water | 3D | ✅ done |
+| 438 | Cats Rate Laps | 3D | ✅ done |
+| 439 | Gary Tries Cat Toys | 3D | ✅ done |
+| 440 | Cats Rate Rain | 3D | ✅ done |
+| 441 | Dogs Rate Cats | 3D | ✅ done |
+| 442 | Cats Rate High Spots | 3D | ✅ done |
+| 443 | Cats Rate Shoes | 3D | ✅ done |
+| 444 | Cats Crown Gary | 3D | ✅ done |
+| 445 | Sofas Complain To Cats | 3D | ✅ done |
+| 446 | Laptops Complain To Cats | 3D | ✅ done |
+| 447 | Plants Complain To Cats | 3D | ✅ done |
+| 448 | Socks Complain To Cats | 3D | ✅ done |
+| 449 | Gary Complains To Cats | 3D | ✅ done |
+| 450 | Vacuums Complain To Cats | 3D | ✅ done |
+| 451 | Doors Complain To Cats | 3D | ✅ done |
+| 452 | Mirrors Complain To Cats | 3D | ✅ done |
+| 453 | Pillows Complain To Cats | 3D | ✅ done |
+| 454 | Leaves Complain To Gary | 3D | ✅ done |
+| 455 | Bags Complain To Cats | 3D | ✅ done |
+| 456 | Phones Complain To Cats | 3D | ✅ done |
+| 457 | Treat Bags Complain To Cats | 3D | ✅ done |
+| 458 | Trees Complain To Cats | 3D | ✅ done |
+| 459 | Hats Complain | 3D | ✅ done |
+| 460 | Plates Complain To Cats | 3D | ✅ done |
+| 461 | Laundry Complains To Cats | 3D | ✅ done |
+| 462 | Toy Boxes Complain To Cats | 3D | ✅ done |
+| 463 | Balls Complain To Cats | 3D | ✅ done |
+| 464 | Cats Complain | 3D | ✅ done |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -463,4 +483,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-26 18:55 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-27 02:55 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
