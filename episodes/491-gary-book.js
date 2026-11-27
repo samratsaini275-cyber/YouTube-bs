@@ -44,8 +44,8 @@ export default {
   pitch: 1.5,
   case: 'BOOKWORM GARY',
   year: 'GARY\'S BIG WORLD',
-  hook: ['GARY THE ANT', 'READ A BOOK.'],
-  title: 'Gary the ant read a book',
+  hook: ['GARY THE ANT', 'OPENED A BOOK.'],
+  title: 'Gary the ant opened a book',
   description: 'One letter fills a whole page. Turning a page is a full workout. And then the book closes with Gary inside: the best bookmark ever. (A made-up comedy sketch.)',
   tags: ['gary', 'ant', 'book', 'funny', 'animation', 'shorts'],
   sources: [
@@ -54,7 +54,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'Gary read a book.',
+      say: 'Gary opened a book.',
       show: ['floor', 'wall', 'g', 'book'], ...env,
       cam: { pos: [1.6, 1.6, 6.5], look: [0, .9, 0], fov: 46, to: { pos: [1.5, 1.6, 5.9], look: [0, .9, 0], fov: 44 } },
       update: (w, p, t) => { w.g.scale.setScalar(1.3); w.mark.visible = false; w.book.position.set(-2, 0, -3.2); w.page.rotation.z = 0; gy(w, .4, 0, 0, -1.4, t); w.g.rotation.z = .1 * Math.sin(t * 6); },
