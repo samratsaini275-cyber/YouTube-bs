@@ -94,8 +94,8 @@ export default {
       update: (w, p, t) => { reset(w); ctAt(w, -.6, 0, -5.2, -1.6, .9); const sw = Math.min(1, Math.max(0, (p - .3) * 2.5)); w.c.paw.position.set(1 + sw * .8, .6 + Math.sin(sw * Math.PI) * .6, .9); w.pieces.children.forEach(pc => { const i = pc.userData.i, f = Math.max(0, sw - i * .08); pc.position.set(pc.userData.home.x + f * (3 + i), pc.userData.home.y + Math.sin(Math.min(1, f) * Math.PI) * 2 - Math.max(0, f - 1) * 2, pc.userData.home.z + f * 2); pc.rotation.set(f * 4, 0, f * 6); }); gy(w, -.6, .1, 2.6, -1.6, t); w.g.rotation.z = sw > .5 ? Math.sin(t * 25) * .06 : 0; },
     },
     {
-      say: 'Best game for Gary and the cat: chess, tag, or naps? Comment below.',
-      quiz: { q: 'What is the best game for Gary and the cat?', options: ['Chess', 'Tag', 'Naps'], answer: 'Fun fact: a cat\'s tail holds about 20 extra bones of its spine.' },
+      say: 'Which game should these two play next: chess, hide and seek, or naps? Comment below.',
+      quiz: { q: 'Which game should Gary and the cat play next?', options: ['Chess', 'Hide and seek', 'Naps'], answer: 'Fun fact: a cat\'s tail holds about 20 extra bones of its spine.' },
       show: ['floor', 'wall', 'board', 'g'], sky: '#274B73', lightAt: [2, 9, 6], lightDist: 28,
       cam: { pos: [2.4, 3.2, 9], look: [0, 1.4, -1], fov: 50, to: { pos: [-1.4, 3.2, 9], look: [0, 1.4, -1] } },
       update: (w, p, t) => { ctAt(w, -.6, 0, -5.2, -1.6, .9); w.c.eyes.forEach(e => e.scale.y = .3); gy(w, -.6, .1, 2.6, -1.6 + .3 * Math.sin(t * 3), t, true); },
