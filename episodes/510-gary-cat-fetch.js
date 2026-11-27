@@ -92,8 +92,8 @@ export default {
       update: (w, p, t) => { w.pea.position.set(.2, .28, 1.2); const run = Math.min(1, p * 1.6); ctAt(w, 3.2 - run * 2.2, 0, -.2, Math.PI - .2, .8); w.cr.updateWorldMatrix(true, true); const hp = w.c.head.getWorldPosition(new w.k.THREE.Vector3()); if (run < 1) { gy(w, -.6, 0, .9, -1.4, t); } else { gy(w, hp.x - .7, hp.y - .5, hp.z + .3, -1.4, t, true); } w.g.rotation.z = run >= 1 ? .3 : 0; },
     },
     {
-      say: 'Best toy for the cat: a pea, a string, or Gary? Comment below.',
-      quiz: { q: 'What is the best toy for the cat?', options: ['A pea', 'A string', 'Gary'], answer: 'Fun fact: a cat\'s shoulder joints let it turn its front legs in almost any direction.' },
+      say: 'Best toy for the cat: a ball, a feather, or Gary? Comment below.',
+      quiz: { q: 'What is the best toy for the cat?', options: ['A ball', 'A feather', 'Gary'], answer: 'Fun fact: a cat\'s shoulder joints let it turn its front legs in almost any direction.' },
       show: ['floor', 'wall', 'g', 'pea'], sky: '#274B73', lightAt: [2, 9, 6], lightDist: 26,
       cam: { pos: [2.2, 2.4, 8.5], look: [.4, 1.4, 0], fov: 48, to: { pos: [-1, 2.4, 8.5], look: [.4, 1.4, 0] } },
       update: (w, p, t) => { w.pea.position.set(.2, .28, 1.2); ctAt(w, 1, 0, -.2, Math.PI - .2, .8); w.cr.updateWorldMatrix(true, true); const hp = w.c.head.getWorldPosition(new w.k.THREE.Vector3()); gy(w, hp.x - .7, hp.y - .5, hp.z + .3, -1.4 + .3 * Math.sin(t * 3), t, true); },
