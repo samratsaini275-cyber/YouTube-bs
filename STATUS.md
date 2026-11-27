@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 483 — 🎙️ narrating 0/?
+**Now:** episode 503 — 🎙️ narrating 0/?
 
-**Finished videos:** 492 of 494 written &nbsp; `████████████████████`
+**Finished videos:** 512 of 514 written &nbsp; `████████████████████`
 
-**Narrative 27: Gary's Big World (season 3: home and bedtime, with the cat)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 28: Gary's Big World (season 4: Gary and the cat, every episode)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -490,8 +490,28 @@
 | 480 | The Curtain | 3D | ✅ done |
 | 481 | The Window | 3D | ✅ done |
 | 482 | The Mug | 3D | ✅ done |
-| 483 | The Fan | 3D | 🎙️ narrating 0/? |
-| 484 | The Score Card | 3D | 📝 scripted, in queue |
+| 483 | The Fan | 3D | ✅ done |
+| 484 | The Score Card | 3D | ✅ done |
+| 485 | Bath Time Gary | 3D | ✅ done |
+| 486 | Bedtime Gary | 3D | ✅ done |
+| 487 | Breakfast Gary | 3D | ✅ done |
+| 488 | Tv Gary | 3D | ✅ done |
+| 489 | Fort Gary | 3D | ✅ done |
+| 490 | Chef Gary | 3D | ✅ done |
+| 491 | Bookworm Gary | 3D | ✅ done |
+| 492 | Babysitter Gary | 3D | ✅ done |
+| 493 | Dishwasher Gary | 3D | ✅ done |
+| 494 | Groomer Gary | 3D | ✅ done |
+| 495 | Toast Gary | 3D | ✅ done |
+| 496 | Laser Gary | 3D | ✅ done |
+| 497 | Gift Gary | 3D | ✅ done |
+| 498 | Toymaker Gary | 3D | ✅ done |
+| 499 | Artist Gary | 3D | ✅ done |
+| 500 | Birthday Gary | 3D | ✅ done |
+| 501 | Fridge Gary | 3D | ✅ done |
+| 502 | Goodnight Gary | 3D | ✅ done |
+| 503 | Stairs Gary | 3D | 🎙️ narrating 0/? |
+| 504 | Sleepover Gary | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -503,4 +523,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-27 13:13 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-27 18:21 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
