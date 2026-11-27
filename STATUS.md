@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** idle — nothing is building
+**Now:** episode 483 — 🎙️ narrating 0/?
 
-**Finished videos:** 474 of 474 written &nbsp; `████████████████████`
+**Finished videos:** 492 of 494 written &nbsp; `████████████████████`
 
-**Narrative 26: This X Has a Complaint (cat edition)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 27: Gary's Big World (season 3: home and bedtime, with the cat)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -472,6 +472,26 @@
 | 462 | Toy Boxes Complain To Cats | 3D | ✅ done |
 | 463 | Balls Complain To Cats | 3D | ✅ done |
 | 464 | Cats Complain | 3D | ✅ done |
+| 465 | The Rug | 3D | ✅ done |
+| 466 | The Printer | 3D | ✅ done |
+| 467 | The Suitcase | 3D | ✅ done |
+| 468 | The Toilet Roll | 3D | ✅ done |
+| 469 | The Sugar Cube | 3D | ✅ done |
+| 470 | The Speaker | 3D | ✅ done |
+| 471 | The Slipper | 3D | ✅ done |
+| 472 | The Keyboard | 3D | ✅ done |
+| 473 | The Blanket | 3D | ✅ done |
+| 474 | The Picnic Basket | 3D | ✅ done |
+| 475 | The Trophy | 3D | ✅ done |
+| 476 | The Vase | 3D | ✅ done |
+| 477 | The Scarf | 3D | ✅ done |
+| 478 | The Shelf | 3D | ✅ done |
+| 479 | The Ruler | 3D | ✅ done |
+| 480 | The Curtain | 3D | ✅ done |
+| 481 | The Window | 3D | ✅ done |
+| 482 | The Mug | 3D | ✅ done |
+| 483 | The Fan | 3D | 🎙️ narrating 0/? |
+| 484 | The Score Card | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -483,4 +503,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-27 02:55 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-27 13:13 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
