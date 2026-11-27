@@ -78,7 +78,7 @@ export default {
       update: (w, p, t) => { hide(w, 'pick', 'hair', 'tongue', 'drops'); ctAt(w, 1.2, 0, -2, -2.2, .7); gy(w, -.2, 0, .8, -1.2, t); w.g.rotation.z = .1 * Math.sin(t * 6); },
     },
     {
-      say: 'His comb? A toothpick.',
+      say: 'The comb? A toothpick.',
       show: ['floor', 'wall', 'g', 'pick'], ...env,
       cam: { pos: [.4, 1.8, 6.5], look: [0, 1.1, 0], fov: 46, to: { pos: [.4, 1.8, 5.9], look: [0, 1.1, 0], fov: 44 } },
       update: (w, p, t) => { hide(w, 'hair', 'tongue', 'drops'); ctAt(w, 1.8, 0, -1.6, -2.4, .9); gy(w, -.4, 0, .6, -1.2, t); w.g.rotation.z = 0; w.pick.visible = true; w.pick.position.set(.2, 1.1 + Math.sin(t * 6) * .25, .7); w.pick.rotation.set(0, 0, .5 + Math.sin(t * 6) * .3); },
