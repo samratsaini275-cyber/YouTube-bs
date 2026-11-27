@@ -64,7 +64,7 @@ export default {
   year: 'GARY\'S BIG WORLD',
   hook: ['GARY THE ANT', 'PLAYED DRUMS FOR THE CAT.'],
   title: 'Gary the ant played drums for the cat',
-  description: 'The drum kit is a set of thimbles. The drumsticks are two pins. And the cat? It purred along. Best band ever. (A made-up comedy sketch.)',
+  description: 'The drum kit is a set of thimbles. The drumsticks are two pins. And the cat? It joined in. Best band ever. (A made-up comedy sketch.)',
   tags: ['gary', 'ant', 'cat', 'music', 'funny', 'shorts'],
   sources: [
     'Quiz fact: the average mature ideal body weight of domestic cats is about 3.2 kg (7 lb) for toms and 2.8 kg (6 lb) for queens (Merck Veterinary Manual, "Feeding Practices in Small Animals").',
@@ -90,7 +90,7 @@ export default {
       update: (w, p, t) => { w.cr.visible = false; w.kit.position.set(.4, 0, 0); w.kit.scale.setScalar(1); gy(w, -.5, 0, .45, -1.2, t); const hit = Math.abs(Math.sin(t * 10)); w.g.rotation.z = hit * .1; w.sticks.position.set(-.1, .5, .45); w.sticks.rotation.z = -hit * .5; w.cym.rotation.x = Math.sin(t * 20) * .1; notes(w, .3, 1, t); },
     },
     {
-      say: 'The cat purred along. Best band ever.',
+      say: 'The cat joined in. Best band ever.',
       show: ['floor', 'wall', 'g', 'kit', 'sticks', 'notes'], ...env,
       cam: { pos: [.2, 2.4, 8], look: [0, 1.2, 0], fov: 48, to: { pos: [.2, 2.4, 7.4], look: [0, 1.2, 0], fov: 46 } },
       update: (w, p, t) => { w.kit.position.set(-.4, 0, .6); w.kit.scale.setScalar(.6); ctAt(w, 1.7, 0, -.4, -2.8, .8); w.c.eyes.forEach(e => e.scale.y = .2); w.c.body.scale.set(1.4 + Math.sin(t * 12) * .02, 1, 1); gy(w, -1, 0, 1, -1.2, t); const hit = Math.abs(Math.sin(t * 10)); w.sticks.position.set(-.6, .5, .95); w.sticks.rotation.z = -hit * .5; notes(w, .4, 1.6, t); },
