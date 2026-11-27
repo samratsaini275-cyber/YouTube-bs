@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 503 — 🎙️ narrating 0/?
+**Now:** episode 522 — 🎙️ narrating 0/?
 
-**Finished videos:** 512 of 514 written &nbsp; `████████████████████`
+**Finished videos:** 531 of 534 written &nbsp; `████████████████████`
 
-**Narrative 28: Gary's Big World (season 4: Gary and the cat, every episode)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 29: In This Town… (season 5: Gary and the cat)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -510,8 +510,28 @@
 | 500 | Birthday Gary | 3D | ✅ done |
 | 501 | Fridge Gary | 3D | ✅ done |
 | 502 | Goodnight Gary | 3D | ✅ done |
-| 503 | Stairs Gary | 3D | 🎙️ narrating 0/? |
-| 504 | Sleepover Gary | 3D | 📝 scripted, in queue |
+| 503 | Stairs Gary | 3D | ✅ done |
+| 504 | Sleepover Gary | 3D | ✅ done |
+| 505 | Walkies Gary | 3D | ✅ done |
+| 506 | Racer Gary | 3D | ✅ done |
+| 507 | Chess Gary | 3D | ✅ done |
+| 508 | Vet Gary | 3D | ✅ done |
+| 509 | Camper Gary | 3D | ✅ done |
+| 510 | Coach Gary | 3D | ✅ done |
+| 511 | Builder Gary | 3D | ✅ done |
+| 512 | Snow Gary | 3D | ✅ done |
+| 513 | Beach Gary | 3D | ✅ done |
+| 514 | Kite Gary | 3D | ✅ done |
+| 515 | Architect Gary | 3D | ✅ done |
+| 516 | Tag Gary | 3D | ✅ done |
+| 517 | Showtime Gary | 3D | ✅ done |
+| 518 | Fishing Gary | 3D | ✅ done |
+| 519 | Baker Gary | 3D | ✅ done |
+| 520 | Magic Gary | 3D | ✅ done |
+| 521 | Drummer Gary | 3D | ✅ done |
+| 522 | Stargazer Gary | 3D | 🎙️ narrating 0/? |
+| 523 | Jumping Gary | 3D | 📝 scripted, in queue |
+| 524 | Fireworks Gary | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -523,4 +543,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-27 18:21 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-27 23:56 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
