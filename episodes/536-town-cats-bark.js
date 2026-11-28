@@ -65,7 +65,7 @@ export default {
   pitch: 1.5,
   case: 'BARKING CAT',
   year: 'IN THIS TOWN…',
-  hook: ['IN THIS TOWN,', 'CATS GO WOOF'],
+  hook: ['IN THIS TOWN,', 'CATS CAN BARK'],
   title: 'In this town, cats bark (Gary the ant and the cat)',
   description: 'The cat barked at a leaf. Gary tried to teach it to purr. Then a dog walked by. (A made-up comedy sketch.)',
   tags: ['inthistown', 'garytheant', 'cat', 'dog', 'funny', 'shorts'],
@@ -75,7 +75,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'In this town, cats go woof.',
+      say: 'In this town, cats can bark.',
       show: ['floor', 'road', 'houses', 'g', 'rings'], ...env,
       cam: { pos: [0, 3.6, 8.5], look: [0, 1.6, 0], fov: 50, to: { pos: [0, 3.6, 8], look: [0, 1.6, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'leaf'); w.d.root.visible = false; put(w.c, -.4, 0, .6, -.3, .5); bark(w, w.c, t); gy(w, 1.2, 0, 1.6, -2.4, t); w.g.rotation.z = .2; },
