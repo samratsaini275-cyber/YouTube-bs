@@ -65,9 +65,9 @@ export default {
   pitch: 1.5,
   case: 'BARKING CAT',
   year: 'IN THIS TOWN…',
-  hook: ['IN THIS TOWN,', 'CATS BARK'],
+  hook: ['IN THIS TOWN,', 'CATS GO WOOF'],
   title: 'In this town, cats bark (Gary the ant and the cat)',
-  description: 'The cat barked at a leaf. Gary tried to teach it to meow. Then a dog walked by. (A made-up comedy sketch.)',
+  description: 'The cat barked at a leaf. Gary tried to teach it to purr. Then a dog walked by. (A made-up comedy sketch.)',
   tags: ['inthistown', 'garytheant', 'cat', 'dog', 'funny', 'shorts'],
   sources: [
     'Comedy sketch: barking cats are made up. Quiz fact: domestic dogs bark far more often and in many more situations than wolves, and spectrographic analysis shows that the structure of a dog\'s bark varies predictably with the context (Yin, "A new perspective on barking in dogs (Canis familiaris)", Journal of Comparative Psychology, 2002).',
@@ -75,7 +75,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'In this town, cats bark.',
+      say: 'In this town, cats go woof.',
       show: ['floor', 'road', 'houses', 'g', 'rings'], ...env,
       cam: { pos: [0, 3.6, 8.5], look: [0, 1.6, 0], fov: 50, to: { pos: [0, 3.6, 8], look: [0, 1.6, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'leaf'); w.d.root.visible = false; put(w.c, -.4, 0, .6, -.3, .5); bark(w, w.c, t); gy(w, 1.2, 0, 1.6, -2.4, t); w.g.rotation.z = .2; },
@@ -87,7 +87,7 @@ export default {
       update: (w, p, t) => { w.d.root.visible = false; put(w.c, -.6, 0, .6, -.1, .5); bark(w, w.c, t); w.leaf.position.set(1.5, .05, 1); w.leaf.rotation.y = t; w.g.visible = false; },
     },
     {
-      say: 'Gary tried to teach it to meow.',
+      say: 'Gary tried to teach it to purr.',
       show: ['floor', 'road', 'houses', 'g'], ...env,
       cam: { pos: [.2, 2, 6.5], look: [.2, 1.3, 0], fov: 50, to: { pos: [.2, 2, 6], look: [.2, 1.3, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'leaf', 'rings'); w.d.root.visible = false; w.g.visible = true; put(w.c, -.8, 0, .2, -.2, .5); w.c.head.rotation.z = .3; gy(w, .9, 0, 1.2, -2.6 + .3 * Math.sin(t * 3), t); w.g.rotation.z = .15 * Math.sin(t * 6); },
