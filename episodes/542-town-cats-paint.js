@@ -68,8 +68,8 @@ export default {
   pitch: 1.5,
   case: 'PAINTING CAT',
   year: 'IN THIS TOWN…',
-  hook: ['IN THIS TOWN,', 'CATS CAN PAINT'],
-  title: 'In this town, cats can paint (Gary the ant and the cat)',
+  hook: ['IN THIS TOWN,', 'CATS ARE PAINTERS'],
+  title: 'In this town, cats are painters (Gary the ant and the cat)',
   description: 'The cat painted Gary: a tiny black dot. Gary painted the cat: a big orange blob. Then the cat had an idea. (A made-up comedy sketch.)',
   tags: ['inthistown', 'garytheant', 'cat', 'painting', 'funny', 'shorts'],
   sources: [
@@ -78,7 +78,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'In this town, cats can paint.',
+      say: 'In this town, cats are painters.',
       show: ['floor', 'wall', 'easelC', 'brush', 'g'], ...env,
       cam: { pos: [0, 4.4, 8.5], look: [0, 1.4, 0], fov: 50, to: { pos: [0, 4.4, 8], look: [0, 1.4, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'easelG', 'museum', 'rope', 'dot'); noCrowd(w); w.easelC.position.set(-.4, 0, -.4); put(w.c, 1, 0, .2, -2.6, .5); w.c.paw.position.set(1.2, 1.4, .9); brushAt(w, .2, 1.3, .1, t); gy(w, -1.4, 0, 1.6, -.4, t); w.beret.visible = false; },
