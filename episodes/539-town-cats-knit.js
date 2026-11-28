@@ -71,7 +71,7 @@ export default {
   year: 'IN THIS TOWN…',
   hook: ['IN THIS TOWN,', 'CATS CAN KNIT'],
   title: 'In this town, cats can knit (Gary the ant and the cat)',
-  description: 'The cat made Gary a scarf. It was very long. Then the cat knitted six tiny socks. (A made-up comedy sketch.)',
+  description: 'The cat made Gary a scarf. It was very long. Then the cat made six tiny socks. (A made-up comedy sketch.)',
   tags: ['inthistown', 'garytheant', 'cat', 'knitting', 'funny', 'shorts'],
   sources: [
     'Comedy sketch: knitting cats are made up. Quiz fact: knitted socks dating from between the 3rd and 6th centuries AD have been discovered in Egyptian tombs (Encyclopaedia Britannica, "Stocking").',
@@ -97,7 +97,7 @@ export default {
       update: (w, p, t) => { hide(w, 'ball', 'needles'); socksOn(w, false); ctAt(w, 1.2, 0, .2, -2.4, .45); w.c.eyes.forEach((e, i) => e.scale.y = i % 2 ? .5 : .3); gy(w, .2, 0, 1.4, 0, t); scarf(w, 24, t); },
     },
     {
-      say: 'Then the cat knitted six tiny socks.',
+      say: 'Then the cat made six tiny socks.',
       show: ['floor', 'rug', 'wall', 'fire', 'chair', 'g', 'ball', 'needles'], ...env,
       cam: { pos: [0, 2.6, 6.5], look: [0, 1.3, 0], fov: 50, to: { pos: [0, 2.6, 6], look: [0, 1.3, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'scarf'); socksOn(w, p > .5); ctAt(w, .6, 0, .2, -2.4, .5); w.c.paw.position.set(1.2, 1.2, .9); knit(w, t); w.ball.position.set(-.1, .25, 1.1); w.ball.scale.setScalar(1 - p * .5); gy(w, -1.1, 0, 1.4, -.4, t); },
