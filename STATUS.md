@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 522 — 🎙️ narrating 0/?
+**Now:** episode 544 — 🎙️ narrating 0/?
 
-**Finished videos:** 531 of 534 written &nbsp; `████████████████████`
+**Finished videos:** 553 of 554 written &nbsp; `████████████████████`
 
-**Narrative 29: In This Town… (season 5: Gary and the cat)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 30: What Would Happen If… (season 12: tiny animals and animal-part humans)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -529,9 +529,29 @@
 | 519 | Baker Gary | 3D | ✅ done |
 | 520 | Magic Gary | 3D | ✅ done |
 | 521 | Drummer Gary | 3D | ✅ done |
-| 522 | Stargazer Gary | 3D | 🎙️ narrating 0/? |
-| 523 | Jumping Gary | 3D | 📝 scripted, in queue |
-| 524 | Fireworks Gary | 3D | 📝 scripted, in queue |
+| 522 | Stargazer Gary | 3D | ✅ done |
+| 523 | Jumping Gary | 3D | ✅ done |
+| 524 | Fireworks Gary | 3D | ✅ done |
+| 525 | Giant Gary | 3D | ✅ done |
+| 526 | Flying Cat | 3D | ✅ done |
+| 527 | Yarn Rain | 3D | ✅ done |
+| 528 | Cat Barber | 3D | ✅ done |
+| 529 | Sleepover Town | 3D | ✅ done |
+| 530 | Floor Is Lava | 3D | ✅ done |
+| 531 | Always Halloween | 3D | ✅ done |
+| 532 | Sugar Snow | 3D | ✅ done |
+| 533 | Giant Bubbles | 3D | ✅ done |
+| 534 | Cheese Moon | 3D | ✅ done |
+| 535 | Upside Down Town | 3D | ✅ done |
+| 536 | Barking Cat | 3D | ✅ done |
+| 537 | Swimming Cat | 3D | ✅ done |
+| 538 | Skating Cat | 3D | ✅ done |
+| 539 | Knitting Cat | 3D | ✅ done |
+| 540 | Singing Cat | 3D | ✅ done |
+| 541 | Digging Cat | 3D | ✅ done |
+| 542 | Painting Cat | 3D | ✅ done |
+| 543 | Chef Cat | 3D | ✅ done |
+| 544 | Medal Day | 3D | 🎙️ narrating 0/? |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -543,4 +563,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-27 23:56 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-28 12:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
