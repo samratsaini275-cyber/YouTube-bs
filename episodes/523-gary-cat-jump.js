@@ -108,8 +108,8 @@ export default {
       update: (w, p, t) => { hide(w, 'fence', 'pebble', 'spoon', 'prop'); ctAt(w, 0, 0, -.6, -.3, .8); w.c.eyes.forEach((e, i) => e.scale.y = i % 2 ? 2.4 : 1.4); gy(w, .4, 3.2, -.6, -1.2, t); w.medal.position.set(1.5, 3 + Math.sin(t * 3) * .05, -.2); },
     },
     {
-      say: 'Best jump for these two: a hop, a leap, or a bounce? Comment below.',
-      quiz: { q: 'What is the best jump?', options: ['A hop', 'A leap', 'A bounce'], answer: 'Fun fact: trap-jaw ants can snap their jaws against the ground and launch themselves into the air.' },
+      say: 'Best jump for these two: a flip, a spin, or a belly flop? Comment below.',
+      quiz: { q: 'What is the best jump?', options: ['A flip', 'A spin', 'A belly flop'], answer: 'Fun fact: trap-jaw ants can snap their jaws against the ground and launch themselves into the air.' },
       show: ['floor', 'wall', 'stars', 'moon', 'g', 'fence'], sky: '#274B73', lightAt: [2, 8, 6], lightDist: 26,
       cam: { pos: [2.2, 2.4, 7.5], look: [.3, 1.4, 0], fov: 48, to: { pos: [-1, 2.4, 7.5], look: [.3, 1.4, 0] } },
       update: (w, p, t) => { hide(w, 'pebble', 'spoon', 'prop', 'medal'); w.fence.position.set(0, 0, -3); ctAt(w, 1.4, 0, -.8, -2.4, .8); gy(w, -.8, Math.abs(Math.sin(t * 5)) * .3, 1, -1.4, t, true); },
