@@ -62,8 +62,8 @@ export default {
   pitch: 1.5,
   case: 'GIANT GARY',
   year: 'IN THIS TOWN…',
-  hook: ['IN THIS TOWN,', 'ANTS ARE GIANTS'],
-  title: 'In this town, ants are giants',
+  hook: ['IN THIS TOWN,', 'GARY IS HUGE'],
+  title: 'In this town, Gary the ant is huge',
   description: 'Gary\'s nap blocks the whole street. Snack time is a whole cake. And the cat uses Gary as a slide. (A made-up comedy sketch.)',
   tags: ['inthistown', 'garytheant', 'cat', 'funny', 'ant', 'shorts'],
   sources: [
@@ -72,7 +72,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'In this town, ants are giants.',
+      say: 'In this town, Gary is huge.',
       show: ['floor', 'road', 'houses', 'g'], ...env,
       cam: { pos: [0, 2.5, 15.5], look: [0, 1.9, 0], fov: 50, to: { pos: [0, 2.5, 15], look: [0, 1.9, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'car', 'cake'); ctAt(w, 2.1, 0, 3, -.5, .4); gy(w, -.9, 0, 1, -.5, t, true); },
