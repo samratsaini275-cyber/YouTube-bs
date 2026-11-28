@@ -66,7 +66,7 @@ export default {
   pitch: 1.5,
   case: 'ALWAYS HALLOWEEN',
   year: 'IN THIS TOWN…',
-  hook: ['IN THIS TOWN,', 'IT\'S ALWAYS HALLOWEEN'],
+  hook: ['IN THIS TOWN,', 'IT\'S HALLOWEEN'],
   title: 'In this town, it\'s always Halloween (Gary the ant and the cat)',
   description: 'Gary dressed up as a cat. The cat dressed up as Gary. Trick or treat got Gary one crumb. (A made-up comedy sketch.)',
   tags: ['inthistown', 'garytheant', 'cat', 'halloween', 'funny', 'shorts'],
@@ -76,7 +76,7 @@ export default {
   setup,
   scenes: [
     {
-      say: 'In this town, it\'s always Halloween.',
+      say: 'In this town, it\'s Halloween.',
       show: ['floor', 'road', 'houses', 'moon', 'pumpkins', 'g'], ...env,
       cam: { pos: [0, 3, 8.5], look: [0, 1.6, 0], fov: 50, to: { pos: [0, 3, 8], look: [0, 1.6, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'bag', 'crumb'); w.gEars.visible = true; w.cHat.visible = true; ctAt(w, 1.1, 0, .6, -.5, .45); gy(w, -.6, 0, 2.2, -.6, t); },
