@@ -106,8 +106,8 @@ export default {
       update: (w, p, t) => { hide(w, 'big', 'bubbles'); const q = Math.min(1, p * 2.5); w.pop.visible = q < 1; w.pop.position.set(.2, 2.6, .6); w.pop.children.forEach(d => d.position.set(d.userData.d[0] * q * 1.4, d.userData.d[1] * q * 1.4, 0)); ctAt(w, .3, 0, .2, -.9, .5); w.c.paw.position.set(1.2, 1.4, .9); w.c.eyes.forEach((e, i) => e.scale.y = i % 2 ? .5 : .3); w.cr.updateWorldMatrix(true, true); const pp = w.c.head.getWorldPosition(new w.c.root.position.constructor()); const top = pp.y + .6; const y = q < 1 ? 2.9 - q * (2.9 - top) : top; gy(w, pp.x - .2, y, pp.z, -.4, t); },
     },
     {
-      say: 'Best bubble colour: pink, gold, or blue? Comment below.',
-      quiz: { q: 'What is the best bubble colour?', options: ['Pink', 'Gold', 'Blue'], answer: 'Fun fact: bubbles look rainbow-coloured because light bounces off both sides of the thin soap film and the waves mix.' },
+      say: 'Best bubble colour: purple, green, or silver? Comment below.',
+      quiz: { q: 'What is the best bubble colour?', options: ['Purple', 'Green', 'Silver'], answer: 'Fun fact: bubbles look rainbow-coloured because light bounces off both sides of the thin soap film and the waves mix.' },
       show: ['floor', 'houses', 'fence', 'bubbles', 'g'], sky: '#5DADE2', lightAt: [3, 10, 8], lightDist: 30,
       cam: { pos: [2.4, 2.4, 7.5], look: [0, 1.4, 0], fov: 48, to: { pos: [-2.4, 2.4, 7.5], look: [0, 1.4, 0] } },
       update: (w, p, t) => { hide(w, 'big', 'pop'); drift(w, t); ctAt(w, 1.2, 0, .4, -2.4, .45); gy(w, -.9, 0, 1.6, -.5 + .3 * Math.sin(t * 3), t, true); },
