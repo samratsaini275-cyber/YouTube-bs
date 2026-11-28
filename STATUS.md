@@ -1,10 +1,10 @@
 # Production status
 
-**Now:** episode 544 — 🎙️ narrating 0/?
+**Now:** episode 560 — 🎙️ narrating 0/?
 
-**Finished videos:** 553 of 554 written &nbsp; `████████████████████`
+**Finished videos:** 569 of 574 written &nbsp; `████████████████████`
 
-**Narrative 30: What Would Happen If… (season 12: tiny animals and animal-part humans)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
+**Narrative 31: In This Town… (season 6: tiny and giant animals)** — 0 of 20 finished &nbsp; `░░░░░░░░░░░░░░░░░░░░`
 
 | # | Episode | Style | Status |
 |---|---|---|---|
@@ -551,7 +551,27 @@
 | 541 | Digging Cat | 3D | ✅ done |
 | 542 | Painting Cat | 3D | ✅ done |
 | 543 | Chef Cat | 3D | ✅ done |
-| 544 | Medal Day | 3D | 🎙️ narrating 0/? |
+| 544 | Medal Day | 3D | ✅ done |
+| 545 | The Tiny Horses | 3D | ✅ done |
+| 546 | The Lobster Claws | 3D | ✅ done |
+| 547 | The Tiny Tigers | 3D | ✅ done |
+| 548 | The Zebra Stripes | 3D | ✅ done |
+| 549 | The Tiny Polar Bears | 3D | ✅ done |
+| 550 | The Spider Legs | 3D | ✅ done |
+| 551 | The Tiny Gorillas | 3D | ✅ done |
+| 552 | The Fish Scales | 3D | ✅ done |
+| 553 | The Tiny Whales | 3D | ✅ done |
+| 554 | The Dog Noses | 3D | ✅ done |
+| 555 | The Tiny Crocodiles | 3D | ✅ done |
+| 556 | The Giraffe Tongues | 3D | ✅ done |
+| 557 | The Tiny Wolves | 3D | ✅ done |
+| 558 | Sleeping Standing Up | 3D | ✅ done |
+| 559 | The Tiny Owls | 3D | ✅ done |
+| 560 | The Skunk Tails | 3D | 🎙️ narrating 0/? |
+| 561 | The Tiny Pigs | 3D | 📝 scripted, in queue |
+| 562 | The Duck Feet | 3D | 📝 scripted, in queue |
+| 563 | The Tiny Hippos | 3D | 📝 scripted, in queue |
+| 564 | The Elephant-Ear Dog | 3D | 📝 scripted, in queue |
 | 900 | Lies Float | 3D | ✅ done |
 | 901 | Sorry Shrinks | 3D | ✅ done |
 | 902 | Yawns Knock You Out | 3D | ✅ done |
@@ -563,4 +583,4 @@
 | 908 | Footprints Glow | 3D | ✅ done |
 | 909 | Singing Grows Plants | 3D | ✅ done |
 
-_Updated 2026-11-28 12:44 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
+_Updated 2026-11-28 20:04 UTC by `pipeline/status.py`. This file is rewritten automatically while a build is running._
