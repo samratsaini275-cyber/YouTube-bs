@@ -79,7 +79,7 @@ export default {
     { say: 'And the cat? Free bath. Not happy.', show: ['floor', 'wall', 'pp', 'shine'], ...env,
       cam: { pos: [0, 2.6, 8.5], look: [0, 2.2, 0], fov: 52, to: { pos: [0, 2.6, 8], look: [0, 2.2, 0], fov: 50 } },
       update: (w, p, t) => { stand(w, -1.4, 0, Math.PI / 2 - .2); pose(w.p, .2); w.p.tongue.rotation.set(.9, 0, 0); lick(w.p, 12, .4 * Math.sin(t * 6), 0); ctAt(w, 1.4, 0, .4, -2.6, .55); w.c.eyes.forEach((e, i) => e.scale.y = i % 2 ? .3 : .2); w.c.body.scale.set(1.4, 1.1, 1.1); w.shine.position.set(1.2, 1.4, .8); w.shine.rotation.z = t; } },
-    { say: 'Giraffe tongues: handy, silly, or way too long? Comment below.',
+    { say: 'A super long tongue: handy, silly, or way too long? Comment below.',
       quiz: { q: 'Would you want a giraffe tongue?', options: ['Handy', 'Silly', 'Way too long'], answer: 'Fun fact: real giraffe tongues are almost half a metre long.' },
       show: ['floor', 'pp'], sky: '#274B73', lightAt: [0, 5, 4], lightDist: 12,
       cam: { pos: [1.5, 2.4, 7], look: [0, 3.2, 0], fov: 50, to: { pos: [-1, 2.4, 7], look: [0, 3.2, 0] } },
