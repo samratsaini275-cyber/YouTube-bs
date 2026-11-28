@@ -66,7 +66,7 @@ export default {
   pitch: 1.5,
   case: 'SLEEPOVER TOWN',
   year: 'IN THIS TOWN…',
-  hook: ['IN THIS TOWN,', 'SLEEPOVERS NEVER END'],
+  hook: ['IN THIS TOWN,', 'NO ONE GOES HOME'],
   title: 'In this town, sleepovers never end (Gary the ant and the cat)',
   description: 'Night one: pillow fight. Night two: scary stories. Night three: Gary missed home. So the cat had an idea. (A made-up comedy sketch.)',
   tags: ['inthistown', 'garytheant', 'cat', 'sleepover', 'funny', 'shorts'],
@@ -76,13 +76,13 @@ export default {
   setup,
   scenes: [
     {
-      say: 'In this town, sleepovers never end.',
+      say: 'In this town, no one goes home.',
       show: ['floor', 'rug', 'wall', 'win', 'door', 'cal', 'g', 'bag'], ...env,
       cam: { pos: [0, 2.6, 7.5], look: [0, 1.8, 0], fov: 50, to: { pos: [0, 2.6, 7], look: [0, 1.8, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'pillow', 'torch'); marks(w, 6); ctAt(w, 1, 0, -.4, -2.4, .5); w.c.eyes.forEach((e, i) => e.scale.y = i % 2 ? .5 : .3); w.bag.position.set(-.8, .35, .9); gy(w, -.15, .2, .9, -.4, t); },
     },
     {
-      say: 'Night one: pillow fight. The pillow won.',
+      say: 'Night one: pillow fight. Winner: the pillow.',
       show: ['floor', 'rug', 'wall', 'win', 'door', 'cal', 'g', 'pillow'], ...env,
       cam: { pos: [0, 2.2, 6.5], look: [0, 1.5, 0], fov: 50, to: { pos: [0, 2.2, 6], look: [0, 1.5, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'torch', 'bag'); marks(w, 1); ctAt(w, 1.3, 0, -.3, -2.6, .5); const sw = Math.sin(t * 5); w.c.paw.position.set(1.2, 1.4 + sw * .4, .9); w.pillow.position.set(.4 + sw * .3, 1 + sw * .3, .2); w.pillow.rotation.set(0, 0, sw * .5); gy(w, -.6, 0, .8, -.4, t); if (p > .55) { w.g.rotation.z = Math.PI; w.g.position.set(-.3, 1.0, .8); } },
@@ -100,7 +100,7 @@ export default {
       update: (w, p, t) => { hide(w, 'pillow', 'torch'); marks(w, 3); w.wallM.color.set('#1B2A4A'); w.cr.visible = false; w.bag.position.set(-.4, .35, .6); gy(w, -.4, .65, .6, -.3, t); w.g.rotation.z = -.2; },
     },
     {
-      say: 'So the cat carried Gary home. Then stayed over.',
+      say: 'So the cat carried Gary home. Then it stayed the night.',
       show: ['floor', 'rug', 'wall', 'win', 'door', 'cal', 'g'], ...env,
       cam: { pos: [.6, 2.4, 7.5], look: [.6, 1.8, 0], fov: 50, to: { pos: [.6, 2.4, 7], look: [.6, 1.8, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'pillow', 'torch', 'bag'); marks(w, 4); w.wallM.color.set('#1B2A4A'); const x = -1.4 + Math.min(1, p * 1.6) * 2; ctAt(w, x, 0, 0, 0, .5); w.c.paw.position.set(1.1, .6 + Math.abs(Math.sin(t * 6)) * .3, .9); w.cr.updateWorldMatrix(true, true); const hp = w.c.head.getWorldPosition(new w.k.THREE.Vector3()); gy(w, hp.x - .15, hp.y + .55, hp.z, 0, t); },
