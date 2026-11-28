@@ -61,7 +61,7 @@ export default {
     { say: 'What if whales were tiny?', show: ['floor', 'wall', 'pp'], ...env,
       cam: { pos: [.9, 3.1, 4.4], look: [.8, 3.25, 1.4], fov: 46, to: { pos: [.9, 3.1, 4.1], look: [.8, 3.25, 1.4], fov: 44 } },
       update: (w, p, t) => { hide(w, 'tub', 'lens', 'spout'); stand(w, 0, 0, 0); w.p.arms[1].rotation.set(-1.4, 0, .1); w.p.arms[0].rotation.set(0, 0, -.2); w.p.head.rotation.x = .25; w.p.mouth.scale.set(1.3, 2, 1); wput(w, .95, 2.75, 1.6, Math.PI / 2 + .3, .12, t); } },
-    { say: 'The ocean? Now a bathtub.', show: ['floor', 'wall', 'tub'], ...env,
+    { say: 'The whole ocean? Now a bathtub.', show: ['floor', 'wall', 'tub'], ...env,
       cam: { pos: [0, 3.2, 6.5], look: [0, .8, 0], fov: 46, to: { pos: [0, 3.2, 6], look: [0, .8, 0], fov: 44 } },
       update: (w, p, t) => { hide(w, 'pp', 'lens', 'spout'); w.tub.position.set(0, 0, 0); wput(w, -.8 + Math.sin(t * .8) * .6, .88, Math.sin(t * .6) * .2, Math.cos(t * .8) > 0 ? Math.PI : 0, .2, t); } },
     { say: 'Whale watching? Bring a magnifying glass.', show: ['floor', 'wall', 'pp', 'tub', 'lens'], ...env,
