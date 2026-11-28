@@ -82,7 +82,7 @@ export default {
       update: (w, p, t) => { hide(w, 'cape', 'tongue', 'shine'); shiny(w, false); w.chair.position.set(-.4, 0, 0); ctAt(w, 1.4, 0, -.4, -2.6, .55); w.c.paw.position.set(1.2, 1.6 + Math.sin(t * 6) * .1, .9); gy(w, -.6, 1.02, .1, -.3, t); },
     },
     {
-      say: 'In came Gary, for a trim.',
+      say: 'Gary wanted a trim.',
       show: ['floor', 'wall', 'tiles', 'mirror', 'pole', 'chair', 'g', 'cape'], ...env,
       cam: { pos: [0, 2.2, 5.5], look: [-.2, 1.6, 0], fov: 50, to: { pos: [0, 2.2, 5], look: [-.2, 1.6, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'tongue', 'shine'); shiny(w, false); w.chair.position.set(-.4, 0, 0); w.cr.visible = false; gy(w, -.6, 1.02, .1, -.3, t); w.cape.position.set(-.55, 1.35, .15); },
