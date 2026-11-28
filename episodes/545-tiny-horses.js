@@ -91,7 +91,7 @@ export default {
     { say: 'The stable? One shoebox.', show: ['floor', 'wall', 'shoebox'], ...env,
       cam: { pos: [.2, 1.8, 3.6], look: [0, .6, 0], fov: 42, to: { pos: [.2, 1.8, 3.2], look: [0, .6, 0], fov: 40 } },
       update: (w, p, t) => { hide(w, 'table', 'lanes', 'pp'); w.cr.visible = false; noHorses(w, 1); w.shoebox.position.set(0, 0, 0); hput(w.horses[0], .1, .6, 0, .4, .18); w.horses[0].head.rotation.z = -.3 + .1 * Math.sin(t * 3); } },
-    { say: 'Riding one? Only the cat can.', show: ['ground'], sky: '#9ED2F3', lightAt: [4, 10, 8], lightDist: 20,
+    { say: 'Horse rides? Only the cat fits.', show: ['ground'], sky: '#9ED2F3', lightAt: [4, 10, 8], lightDist: 20,
       cam: { pos: [0, 2.4, 7], look: [0, 1.2, 0], fov: 48, to: { pos: [0, 2.4, 6.5], look: [0, 1.2, 0], fov: 46 } },
       update: (w, p, t) => { hide(w, 'table', 'lanes', 'shoebox', 'pp', 'floor', 'wall'); w.ground.visible = true; noHorses(w, 1); const x = 2 - p * 3.2; hput(w.horses[0], x, 0, .4, 0, .8); gallop(w.horses[0], t, 12); w.horses[0].root.position.y = Math.abs(Math.sin(t * 6)) * .08; ctAt(w, x + .45, 2.05 + w.horses[0].root.position.y, .4, 0, .2); w.c.eyes.forEach((e, i) => e.scale.y = i % 2 ? .5 : .3); } },
     { say: 'Tiny horses: cute, silly, or the best pet ever? Comment below.',
