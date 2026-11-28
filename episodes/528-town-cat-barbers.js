@@ -82,7 +82,7 @@ export default {
       update: (w, p, t) => { hide(w, 'cape', 'tongue', 'shine'); shiny(w, false); w.chair.position.set(-.4, 0, 0); ctAt(w, 1.4, 0, -.4, -2.6, .55); w.c.paw.position.set(1.2, 1.6 + Math.sin(t * 6) * .1, .9); gy(w, -.6, 1.02, .1, -.3, t); },
     },
     {
-      say: 'Gary came in for a trim.',
+      say: 'In came Gary, for a trim.',
       show: ['floor', 'wall', 'tiles', 'mirror', 'pole', 'chair', 'g', 'cape'], ...env,
       cam: { pos: [0, 2.2, 5.5], look: [-.2, 1.6, 0], fov: 50, to: { pos: [0, 2.2, 5], look: [-.2, 1.6, 0], fov: 48 } },
       update: (w, p, t) => { hide(w, 'tongue', 'shine'); shiny(w, false); w.chair.position.set(-.4, 0, 0); w.cr.visible = false; gy(w, -.6, 1.02, .1, -.3, t); w.cape.position.set(-.55, 1.35, .15); },
@@ -106,8 +106,8 @@ export default {
       update: (w, p, t) => { hide(w, 'cape', 'tongue'); shiny(w, true); w.chair.position.set(-.4, 0, 0); ctAt(w, 1.3, 0, -.4, -2.4, .55); w.c.eyes.forEach((e, i) => e.scale.y = i % 2 ? .5 : .3); gy(w, -.6, 1.02, .1, -.4 + .3 * Math.sin(t * 3), t); w.shine.position.set(-.4, 1.5, .3); w.shine.rotation.z = t; w.shine.scale.setScalar(1 + .1 * Math.sin(t * 8)); },
     },
     {
-      say: 'Best haircut for these two: a mohawk, a quiff, or bald? Comment below.',
-      quiz: { q: 'What is the best haircut?', options: ['A mohawk', 'A quiff', 'Bald'], answer: 'Fun fact: a cat\'s tongue has tiny hollow spines that soak up spit and spread it into the fur.' },
+      say: 'Best haircut for these two: spiky, curly, or bald? Comment below.',
+      quiz: { q: 'What is the best haircut?', options: ['Spiky', 'Curly', 'Bald'], answer: 'Fun fact: a cat\'s tongue has tiny hollow spines that soak up spit and spread it into the fur.' },
       show: ['floor', 'wall', 'tiles', 'mirror', 'pole', 'chair', 'g'], sky: '#5DADE2', lightAt: [2, 8, 6], lightDist: 24,
       cam: { pos: [2.2, 2.4, 7], look: [0, 1.5, 0], fov: 48, to: { pos: [-2.2, 2.4, 7], look: [0, 1.5, 0] } },
       update: (w, p, t) => { hide(w, 'cape', 'tongue', 'shine'); shiny(w, true); w.chair.position.set(-3.4, 0, -1); ctAt(w, 1.2, 0, -.2, -2.4, .55); gy(w, -.5, 0, .9, -.5 + .3 * Math.sin(t * 3), t, true); },
